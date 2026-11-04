@@ -19,7 +19,7 @@
   "use strict";
 
 
-  const CLOUD_BASE = "https://sinntha.github.io/timobeer__translation_ru";
+  const CLOUD_BASE = "https://sinntha.github.io/timobeer_arknights_ru";
 
 
   function installedBase() {
