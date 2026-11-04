@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arknights RU — переводы</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 24px;
+         line-height: 1.55; background: #111; color: #eee; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.55rem; }
+  a.button { display: block; padding: 14px 18px; margin: 12px 0;
+             border-radius: 10px; background: #e8b84b; color: #111;
+             text-decoration: none; font-weight: 700; text-align: center; }
+  a.secondary { background: #2a2a2a; color: #eee; border: 1px solid #555; }
+  code { background: #222; padding: 2px 6px; border-radius: 4px;
+         word-break: break-all; }
+  button { font: inherit; padding: 8px 12px; border-radius: 8px;
+           border: 1px solid #666; background: #222; color: #eee; cursor: pointer; }
+  .muted { color: #aaa; font-size: .92rem; }
+  li { margin: 8px 0; }
+  details { margin: 10px 0; padding: 10px 14px; border: 1px solid #333;
+            border-radius: 10px; background: #1a1a1a; }
+  summary { cursor: pointer; font-weight: 700; }
+  details ul { margin: 8px 0 4px; padding-left: 22px; }
+  details a { color: #e8b84b; }
+</style>
+</head>
+<body><main>
+<h1>Arknights RU — перевод https://arknights.timo.beer/</h1>
+
+<ol>
+<li>Установите расширение Tampermonkey</li>
+<li>Нажмите «Установить скрипт» и подтвердите установку.</li>
+</ol>
+
+<a class="button" href="userscript/arknights-ru.user.js">Установить скрипт</a>
+<a class="button secondary" href="translations/catalog_titles.json">Проверить каталог переводов</a>
+<a class="button secondary" href="https://arknights.timo.beer/">Открыть читалку</a>
+
+<details>
+  <summary>Wildfire</summary>
+  <ul>
+    <li><a href="https://arknights.timo.beer/side/vremya-v-put">"Время, в путь!"</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Glimpse of Depths</summary>
+  <ul>
+    <li><a href="https://arknights.timo.beer/side/grani-and-the-knights-treasure">Grani and the Knights' Treasure</a></li>
+    <li><a href="https://arknights.timo.beer/side/under-tides">Under Tides</a></li>
+  </ul>
+</details>
+
+<script>
+  (function () {
+    var base = location.origin + location.pathname.replace(/\/+$/, "");
+    document.getElementById("base").textContent = base;
+    document.getElementById("install-url").textContent =
+      base + "/userscript/arknights-ru.user.js";
+    document.getElementById("copy").addEventListener("click", function () {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(base).then(function () {
+          document.getElementById("copy").textContent = "Скопировано";
+        });
+      }
+    });
+  })();
+</script>
+</main></body></html>

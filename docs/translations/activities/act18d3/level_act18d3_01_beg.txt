@@ -1,0 +1,381 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[stopmusic]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+Молчаливая. Странная. Непостижимая. Чужачка.
+Так они, конечно, и скажут.
+Тёмная. Хладнокровная. Бросает умирать. Прирождённое чудовище.
+Так все скажут за моей спиной.
+[dialog]
+[delay(time=0.5)]
+Да.
+Стоит лишь потерять дом — и ты уже ничто.
+Рассудок говорит: придя сюда, я должна была суметь начать новую жизнь.
+Вот только от прошлого не избавиться. Оно следует за твоей тенью, цепляется за ноги и тянет в бездну болота.
+Никому из нас не вырваться из прошлого.
+Если настанет день, когда дом найдёт тебя...
+[dialog(fadetime=1,block=true)]
+[delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_corridor")]
+[character(name="char_016_medic",name2="char_263_skadi#3")]
+[Delay(time=1)]
+[PlayMusic(intro="$farce_intro", key="$farce_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+2:33 ночи \ Пасмурно
+Корабль «Родос Айленд», коридор
+[Dialog]
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=1)]
+[name="Оперативник Родос Айленда"]  Отлично! Как только сдадите этот отчёт, ваша полевая миссия будет официально закрыта.
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=2)]
+[name="Скади"]  Угу.
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=1)]
+[name="Оперативник Родос Айленда"]  Постойте, он всё ещё... пустой? Кхм, кхе-кхе...
+[name="Оперативник Родос Айленда"]  На всём листе написано только одно слово: «выполнено!»
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=2)]
+[name="Скади"]  Хм?
+[name="Скади"]  Миссия определённо выполнена.
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=1)]
+[name="Оперативник Родос Айленда"]  В-в смысле, это не то чтобы ошибка...
+[name="Оперативник Родос Айленда"]  ...но не помешало бы написать чуть подробнее, правда?!
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=2)]
+[name="Скади"]  Хм?
+[character(name="char_016_medic")]
+[name="Оперативник Родос Айленда"]  (И что мне делать... ну до чего же с ней трудно?)
+[name="Оперативник Родос Айленда"]  (Я раньше с ней толком не разговаривал. Говорили, что мы будем работать с ней в связке, и командир группы меня даже предупредил... но всё равно будет непросто.)
+[name="Оперативник Родос Айленда"]  (Глубокий вдох)
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=1)]
+[name="Оперативник Родос Айленда"]  Ладно, хорошо. Я понял.
+[name="Оперативник Родос Айленда"]  Если у Доктора возникнут вопросы о деталях вашей миссии, мы снова обратимся к вам за подтверждением.
+[character(name="char_016_medic",name2="char_263_skadi#5",focus=2)]
+[name="Скади"]  ...Доктор?
+[character(name="char_016_medic",name2="char_263_skadi#5",focus=1)]
+[name="Оперативник Родос Айленда"]  Да, доктор Кальцит предположила, что вы не захотите сдавать отчёт ей... а ещё она упомянула, что Амия слишком мягка с вами и так дальше продолжаться не может... и всё в таком духе.
+[name="Оперативник Родос Айленда"]  Поэтому мы записали эту миссию за Доктором.
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=2)]
+[name="Скади"]  Эта женщина. Хм.
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=1)]
+[name="Оперативник Родос Айленда"]  Тогда хотите отчитаться напрямую? Похоже, Доктора сейчас нет, так что можете отдохнуть несколько дней, пока он не вернётся.
+[name="Оперативник Родос Айленда"]  А ваш отчёт, прямо сейчас, серьёзно не помешало бы сделать поподробнее!
+[character(name="char_016_medic",name2="char_263_skadi#5",focus=2)]
+[name="Скади"]  ......
+[name="Скади"]  Какая морока.
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=1)]
+[name="Оперативник Родос Айленда"]  Ну ладно. Миссия с кодом F1071, подтверждаю сдачу. Дальнейшие детали—
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=2)]
+[name="Скади"]  Погодите.
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=1)]
+[name="Оперативник Родос Айленда"]  А?
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=2)]
+[name="Скади"]  Верните мне бумаги. Я решила: можно добавить ещё немного деталей.
+[character(name="char_016_medic",name2="char_263_skadi#3",focus=1)]
+[name="Оперативник Родос Айленда"]  О! Конечно, можно! Тогда я вам их оставлю.
+[name="Оперативник Родос Айленда"]  (Кажется, всё идёт глаже, чем я ожидал...)
+[stopmusic(fadetime=1.5)]
+[name="Оперативник Родос Айленда"]  Тогда у меня всё. Идите отдыхать как следует... а?
+[Dialog]
+[delay(time=1)]
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=2)]
+[name="Скади"]  ......
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=1)]
+[name="Оперативник Родос Айленда"]  У вас резко изменилось лицо. Что-то случилось?
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=2)]
+[name="Скади"]  Скорее всего.
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=1)]
+[name="Оперативник Родос Айленда"]  А? Здесь? На корабле? Нарушитель?! Я слышал о вашем обострённом чутье. Неужели...
+[name="Оперативник Родос Айленда"]  Нет, не может быть. Если бы на борту была опасность, сработала бы тревога, верно?
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=2)]
+[name="Скади"]  ...Пение.
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=1)]
+[name="Оперативник Родос Айленда"]  Пение? Какое пение? Но вокруг тихо. Я ничего не слышу...
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=2)]
+[name="Скади"]  Как? Почему здесь слышно пение?
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=1)]
+[name="Оперативник Родос Айленда"]  Ну, есть какой-то гул, но это ведь не песня? На «Родос Айленд» работает множество механизмов. Может, это их вибрации? Вы ещё не совсем к этому привыкли?
+[character(name="char_016_medic",name2="char_263_skadi#8",focus=2)]
+[name="Скади"]  Нет. Запах.
+[name="Скади"]  Запах морской воды.
+[Dialog]
+[character]
+[delay(time=1)]
+[character(name="char_016_medic")]
+[name="Оперативник Родос Айленда"]  ...Скади? Вы меня немного пугаете. О чём вы гов...
+[Dialog]
+[delay(time=1)]
+[name="Оперативник Родос Айленда"]  А? Эй! Скади!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[PlayMusic(intro="$mist_intro", key="$mist_loop", volume=0.4)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background]
+[PlaySound(key="$rungeneral")]
+Скади бежит слишком поспешно, слишком стремительно. Она мчится к лестнице, боясь, что за те несколько секунд, что отнимет лифт, запах успеет ускользнуть.
+[Dialog]
+[Subtitle(text="A hunter is walking on seacoast way♪", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[PlaySound(key="$rungeneral")]
+Она слышит песню. Большинство на этом корабле — нет.
+Этот язык, эта мелодия пробудили её воспоминания. Она не склонна к ностальгии, но знает их слишком хорошо.
+Но... этого не должно быть. Этой песни здесь быть не должно.
+[Dialog]
+[Subtitle(text="With homeland left a mile behind, they must lament and pray♪", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[PlaySound(key="$rungeneral")]
+Пение дрожью расходится по всем трубам корабля.
+Запах морской воды, накатывая волнами, сочится из стен каюты.
+[Dialog]
+[delay(time=1)]
+Скади помнит этот запах точно так же. Когда сырость обступает её, кожа сжимается и натягивается. Ей тревожно, но что-то внутри всколыхнулось.
+[Dialog]
+[PlaySound(key="$rungeneral")]
+Неужели она очнулась? Скади невольно ускоряет шаг.
+[Dialog]
+[name="Скади"]  Спектер!
+[delay(time=0.7)]
+[dialog]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[character(name="char_263_skadi#8")]
+[Background(image="bg_ri_1")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[delay(time=1.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playsound(key="$d_gen_dooropen")]
+[Subtitle(text="She pulls open the door to the treatment ward.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bed is empty.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[name="Скади"]  ......
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Perhaps she wanted to take a stroll outside after becoming lucid.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[name="Скади"]  Постойте... что это?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="She picks it up, and rubs it in her fingers.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[name="Скади"]  ...Похоже, это её.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Specter's gold chain had been carelessly thrown to the ground. Or perhaps, deliberately.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Did she despise this item? Then she surely isn't pleased with her current identity.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The affairs of the Church—at least the Church of the sea—are all nefarious ones.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="But... something's not right.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="Outsider.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Without knowing why, Skadi has abruptly recalled that word.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She realizes that the scent is not Specter's at all.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Compared to the Specter of past, this scent now is too strong, and too callous. Skadi doubts it was simply a surprise that went all too hard to her head.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Ты здесь. Кто ты? Выходи.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="An Abyssal Hunter. But not Specter. Of all things, there were still other Abyssal Hunters who survived!", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="But why here?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="...Where has Specter gone?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[name="Скади"]  ......
+[name="Скади"]  Кем бы ты ни была и чем бы ты ни была. Выходи.
+[Dialog]
+[PlaySound(key="$rungeneral")]
+[character(fadetime=1)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="She needs to give chase. Something's not right. She senses the other one truly is nearby.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Dialog]
+[Background(image="bg_corridor")]
+[stopmusic(fadetime=1)]
+[delay(time=1)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[Subtitle(text="Skadi rushes out the door, and a silhouette flashes by the farthest recess of the corridor.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="No... it's two. The singing still remains. The other one still incants.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Specter. That Abyssal Hunter has taken Specter.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(name="avg_474_gladiia_1#1",blackstart=0.3,blackend=0.5)]
+[name="???"]  Как медлительна.
+[name="???"]  Ещё немного — и мы бы уже ушли.
+[character(name="char_263_skadi#5")]
+[name="Скади"]  Охотница! Кто ты?
+В один прыжок Скади огибает угол, невольно нащупывая при себе хоть какое-нибудь оружие.
+[character(name="char_263_skadi#5")]
+[name="Скади"]  —Что ты задумала?
+В то же мгновение, прежде всего прочего, их взгляды встречаются.
+[character(name="char_263_skadi#5")]
+[name="Скади"]  Постой, ты...
+Та, кого она никак не ожидала увидеть.
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.3, block=true)]
+[Image(image="ac18_01",screenadapt="coverall", fadetime=0)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[Delay(time=1)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=1, block=true)]
+[character(name="avg_474_gladiia_1#1",blackstart=0.3,blackend=0.5)]
+[name="???"]  Скади.
+[name="???"]  Ты, похоже, в полном порядке.
+[character(name="char_263_skadi#5")]
+[name="Скади"]  Неужели... ты командир Второй роты... командир Спектер?
+[name="Скади"]  Ты... Гладия...?!
+[Dialog]
+[name="Гладия"]  Давно не виделись, Скади. Ты всё ещё помнишь песнь эгир, и это глубоко меня радует.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi cannot pick out even a single trace of 'gratitude' in her expression. This woman, from the first she knew her, has never once shown any change on her face.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The tall woman carries Specter. The one Abyssal Hunter that Skadi understands to have survived the past several years, Specter, now lies on Gladiia's shoulder, dreaming another uncharacteristically tranquil dream.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The instant Specter's leader let slip a word, the singing vanished.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi is dazed for a spell. From the port window rushes arid winds that only dry land could blow, brushing past Skadi's cheeks, almost dry themselves. She thinks to herself—this hunter is still alive, Gladiia is alive. Skadi has finally found another of her own.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="No. It is Gladiia who found them. Yet...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Я думала, ты погибла. Вы поставили на кон свои жизни, чтобы дать нам пройти. Я думала, вы все погибли.
+[name="Гладия"]  Жизнь — драгоценная вещь. Я очень рада видеть, что ты тоже жива.
+[name="Скади"]  Раз Спектер была жива, я всё гадала, не выжил ли кто-нибудь ещё из Второй...
+[name="Скади"]  Как ты нашла это место? Спектер... ей пока лучше оставаться в палате.
+[name="Гладия"]  ......
+Одна из самых грозных охотниц, каких знала Скади, в этот момент предпочитает промолчать.
+В сердце Скади зреет сомнение.
+[name="Скади"]  Она сильно изменилась. Возможно, сейчас она тебя даже не узнает. Её тело всё ещё слабо.
+[name="Гладия"]  Слабо? Охотница не может быть слабой.
+[name="Скади"]  Как давно ты на суше?
+[name="Скади"]  Болезнь суши, особого рода, источила её тело. Люди на этом корабле могут стабилизировать её состояние.
+[name="Скади"]  За все эти годы она так и не пришла в себя. Нынешняя Спектер — совсем другой человек. Я не знаю, что сделало её такой.
+Гладия молчит, ветер проносится мимо, её волосы разлетаются и закрывают глаз.
+Скади понимает, в чём проблема.
+[name="Скади"]  Гладия. Да, ты Гладия. Ошибки нет. Но что ты намерена делать?
+[name="Скади"]  Куда ты собираешься её увести?
+[name="Гладия"]  Я полагала, что на суше охотницы свободны. Разве я что-то не так поняла?
+[name="Скади"]  Нет, Гладия... она всё ещё спит. Ты даже не спросила её... хочет ли она идти.
+[name="Скади"]  Ты хочешь увести её отсюда.
+[name="Гладия"]  Ты, похоже, проявляешь большой интерес к своим новым коллегам. Разве и они не относятся к тебе так же? Тебе достаточно одного движения, чтобы перетереть их хребты в пыль, — так почему же ты не внушаешь им ужас?
+[name="Скади"]  Для людей суши враждебность к нам — в порядке вещей, но только не для тех, кто на этом корабле. Те, кого я встречала, такими не были.
+[name="Гладия"]  Я всё ещё не могу понять, почему ты ослабила бдительность.
+[name="Скади"]  Нет... я не хочу впутывать их в это дело. Проблема не во мне и не в них.
+Проблема в тебе.
+Скади делает шаг вперёд.
+[name="Скади"]  Каковы твои намерения? Лучше объяснись.
+[name="Гладия"]  Охотница Скади.
+[name="Гладия"]  —На суше я не стану давить на тебя своим званием консула.
+[name="Скади"]  Хм...
+[name="Гладия"]  Но и объясняться перед тобой я не обязана.
+[name="Гладия"]  Я лишь сочла нужным поставить тебя в известность. Её забрала я — она из моей роты. Этого достаточно.
+[name="Скади"]  ......
+[name="Скади"]  Зачем?
+[name="Гладия"]  Этим вечером тебе не нужно знать причину.
+[name="Скади"]  Но Спектер!
+[name="Гладия"]  —(Два слова по-иберски)—
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[PlaySound(key="$bodyfalldown3")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[Subtitle(text="Before the name fully reaches Skadi's ears, Gladiia has already slipped from the ship's window into the moonlight outside, Specter's limp body disappearing with her.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi does not reach out. She does not even move.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She knows well that if Gladiia wants to leave, she has no hope of ever catching her; yet, if Gladiia only wanted to escape, then she would not have left any information behind.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="She was seeking help, or she was hoodwinking herself. Skadi half-believes it, half doesn't, yet has no other alternative. At the least, she did not order Skadi to do anything, or not to do anything.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'Sal Viento.'", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="That is what Gladiia said.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi cannot help but go.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=0.7)]
+[name="Скади"]  Саль Вьенто.
+[name="Скади"]  До чего же холодной вышла эта встреча.
+[dialog]
+[PlaySound(key="$rungeneral")]
+[stopmusic(fadetime=1)]
+[character]
+[image]
+[Background(image="bg_desert_1")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlayMusic(intro="$farce_intro", key="$farce_loop", volume=0.4)]
+[Delay(time=2)]
+[PlaySound(key="$d_gen_walk_n")]
+[character(name="char_263_skadi#3",fadetime=1.5)]
+[delay(time=2)]
+[name="Скади"]  Что вы здесь делаете?
+[Character(name="avg_npc_007", name2="avg_npc_008",focus=1)]
+[name="Охотник за головами A"]  Эй, это же Скади?
+[Character(name="avg_npc_007", name2="avg_npc_008",focus=2)]
+[name="Охотник за головами B"]  Похожа. Немного похожа на портрет.
+[Character(name="avg_npc_007", name2="avg_npc_008",focus=1)]
+[name="Охотник за головами A"]  А! Ха-ха, и стараться не пришлось...
+[name="Охотник за головами A"]  Точно Скади. Мы засели в правильном месте.
+[character(name="char_263_skadi#5")]
+[name="Скади"]  Хм?
+[Character(name="avg_npc_007", name2="avg_npc_008",focus=2)]
+[name="Охотник за головами B"]  Эй, смотри, она отреагировала... и лицо её. Это точно Скади!
+[Character(name="avg_npc_007", name2="avg_npc_008",focus=1)]
+[name="Охотник за головами A"]  Помнишь «Капитана», Скади? Мы получили его деньги, а теперь отомстим за него твоей жизнью!
+[Character(name="avg_npc_007", name2="avg_npc_008",focus=2)]
+[name="Охотник за головами B"]  Ты безмозглый идиот... безмозглый идиот! Я же говорил, что это дрянная затея!
+[name="Охотник за головами B"]  Мы же договорились, что хватит просто прокрутить его деньги?! Какая, к чёрту, месть, какая награда?! Какие у нас шансы?!
+[name="Охотник за головами B"]  Вспомни слухи! Если это действительно она, думаешь, мы хоть грош получим? Это будет стоить нам жизни!
+[name="Охотник за головами B"]  Лучше сматываться, пока не поздно! Хватай своё дурацкое железо — и бегом!
+[Character(name="avg_npc_007", name2="avg_npc_008",focus=1)]
+[name="Охотник за головами A"]  Тьфу.
+[name="Охотник за головами A"]  Ползи обратно в свою вонючую постель, обнимайся с бурдюком мочи вьючного зверя и зови мамочку. Ты трясёшься, стоит одной длинноволосой девке рта раскрыть. Чтоб Я вернулся домой с пустыми руками? Черта с два!
+[Character(name="avg_npc_008", name2="avg_npc_008",focus=2)]
+[name="Охотник за головами C"]  Ты прав! Даже если это правда Скади, ну и что она, чёрт возьми, сможет? Она же сейчас совсем одна, так?
+[name="Охотник за головами C"]  Нас один, два... да целая толпа!
+[Character(name="avg_npc_008", name2="avg_npc_008",focus=1)]
+[name="Охотник за головами B"]  Но все те крутые охотники за головами уже гниют в земле! И тогда она тоже была одна!
+[name="Охотник за головами B"]  И подумай: каждый раз, когда ты говоришь, что нас много, это хоть раз заканчивалось хорошо?
+[Character(name="avg_npc_007")]
+[name="Охотник за головами A"]  А кто это видел? По-моему, те парни однажды просто нажрались и всей толпой завалились в комнату к какой-нибудь смазливой куранте.
+[name="Охотник за головами A"]  А она достала из штанов арбалеты, устроила бойню и разнесла им мозги в кашу.
+[name="Охотник за головами A"]  Вот что такое слухи! Если бы все эти бродячие певцы рассказывали всё как есть, без прикрас, думаешь, они заработали бы себе на хлеб?
+[name="Охотник за головами A"]  Пятьдесят гор одним мечом, как же... а я одним кулаком пробью дыру насквозь через Лондиниум!
+[Character(name="avg_npc_007")]
+[name="Охотник за головами A"]  Слушайте меня, братцы! Кто хочет жрать — за мной!
+[name="Охотник за головами A"]  Скади-шмади, прикончим её прямо здесь, и никто потом не отнимет наше золото! Добавим награду, которую за неё назначили, — и мы обеспечены до конца жизни, ещё и на пенсию останется!
+[character(name="char_263_skadi#8")]
+[name="Скади"]  Дам вам выбор. Бегите сейчас — и останетесь живы. У меня нет времени тратить его на вас.
+[Character(name="avg_npc_008", name2="avg_npc_008",focus=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlayMusic(intro="$chasing_intro", key="$chasing_loop", volume=0.4)]
+[name="Охотник за головами C"]  Вперёд! Убейте её!
+[dialog]
+[playsound(key="$d_gen_soldiersrun")]
+[delay(time=1)]
+[character(name="char_263_skadi#8")]
+[name="Скади"]  ......
+[name="Скади"]  (по-эгирски) Больнее всего за ногу цепляется гнилая морская трава.
+[name="Скади"]  Не думала я, что неизменной останется именно назойливость никчёмных охотников за головами.
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

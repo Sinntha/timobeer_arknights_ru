@@ -1,0 +1,507 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibtownn")]
+[Delay(time=1)]
+[PlayMusic(intro="$tense_intro", key="$tense_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=0.6)]
+[character(name="avg_npc_183#3",fadetime=1.5)]
+[delay(time=3)]
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  ......
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Верховный Инквизитор!
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Отойди. Ты ей не противница.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Но я...
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Отойди.
+[character(name="avg_npc_182#1")]
+[name="Инквизитор"]  Слушаюсь!
+[dialog]
+[character(fadetime=1)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[character(name="avg_1012_skadiSP_1#1",fadetime=0.7)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Ten meters separate Skadi from the person before her, as they stare face to face.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Ты. Ты очень сильна.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Тебе не следовало ступать в этот город.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Я уже здесь.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Нарушил правила — плати цену.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Мне нет до этого особого дела.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Ты останешься здесь.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Я не хочу с тобой сражаться.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Хм. Мерзкая эгирка, ты наверняка испугалась! Теперь, когда здесь Верховный Инквизитор, тебе точно не сбежать.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Но если это необходимо—
+[name="Скади"]  (по-эгирски) Я одолею тебя.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[character(fadetime=0.6)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Begin. Quicken. Clash.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Какая скорость! Куда быстрее, чем в её прошлой схватке со мной!
+[name="Инквизитор"]  С такой скоростью мне едва ли удалось бы коснуться её подола... Сколько же она ещё скрывала?!
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Before she collides with the High Inquisitor, Skadi steps back.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="As if a fish tossed in the air by the ocean waves, she leaps high, and lands on a dilapidated roof.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[delay(time=1)]
+[character(name="avg_npc_183#3")]
+[Subtitle(text="The High Inquisitor follows in mirror fashion. Their figures crash together, pull apart, then crash again. The city can barely endure such a clash, torn apart as it is, and fragments of buildings are building up rapidly on the street.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character]
+[delay(time=1)]
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Её атаки и уклонения становятся всё стремительнее, как и у моего наставника. Я уже почти не успеваю следить.
+[name="Инквизитор"]  Неужели я... всё ещё настолько слаба?!
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  Нет, так не пойдёт. Это эгирка. Я, конечно же, не могу проиграть эгирке.
+[name="Инквизитор"]  И всё же эта эгирка, похоже, использует свой футляр как оружие... Из чего он сделан?! Почему он такой прочный?!
+[name="Инквизитор"]  Но наставник не использует пистоль. Если бы он... разве мы не схватили бы её в мгновение ока? Он разнёс бы всю улицу в шлак.
+[name="Инквизитор"]  Да эгирка ли это вообще? Внешне она совсем не похожа на тех чудовищ...
+[name="Инквизитор"]  Она использует... какие-то искусства, да? Точно не скажу. И наш фонарь... ничуть не ослабляет её силу.
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  —У этой эгирки слишком много секретов.
+[dialog]
+[stopmusic(fadetime=1)]
+[CameraShake(duration=3, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The shaking throughout the whole street gradually ceases. Amidst the shards and smoke, the senior Inquisitor appears again.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[character(name="avg_npc_183#3",fadetime=1)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Верховный инквизитор"]  ......
+[character(name="avg_npc_182#7")]
+[name="Инквизитор"]  Верховный Инквизитор! Вы победили. Я знала, что никому не поколебать вас даже на волос.
+[name="Инквизитор"]  Э-э, а где та эгирка?
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Сбежала.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Что? Это... как?
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Она ранена и далеко не убежит.
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  Я разыщу её—
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Ты не сможешь её одолеть.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Кхм... Но мы никак не можем позволить таким, как она, свободно разгуливать вдоль побережья!
+[name="Инквизитор"]  Судя по направлению, она могла податься к месту собраний горожан. Скорее всего, она смешалась с толпой, и среди жителей у неё есть сообщники. Я обыщу дома один за другим.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Если считаешь это верным — иди.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Так точно—
+[dialog]
+[delay(time=1)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[name="Инквизитор"]  ......
+[name="Инквизитор"]  Верховный Инквизитор, это она принесла беду в этот город?
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Я отправлял тебя посмотреть. Что ты видела?
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Поведение местных крайне ненормально. Они будто каждый день живут, не просыпаясь. Они что-то делают, но ничего не доводят до конца. Когда едят — даже не ради того, чтобы набить живот.
+[name="Инквизитор"]  Они входят в море и даже не считают это самоубийством.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Ты остановила их?
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Да. Ведь это очевидное зло.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Нас заботят результаты. Если считаешь, что твои поправки приведут к верному результату, — иди и сделай это.
+[character(name="avg_npc_182#1")]
+[name="Инквизитор"]  Верному результату...
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Если не смогут — тогда тебе придётся сделать выбор.
+[name="Верховный инквизитор"]  Инквизитор, — своими глазами и своим клинком ты должна смотреть в лицо величайшим угрозам Иберии.
+[character(name="avg_npc_182#1")]
+[name="Инквизитор"]  Да, сэр!
+[name="Инквизитор"]  Величайшая угроза Иберии... это те чудовища, что сейчас выползают на берег.
+[name="Инквизитор"]  Неужели? Эти люди, уходящие в океан, как-то связаны с чудовищами?
+[name="Инквизитор"]  Да... они наверняка связаны.
+[name="Инквизитор"]  Помню, вы когда-то учили, что аномалия редко принимает лишь одну форму. Между всеми этими ужасными картинами должны быть связи.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Чтобы решить проблему, нужно сначала ясно увидеть, в чём она состоит.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Я — я знаю!
+[name="Инквизитор"]  —Это те эгиры, что прячутся во тьме и плетут заговор!
+[name="Инквизитор"]  Они скрываются на берегу, в мелких лазейках наших законов, гноят кожу и плоть наших городов, расшатывают волю наших братьев, пытаются разъесть мышцы и кости нашей страны.
+[name="Инквизитор"]  Прежде чем их замысел восторжествует, прежде чем он утащит этот город в бездну отчаяния—
+[name="Инквизитор"]  Мы должны — найти их — и истребить!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Background(image="bg_ibindoor")]
+[Delay(time=1)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[playsound(key="$rungeneral")]
+[character(name="avg_npc_180#2",fadetime=1)]
+[delay(time=1)]
+[name="Анита"]  Певица... певица? Ты здесь?
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  ......
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Я искала тебя целую вечность. Инквизиторы не узнают об этом месте. Здесь слишком много пустых домов, а ночью искать будет ужасно трудно.
+[name="Анита"]  Я знаю... ты наверняка хочешь держаться от нас подальше. Что чем дальше от нашего жилья — тем лучше.
+[name="Анита"]  Найти тебя здесь было совсем не просто... фух... это так близко к побережью.
+[name="Анита"]  Это шум волн? Я не знала, что он такой громкий. И... теперь я слышу дыхание.
+[name="Анита"]  Певица, что ты здесь делаешь? Твоё дыхание стало совсем другим.
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  Вы все в опасности.
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#2",focus=1)]
+[name="Анита"]  О чём ты говори... а? Что — ты ранена?
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#2",focus=2)]
+[name="Скади"]  У меня кровь. Отойди!
+[dialog]
+[character]
+[delay(time=1)]
+[stopmusic(fadetime=1)]
+[playsound(key="$rungeneral")]
+[character(name="avg_npc_182#3",fadetime=1)]
+[delay(time=1)]
+[name="Инквизитор"]  Думаешь уйти? Не выйдет.
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Анита"]  Инквизитор?! Вы шли за мной всю дорогу...? Я — я и не заметила.
+[character(name="avg_npc_182#2")]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[name="Инквизитор"]  Едва ли простолюдинка меня заметит. *кхе* Конечно, даже без слежки у меня есть способы найти это место!
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Опять ты.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Что такое? Испугалась?
+[name="Инквизитор"]  Раньше — кхм — признаю, я на миг потеряла бдительность и едва не дала тебе сбежать.
+[name="Инквизитор"]  Но теперь, эгирка, я тебя точно схвачу!
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Анита"]  Н — но она уже ранена—
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Хм? Ты уверена, что хочешь встать у меня на пути, защищая опасную эгирку, гражданин? Если так, ты станешь преступницей, такой же, как она!
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Анита"]  Я — я...
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Ты не такая, как остальные. По крайней мере, в твоих глазах есть страх.
+[name="Инквизитор"]  До сих пор ты не сделала ничего дурного. Прочь с дороги! Я не хочу разбираться с тобой клинком.
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Сейчас не время—
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  Не время для чего? Ты... ты насмехаешься надо мной? Думаешь, у меня совсем нет способа тебя схватить?
+[name="Инквизитор"]  Хм. Конечно, я не Верховный Инквизитор. Но я уже подготовилась.
+[name="Инквизитор"]  Я разберусь с тобой, чего бы мне это ни стоило!
+[dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Sword still unsheathed, Skadi proceeds to grasp the Inquisitor's arm—pulling her behind Skadi's own self.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#3")]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#4",focus=2)]
+[name="Инквизитор"]  Что — что это значит?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#4",focus=1)]
+[name="Скади"]  Не шуми.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#4",focus=2)]
+[name="Инквизитор"]  Отпусти меня, эгирская негодяйка! Не думай, что с прижатой рукой я не смогу действовать мечом, а ведь у меня ещё есть пистоль—
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#4",focus=1)]
+[name="Скади"]  Тише. Они тебя услышат.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#3",focus=2)]
+[name="Инквизитор"]  Нгх-хх... я не могу пошевелиться... и второй рукой тоже...
+[PlayMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.4)]
+[character(name="avg_npc_180#4")]
+[name="Анита"]  Э-э, вы что-нибудь слышите?
+[name="Анита"]  Я слышала... что-то липкое, трущееся об пол... так, так много... и звук прямо снаружи.
+[name="Анита"]  Что... это? Это не дело наших рук. Я такого раньше не слышала...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#3",focus=1)]
+[name="Скади"]  Они приближаются.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(name="avg_npc_183#3")]
+[Background(image="bg_ibcoastn")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[name="Верховный инквизитор"]  Их число растёт.
+[name="Верховный инквизитор"]  Что тому причина? Здешние люди или та женщина с её спутницей?
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Верховный инквизитор"]  Десять—
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=0.51)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Верховный инквизитор"]  Двадцать.
+[name="Верховный инквизитор"]  —Всё растёт, всё наступает. Что-то ведёт их на берег и заставляет растекаться по городу.
+[name="Верховный инквизитор"]  И их путь берёт начало—
+[name="Верховный инквизитор"]  В часовне.
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[image]
+[Background(image="bg_black")]
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#5",blackstart2=0.3,blackend2=0.45)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#5",blackstart2=0.3,blackend2=0.45,focus=1)]
+[name="Епископ"]  Хм? Они очень возбуждены.
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#5",blackstart2=0.3,blackend2=0.45,focus=2)]
+[name="Гладия"]  Уверен, что стоит вот так их гладить?
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#5",blackstart2=0.3,blackend2=0.45,focus=1)]
+[name="Епископ"]  Следи за словами. Они не «что-то» в каком бы то ни было смысле. Они уже часть этого океанского простора. Они стали наследниками, рождёнными морем, и они куда чище тебя.
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#5",blackstart2=0.3,blackend2=0.45,focus=2)]
+[name="Гладия"]  ......
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#5",blackstart2=0.3,blackend2=0.45,focus=1)]
+[name="Епископ"]  Ах... вести с приливом уже пришли. Сегодняшняя ночь снова будет особенной.
+[name="Епископ"]  Они наверняка учуяли запах. Когда к ним присоединяются кровные родичи, они становятся такими воодушевлёнными, такими взбудораженными, что даже хотят выйти из моря и встретить их на суше.
+[name="Епископ"]  Это совершенно естественно. Мы все любим своих братьев и сестёр.
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#2",blackstart2=0.3,blackend2=0.45,focus=2)]
+[name="Гладия"]  Ты и правда относишься к ним как к родным братьям?
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#2",blackstart2=0.3,blackend2=0.45,focus=1)]
+[name="Епископ"]  А почему бы и нет, спрошу я? В случае необходимости я готов назвать братьями и тех, кто с суши, — тех, кто всё ещё не может не ходить на двух ногах.
+[name="Епископ"]  Если бы в тебе не текла самая грязная, смешанная кровь, однажды и ты могла бы получить такой шанс.
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#5",blackstart2=0.3,blackend2=0.45,focus=2)]
+[name="Гладия"]  Вот как? Какая жалость.
+[character(name="avg_npc_184",blackstart=0.2,blackend=0.35,name2="avg_474_gladiia_1#5",blackstart2=0.3,blackend2=0.45,focus=1)]
+[name="Епископ"]  (Касается морской воды.)
+[name="Епископ"]  Поразительно. Этим вечером... они, кажется, особенно энергичны. Возможно, потому, что к ним домой пришло в гости так много старых друзей.
+[name="Епископ"]  Разве тебе не любопытно? Не хочется узнать, что происходит на поверхности.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="bg_ibindoor")]
+[character(name="avg_npc_188",name2="avg_npc_189")]
+[musicvolume(volume=0.2,fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=true)]
+[CameraShake(duration=0.7, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=true)]
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  ...Шумно.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Так шумно. Не могу уснуть.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Закутайся в одеяло с головой.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Не слышу.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Не вижу.
+[character(name="avg_npc_187")]
+[name="Житель B"]  ......
+[delay(time=1)]
+[name="Житель B"]  Нгх... Так голодно...
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Так голодно.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Так голодно.
+[character(name="avg_npc_187")]
+[name="Житель B"]  Жестянка...
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[stopmusic(fadetime=1)]
+[Background(image="bg_ibindoor")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playsound(key="$fightgeneral")]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[delay(time=0.7)]
+[playsound(key="$fightgeneral")]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[delay(time=1.5)]
+[PlayMusic(intro="$warchaos_intro", key="$warchaos_loop", volume=0.4)]
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Ах!
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Уа-а-а—
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Они здесь.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Что — что это за жуткие твари?! Чёрные... цветы? Или рыбы? Почему они движутся? Какая мерзость, фу...
+[name="Инквизитор"]  Не может быть... Это неправильно, это не укладывается в голове!
+[dialog]
+[character]
+[playsound(key="$fightgeneral")]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[delay(time=0.7)]
+[playsound(key="$fightgeneral")]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[delay(time=1.5)]
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Они стучат в окна! Они... они хотят войти?!
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  М — мы не можем им позволить!
+[name="Инквизитор"]  Закройте окна—
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Бесполезно. Здесь все окна разбиты. Посмотри наверх — всё в трещинах...
+[dialog]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playsound(key="$bottlebroken")]
+[delay(time=1)]
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  —Они тянутся внутрь!
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Инквизитор"]  Уа-а, оно всё ещё шевелится! Этот крошечный кусок, извиваясь на полу, пытается пробраться к нам?!
+[name="Инквизитор"]  Даже будь оно одной из тех тварей... у него нет никакого права быть таким живучим!
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Их так много... снаружи их всё ещё столько.
+[dialog]
+[character(name="avg_npc_182#4")]
+[delay(time=0.7)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=0.51)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Почему я не могу их разрубить?!
+[name="Инквизитор"]  Мой фонарь... нет, фонарь против них бесполезен.
+[name="Инквизитор"]  У меня осталось патронов лишь на один выстрел.
+[character(name="avg_npc_180#2")]
+[name="Анита"]  И — Инквизитор?!
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  Замри! Сейчас я выстрелю, а вы двое бегите вглубь. Руины должны быть чуть крепче этих изношенных окон.
+[character(name="avg_npc_180#2")]
+[name="Анита"]  У вас дрожит рука...
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Святое писание... дай мне сил.
+[name="Инквизитор"]  Я — я их не боюсь!
+[name="Инквизитор"]  Я сейчас же выйду, убью сколько смогу и, может быть, смогу сдержать волну. А вы бегите со всех ног...
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  ......
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#2",focus=1)]
+[name="Скади"]  Ты, уведи её и спрячьтесь внутри.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#4",focus=2)]
+[name="Инквизитор"]  Что? Что ты несёшь?! Разве ты не видела? Мне не справиться — с таким количеством! Они вот-вот ворвутся. Разницы между домом и улицей уже нет!
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#4",focus=1)]
+[name="Скади"]  Запомни: как можно дальше от дверей и окон.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#4",focus=2)]
+[name="Инквизитор"]  Ты совершенно не слушаешь, что тебе говорят—
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Я выйду. Уведу их за собой.
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Что?!
+[character(name="avg_npc_182#5",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  Певица, тебе тоже нельзя выходить...
+[name="Анита"]  Ты очень сильная, сильнее всех, кого я видела, но ты ранена! И этих странных тварей — их — их так много!
+[name="Анита"]  Инквизитор, не... не уходите тоже...
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Может, спрячемся все вместе? Я — я знаю, здесь есть шкаф, и дверца у него ещё закрывается. Он в глубине. Если мы втроём втиснемся, может быть...
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Мне нужно выйти. Только так вы выживете.
+[character(name="avg_npc_182#4",name2="avg_npc_180#4",focus=1)]
+[name="Инквизитор"]  Эй! Эгирка, даже если ты хочешь строить из себя героиню, здесь не место!
+[musicvolume(volume=0,fadetime=1)]
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Слушай внимательно. Всё это действительно вас не касается.
+[name="Скади"]  Потому что — они пришли за мной.
+[dialog]
+[playsound(key="$d_gen_walk_n")]
+[character(fadetime=1.5)]
+[dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Image(image="ac18_04", fadetime=0)]
+[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=15, block=false)]
+[Blocker(a=0, fadetime=1, block=true)]
+[delay(time=1)]
+Скади распахивает дверь.
+Давно забытый запах, летящий с морским бризом, впивается в мозг; твари, никогда не знавшие суши, плотно заполняют улицы.
+Они вздуваются и опадают, плюются, сжимаются, подражая гниению и росту; берег цивилизации падает под их зловещими телами.
+[character(name="avg_npc_185",name2="char_empty",fadetime=1)]
+[name="Монстр A"]  ......
+[dialog]
+[character(name="avg_npc_185",name2="avg_npc_185",fadetime=1)]
+[name="Монстр B"]  ......
+[dialog]
+[character]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[character(name="avg_npc_185",fadetime=0.6)]
+[name="Монстр C"]  !!!
+[dialog]
+[character]
+[musicvolume(volume=0.4,fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1",fadetime=1)]
+[Subtitle(text="Skadi takes another step onward.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

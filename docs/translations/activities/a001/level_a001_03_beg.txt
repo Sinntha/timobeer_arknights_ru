@@ -1,0 +1,213 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 3 (до боя)
+[stopmusic]
+[Dialog]
+[Character]
+[Background]
+[Delay=2]
+[name="Охотник за головами"]  Н-гх...
+[name="Охотник за головами"]  Ты... ты уложила всех моих товарищей?
+[Delay=1]
+[Dialog]
+[Character]
+[name="Охотник за головами"]  ...Н-не подходи! Умоляю!
+[name="Охотник за головами"]  Я, я отдам тебе все свои монеты! Оружие! Всё, что захочешь...
+[name="???"]  Где девчонка?
+[name="Охотник за головами"]  О чём ты...?
+[name="Охотник за головами"]  Не подходи...!
+[name="Охотник за головами"]  Чудовище—!
+[Dialog]
+[Delay(time=1)]
+[name=""]  Ясно \ Видимость: 14 км
+[name=""]  Лес у подножия горы Террат
+[Background(image="bg_forest", fadetime=2)]
+[Delay(time=1)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6,crossfade=1)]
+[Character(name="avg_npc_010",fadetime=1)]
+[Delay(time=1)]
+[name="Большой Боб"]  Этот камень...
+[name="Большой Боб"]  Держитесь рядом со мной, вы двое. Смотрите под ноги и идите строго по моим следам. И ничего не трогайте.
+[name="Большой Боб"]  Боюсь, этот лес опаснее, чем мы предполагали.
+[Character(name="char_220_grani#3")]
+[name="Грани"]  На этом камне что-то вырезано?
+[Character(name="avg_npc_010",name2="char_220_grani#3",focus=1)]
+[name="Большой Боб"]  Это метки, оставленные охотниками за головами. На них нужно обращать внимание, иначе запросто угодим в ловушку.
+[Character(name="avg_npc_010",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  И как же нам избегать ловушек?
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Просто смотрите на меня.
+[name="Большой Боб"]  Силок для зверя на верёвке... как старомодно.
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1.5, block=true)]
+[Character]
+[Dialog]
+[Blocker(a=0, fadetime=1.5, block=true)]
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  А здесь ловушка с катящимся бревном, спрятанная в листве. Если бы рванули вперёд — задели бы.
+[name="Большой Боб"]  Госпожа Кэрол, смотрите под ноги.
+[Character(name="avg_npc_010",name2="avg_npc_003",focus=2)]
+[name="Кэрол"]  А? Что?
+[Character(name="avg_npc_010",name2="avg_npc_003",focus=1)]
+[name="Большой Боб"]  Сделаете ещё шаг в ту сторону — и вас, скорее всего, ждёт яма с кольями.
+[Character(name="avg_npc_010",name2="avg_npc_003",focus=2)]
+[name="Кэрол"]  О...!
+[Character(name="char_220_grani#3")]
+[name="Грани"]  А вы и правда мастер своего дела. У вас это отлично получается.
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Конечно. В конце концов, я раньше...
+[name="Большой Боб"]  ...
+[name="Большой Боб"]  Обойти все ловушки не выйдет. Похоже, некоторые всё же придётся обезвредить.
+[name="Большой Боб"]  Самый опасный для них путь скоро станет самым безопасным для нас.
+[name="Большой Боб"]  Идём.
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Dialog]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.6, crossfade=1.5)]
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Стойте.
+[name="Большой Боб"]  Здесь что-то не так.
+[Character(name="avg_npc_010",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  Это ловушка?
+[Character(name="avg_npc_010",name2="char_220_grani#1",focus=1)]
+[name="Большой Боб"]  Нет...
+[name="Большой Боб"]  Символ, начертанный кровью...
+[name="Большой Боб"]  «...Чудовище?»
+[name="Большой Боб"]  Что бы это значило? За все мои годы я такого символа не встречал.
+[Character(name="avg_npc_010",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  ...Ох...
+[name="Грани"]  Это то, о чём я думаю...
+[Character]
+[name="Охотник за головами"]  Чудовище... Чудовище!
+[name="Охотник за головами"]  Н-не подходи сюда!
+[Dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="char_263_skadi#1",fadetime=1)]
+[Delay(time=2)]
+[name="???"]  ......
+[Character(name="char_220_grani#1")]
+[name="Грани"]  ...
+[Character(name="char_263_skadi#1")]
+[name="???"]  ......
+[Character(name="char_220_grani#2")]
+[name="Грани"]  Это была ты!
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Скади, ты ведь Скади, да?
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=1)]
+[name="Скади"]  ...Так староста Дьювилля была с тобой?
+[Character(name="char_263_skadi#2",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  А? Ты знаешь Кэрол...?
+[Character(name="char_263_skadi#2",name2="char_220_grani#1",focus=1)]
+[name="Скади"]  Отдай её мне. Сейчас же.
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Грани, с её глазами что-то не так.
+[Character(name="char_220_grani#4")]
+[name="Грани"]  Я не могу так просто. Давай всё спокойно обсудим—
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Ч-что?
+[Dialog]
+[Character]
+[stopmusic]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Ай!
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=0.6, crossfade=1.5)]
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Это было лишь предупреждение.
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Нет! Госпожа Кэрол, Большой Боб...
+[Character(name="avg_npc_010",name2="char_220_grani#1",focus=1)]
+[name="Большой Боб"]  П-почему она напала на тебя?
+[name="Большой Боб"]  Вы ведь знакомы, так почему—
+[Character(name="avg_npc_010",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  Некогда объяснять! Бежим!
+[Dialog]
+[Character]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[PlaySound(key="$d_gen_soldiersrun",volume=0.6)]
+[Blocker(a=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  *вздох* *вздох*... Она всё ещё гонится за нами?
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Г-Грани... Я... я больше не могу бежать...
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Эта женщина... она и правда чудовище? Она даже не запыхалась!
+[Character]
+[Character(name="char_263_skadi#2",fadetime=1)]
+[Delay(time=2)]
+[PlaySound(key="$d_gen_walk_n")]
+[name="Скади"]  Зачем я трачу на вас время?
+[Dialog]
+[Character]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Она и правда меня убьёт! Ой, что она делает с госпожой Кэрол?
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Её глаза, они такие красные... Г-Грани!
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Нет, нет, нет! Этого не может быть!
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Стой!
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Засада!
+[Character]
+[name="«Капитан»"]  Сейчас! Ого-о-онь!
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$e_atk_arrow_h")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$e_atk_arrow_h")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Хм?
+[Character(name="avg_npc_008")]
+[name="«Капитан»"]  Вон она, ходячая Катастрофа! Скорее, застрелите её!
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$e_atk_arrow_h")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$e_atk_arrow_h")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Прекратите!
+[Character(name="avg_npc_008")]
+[name="«Капитан»"]  Ты что творишь, парень?
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Не знаю, почему она за нами гонится, но она всё равно моя сослуживица!
+[Character(name="avg_npc_008")]
+[Dialog]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[name="«Капитан»"]  П-прочь с дороги, негодник—!
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  ...
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Бегите скорее!
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  —На востоке есть проход! Скорее!
+[Character(name="avg_npc_007",name2="avg_npc_007")]
+[name="Охотник за головами"]  Мы не дадим вам сбежать! Умри, чудовище!!
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  (эгирский) Рассыпьтесь и падите!
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]
+

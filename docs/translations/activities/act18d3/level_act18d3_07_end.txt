@@ -1,0 +1,217 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibtownn")]
+[character(name="avg_npc_180#3")]
+[Delay(time=1)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[name="Анита"]  Ну вот, кажется, готово? На меня, бабушку и Скамью должно хватить...
+[name="Анита"]  Ах да, и певицу тоже. Она ведь вернётся? Нельзя, чтобы она голодала.
+[dialog]
+[delay(time=1)]
+[name="Анита"]  У нас ещё... немного есть. Остальное сложим в сундук.
+[name="Анита"]  Э-э, дядя Камин, ты тоже хочешь? Х — хорошо, могу дать тебе немного первым.
+[name="Анита"]  Ого, а это у тебя на руке водоросли! Дай их мне! Я сделаю этот... э-э... алкоголь из водорослей, которому меня научила певица!
+[character(name="avg_npc_180#2")]
+[name="Анита"]  А? Куда делся Скамья? Я лишь на миг отвела взгляд.
+[dialog]
+[character]
+[name="Молодой житель"]  (Издаёт детские звуки)
+[dialog]
+[delay(time=1)]
+[musicvolume(volume=0,fadetime=1)]
+[character(name="avg_1012_skadiSP_1#4",fadetime=0.6)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="A red-clad figure appears before him.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character]
+[musicvolume(volume=0.4,fadetime=1)]
+[name="Молодой житель"]  Ах... Песни... А-ах...
+[character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Перестань хватать...
+[name="Скади"]  Это твоё.
+[dialog]
+[character]
+[name="Молодой житель"]  Уа-а...
+[character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Хватит грызть... Это не едят.
+[dialog]
+[character]
+[name="Молодой житель"]  Деревяшка... Деревяшка...
+[character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Не зови её...
+[name="Скади"]  Да, отдашь ей мою арфу, хорошо?
+[name="Скади"]  Скажи ей... Нет, ты же не умеешь говорить.
+[name="Скади"]  Это не прощание.
+[name="Скади"]  Я пойду задам один вопрос. А потом скажу ей сама.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi looks at the chapel overlooking the town. She knows how to get to her destination.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=1)]
+[Character(name="avg_npc_182#1")]
+[Background(image="bg_ibcoastn")]
+[Delay(time=1)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[name="Инквизитор Ирене"]  Верховный Инквизитор, мы сейчас закладываем взрывчатку на холме?
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Верно.
+[Character(name="avg_npc_182#1")]
+[name="Инквизитор Ирене"]  И ещё кое-что. Я видела, как кто-то вошёл в часовню.
+[name="Инквизитор Ирене"]  Она очень похожа на ту... чужачку, что мы встречали.
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  ......
+[Character(name="avg_npc_182#2")]
+[name="Инквизитор Ирене"]  Так кто она, Верховный Инквизитор?
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Эгирка.
+[Character(name="avg_npc_182#2")]  .
+[name="Инквизитор Ирене"]  Я слышала, она сражалась с Морскими Ужасами.
+[name="Инквизитор Ирене"]  Удивительно, что есть и другие, кто не только знает об этих чудовищах... но и умеет с ними сражаться...
+[name="Инквизитор Ирене"]  Если мы взорвём часовню... Это её заденет?
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Если не поразить зло в корне, даже уничтожение этого места ничего не даст.
+[Character(name="avg_npc_182#2")]
+[name="Инквизитор Ирене"]  Вот как? Значит, нам всё ещё нужно выяснить, кто вызвал это явление... И вы сами не знаете, кто это, Верховный Инквизитор?
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Тебе нельзя спрашивать о том, что не относится к миссии.
+[Character(name="avg_npc_182#1")]
+[name="Инквизитор Ирене"]  Так точно...
+[name="Инквизитор Ирене"]  И ещё. Я знаю, что вам всё равно, но я обязана сказать... Несущая конструкция этого квартала, скорее всего, не выдержит такой силы взрыва.
+[name="Инквизитор Ирене"]  Южная половина города может обрушиться в любой момент, а здешние жители до сих пор ничего не знают.
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Продолжай.
+[Character(name="avg_npc_182#1")]
+[name="Инквизитор Ирене"]  Э-э...
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_npc_182#3")]
+[name="Инквизитор Ирене"]  Я хочу эвакуировать жителей.
+[name="Инквизитор Ирене"]  То есть для вас они, может, и кажутся странными и проблемными...
+[name="Инквизитор Ирене"]  ...и тем, что следует очистить.
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Инквизитор!
+[Character(name="avg_npc_182#5")]
+[name="Инквизитор Ирене"]  Ах...!
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Отвечай! В чём твой долг?!
+[Character(name="avg_npc_182#4")]
+[name="Инквизитор Ирене"]  Да!
+[name="Инквизитор Ирене"]  «Ради процветания Иберии, ради защиты Иберии, ради порядка и целостности Иберии я поднимаю свой меч и свой свет!»
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  В таком случае ты должна вынести этим людям свой приговор!
+[Character(name="avg_npc_182#5")]
+[name="Инквизитор Ирене"]  Вы хотите, чтобы я... вынесла приговор? Приговорила их к смерти?
+[Character(name="avg_npc_182#2")]
+[name="Инквизитор Ирене"]  Верховный Инквизитор, когда вы в последний раз слушали песню? Все ваши записи давно испортились, верно? И проигрыватель ваш давно покрывается пылью.
+[name="Инквизитор Ирене"]  Я слышала ту песню. Я слышала песню, которую эгирка пела этим людям.
+[name="Инквизитор Ирене"]  Именно такая песня и должна была быть у Иберии.
+[Character(name="avg_npc_182#3")]
+[name="Инквизитор Ирене"]  Прежде чем убить их, я хочу узнать правду. Как и вы хотели выяснить, кто за этим стоит.
+[name="Инквизитор Ирене"]  Возможно, они ещё мутируют, но когда это случится, я очищу их сама. А сейчас я хотела бы их эвакуировать.
+[name="Инквизитор Ирене"]  Верховный Инквизитор, с вашего позволения я немедленно эвакуирую всех!
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Это твоё решение?
+[Character(name="avg_npc_182#3")]
+[name="Инквизитор Ирене"]  Я не знаю!
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Ирене, ты выносишь решение не только о тех, кто перед твоими глазами. Твои решения касаются куда большего!
+[name="Верховный инквизитор"]  Оставляя чудовищ в живых, ты обрекаешь на смерть граждан!
+[Character(name="avg_npc_182#3")]
+[name="Инквизитор Ирене"]  Я понимаю! Я уже бессчётное множество раз принимала такие решения!
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Твой приговор может смягчить бедствие или стать дурным предзнаменованием! Ради спасения одного ты можешь убить сотни!
+[Character(name="avg_npc_182#3")]
+[name="Инквизитор Ирене"]  Я это понимаю, сэр!
+[name="Инквизитор Ирене"]  Что стоит за этой сделкой, столкновения морали и писания... Я всё это понимаю!
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Я не об этом тебя спрашиваю.
+[Character(name="avg_npc_182#2")]
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Я спрашиваю тебя, Ирене: сможешь ли ты по-настоящему нести эту ответственность.
+[name="Верховный инквизитор"]  Если ты принесёшь им великую боль, то и сама должна будешь нести эту боль, и она будет куда тяжелее всех грехов, что ты причинишь другим, вместе взятых.
+[name="Верховный инквизитор"]  Хватит ли у тебя мужества? Останется ли вера непоколебимой, когда твоё сердце будет мучиться? Если потерпишь неудачу, уверена ли ты, что не дрогнешь, увидев исход своего решения?
+[Character(name="avg_npc_182#3")]
+[name="Инквизитор Ирене"]  Я выдержу... и не дрогну.
+[name="Инквизитор Ирене"]  Так было с тех самых пор, как я вступила в Инквизицию. Я смогу. Если мои действия окажутся неверными — пусть меня постигнет должная кара. Это то, что я обязана сделать.
+[name="Инквизитор Ирене"]  Верховный Инквизитор! Я—
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Хорошо.
+[Character(name="avg_npc_182#5")]
+[name="Инквизитор Ирене"]  Хм...?
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Этого достаточно. Исполняй свой долг, Инквизитор.
+[Character(name="avg_npc_182#4")]
+[name="Инквизитор Ирене"]  —Да, Верховный Инквизитор! Я немедленно эвакуирую местных жителей!
+[name="Инквизитор Ирене"]  И ещё... Взрывчатки, что осталась в шкафу, должно хватить, чтобы сровнять с землёй весь Саль Вьенто.
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Верно.
+[Character(name="avg_npc_182#2")]
+[name="Инквизитор Ирене"]  Значит...
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Если дойдёт до крайности, я отменю твоё решение.
+[Character(name="avg_npc_182#6")]
+[name="Инквизитор Ирене"]  Да...
+[Character(name="avg_npc_182#4")]
+[name="Инквизитор Ирене"]  Тогда я пойду.
+[dialog]
+[playsound(key="$rungeneral")]
+[character(fadetime=1)]
+[delay(time=2)]
+[Character(name="avg_npc_183#3")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Irene dashes off like the wind.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The High Inquisitor stands tall, unmoving, just like the reefs next to the sea.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It is only when the Inquisitors have doubts in their hearts that they have the chance to seek out the answer. However, for a young woman who has experienced little of the world's ugly side or its mirages...", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="She needs to be hammered and tempered. She needs to fail, to crumble.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She must first suffer. She must first abandon her unrealistic aspirations before she can truly be indomitable.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Wait.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Верховный инквизитор"]  Кто здесь?
+[dialog]
+[Character(name="char_003_kalts_1",blackstart=0.2,blackend=0.4,fadetime=1.5,block=true)]
+[name="???"]  Здравствуйте, Верховный Инквизитор.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Background(image="bg_ibchurch")]
+[Delay(time=1)]
+[PlayMusic(intro="$jealous_intro", key="$jealous_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[playsound(key="$rungeneral")]
+[character(name="avg_1012_skadiSP_1#1",fadetime=1)]
+[delay(time=2)]
+[character(name="avg_npc_184")]
+[name="Епископ"]  О, кто это к нам пришёл?
+[name="Епископ"]  Добро пожаловать, бродячая певица.
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

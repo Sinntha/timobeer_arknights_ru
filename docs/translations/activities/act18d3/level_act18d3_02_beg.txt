@@ -1,0 +1,282 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[character(name="char_empty",name2="avg_npc_178")]
+[Background(image="bg_ibtownd")]
+[Image(image="ac18_02",xScale=1.1,yScale=1.1, fadetime=0)]
+[Delay(time=1)]
+15:23 \ Пасмурно
+Иберия, Саль Вьенто
+[dialog]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.4)]
+[ImageTween(yFrom=30, yTo=-30, duration=25, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="A city, life long lost, lies half-buried under dust and whiff of sea breeze.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Это место отмечено на карте.
+[name="Скади"]  Не скажу, что пахнет здесь приятно.
+[dialog]
+[image(fadetime=1.5,block=true)]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#4",name2="avg_npc_178",fadetime=1.5)]
+[delay(time=2)]
+[character(name="avg_1012_skadiSP_1#4",name2="avg_npc_178",focus=1)]
+[name="Скади"]  Здравствуйте.
+[character(name="avg_1012_skadiSP_1#4",name2="avg_npc_178",focus=2)]
+[name="Житель"]  ......
+[dialog]
+[character]
+[delay(time=1)]
+[character(name2="char_empty",name="avg_npc_178")]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=1)]
+[character(name2="avg_1012_skadiSP_1#4",name="avg_npc_178",fadetime=1.5)]
+[delay(time=2)]
+[character(name2="avg_1012_skadiSP_1#4",name="avg_npc_178",focus=2)]
+[name="Скади"]  Могу я спросить—
+[character(name2="avg_1012_skadiSP_1#4",name="avg_npc_178",focus=1)]
+[name="Другой житель"]  (Он низко опускает голову и молчит.)
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Nobody responds. Nobody so much as turns a head. Their eyes are open, yet all of them are motionless.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Their only trait unlike a statue is that they breathe. Long and slow, they breathe.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#7")]
+[name="Скади"]  ......
+[name="Скади"]  Чудовища?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="They are all human in appearance. Aside from being far too slender, and clothed in near-rags, they are indistinguishable from the Iberians met along the way, a far cry from the monsters Old José described.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Они все люди.
+[name="Скади"]  (Говорит по-иберски.)
+[name="Скади"]  Разве здесь больше так не говорят?
+[name="Скади"]  (Снова по-иберски, выговор немного иной.)
+[name="Скади"]  ......
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Still no one replies.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi subconsciously grips her case's handle.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Outside, she has her ways of making those who will not talk, talk. But it requires that the target comprehend her speech.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  К тому же сейчас я певица.
+[name="Скади"]  Певица так не поступает. Так сказал сеньор Хосе.
+[dialog]
+[character]
+[delay(time=1)]
+[musicvolume(volume=0,fadetime=1)]
+[name="???"]  Девяносто девять...
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="A small shadow flits across the street.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1.5)]
+[character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Кто-то говорит.
+[dialog]
+[musicvolume(volume=0.4,fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="With a fast step, she chases after.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[PlaySound(key="$rungeneral", volume=1)]
+[characteraction(name="middle", type="move", xpos=-300, fadetime=2,block=false)]
+[Character(fadetime=0.5)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1.5)]
+[name="???"]  Девяносто девять.
+[dialog]
+[PlaySound(key="$rungeneral", volume=1)]
+[characteraction(name="right", type="move", xpos=200, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="right", type="move", xpos=-200, fadetime=1, block=false)]
+[Character(name="char_empty",name2="avg_1012_skadiSP_1#4",fadetime=0.7)]
+[delay(time=2)]
+[name="Скади"]  Ребёнок? Он бормочет какое-то число.
+[name="Скади"]  Мне не могло послышаться.
+[dialog]
+[character(name="avg_1012_skadiSP_1#7")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Скади"]  Ты—
+[name="Скади"]  Моё ожерелье только что...
+[character(name="avg_1012_skadiSP_1#6")]
+[name="Скади"]  Ты не уйдёшь!
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The child slips free of her grasp. With a flick of his head, he scampers down an even deeper alleyway.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character]
+[delay(time=1)]
+[name="Молодой житель"]  Девяносто девять, девяносто девять...
+[dialog]
+[playsound(key="$rungeneral")]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="bg_ibbar")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[PlaySound(key="$rungeneral", volume=1)]
+[Character(name="avg_1012_skadiSP_1#7",fadetime=1)]
+[delay(time=2)]
+[name="Скади"]  Тебе не убежать.
+[character]
+[name="Молодой житель"]  *Хнык*...
+[Character(name="avg_1012_skadiSP_1#7")]
+[name="Скади"]  Зачем брать моё? Зачем заманил меня сюда?
+[name="Скади"]  Хм?
+[dialog]
+[musicvolume(volume=0,fadetime=0.5)]
+[playsound(key="$bodyfalldown1")]
+[playsound(key="$dooropenquite")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=true)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi tramples directly onto a trap laid on the ground.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[musicvolume(volume=0.4,fadetime=1)]
+[name="Скади"]  Яма и пара верёвок. Засады снаружи были куда основательнее.
+[name="Скади"]  Выходите все.
+[name="Скади"]  Мне всё равно нужно было вас найти. Побыстрее, если не возражаете.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="In the shadows, some few 'sculptures' come to life, slowly easing towards Skadi.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_187",name2="char_empty",fadetime=1,block=true)]
+[character(name="avg_npc_187",name2="avg_npc_178",fadetime=1,block=true)]
+[delay(time=0.6)]
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Она очень странная.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=1)]
+[name="Житель B"]  Верно, Жестянка. Таких я прежде не видывал.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Я тоже.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Стало быть, говорить вы всё-таки умеете.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Кто ты?
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Бродячая певица.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Не знаю, что такое бродячая певица.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=1)]
+[name="Житель B"]  Жестянка, не говори с ней.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Лицо твоё незнакомо. Одежда странная. Ты не из наших мест. Чего тебе нужно?
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Я хочу задать вопрос.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Одежда твоя совсем новая.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Вы не видели мою спутницу?
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  В тебе много силы. Ты можешь есть досыта.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Она пришла сюда раньше меня.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Твой футляр очень тяжёлый.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Инструмент — вещь нелёгкая.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  То, что ты сжимаешь, очень необычно.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Полагаю, ваши арфы устроены примерно так же.
+[name="Скади"]  (Перебирает струны)
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Ушам больно. Это оружие.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Оно может им не быть.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=1)]
+[name="Житель B"]  Жестянка, этот человек странный. Не слушай её. Говорить очень утомительно.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Скамья. Отпусти его.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Скамья... Ты про этого ребёнка?
+[name="Скади"]  Я не собиралась ему ничего делать. Он взял кое-что моё. Такие вещи много значат.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Ты пришла что-то украсть.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  ......
+[name="Скади"]  Я лишь забираю своё. И ищу того, кто поймёт меня, когда я говорю.
+[dialog]
+[character]
+[name="Молодой житель"]  *Хнык*...
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Нашего ребёнка трогать нельзя.
+[name="Житель A"]  Наше красть нельзя.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Хм?
+[characteraction(name="right", type="move",xpos=50, fadetime=0.8, block=false)]
+[delay(time=1)]
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Наши правила нарушать нельзя.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=1)]
+[name="Житель B"]  Жестянка, ты подошёл ближе. Что ты делаешь?
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Она навредит нашему ребёнку, украдёт наше, нарушит наши правила.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=1)]
+[name="Житель B"]  Разве она не наша сестра? Если да, у неё тоже есть доля.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Она точно не сестра.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Вы меня не понимаете.
+[name="Скади"]  Пойду спрошу кого-нибудь другого.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[characteraction(name="right", type="move",xpos=100, fadetime=0.8, block=false)]
+[name="Житель A"]  Уходить нельзя.
+[dialog]
+[character(name="avg_npc_187",name2="avg_npc_178",focus=1)]
+[characteraction(name="left", type="move",xpos=100, fadetime=0.8, block=false)]
+[name="Житель B"]  Погоди, Жестянка...
+[dialog]
+[playsound(key="$bodyfalldown1")]
+[playsound(key="$dooropenquite")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[characteraction(name="left", type="move",ypos=-90, fadetime=0.5, block=false)]
+[name="Житель B"]  Ай!
+[dialog]
+[delay(time=1)]
+[name="Житель B"]  Тут... тут яма.
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель A"]  Яма Деревяшки. Ты забыл.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  О, всё-таки пригодилась.
+[character(name="avg_npc_178")]
+[name="Житель A"]  Чужаки, не следовало вам приходить в наши места!
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

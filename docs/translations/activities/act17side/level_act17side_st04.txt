@@ -1,0 +1,708 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="27_g26_dusk_wild",screenadapt="coverall")]
+[Delay(time=1)]
+[playMusic(intro="$drift_intro", key="$drift_loop", volume=0.4)]
+[delay(time=2)]
+[Subtitle(text="'I arrived in this new land from my maritime home. There is no end to ghastly shock here, not a break in the tragic weave.'", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'The clouds are far from as fine as told in legend, and both the land and sky are wrathbitten and hurting. Cities comparable to Ægir are all but prey to Catastrophe.'", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'Moreover, the people of this dry land are plagued by an inscrutable sickness. I had learnt of Oripathy, of Originium, from many an academy record. Seeing it firsthand, though, the truth of how it has become an integral part of the land, its roots deep and stubborn, is made witheringly apparent.'", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'Nevertheless, they still tenaciously live, pursue both technology and truth through their unique means, and seek to leave the mark of their continued existence.'", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'Though I am lambasted a traitor, I do not regret my decision to come ashore. The Seaborn swarm is expanding; within a decade, Ægir will find itself besieged with no quarter. But someday, I will complete my travels and return to Iberia.'", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'I will leave this memoir behind, for the Ægir to seek and decipher. I have no faith in the nobility; I am certain that those Ægir termed 'Islanders' today will find Iberia withdrawing its respect for them soon enough, whatever the reasons may be.'", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'The Golden Dreadnought, the Eye of Culture, the Jurisprudence of Evolution, the Stele of Life. The Ocean and Land must form a united front to withstand the billowing waves.'", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'It was never my intent to serve as a pioneer. All I am is one step ahead of fate.'", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+—Из копии записей Бреогана, знаменитого иберийского архитектора и главного корабельного мастера, написанных загадочным эгирским письмом.
+[dialog]
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  Это дело эгирцев.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=1)]
+[name="Верховный инквизитор"]  Пока ты стоишь на иберийской земле, закон следит за тобой. Как и я.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  Хм...
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=1)]
+[name="Верховный инквизитор"]  Какова твоя связь с теми тремя Охотниками Бездны?
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  Ты ранил Скади. Странно. Ведь она намеревалась избегать боя.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=1)]
+[name="Верховный инквизитор"]  ......
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  Её кровь особого рода, более особого, чем наша. Надеюсь, ты тщательно чистил оружие.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=1)]  .
+[name="Верховный инквизитор"]  Вопросы здесь задаю я.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  А решаю, отвечать ли на них, я.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=1)]
+[name="Верховный инквизитор"]  Насколько я понимаю, единственные Охотники, которым лорд Кармен даровал свободу передвижения, — те, кто заявил о своих интересах во время конфликта в Саль Вьенто.
+[Dialog]
+[Character]
+[CameraShake(duration=0.5, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_sp_chixiaobadao", volume=0.7,delay=0.1)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.7)]
+[delay(time=1.5)]
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  ...Мм. Похоже, твой бой с ней был не случайностью.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=1)]
+[name="Верховный инквизитор"]  Она была отнюдь не слаба.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  ...Слаба?
+[name="Ульпиан"]  Какая наивная оценка. Она просто не привыкла к суше. Ей не хватает гибкости.
+[Dialog]
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1")]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_sp_chixiaobadao", volume=1)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.03, block=false)]
+[characteraction(name="left", type="move", xpos=300, fadetime=0.5,block=false)]
+[characteraction(name="right", type="move", xpos=50, fadetime=0.1,block=false)]
+[CameraShake(duration=1, ystrength=4, vibrato=3, randomness=90, fadeout=false, block=false)]
+[delay(time=1)]
+[characteraction(name="right", type="jump", xpos=-80, power=7, times=2, fadetime=0.5, block=true)]
+[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playsound(key="$e_skill_skulsrsword", volume=0.5)]
+[characteraction(name="left", type="jump", xpos=-400, power=5, times=1, fadetime=0.3,block=true)]
+[dialog]
+[Delay(time=1)]
+[Character]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.03,block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[Character(name="char_empty",name2="avg_npc_445_1#1$1")]
+[Character(name="avg_4009_irene_1#1$1",blackstart=0.3,blackend=0.7,name2="avg_npc_445_1#1$1")]
+[playsound(key="$d_avg_bldwhoosh")]
+[characteraction(name="right", type="move", xpos=-200, fadetime=0,block=true)]
+[characteraction(name="left", type="move", xpos=600, fadetime=0,block=true)]
+[characteraction(name="left", type="move", xpos=-200, fadetime=0.3,block=true)]
+[Delay(time=0.6)]
+[Character(name="avg_4009_irene_1#1$1",name2="avg_npc_445_1#1$1",focus=1)]
+[name="???"]  Не двигайся, эгирец.
+[Character]
+[Dialog]
+[Character(name="avg_4009_irene_1#7$1",fadetime=1)]
+[Delay(time=1)]
+[name="Инквизитор Ирене"]  Подчинись расследованию Верховного инквизитора. Инквизиция уже завершила переговоры с Охотниками. Каждое твоё действие лишь подрывает основу нашего сотрудничества.
+[Character(name="avg_npc_445_1#1$1")]
+[name="Ульпиан"]  ...Сотрудничества?
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Советую тебе пересмотреть свои действия.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  Инквизитор, сколько у Иберии таких солдат, как ты?
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=1)]
+[name="Верховный инквизитор"]  Это не твоё дело.
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  Достаточно, чтобы собрать армию в три тысячи?
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=1)]
+[name="Верховный инквизитор"]  ......
+[Character(name="avg_npc_183#1",name2="avg_npc_445_1#1$1",focus=2)]
+[name="Ульпиан"]  Тогда Иберия всё ещё не годится.
+[Dialog]
+[stopmusic(fadetime=3)]
+[CameraShake(duration=0.5, xstrength=18, ystrength=16, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Character(name="avg_npc_183#1",name2="char_empty",fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(name="avg_npc_183#2",name2="char_empty",focus=1)]
+[name="Верховный инквизитор"]  Тебе не уйти!
+[Dialog]
+[Character]
+[playMusic(intro="$suspenseful_intro", key="$suspenseful_loop",fadetime=2, volume=0.4)]
+[Character(name="avg_npc_457_1#1$1",fadetime=0.5)]
+[name="Морской Ужас"]  (Резкие трущиеся звуки)
+[Character(name="avg_npc_183#2")]
+[name="Верховный инквизитор"]  Что? Откуда они взялись?
+[Dialog]
+[CameraShake(duration=0.3, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0.3, r=0.6, g=0, b=0, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.03, block=false)]
+[Delay(time=1)]
+[Character(name="avg_npc_183#2",name2="avg_4009_irene_1#4$1",focus=2)]
+[name="Инквизитор Ирене"]  Верховный инквизитор! Вы в порядке?
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#4$1",focus=1)]
+[name="Верховный инквизитор"]  Я в порядке. Тот эгирец...
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#4$1",focus=2)]
+[name="Инквизитор Ирене"]  Это моя вина, сэр!
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#4$1",focus=1)]
+[name="Верховный инквизитор"]  Он легко мог воспользоваться шансом и отнять мне руку, но выбрал бегство.
+[Dialog]
+[Character]
+[CameraShake(duration=1, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]
+[playsound(key="$d_avg_fish_howl",volume=0.5)]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1",fadetime=1)]
+[Delay(time=1.5)]
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Верховный инквизитор"]  Похоже, мы пока не можем позволить себе погоню.
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  Они направляются в город! Они прячутся в почве!
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Верховный инквизитор"]  Нет.
+[name="Верховный инквизитор"]  Вся эта полоса земли загрязнена.
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#2$1",focus=2)]
+[name="Инквизитор Ирене"]  К-Как это возможно?
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#2$1",focus=1)]
+[name="Верховный инквизитор"]  Взгляни хорошенько на ту серую землю и зловещий миазм, наполняющий её.
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  Да, сэр!
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Верховный инквизитор"]  Гран Фаро не подвергается проникновению Церкви Глубин. Он уже пал перед ними.
+[name="Верховный инквизитор"]  Готовьтесь к прямому бою. Немедленно обеспечьте безопасность лорда Кармена.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="27_g18_lighthouse_square",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Это светящееся Клеймо Нижнего моря... Оно подобно их собственному городу.
+[name="Святой Кармен"]  Невероятно. Они рождаются из него, размножаются и мигрируют сквозь него...
+[PlaySound(key="$d_avg_fish_howl",volume=0.3)]
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Зловещее змеиное шуршание)
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Не всякая жизнь жаждет независимости. Неудивительно, что эти мерзкие твари смогли спрятаться в этом городе.
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  ...Но кто вынес их на берег?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="bg_ibchurch",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="npc_2004_Alty")]
+[name="Алти"]  Ну, просто идеально. А мы-то думали, что найдём немного вдохновения в поездке на пляж. Полный провал.
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  (Согласно играет рифф)
+[Character(name="npc_2002_Dan_1")]
+[name="Дэн"]  Море ласкает землю. Я чувствую. Всё плохое стало ещё хуже.
+[Character(name="npc_2001_Aya_1")]
+[name="Ая"]  Кальцит однажды сказала, что эгирцы победили, а Охотники Бездны — сироты той битвы. Но глядя на то, что сейчас, я начинаю сомневаться, была ли вообще победа.
+[name="Ая"]  О, кстати о Кальцит — она дала нам ту штуку?
+[Character(name="npc_2004_Alty")]
+[name="Алти"]  Ага.
+[Character(name="npc_2001_Aya_1")]
+[name="Ая"]  Ну и ходит вокруг да около. Почему она не отдала её сразу той эгирке? Гладии. Было бы быстрее.
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  (Сомневающийся рифф)
+[Character(name="npc_2004_Alty")]
+[name="Алти"]  Она хотела использовать ключ, чтобы втянуть нас в это. И с этой точки зрения она определённо преуспела.
+[Character(name="npc_2001_Aya_1")]
+[name="Ая"]  Или, может, она изначально планировала заставить нас что-то достать или помочь. А потом передумала.
+[Character(name="npc_2004_Alty")]
+[name="Алти"]  А? Разве она не всегда на триста шагов впереди? Что могло заставить её передумать?
+[Character(name="npc_2001_Aya_1")]
+[name="Ая"]  ...Я просто говорю, что это возможно. Конечно, она многое знает, но больше всего она осторожна. Иначе сколько раз она бы уже умерла?
+[name="Ая"]  Э-э, чего ты крутишься? Дэн?
+[Character(name="npc_2002_Dan_1")]
+[name="Дэн"]  Эта часовня отлично подойдёт для концерта!
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(fadetime=0)]
+[Delay(time=0.6)]
+[Background(image="27_g16_lighthouse_street",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Скади, Акула.
+[Character(name="avg_1023_ghost2_1#4$1",name2="char_263_skadi#4",focus=2)]
+[name="Скади"]  Мы уничтожили всех врагов, которых видели.
+[Character(name="avg_1023_ghost2_1#4$1",name2="char_263_skadi#4",focus=1)]
+[name="Спектер"]  ...Здесь расползаются бесформенные клочья волн, как прилив на песчаных берегах.
+[name="Спектер"]  Неблагоприятное предзнаменование. Нам... нам не следует здесь быть.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Похоже, уборки мусора недостаточно, чтобы вернуть ей рассудок.
+[Character(name="avg_474_gladiia_1#1",name2="char_263_skadi#8",focus=2)]
+[name="Скади"]  Что нам делать?
+[Character(name="avg_474_gladiia_1#1",name2="char_263_skadi#8",focus=1)]
+[name="Гладия"]  Как только эта область будет чиста, мы воспользуемся помощью иберийцев, чтобы найти тот корабль.
+[Character(name="avg_474_gladiia_1#1",name2="char_263_skadi#4",focus=2)]
+[name="Скади"]  На их телах есть что-то, чего мы не узнаём.
+[Character(name="avg_474_gladiia_1#5",name2="char_263_skadi#4",focus=1)]
+[name="Гладия"]  Возможно, часть самих Морских Ужасов.
+[Character(name="avg_474_gladiia_1#5",name2="char_263_skadi#9",focus=2)]
+[name="Скади"]  ...Я давно задаюсь вопросом.
+[name="Скади"]  Как они всё ещё так быстро эволюционируют? Как они всё ещё полны жизни?
+[name="Скади"]  Хотя мы уже...
+[Character(name="avg_474_gladiia_1#1",name2="char_263_skadi#9",focus=1)]
+[name="Гладия"]  Именно на этот вопрос мы и намерены пролить свет. Это также причина, по которой я согласилась сотрудничать с Кальцит.
+[Character(name="avg_474_gladiia_1#1",name2="char_263_skadi#9",focus=2)]
+[name="Скади"]  Доктор Кальцит...
+[Character(name="avg_474_gladiia_1#1",name2="char_263_skadi#9",focus=1)]
+[name="Гладия"]  Прекрасная женщина, несомненно.
+[name="Гладия"]  Встряхнись, Охотник. Покончим с этим до заката. Морские Ужасы, не слышащие зова океана, лишь низшие формы жизни.
+[Character(name="avg_474_gladiia_1#1",name2="char_263_skadi#3",focus=2)]
+[name="Скади"]  Поняла.
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Ты... Гладия? Ты пришла. Тогда я буду слушать.
+[Character(name="avg_474_gladiia_1#4")]
+[name="Гладия"]  ...Акула.
+[name="Гладия"]  Тебе не тяжело держать это в руках?
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Это? Я часто забываю, что оружие у меня в руках. Будто танцую с ним.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Это твоё прошлое, и оно почти настигло тебя.
+[name="Гладия"]  Мы будем ждать.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(fadetime=0)]
+[Delay(time=0.6)]
+[Background(image="27_g18_lighthouse_square",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_457_1#3$1")]
+[name="Морской Ужас"]  (Дрожащие булькающие звуки)
+[Dialog]
+[CameraShake(duration=0.3, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Delay(time=0.6)]
+[Character(fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Ты идёшь размеренным маршем, Дарио. Ты уладил то, о чём я просила?
+[Dialog]
+[Character]
+[Character(name="avg_npc_183#1",fadetime=1)]
+[Delay(time=1)]
+[name="Верховный инквизитор Дарио"]  Да, лорд.
+[Character(name="avg_npc_447_1#1$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Штрафной батальон подготовил корабль к отплытию к Оку Иберии. К этому времени они также эвакуировали побережье и окружили город.
+[name="Верховный инквизитор Дарио"]  Этим заблудшим глупцам некуда бежать.
+[Character(name="avg_npc_447_1#1$1",name2="avg_npc_183#1",focus=1)]
+[name="Святой Кармен"]  Эти мелкие злодеи не внушают страха, но новая угроза, которую они принесли, поразительна.
+[Character(name="avg_npc_447_1#1$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Наши технологии способны очистить столько загрязнения.
+[Character(name="avg_npc_447_1#1$1",name2="avg_npc_183#1",focus=1)]
+[name="Святой Кармен"]  Это лишь временная победа, Дарио. И это «эгирские технологии», а не наши.
+[name="Святой Кармен"]  Если каждую секунду каждой минуты, каждая капля и каждая песчинка приливов, бьющих о наши песчаные берега, распространяет Морских Ужасов и их экологию, как мы тогда защитим родину?
+[Character(name="avg_npc_447_1#1$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Мы найдём ответ до того, как это случится.
+[Character(name="avg_npc_447_1#1$1",name2="avg_npc_183#1",focus=1)]
+[name="Святой Кармен"]  Да, непременно.
+[Character(name="avg_npc_447_1#1$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Инквизиция также готова сразиться с Охотниками Бездны. Мы задушим их на этом отдалённом берегу.
+[Character(name="avg_npc_447_1#1$1",name2="avg_npc_183#1",focus=1)]
+[name="Святой Кармен"]  Подходящее кладбище. Остаётся надеяться, что они сделают мудрый выбор и что Кальцит сможет выполнить обещанное.
+[Dialog]
+[Character]
+[Character(name="avg_4009_irene_1#1$1",fadetime=1)]
+[Delay(time=1)]
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_npc_447_1#8$1")]
+[name="Святой Кармен"]  Значит, это твоя ученица. Я знакома с ней по её работе.
+[Character(name="avg_npc_447_1#8$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  Д-Да! Инквизитор Ирене, докладываю, лорд Кармен!
+[Character(name="avg_npc_447_1#8$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Святой Кармен"]  Говорят, когда Дарио нашёл тебя в руинах, толстый том классики застрял в балках обрушивающейся крыши. Чудесное равновесие спасло тебе жизнь.
+[Character(name="avg_npc_447_1#8$1",name2="avg_4009_irene_1#3$1",focus=2)]
+[name="Инквизитор Ирене"]  Да, сэр!
+[Character(name="avg_npc_447_1#8$1",name2="avg_4009_irene_1#3$1",focus=1)]
+[name="Святой Кармен"]  Юная, ты здесь только потому, что Дарио решил, что у тебя есть воля ринуться на передовую.
+[Character(name="avg_npc_447_1#8$1",name2="avg_4009_irene_1#3$1",focus=2)]
+[name="Инквизитор Ирене"]  Да, сэр!
+[Character(name="avg_npc_447_1#8$1",name2="avg_4009_irene_1#3$1",focus=1)]
+[name="Святой Кармен"]  В тебе есть незрелость, но ты жаждешь доказать себя. Твоё тело полно силы и упорства.
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#3$1",focus=1)]
+[name="Святой Кармен"]  Но твои обязанности в Гран Фаро будут не легче, чем в Саль Вьенто. Отныне ты будешь погружаться всё глубже в сердце зла. Ты готова?
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  Ради порядка и честности Иберии я подниму свой меч и свой фонарь.
+[name="Инквизитор Ирене"]  Для меня этот девиз — больше, чем боевой клич.
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Она будет готова.
+[Character(name="avg_npc_447_1#7$1")]
+[name="Святой Кармен"]  Мм... Я доверяю твоему суждению, но судьба не часто даёт своим людям время подготовиться.
+[name="Святой Кармен"]  У нас с доктором Кальцит ещё есть дела. Миссия проводить Охотников Бездны обратно к Оку Иберии теперь твоя.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Око Иберии... Верховный инквизитор, какова именно наша задача?
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  ...Разбить лагерь, обеспечить безопасность маршрута и гарантировать, что наши ремонтные команды смогут безопасно добраться до маяка.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Последняя часть Ока Иберии находится в пятидесяти морских милях от ближайшего к Гран Фаро берега.
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Разумеется, при условии, что она всё ещё там, где указывают карты.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Пятьдесят морских миль...
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Святой Кармен"]  Когда-то наш флот мог окинуть взглядом поверхность спокойного моря. Но после Великой Тишины океан стал подобен кипящему яду, плавящему всех, кто его коснётся.
+[name="Святой Кармен"]  Это устрашающая миссия. Но возвращение этого последнего маяка имеет огромное значение для нашего народа.
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  П-Понятно, сэр!
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Святой Кармен"]  Именно для этого нам нужна помощь эгирцев.
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#1$1",focus=2)]
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_npc_447_1#10$1",name2="avg_4009_irene_1#1$1",focus=1)]
+[name="Святой Кармен"]  Ты скептична.
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Она видела подземные клетки Инквизиции.
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#1$1",focus=1)]
+[name="Святой Кармен"]  Значит, ты увидела правду об исканиях Инквизиции, несмотря на то, что она не может получить ответ.
+[name="Святой Кармен"]  Иди, юный инквизитор. Время не ждёт. Но если понадобится, я устрою суд над самим временем.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Delay(time=0.6)]
+[Background(image="27_g16_lighthouse_street",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[CameraShake(duration=0.3, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Отчётливое змеиное шуршание) —!
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_450_1#5$1",focus=2)]
+[name="Элизиум"]  Берегись!
+[Dialog]
+[Character(name="avg_4042_lumen_1#6$1",name2="avg_npc_450_1#12$1")]
+[CameraShake(duration=0.5,xstrength=80, ystrength=10, vibrato=10, randomness=90, fadeout=true, block=false)]
+[characteraction(name="right", type="move", xpos=-200,ypos=-100, fadetime=0.5, block=true)]
+[characteraction(name="left", type="move", xpos=-50,ypos=-100, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[Character(fadetime=0.3)]
+[PlaySound(key="$bodyfalldown1")]
+[Delay(time=2)]
+[Character(name="avg_4042_lumen_1#7$1",name2="avg_npc_450_1#7$1",fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#7$1",name2="avg_npc_450_1#7$1",focus=2)]
+[name="Элизиум"]  Ты в порядке?!
+[Character(name="avg_4042_lumen_1#7$1",name2="avg_npc_450_1#7$1",focus=1)]
+[name="Джорди"]  Я-Я в порядке. Простите, мистер Элизиум, я снова вас торможу...
+[Character(name="avg_4042_lumen_1#7$1",name2="avg_npc_450_1#1$1",focus=2)]
+[name="Элизиум"]  Э-э, ха-ха, не обращай внимания.
+[Character(name="avg_4042_lumen_1#11$1",name2="avg_npc_450_1#1$1",focus=1)]
+[name="Джорди"]  Те Морские Ужасы...
+[Character(name="avg_4042_lumen_1#11$1",name2="avg_npc_450_1#11$1",focus=2)]
+[name="Элизиум"]  (Одинаковые раны, пробитые отверстиями по два-три. Этот стиль — точно Скади и девочки.)
+[Character(name="avg_4042_lumen_1#10$1",name2="avg_npc_450_1#11$1",focus=1)]
+[name="Джорди"]  Город разрушен насквозь.
+[Character(name="avg_4042_lumen_1#10$1",name2="avg_npc_450_1#11$1",focus=2)]
+[name="Элизиум"]  Ха-ха... ага...
+[Dialog]
+[Character(name="avg_4042_lumen_1#10$1",name2="avg_npc_450_1#11$1")]
+[Blocker(a=0.05, r=0, g=0.58, b=1, fadetime=0.8, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[CameraShake(duration=0.3, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Character(name="avg_npc_450_1#7$1")]
+[name="Элизиум"]  Ого... стой! Джорди!
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_npc_450_1#7$1",focus=1)]
+[name="Джорди"]  Нгах!
+[name="Джорди"]  Ч-Что это?
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_npc_450_1#2$1",focus=2)]
+[name="Элизиум"]  —Светящиеся... лианы? Плавающие существа? Или это... э-э, кораллы?
+[Character(name="avg_4042_lumen_1#11$1",name2="avg_npc_450_1#2$1",focus=1)]
+[name="Джорди"]  Эта штука покрывает всю улицу впереди... Погоди, из крыш что-то выходит...
+[Character(name="avg_4042_lumen_1#11$1",name2="avg_npc_450_1#7$1",focus=2)]
+[name="Элизиум"]  —! Уходи!
+[Character]
+[Dialog]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1",fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Characteraction(name="left", type="jump", power=10, times=1,  xpos=150, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Characteraction(name="right", type="jump", power=10, times=1,  xpos=150, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_450_1#5$1")]
+[name="Элизиум"]  Подожди, подожди...
+[name="Элизиум"]  —Да быть не может, у них уже здесь гнёзда?! Я думал, ребята из Церкви Глубин просто натравили их на город!
+[name="Элизиум"]  (И погоди, они правда могли только что родиться? Столько?! Как быстро это происходит?)
+[Character(name="avg_npc_450_1#7$1")]
+[name="Элизиум"]  Джорди!
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_450_1#7$1",focus=1)]
+[name="Джорди"]  О, я здесь, я здесь!
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_450_1#7$1",focus=2)]
+[name="Элизиум"]  В канаву! Разворачивайся на 180 и беги!
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_npc_450_1#7$1",focus=1)]
+[name="Джорди"]  Но они и позади нас, мистер Элизиум!
+[Dialog]
+[character]
+[Character(name="avg_npc_457_1#1$1",fadetime=1)]
+[delay(time=2)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_450_1#12$1",focus=2)]
+[name="Элизиум"]  —Угх, эти монстры строят гнёзда быстрее, чем чёртовы подводные мрачноклешни...
+[name="Элизиум"]  Значит, либо пан, либо пропал. Эй, Джорди, найди что-нибудь, хоть что-нибудь. Тебе нужно вооружиться.
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_450_1#12$1",focus=1)]
+[name="Джорди"]  П-Подойдёт зонт?
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_450_1#7$1",focus=2)]
+[name="Элизиум"]  ...Ага, похоже, нас ждёт дождь. Держи эту штуку так, будто она правда нужна!
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Отчётливое змеиное шуршание)
+[Character(name="avg_npc_450_1#7$1")]
+[name="Элизиум"]  —! Готовься!
+[Dialog]
+[Character]
+[StopMusic(fadetime=1)]
+[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[PlaySound(key="$b_char_defboost", volume=0.6)]
+[Blocker(a=0, fadetime=1.5, block=false)]
+[PlaySound(key="$char_emp", volume=0.6)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1")]
+[delay(time=1)]
+[Character(name="char_empty",name2="avg_npc_457_1#1$1",fadetime=0.5)]
+[playsound(key="$bodyfalldown1",volume=0.5)]
+[delay(time=1)]
+[Character(name="char_empty",name2="char_empty",fadetime=0.5)]
+[playsound(key="$bodyfalldown1",volume=0.5)]
+[delay(time=2)]
+[Character(name="npc_10002",fadetime=0.5)]
+[playsound(key="$Mon3tr_n")]
+[name="Мон3тр"]  (Самодовольное ржание)
+[Dialog]
+[Character]
+[playMusic(intro="$exciting_intro", key="$exciting_loop", fadetime=2,volume=0.4)]
+[Character(name="char_003_kalts_1#3",fadetime=1)]
+[Delay(time=1)]
+[name="Кальцит"]  —Сожгите всё. Вместе со зданиями.
+[Character(name="npc_10002")]
+[playsound(key="$char_Mon3tr")]
+[name="Мон3тр"]  (Восторженное шипение)
+[Dialog]
+[Character]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[playsound(key="$flamethrower_n")]
+[Blocker(a=0.2, r=0.8, g=0, b=0, fadetime=0.3, block=true)]
+[Blocker(a=0, r=1, g=0, b=0, fadetime=1, block=false)]
+[Delay(time=1)]
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  Похоже, эгирские технологии не нужны, чтобы справиться с Клеймом Нижнего моря.
+[Dialog]
+[Character]
+[playsound(key="$rungeneral",volume=0.5)]
+[Character(name="avg_npc_450_1#1$1",fadetime=1)]
+[Delay(time=1)]
+[name="Элизиум"]  Доктор Кальцит!
+[Character(name="char_003_kalts_1#1",name2="avg_npc_450_1#1$1",focus=1)]
+[name="Кальцит"]  Хорошо, ты цел. Что случилось?
+[Dialog]
+[Character]
+[Character(name="avg_4042_lumen_1#10$1",fadetime=1)]
+[Delay(time=1.5)]
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  ...А кто этот несколько унылый эгирец?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="27_g18_lighthouse_square",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_183#1",name2="avg_4009_irene_1#1$1",fadetime=1)]
+[Delay(time=1)]
+[Character(fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_npc_447_1#1$1",fadetime=1)]
+[Delay(time=1)]
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Выдающаяся сила, Охотники.
+[Dialog]
+[Character]
+[Character(name="avg_1023_ghost2_1#4$1",name2="char_263_skadi#3",fadetime=1)]
+[Delay(time=1)]
+[Character(fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_474_gladiia_1#1",fadetime=1)]
+[Delay(time=1)]
+[name="Гладия"]  Избавьте нас от замечаний. Перейдём скорее к делу.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Святой Кармен"]  Кальцит недавно перенесла серьёзное испытание ради вас.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Помощь, которую она нам оказала, навсегда запечатлится в моей памяти. А то, что сделали вы... я тоже никогда не забуду.
+[Character(name="char_263_skadi#3")]
+[name="Скади"]  ......
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  ......
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Но нынешняя ситуация устроена ею. Маленький прибрежный городок, простая встреча.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Святой Кармен"]  Тогда в честь её усилий, может, оставим обиды и начнём обсуждение?
+[name="Святой Кармен"]  Вы ищете наследие Бреогана. Вы хотите найти «Стультиферу».
+[Character(name="avg_4009_irene_1#2$1")]
+[name="Инквизитор Ирене"]  —!
+[name="Инквизитор Ирене"]  (Стультифера Навис, «Корабль дураков»? Разве это не флагман флота, уничтоженного в Великой Тишине? Но сколько лет прошло?!)
+[Character(name="avg_npc_447_1#4$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Святой Кармен"]  Больше всего меня интересует, как иностранец может быть так уверен, что она ещё на плаву.
+[Character(name="avg_npc_447_1#4$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Тогда, с иберийской точки зрения, вы считаете, что она затонула или нет?
+[Character(name="avg_npc_447_1#2$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Святой Кармен"]  Хм...
+[name="Святой Кармен"]  Скорее всего... нет.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  —!
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Святой Кармен"]  Однако она ни разу не возвращалась в порт.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Корабль, не затонувший более шестидесяти лет, но так и не вернувшийся в гавань суши.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#5",focus=2)]
+[name="Гладия"]  Ваши люди могут определить его положение?
+[Character(name="avg_npc_447_1#5$1",name2="avg_474_gladiia_1#5",focus=1)]
+[name="Святой Кармен"]  Когда-то могли. Но не сейчас.
+[Character(name="avg_npc_447_1#5$1",name2="avg_474_gladiia_1#5",focus=2)]
+[name="Гладия"]  Иными словами...
+[Character]
+[Dialog]
+Гладия смотрит на статую рядом с ними.
+Она не помнит таких зданий. Возможно, они уже тихо умерли до того, как она вышла на берег.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Святой Кармен"]  «Око Иберии».
+[name="Святой Кармен"]  Эти чудеса когда-то были краеугольным камнем величественного проекта, но большинство маяков, составляющих Око, погибли в Великой Тишине. Остался только один.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Он не принадлежит вам. Он принадлежит Эгиру.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Святой Кармен"]  ...Бреоган действительно был эгирцем и пришёл из океана, но его преданность была бескорыстной. Он внёс огромный вклад в морские исследования Иберии.
+[Character(name="avg_npc_447_1#1$1",name2="avg_474_gladiia_1#5",focus=2)]
+[name="Гладия"]  После катастрофы вы позволили своим гражданам излить ярость на эгирцев — на него. Потакание такой глупости выставляет вас в ненадёжном свете.
+[Character(name="avg_npc_447_1#6$1",name2="avg_474_gladiia_1#5",focus=1)]
+[name="Святой Кармен"]  Но могут ли эгирцы поклясться, что не причастны к Великой Тишине?
+[Character(name="avg_npc_447_1#6$1",name2="avg_474_gladiia_1#5",focus=2)]
+[name="Гладия"]  ......
+[Character(name="avg_npc_447_1#6$1",name2="avg_474_gladiia_1#5",focus=1)]
+[name="Святой Кармен"]  ......
+[Dialog]
+[Character]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[Character(name="char_003_kalts_1#1",fadetime=1)]
+[Delay(time=2)]
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  Стены нас всех погубят. Если вы двое намерены продолжать этот разговор, то и Иберия, и Эгир считай что уничтожены.
+[name="Кальцит"]  Цивилизации не умирают, они лишь бесконечно сменяются. Но в следующий раз человечество не будет к этому причастно.
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Доктор Кальцит, прошу следить за языком с лордом Карменом.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Я не против; мы знакомы достаточно долго. Но это твой обычный метод, Кальцит?
+[name="Святой Кармен"]  Хирургически извлекаешь ключевых людей из гигантского тела судьбы, усаживаешь их перед собой и убеждаешь в правоте своей идеи?
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  Моя идея — просто спасти вас. Иберия вольна отказаться, как и Эгир.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  ......
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  Если считать неопытную юную леди, за столом шестеро: по трое от Инквизиции и Охотников.
+[name="Кальцит"]  Сама городская площадь — иберийское чудо, построенное эгирцем. Для такой конференции не придумать места лучше.
+[name="Кальцит"]  Прямо сейчас Клеймо Нижнего моря продолжает распространяться. Морские Ужасы свили гнездо в городе, и их существование принимает совсем иную форму. Разница достаточно резкая, чтобы вызвать тревогу.
+[name="Кальцит"]  Если никто из присутствующих ещё не осознал масштаб этой океанической угрозы, возможно, нам действительно стоит разойтись. Мы можем наблюдать, как драгоценное время, купленное жертвой Охотников Бездны, тратится впустую.
+[Character(name="char_263_skadi#3")]
+[name="Скади"]  Наша победа... была значимой?
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  Конечно. Без неё после Великой Тишины у Иберии не было бы даже смертного одра, на котором можно бороться.
+[name="Кальцит"]  А что до тебя, лорд Кармен, надеюсь, ты оставишь предубеждения против эгирцев. Используй свою...
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  —Я уже очень стара, Кальцит. Перейдём к делу, хорошо?
+[Character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  ......
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  Я уже переросла желание выигрывать каждый спор, как и силы поддерживать славу речами.
+[name="Святой Кармен"]  Нет славы выше выживания, и никто не видит ситуацию яснее меня. Можешь забрать свои слова обратно. Инквизиция готова полностью сотрудничать с Охотниками Бездны в поисках потерянного дредноута.
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  Золотой... дредноут.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Не возражаю.
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Я думал, контакт между Эгиром и Иберией заставит тебя задуматься.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Контакт? А... если бы ты мог дышать под водой, если бы мог посещать наши города без оборудования, я бы не возражала показать тебе настоящую демонстрацию эгирских технологий.
+[Character(name="avg_npc_447_1#7$1")]
+[name="Святой Кармен"]  Ждём с нетерпением, госпожа консул.
+[name="Святой Кармен"]  Терция Штрафного батальона немедленно пришвартует в Гран Фаро несколько кораблей двойного назначения, разобьёт лагерь и очистит гавань для подготовки.
+[name="Святой Кармен"]  Дарио, Ирене, идите с Охотниками Бездны. В первую очередь обеспечьте морской путь к Оку Иберии. По прибытии вынесете своё суждение.
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Как прикажете.
+[Character(name="char_003_kalts_1#1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Кальцит, следует...
+[Character(name="char_003_kalts_1#1",name2="avg_474_gladiia_1#5",focus=2)]
+[name="Гладия"]  Если время имеет значение, я в первую очередь восстановлю связь с Эгиром.
+[Character(name="char_003_kalts_1#1",name2="avg_474_gladiia_1#5",focus=1)]
+[name="Кальцит"]  Путешествие в глубокое море — опасное дело для всех нас, но для тебя это будет просто возвращением домой.
+[name="Кальцит"]  Ты найдёшь тот корабль и найдёшь путь обратно в Эгир. Детали оставляю на твоё усмотрение.
+[Character(name="char_003_kalts_1#1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Возможно, наша следующая встреча будет очень нескоро.
+[Character(name="char_003_kalts_1#1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Кальцит"]  Пока ты помнишь наши слова. Надеюсь, вернувшись, ты сможешь переоценить всё, что пережил Эгир.
+[Character(name="char_003_kalts_1#1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  ......
+[StopMusic(fadetime=1)]
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Тогда поспешим. Мы...
+[Dialog]
+[Character]
+[Delay(time=1)]
+[CameraShake(duration=0.3,xstrength=20,ystrength=30,vibrato=30,randomness=90,fadeout=true,block=true)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0.3, block=true)]
+[playMusic(intro="$kjerag_n_intro", key="$kjerag_n_loop", volume=0.6,fadetime=3)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_450_1#11$1",fadetime=1)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_450_1#11$1",focus=1)]
+[name="Джорди"]  А...
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_450_1#9$1",focus=2)]
+[name="Элизиум"]  Простите, доктор Кальцит. Э-э, с тех пор как речь зашла о маяке, Джорди...
+[Dialog]
+[Character(name="avg_4042_lumen_1#1$1",name2="char_empty")]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_183#2",fadetime=1)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[Delay(time=2)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_183#2",focus=2)]
+[name="Верховный инквизитор Дарио"]  Эгирец, прекрасно. У меня много вопросов к тебе.
+[Character(name="char_003_kalts_1#3")]
+[name="Кальцит"]  Подожди.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Кто ты?
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_183#1",focus=1)]
+[name="Джорди"]  Я... я житель этого города, меня зовут Джорди.
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  В Гран Фаро не должно быть эгирцев! В нашем досье сказано, что есть записи о сговоре между эгирцами и Церковью Глубин!
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Кто твои родители?
+[Character(name="avg_4042_lumen_1#10$1",name2="avg_npc_183#1",focus=1)]
+[name="Джорди"]  Мои... мои родители были техниками маяка. Они отдали жизни за Око Иберии.
+[name="Джорди"]  Мой дом полон пыльных чертежей, я... я, может, никогда и не видел маяк, но...
+[name="Джорди"]  Хочу увидеть. Смысл моей родины... смысл пожизненной борьбы моих родителей... Я, э-э...
+[Character(name="avg_4042_lumen_1#10$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Не можешь. Инквизиция должна сначала допросить тебя.
+[Character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  И почему я должна считать нужным защищать хрупкого гражданского в свалке?
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  А если он потомок Бреогана?
+[Character(name="avg_474_gladiia_1#2")]
+[name="Гладия"]  Что? Но он совсем не похож на фотографические записи Бреогана.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Даже если это правда, мы должны потребовать, чтобы он передал остатки семейного наследия и позволил Инквизиции взять исследования на себя.
+[name="Инквизитор Ирене"]  Верховный инквизитор!
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  ......
+[Character(name="avg_4042_lumen_1#10$1",name2="avg_npc_447_1#1$1",focus=2)]
+[name="Святой Кармен"]  Как тебя зовут, эгирец?
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_447_1#1$1",focus=1)]
+[name="Джорди"]  ...Джорди. Джорди Фонтанаросса. Мой дядя говорил мне, что...
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_447_1#7$1",focus=2)]
+[name="Святой Кармен"]  Тогда ты должен знать, что тебя ждёт за добровольную явку перед Инквизицией.
+[Character(name="avg_4042_lumen_1#11$1",name2="avg_npc_447_1#7$1",focus=1)]
+[name="Джорди"]  Я... я знаю.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Ирене.
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#2$1",focus=2)]
+[name="Инквизитор Ирене"]  Да, сэр!
+[Character(name="avg_npc_447_1#1$1",name2="avg_4009_irene_1#2$1",focus=1)]
+[name="Святой Кармен"]  Задержи его.
+[Character(name="avg_npc_447_1#2$1",name2="avg_4009_irene_1#2$1",focus=1)]
+[name="Святой Кармен"]  ...И забери его с собой.
+[Character(name="avg_npc_447_1#2$1",name2="avg_4009_irene_1#2$1",focus=2)]
+[name="Инквизитор Ирене"]  Да... Э-э, что?
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Разве не этого ты желала?
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  Благодарю, лорд. Тем не менее моя величайшая надежда — увидеть истинное, прочное сотрудничество между Эгиром и Иберией.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Даже самый долгий путь начинается с одного шага.
+[Character(name="char_003_kalts_1#1")]
+[name="Кальцит"]  Тогда нельзя терять ни минуты. Мы позволим Оку Иберии вновь взглянуть на пустынное море.
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]
+[stopmusic(fadetime=3)]
+[Character]
+[Image(fadetime=2)]
+

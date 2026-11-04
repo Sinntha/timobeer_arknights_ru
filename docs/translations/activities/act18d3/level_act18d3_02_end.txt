@@ -1,0 +1,640 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibbar")]
+[Character(name="avg_1012_skadiSP_1#4")]
+[Delay(time=1)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi watches as the locals fall unconscious, and she picks up the suitcase she'd laid for a second on the floor.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(fadetime=0.6)]
+[delay(time=1)]
+[Character(name="char_empty")]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[characteraction(name="middle", type="move", xpos=-200, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="middle", type="move", xpos=200, fadetime=1, block=false)]
+[Character(name="avg_npc_180#2",fadetime=0.7)]
+[delay(time=2)]
+[name="???"]  ...З-здравствуйте.
+[delay(time=1)]
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Хм? Ещё одна.
+[Character(name="avg_npc_180#2")]
+[name="Жительница"]  Не... не бей меня... Я не совсем такая, как они. Я знаю, ты хорошая.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Ты понимаешь, о чём я говорю.
+[Character(name="avg_npc_180#2")]
+[name="Жительница"]  Ты пришла сюда только из-за Скамьи.
+[dialog]
+[character]
+[name="Молодой житель"]  *Хнык*... Деревяшка, Деревяшка...
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Он побежал, я — за ним.
+[Character(name="avg_npc_180#2")]
+[name="Жительница"]  Ты не желаешь нам зла.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Я лишь прошу, чтобы он вернул моё.
+[Character(name="avg_npc_180#4")]
+[name="Жительница"]  А?
+[name="Жительница"]  С—Скамья... что ты взял?
+[dialog]
+[character]
+[name="Молодой житель"]  Блестит... блестит... твёрдое... больно... *хнык*...
+[Character(name="avg_npc_180#2")]
+[name="Жительница"]  Это не еда! Вынь изо рта, живо!
+[name="Жительница"]  Прости, Скамья хватает всё, чего раньше не видел. Он не понимает, что это нельзя хватать.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  (Забирает ожерелье)
+[Character(name="avg_npc_180#4")]
+[name="Жительница"]  Фу, всё в слюнях... Ты испачкала руку.
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  Ничего, главное — оно снова у меня.
+[dialog]
+[character]
+[delay(time=1)]
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Мы здесь редко видим незнакомые лица. Ты пришла извне?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Я из другого города Иберии.
+[Character(name="avg_npc_180#1",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Я очень редко вижу людей из других мест.
+[name="Жительница"]  И одежда у тебя... очень странная. Такой ткани я раньше не видела. Все чужаки так одеваются?
+[Character(name="avg_npc_180#1",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Только бродячие певицы.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Бродячие... певицы? Я слышала твой разговор с Жестянкой, но не знаю, что это такое.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Как я, они странствуют повсюду, иногда останавливаются, играют на арфе и поют.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  А футляр? Что внутри?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Саксофон.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  А что такое саксофон?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Инструмент.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Ты правда бродячая певица?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Угу.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  (Тихо бормочет)
+[name="Жительница"]  И зачем же ты пришла? Петь?
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Я пришла кое-кого найти.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Кого? Тоже бродячую певицу?
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Да. Она моя товарка. Мы с ней вместе работаем.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Она тоже пришла в Саль Вьенто?
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Верно. Ты её видела?
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Ты ещё не рассказала, как она выглядит... ах, ладно! Я уже говорила, но таких, как ты, я вижу впервые в жизни.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Пойду спрошу у других. Проводишь меня?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Проводить? Та ловушка... была моих рук. Я думала, ты догадалась.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Мне всё равно.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Ты не сердишься? Я думала, ты хотя бы... немного меня отчитаешь.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Идём. Я спешу.
+[Character(name="avg_npc_180#1",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Ладно...
+[Character(name="avg_npc_180#1",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  ......
+[dialog]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Ай!
+[name="Жительница"]  Зачем... зачем ты вдруг остановилась? Я врезалась в твой футляр. Ой...
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Забыла сказать. То, что в моём футляре, тебе без надобности.
+[name="Скади"]  А всё остальное, что захочешь, я дам тебе, когда поможешь её найти.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Э-э, мне просто любопытно... Неужели это было так заметно?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Так же заметно, как твоя ловушка.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Ого... певица, у тебя не только ловкие руки, но и зоркие глаза.
+[dialog]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=1)]
+[character(name="avg_npc_187",name2="avg_npc_178")]
+[Background(image="bg_ibtownd")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[character(name="avg_npc_187",name2="avg_npc_178",focus=1)]
+[name="Житель"]  Девяносто восемь...
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель"]  Девяносто девять...
+[character]
+[dialog]
+[delay(time=1)]
+[Character(name="avg_npc_180#1",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  ......
+[name="Скади"]  Как здесь принято задавать вопросы?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  А? А как ты обычно спрашиваешь снаружи?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  (С грохотом опускает на землю футляр, который несла.)
+[name="Скади"]  Вот так.
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Э? Саксо... саксофоном? Вы задаёте вопросы инструментами?
+[Character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Да.
+[name="Скади"]  Бум, бах, бабах.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Звуки у этого инструмента довольно странные.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Зато действенно. Обычно все сразу идут на разговор.
+[name="Скади"]  А если молчат, можно сменить угол и повторить.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Тогда мне кажется, здесь это тебе не поможет.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Возможно.
+[name="Скади"]  (Поглаживает футляр)
+[name="Скади"]  В таком случае те двое только что уже разговорились.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Жестянка? Они и о музыкальных инструментах-то не знают. Люди здесь обычно держатся особняком и ни на кого не обращают внимания.
+[name="Жительница"]  И говорят они, э-э, очень редко. Даже если бы знали, не поняли бы, как ответить.
+[Character(name="avg_npc_180#4",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Ты обратила на меня внимание.
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Наверное, потому, что я немного странная. Не очень похожа на остальных.
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  И говоришь ты куда лучше них.
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Правда? Я так рада. Это всё бабушка Петра меня научила.
+[name="Жительница"]  Ах, если хочешь спросить кого-то ещё, я отведу тебя к бабушке Петре. Она у нас здесь самая старая и знает больше всех.
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Хорошо.
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Идём, певица, пройдём здесь.
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Здесь?
+[dialog]
+[character]
+[character(name="avg_npc_187",name2="avg_npc_178",focus=1)]
+[name="Житель"]  Девяносто девять, девяносто девять...
+[character(name="avg_npc_187",name2="avg_npc_178",focus=2)]
+[name="Житель"]  Девяносто девять.
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Ты про них? Не обращай внимания, они просто стоят. Из-за них тесновато, но ничего, даже если заденешь. Они не отреагируют, правда. Верно, Ножка?
+[character(name="avg_npc_178")]
+[name="Житель"]  ......
+[Character(name="avg_1012_skadiSP_1#4")]
+[name="Скади"]  ......
+[dialog]
+[delay(time=1)]
+[characteraction(name="middle", type="move", ypos=-25, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="middle", type="move", ypos=100, fadetime=0.5, block=true)]
+[character(fadetime=0.3)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.8, block=true)]
+[character]
+[delay(time=1)]
+[Character(name="avg_npc_180#2")]
+[name="Жительница"]  Чего? Она перепрыгнула... прямо через их головы? К-как у неё это вышло? Она даже никого не задела.
+[name="Жительница"]  Все чужаки так передвигаются? Вот это волшебство!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=1)]
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",fadetime=1)]
+[delay(time=2)]
+[Character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Дошли!
+[character]
+[Dialog]
+[delay(time=1)]
+[Character(name="char_empty", name2="avg_npc_179#1")]
+[PlaySound(key="$rungeneral", volume=1)]
+[characteraction(name="left", type="move", xpos=-200, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="left", type="move", xpos=200, fadetime=1, block=false)]
+[Character(name="avg_npc_180#3", name2="avg_npc_179#1",fadetime=0.7)]
+[delay(time=1.5)]
+[character(name="avg_npc_180#3",name2="avg_npc_179#1",focus=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Жительница"]  Бабушка Петра! Ба-а-абушка Петра-а-а!
+[dialog]
+[delay(time=1)]
+[character(name="avg_npc_180#3",name2="avg_npc_179#1",focus=2)]
+[name="Пожилой житель"]  Не кричи! Хочешь, чтобы у меня уши развалились?
+[character(name="avg_npc_180#3",name2="avg_npc_179#1",focus=1)]
+[name="Жительница"]  Хи-хи, бабушка, ты сегодня такая бодрая! Ты всё ещё... э-э, греешься на солнце?
+[character(name="avg_npc_180#3",name2="avg_npc_179#1",focus=2)]
+[name="Пожилой житель"]  Солнце... кхе, где ты видишь солнце? Я столько лет жду, а солнца всё нет. Анита, что ты затеяла? Вечно носишься туда-сюда, то одно, то другое.
+[name="Пожилой житель"]  Да разве здесь может случиться что-то важное?
+[character(name="avg_npc_180#3",name2="avg_npc_179#1",focus=1)]
+[name="Жительница"]  Бабушка Петра, со мной всё в порядке. Тебя хотела видеть другая.
+[delay(time=1)]
+[musicvolume(volume=0,fadetime=1)]
+[character(name="avg_npc_180#2")]
+[name="Жительница"]  —А? Куда она делась?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(name="avg_1012_skadiSP_1#7")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi stares fixed at the alley's other end.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="There's no one to be seen there. At least, it seems so.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  ......
+[character]
+[Dialog]
+[Character(name="avg_1012_skadiSP_1#7", name2="char_empty")]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[characteraction(name="right", type="move", xpos=200, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="right", type="move", xpos=-200, fadetime=1, block=false)]
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#2",fadetime=0.7)]
+[delay(time=2)]
+[musicvolume(volume=0.4,fadetime=1)]
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Как ты вдруг здесь оказалась?
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Кто-то следит.
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Правда? Где? Я никого вокруг не вижу.
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Они очень хорошо прячутся. Но всё же недостаточно.
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Почему ты такая мрачная? Разве ты не бродячая певица? Если выступаешь, должна привыкнуть к чужим взглядам.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  ...Ты права.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Тогда идём! Бабушка Петра в хорошем настроении. Вдруг у неё и правда можно что-нибудь спросить.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[character(name="char_empty",name2="avg_npc_179#2")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[characteraction(name="right", type="move", xpos=-400, fadetime=1.5, block=false)]
+[delay(time=2)]
+[characteraction(name="right", type="move", xpos=400, fadetime=1.5, block=false)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="At a street corner, an old lady rounds a pillar, turning circle after circle.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Her body trembles and shakes, yet her gait is no hobble.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Пожилой житель"]  Небо алеет в ночи, платье моё полыхает... любимый, о, унеси меня в полёт над глубоким синим океаном...
+[dialog]
+[PlaySound(key="$rungeneral", volume=1)]
+[characteraction(name="left", type="move", xpos=-200, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="left", type="move", xpos=200, fadetime=1, block=false)]
+[Character(name="avg_npc_180#3", name2="avg_npc_179#1",fadetime=0.7)]
+[delay(time=1.5)]
+[Character(name="avg_npc_180#3", name2="avg_npc_179#1",focus=1)]
+[name="Жительница"]  Бабушка Петра, что это ты делаешь?
+[Character(name="avg_npc_180#3", name2="avg_npc_179#1",focus=2)]
+[name="Пожилой житель"]  Анита, ах, чтоб тебя, Анита! Разве ты не видела, что я танцую?
+[name="Пожилой житель"]  Когда юная девушка танцует, никто не смеет ей мешать. Потанцуешь со мной, Анита?
+[Character(name="avg_npc_180#4", name2="avg_npc_179#1",focus=1)]
+[name="Жительница"]  Я... я не умею.
+[name="Жительница"]  Кружись помедленнее. Смотри, опять голова закружится.
+[Character(name="avg_npc_180#4", name2="avg_npc_179#2",focus=2)]
+[name="Пожилой житель"]  Чепуха! С чего бы мне кружилась голова? Я могу обойти площадь десяток с лишним раз, и весь город захлопает!
+[Character(name="avg_npc_180#4", name2="avg_npc_179#1",focus=2)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[name="Пожилой житель"]  Я... *кхе* *кхе* *кхе*...
+[Character(name="avg_npc_180#2", name2="avg_npc_179#1",focus=1)]
+[name="Жительница"]  Передохни немного. Смотри, у нас тут бродячая певица. Она хочет тебя кое о чём спросить.
+[Character(name="avg_npc_180#2", name2="avg_npc_179#1",focus=2)]
+[name="Пожилой житель"]  Бродячая певица? За свою долгую жизнь я ни одной бродячей певицы не видела.
+[name="Пожилой житель"]  Этот свет... этот солнечный свет тянется слишком долго. Почему ещё не наступила ночь? Вот зайдёт солнце — и в баре заиграют музыканты... Ты тоже будешь там играть?
+[name="Пожилой житель"]  Мы танцуем на площади, да, прямо здесь... ох, я могу кружиться больше раз, чем ты сумеешь сосчитать. У меня красная юбка, девочка, и, скажу тебе, она куда красивее твоей.
+[name="Пожилой житель"]  Столько молодых людей хотят танцевать со мной. Больше всех мне нравится Мануэль. В молодости он был самым красивым.
+[Character(name="avg_npc_180#3", name2="avg_npc_179#1",focus=1)]
+[name="Жительница"]  Да, бабушка Петра, ты мне это рассказывала. Уже много-много раз.
+[Character(name="avg_npc_180#3", name2="avg_npc_179#1",focus=2)]
+[name="Пожилой житель"]  Кстати, кто это меня искал?
+[dialog]
+[character]
+[delay(time=0.6)]
+[character(name="avg_1012_skadiSP_1#4",fadetime=0.3)]
+[delay(time=1)]
+[character(fadetime=0.3)]
+[delay(time=1)]
+[Character(name="avg_npc_180#3", name2="avg_npc_179#2",focus=2)]
+[name="Пожилой житель"]  Это ты? Какое у тебя красивое красное платье.
+[dialog]
+[stopmusic(fadetime=1)]
+[delay(time=2)]
+[PlayMusic(intro="$jealous_intro", key="$jealous_loop", volume=0.4)]
+[Character(name="avg_npc_180#2", name2="avg_npc_179#3",focus=2)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[name="Пожилой житель"]  Красное... нет, не хочу... не хочу красного.
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Пожилой житель"]  Морская вода! Морская вода живая!
+[Character(name="avg_npc_180#2", name2="avg_npc_179#3",focus=1)]
+[name="Жительница"]  Ох, опять началось...
+[Character(name="avg_npc_180#2", name2="avg_npc_179#3",focus=2)]
+[name="Пожилой житель"]  ...вдруг нахлынула. Все погибли! Все такие хорошие... столько хороших людей. И выжившим было нечего есть.
+[name="Пожилой житель"]  Мануэль... Мануэль говорил, что возьмёт меня с собой. А потом передумал. Сказал, что все ушедшие так и не вернулись. Все они погибли снаружи.
+[Character(name="avg_npc_180#2", name2="avg_npc_179#3",focus=1)]
+[name="Жительница"]  Это ты мне тоже рассказывала.
+[Character(name="avg_npc_180#2", name2="avg_npc_179#3",focus=2)]
+[name="Пожилой житель"]  А потом сказал, что защитит меня. Обещал — сказал, что защитит! А сам лишь хотел посмеяться надо мной—
+[name="Пожилой житель"]  Хотел выманить у меня все припасы, что я берегла, — *кхе* *кхе*, я притворилась, что согласна, и схватила серебряную вазу, что оставила мать, — *кхе* *кхе* *кхе* *кхе*—
+[name="Пожилой житель"]  Красное... люблю красное... нет, не хочу...
+[Character(name="avg_npc_180#2", name2="avg_npc_179#3",focus=1)]
+[name="Жительница"]  Бабушка Петра, бабушка Петра! Хватит, ладно? Ты каждый раз задыхаешься, когда начинаешь об этом говорить.
+[name="Жительница"]  Та, кого я сегодня привела, хотела спросить о другом.
+[Character(name="avg_npc_180#2", name2="avg_npc_179#1",focus=2)]
+[name="Пожилой житель"]  Спросить? Кто спрашивает?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Она. Бродячая певица извне.
+[characteraction(name="right", type="move", xpos=-100, fadetime=0.5, block=true)]
+[delay(time=0.51)]
+[stopmusic(fadetime=1)]  ]
+[name="Жительница"]  Скорее скажи ей, кого ищешь! Пока у бабушки Петры ещё есть силы отвечать.
+[dialog]
+[character]
+[Dialog]
+[Character(name="char_empty", name2="avg_npc_179#1")]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[characteraction(name="left", type="move", xpos=-200, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="left", type="move", xpos=200, fadetime=1, block=false)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_179#1",fadetime=0.7)]
+[delay(time=1.5)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.4)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_179#1",focus=1)]
+[name="Скади"]  Здравствуйте—
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_179#1",focus=2)]
+[name="Пожилой житель"]  Ты кто?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_179#1",focus=1)]
+[name="Скади"]  Бродячая певица. Ищу такую же, как я, — тоже пришедшую извне.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_179#3",focus=2)]
+[name="Пожилой житель"]  Чужа— Чужачка! Ты меня дурачишь!
+[name="Пожилой житель"]  Ни один чужак сюда не придёт, до нас им давно нет дела...
+[name="Пожилой житель"]  Ты пришла что-то украсть, да? Украдёшь мою еду, мою одежду, сожрёшь мою плоть, выпьешь мою кровь—
+[name="Пожилой житель"]  Чудовище! Ты чудовище!
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_179#3",focus=1)]
+[name="Скади"]  (Хмурится)
+[Character(name="avg_npc_180#2")]
+[name="Жительница"]  Бабушка, никакого чудовища нет. Она просто бродячая певица.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_179#3",focus=2)]
+[name="Пожилой житель"]  Красный подол... красный... нашла, здесь... пение поднялось... Мануэль ждёт меня, мне пора, пора идти...
+[name="Пожилой житель"]  Любимый, о, объятый пламенем моего наряда... моего наряда...
+[Character(name="avg_npc_180#2")]
+[name="Жительница"]  *Вздох*.
+[Character(name="avg_npc_180#4", name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Жительница"]  Прости, бабушка Петра сегодня особенно не в себе. Наверное, не стоило приводить тебя к ней.
+[name="Жительница"]  Я отведу её в дом, певица. Подожди минутку.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_1012_skadiSP_1#4", name2="char_empty")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[Character(name="avg_1012_skadiSP_1#4", name2="char_empty")]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[characteraction(name="right", type="move", xpos=200, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="right", type="move", xpos=-200, fadetime=1, block=false)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",fadetime=0.7)]
+[delay(time=2)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Певица, ты всё ещё ищешь того, кто за тобой следит?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Across the opposite corner, a dark shadow stows away in an even deeper cloud's gloom.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Я в порядке.
+[name="Скади"]  Затаившаяся беда — как зверёныш, который боится показать клыки. Не стоит о нём думать.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Бабушка Петра...
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Она знает об игре на инструментах и умеет танцевать. Говорит почти как чужак.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Правда? Неудивительно. Она столько всего рассказывает, что я ничего не понимаю.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Она назвала меня чудовищем.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Она не со зла. Бабушке часто видится то, чего нет. Она будто всё время спит наяву.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Кто не спит.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Ей нездоровится. Сейчас она не сможет ответить на твой вопрос.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Жаль.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=2)]
+[name="Жительница"]  Не переживай.
+[name="Жительница"]  Там, где я живу, есть и другие мои братья. Чуть позже я могу отвести тебя к ним. Только не знаю, захотят ли они говорить. С ними иногда так трудно разговаривать.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Братья?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=2)]
+[name="Жительница"]  Да, братья. Ты ведь тоже иберка. Разве вы их так не называете?
+[name="Жительница"]  У моей матери не было других детей — но — у меня очень много братьев и сестёр. В этом городе мы все братья и сёстры. Так гласят законы.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  ......
+[name="Скади"]  И ты в них веришь.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=2)]
+[name="Жительница"]  А что нам ещё остаётся? Когда я была совсем маленькой, бабушка Петра рассказывала, что в те тёмные времена мы совершали ошибки.
+[name="Жительница"]  Тогда каждый заботился только о себе, прятался по домам и молчал. Иногда откапывали банку — и, э-э, дрались за неё.
+[name="Жительница"]  Потом постепенно стало лучше. Теперь мы живём вместе и иногда разговариваем. Все начали, э-э... учиться делиться.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  —«Мы хотим выжить, поэтому должны любить друг друга ещё сильнее. Ведь любовь — нерушимая связь между нами. Нам нельзя красть, нам нельзя драться».
+[name="Жительница"]  «Стань крепким сам, но сделай крепче всех нас. Только так наступит лучшая жизнь».
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Звучит знакомо.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Правда? Священник говорит, что все снаружи тоже в это верят.
+[name="Жительница"]  Забыла сказать: этому нас научил священник!
+[name="Жительница"]  Он каждый раз так много говорит... я почти ничего не запоминаю. Кроме тех слов я помню только, что мы должны относиться друг к другу как братья и быть добрее. Наверное, это хороший совет, правда?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Священник?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Да. Он, как и ты, пришёл извне. Только это было очень много лет назад.
+[name="Жительница"]  С тех пор как он пришёл, всё наладилось. Он наш брат.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Он один?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=2)]
+[name="Жительница"]  Чаще всего он один. Ах, я слышала от друзей Жестянки, что потом появился ещё кто-то.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Кто?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=2)]
+[name="Жительница"]  Я её никогда не видела. Она, похоже, не показывается. Иногда, когда священник говорит с нами, она стоит за его спиной. Я видела лишь её силуэт издалека.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Ясно.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Почему ты... вдруг заторопилась? Тебе нужно куда-то идти?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Я иду в часовню.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Ты знаешь дорогу?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Вашу часовню не так уж трудно узнать.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Дорога туда непростая. Отсюда нужно идти вдоль побережья. Идём, я покажу.
+[dialog]
+[playsound(key="$d_gen_walk_n")]
+[character(fadetime=1.5)]
+[delay(time=2)]
+[Dialog]
+[musicvolume(volume=0,fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_gen_walk_n")]
+[Subtitle(text="The girl leads Skadi along a lengthy stretch of path.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Background(image="bg_ibcoastd",fadetime=2)]
+[Subtitle(text="The two gradually near the shore, the chapel roof always somehow in their sight, yet still far away as ever.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[character]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_1012_skadiSP_1#4",fadetime=1.5)]
+[delay(time=2)]
+[musicvolume(volume=0.4,fadetime=1)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Почему ты остановилась?
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  ......
+[name="Скади"]  Значит, пошли следом.
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Что ты имеешь в виду? Я опять тебя не понимаю.
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Тот настырный зверёныш.
+[Character(name="avg_1012_skadiSP_1#7", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Странно. Ты всё твердишь про зверёныша — это же животное, да? У нас здесь не живут животные — они давно исчезли!
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Всё в порядке. Идём дальше.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Хорошо, друг извне. Как скажешь.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3")]
+[playsound(key="$d_gen_walk_n")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Что ты увидела? Вон она.
+[name="Жительница"]  Но в это время мы в часовню обычно не ходим.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  У меня есть способ войти.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=2)]
+[name="Жительница"]  Ты можешь войти, мы все можем. Вход в часовню всегда открыт для верующих — так сказал священник. Но... ты ведь хотела кого-то найти, да?
+[name="Жительница"]  В это время его в часовне обычно нет.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  А когда он там?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=2)]
+[name="Жительница"]  Время от времени он сам выходит к нам и дружески беседует с каждым.
+[name="Жительница"]  Если у тебя есть беда, в такие дни к нему можно прийти. Что бы тебя ни тревожило, он никогда не откажет.
+[name="Жительница"]  В такие дни он до самого восхода ждёт в часовне.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Точно, он может помочь тебе в поисках! Уверена, священник знает куда больше любого из нас!
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  А как часто бывает это «время от времени»?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Э-э, в последнее время я его не видела. Я не такая, как они, — дни не считаю. Но, наверное, в ближайшие два дня? У нас еда уже почти закончилась.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Хорошо.
+[stopmusic(fadetime=2)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Странно. Когда ты говоришь «хорошо», мне всегда кажется, что ответ неискренний.
+[name="Жительница"]  Нет, это с моей стороны дурно. Священник говорил: нельзя сомневаться в других. Ох, все говорят, что я слишком люблю задавать вопросы, и это никак не поможет мне жить хорошо.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Это тоже его слова?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Ха-ха, этого он мне не говорил. Я улизнула раньше, чем он заметил.
+[name="Жительница"]  Это Жестянка и его компания, они терпеть не могут, когда я шумлю. И вовсе я не рвусь столько болтать. Просто здешние люди слишком молчаливы.
+[name="Жительница"]  Когда они молчат, мне так скучно, что остаётся только часами разговаривать с самой собой.
+[name="Жительница"]  Раньше со мной говорила только бабушка Петра. А теперь ещё и ты, слава богу. Ой, нет. Я тебе тоже кажусь надоедливой?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  ......
+[name="Скади"]  Там, откуда я, многие любят поговорить ещё больше тебя.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Звучит как чудесное место!
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  ...Сносное.
+[PlayMusic(intro="$newhope01_intro", key="$newhope01_loop", volume=0.4)]
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Там, откуда ты, люди танцуют? Как рассказывала бабушка Петра — на площади?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Иногда.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Тогда почему ты не танцуешь? Я же заметила твою арфу.
+[name="Жительница"]  Бабушка Петра говорила. Разве вы не танцуете, когда поёте?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Мой танец... никому из вас нельзя видеть.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=2)]
+[name="Жительница"]  Почему?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Не то время, не то место, и не те, кто передо мной.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=2)]
+[name="Жительница"]  Ты такая странная, пожалуй, даже страннее меня. Где твой дом? Там все такие же странные, как ты?
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  (Перебирает струны)
+[name="Скади"]  Там, откуда я, дома нет.
+[name="Скади"]  И я не знаю, где мой дом. Мой дом давно исчез.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=2)]
+[name="Жительница"]  Ну, это ничего. Мой дом тоже давно исчез — много лет назад, в бурю, когда рухнуло здание. Моя мама была внутри, и её больше нет.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  ......
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Но это ничего. Мы все в одной лодке. Если дома нет, найди другой пустой и заселяйся. Здесь полно подходящих зданий.
+[name="Жительница"]  Кстати, если танцевать не хочешь, может, споёшь мне?
+[name="Жительница"]  Я ещё ни разу не слышала, как кто-то поёт.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Может быть.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Чудесно!
+[dialog]
+[delay(time=1)]
+[name="Жительница"]  Ох, от всех этих прогулок я проголодалась.
+[name="Жительница"]  Ты ведь тоже голодна? На голодный желудок не поётся, верно?
+[name="Жительница"]  Пойдём поищем еды.
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Э-э...
+[Character(name="avg_1012_skadiSP_1#4", name2="avg_npc_180#3",focus=2)]
+[name="Жительница"]  Я слишком быстро бегу? Забыла, что ты не знаешь дороги.
+[name="Жительница"]  Кстати, меня зовут Анита! Можешь просто звать меня по имени, и тогда не отстанешь. Позовёшь — я остановлюсь и подожду тебя.
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

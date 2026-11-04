@@ -1,0 +1,526 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibcoastn")]
+[Delay(time=1)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[Subtitle(text="The beach is lined with food.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The wishes of the masses have been answered by the sea.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_npc_188",name2="char_empty",fadetime=1.5)]
+[delay(time=2)]
+[name="Житель C"]  ......
+[dialog]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_npc_188",name2="avg_npc_189",fadetime=1.5)]
+[delay(time=2)]
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Плавники.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Ракушки...
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Съедобно.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Да, это съедобно.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Ещё... ещё... ещё...
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Я рассыпал немного.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Подними. Проглоти. Ещё...
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Возьми их. Унеси их.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Унеси их. Ещё и ещё.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Священник...
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Священник.
+[dialog]
+[character(name="avg_npc_188",name2="avg_npc_189")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="They stop for a moment and look up at their brother.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character]
+[delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",fadetime=1.5)]
+[delay(time=2)]
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Братья и сёстры мои, наслаждайтесь завтраком.
+[name="Епископ"]  Это награда за наши добрые дела. Превозмогши голод и болезни, мы становимся более верными, более сплочёнными и более гармоничными друг с другом.
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  ......
+[name="Гладия"]  Удивительно, что тебе не надоедает устраивать этот спектакль чуть ли не в каждом городе, куда ты приходишь.
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Спектакль? Вовсе нет. Делиться Его величием и милостью с непросвещёнными по всем землям — это радость.
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Они не понимают ни слова из того, что ты говоришь.
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Перед бескрайним океаном все мы — одно.
+[dialog]
+[character(name="avg_npc_184")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The bishop lovingly taps the arm of a man who is stuffing his mouth full with food.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Епископ"]  Ну же, дорогой брат. Поделись этими плавниками со своим страждущим собратом. Ты должен понять: этот маленький кусочек дарует ему насыщение, а твоей душе — обогащение.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  ......
+[character(name="avg_npc_184")]
+[name="Епископ"]  А ты должен поблагодарить брата. Поблагодари его за то, что он отдал тебе то, что могло стать его.
+[name="Епископ"]  Когда вы стоите вместе, рука об руку, плечом к плечу, вы делите друг с другом жизнь, и это делает вас всё сильнее.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Спасибо... Отец... сэр.
+[character(name="avg_npc_184")]
+[name="Епископ"]  Очень хорошо, милое дитя.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Обещание существует не между тобой и им. Оно между ними и им, а ты лишь посредник.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Обещание? Нет, обещание взаимно. Этим страждущим душам далеко до того, чтобы удовлетворить нужды моря.
+[name="Епископ"]  Море исполняет их желания, а я помогаю, чтобы их голоса были услышаны.
+[name="Епископ"]  Раз ты уже считаешь себя частью нас, ты должна знать правила.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Прости мою небрежность. Наверняка есть более точные выражения. Ты мостишь путь к тому, чего хочешь в часовне, их плотью и кровью.
+[name="Гладия"]  В любом случае тебе незачем каждый раз приходить сюда лично.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Откуда ты знаешь, чего я хочу?
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Трудно не пристраститься к удовольствию превосходства.
+[character(name="avg_npc_184")]
+[name="Епископ"]  Чушь.
+[name="Епископ"]  Как самое верное творение моря, я не допускаю ни капли фальши в своём положении.
+[name="Епископ"]  Я стою здесь, потому что хочу спасти их от всего сердца. Без меня они давно превратились бы в груду гниющего мяса, разбросанного по этим землям.
+[name="Епископ"]  Болезни и голод. Пока мы можем бороться с этими осязаемыми врагами, они — не самые тяжкие наши испытания. Самые тяжкие испытания приходят из глубин наших душ.
+[name="Епископ"]  Когда мы не в силах бороться с этими бедствиями и гибель неизбежна — вот тогда перед нами истинное испытание.
+[name="Епископ"]  Сколько таких городов ещё стоит в Иберии?
+[name="Епископ"]  Огромные территории этой страны давно не могут прокормить её народ. И всё же люди остаются в своей тесной плоти, либо изолируясь друг от друга, либо сражаясь между собой.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Что ж, похвально, что тебя так заботит Иберия.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Ты снова ошибаешься. Меня заботят страдания людей, а не границы, произвольно прочерченные по этим землям.
+[name="Епископ"]  Разве это не в природе всех нас?
+[name="Епископ"]  Скованные ограничениями собственной плоти и крови, мы не в силах сами вырваться из одержимости собой, и потому выбираем борьбу, а не понимание.
+[name="Епископ"]  Если так продолжится, поражения не избежит даже сильнейший. Тяготы поглощают каждый уголок. Ты и сама это видела — и дрогнула при виде этих страданий.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Это необходимо?
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Возможно, я говорю тебе недостаточно.
+[name="Епископ"]  Правду всегда стоит говорить, даже если слушатель глуп, как ты.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  ......
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Пожалуй, будем считать этот разговор лишь способом скоротать время, раз уж мы работаем вместе.
+[character(name="avg_474_gladiia_1#1",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Что ж, слог у тебя высочайший. Неудивительно, что твои слова очаровывают столь многих.
+[character(name="avg_npc_184")]
+[name="Епископ"]  Ты ещё не понимаешь. Я совершенно искренен. Я ничего у них не прошу. И в силу угроз я тоже не верю. Я лишь хочу указать им на новую возможность.
+[name="Епископ"]  Слабость их тел навсегда ограничивает их познание. Ты думаешь, я опутываю их души словами, но правда далека от этого.
+[name="Епископ"]  Я помогаю их сердцам услышать самые простые нужды их тел. Учения мудрецов могут дать лишь краткую, слепую веру. Сила тела — вот что дарует им право видеть больше.
+[name="Епископ"]  В море есть существа. У них нет глаз, тела их крошечны, и у них нет средств передвижения. Они могут лишь дрейфовать по течению.
+[name="Епископ"]  Разве океан, который видят они, так уж отличается от того, что видим мы? Как существа без глаз постигают святость и глубину моря?
+[name="Епископ"]  Ты и твои коллеги так и не поняли, как и откуда взялись ваши мерзкие, но крепкие тела, и вам не дано увидеть, как борются слабые.
+[name="Епископ"]  Кто же тогда по-настоящему высокомерен?
+[name="Епископ"]  Я, несмотря на то что помогаю им? Или верующие в ложных богов, которые, пока опасности растут, превращают словами истинное отчаяние в ложную надежду, обманывая и контролируя жалких слабых?
+[name="Епископ"]  Или же — ты и твои глупые соратники, что вечно не желают взглянуть в лицо бескрайним морским глубинам?
+[name="Епископ"]  Я делюсь с ними тем, что видят мои глаза, чтобы они расширили свой кругозор и узнали, что у них всё ещё есть истинная надежда. Они сами могут выбрать: сгнить вместе с землёй или возродиться в единстве с морем.
+[name="Епископ"]  Эта возможность не только спасает их от голода и болезней — это щедрость моря к земле, что настаивает на потреблении.
+[name="Епископ"]  Это не завоевание. Это понимание. Это принятие.
+[name="Епископ"]  Я указываю им новое направление и даю лучшую жизнь. В конце концов они пойдут к истине, как когда-то пошёл я.
+[name="Епископ"]  Это дело моей жизни. Твоя ложная плоть сковала твою душу и сделала тебя близорукой. Тебе не увидеть истинного величия. Да будешь ты прощена.
+[character(name="avg_474_gladiia_1#4",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Хм. Похоже, одержимы здесь не только они.
+[dialog]
+[character]
+[delay(time=1)]
+[playsound(key="$rungeneral")]
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",fadetime=1)]
+[delay(time=2)]
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Анита"]  Фух, певица, мы чуть всё не пропустили.
+[name="Анита"]  Еды так много... Все голодны, и наконец-то нам есть что поесть.
+[name="Анита"]  Один, два, три... Отнесу это домой и перетру. Сварю бабушке Петре суп. И поужинаем сегодня этим. Хорошо, Скамья?
+[dialog]
+[character]
+[name="Молодой житель"]  Угх... аугх...
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Анита"]  Нет, не ешь их так!
+[name="Анита"]  Ракушки слишком твёрдые. Ты сломаешь зубы! Их нужно сначала сварить до мягкости, и только потом есть.
+[character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Анита"]  Певица, может, и ты возьмёшь немного?
+[character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  ......
+[delay(time=1)]
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Анита"]  П — певица? Чего ты стоишь?
+[dialog]
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi simply stares at the man named Drywall. He is on his knees, eating all that he can see on the beach.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="His eyes are red. His tears have already dried up.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="He is starving, and so is everyone here.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Subtitle(text="Skadi lets go of the girl.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[PlaySound(key="$rungeneral", volume=1)]
+[characteraction(name="left", type="move", xpos=-300, fadetime=2,block=false)]
+[Character(fadetime=0.5)]
+[delay(time=2)]
+[character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#1")]
+[Subtitle(text="The girl's eyes are sparkling. She cannot wait to join the crowd of feeding people.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_184",name2="avg_npc_178",focus=1)]
+[name="Епископ"]  Не спеши, брат. Это всё твоё. Оглянись вокруг. В конце концов всё это станет твоим.
+[name="Епископ"]  Теперь открой своё сердце, прими себя, обними других, учись доверять и учись жертвовать.
+[name="Епископ"]  Сражения давно окончены, и тяготы прекратятся. Давайте встанем вместе. Наши души, плоть и вера окрепнут, как этот вечный океан у нас под ногами.
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Прошу, позвольте мне держаться поодаль.
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  О?
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  У меня в последнее время... проблемы с пищеварением. Боюсь, не сдержусь. Меня вырвет вам в лицо.
+[dialog]
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184")]
+[playsound(key="$d_gen_walk_n")]
+[character(name="char_empty",name2="avg_npc_184",fadetime=1.5)]
+[delay(time=2)]
+[character(name="avg_npc_184",name2="avg_npc_178",focus=1)]
+[name="Епископ"]  —Брат, ты уронил свою ракушку. Пусть твой брат подержит её...
+[character(name="avg_npc_184")]
+[name="Епископ"]  Любопытно. Судя по твоим словам, сегодня ты в хорошем настроении.
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Как скажешь.
+[character(name="avg_npc_184")]
+[name="Епископ"]  Весть от моря тебя взбудоражила. Ты не можешь дождаться нашего торжества.
+[name="Епископ"]  Тогда иди. Найди её. Найди свою старую подругу и раздели с ней эту радость.
+[dialog]
+[character]
+[delay(time=1)]
+[musicvolume(volume=0,fadetime=1)]
+[playsound(key="$rungeneral")]
+[character(name="avg_1012_skadiSP_1#1",fadetime=1)]
+[delay(time=2)]
+[name="Скади"]  Нашла тебя...
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi quickly makes it through the crowd. Her eyes are fixated on a single person.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1")]
+[Subtitle(text="That person appears as though she is waiting for her as well.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[musicvolume(volume=0.4,fadetime=1)]
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Что ты делаешь?
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Тш-ш.
+[name="Гладия"]  Иди сюда. Взгляни на него.
+[name="Гладия"]  Чуешь запах?
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  ......
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi takes out a seashell.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="With the seashell in her hand, she dashes toward Gladiia.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[delay(time=1)]
+[Subtitle(text="Gladiia remains calm and unflinching. She seems to have expected this.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The seashell stabs her hand, leaving no marks at all.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Твоя стойка недостаточно изящна. Позволь показать.
+[dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Subtitle(text="Gladiia presses the seashell against Skadi's chest, pushing her up against the wall.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[PlayMusic(intro="$jealous_intro", key="$jealous_loop", volume=0.4)]
+[name="Гладия"]  Сколько раз мы с тобой танцевали, Скади? Два, может, три?
+[name="Гладия"]  Ты хорошая партнёрша по танцу.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Где она?
+[character(name="avg_474_gladiia_1#4",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Ты беспокоишься о ней.
+[character(name="avg_474_gladiia_1#4",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  А не должна?
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  В данный момент она в относительной безопасности.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Доказательства?
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Не знала, что тебя интересует такая бессмыслица.
+[name="Гладия"]  Похоже, время на суше испортило тебе нюх, охотница.
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Ты вся провоняла.
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Поверь, меня сейчас тошнит куда сильнее, чем тебя.
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  ......
+[name="Скади"]  Она и правда с тобой.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Похоже, твой нос не совсем испортился.
+[name="Гладия"]  К счастью, ты, кажется, ещё не опустилась до уровня этих сухопутных щенков. По крайней мере, ты не прибежала ко мне в слезах с вопросами, зачем я её забрала и что здесь делаю.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  ......
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Задавать вопросы никогда не было способом решать проблемы. Не для нас.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  «Нас»?
+[name="Скади"]  Я даже не знаю, осталась ли ты одной из нас.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Похоже, у тебя на уме много вопросов.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  (Поглаживает футляр)
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Если не уверена, дважды подумай, прежде чем начинать драку.
+[name="Гладия"]  Иначе ты просто подаришь врагу возможность.
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Ты не моя цель.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Тогда зачем ты проделала весь этот путь?
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Разве ты не знаешь?
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Ты искала её, но исчезнут ли твои сомнения, когда ты наконец её найдёшь?
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  ......
+[name="Скади"]  Её память разрушена. Она мало что может мне рассказать.
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Взгляни на себя. Ты немногим лучше той, что заперта в клетке.
+[name="Гладия"]  Возможно, ты больше не служишь под моим началом, но позволь научить тебя ещё одной вещи.
+[name="Гладия"]  Запомни. Охотница преследует добычу, потому что обязана загнать её. Слепая погоня приносит лишь душевное утешение.
+[name="Гладия"]  Неужели ты теперь так слаба, что гоняешься за призрачными иллюзиями, Скади?
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  ......
+[character(name="avg_474_gladiia_1#3",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Как давно ты не танцевала? Ты слишком много ходила. Твоя кожа совсем сухая. Забыла правильный ритм дыхания?
+[name="Гладия"]  Спрошу ещё раз. Зачем ты здесь?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi looks at the bishop.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop stands only a short distance away. He looks at Skadi as well, his gaze piercing through the crowd.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi tightens her grip on her box.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="A courteous and gentle smile appears on the bishop's face. He points in a direction and gestures invitingly.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Гладия"]  Не собираешься действовать?
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Я думала, вы заодно.
+[character(name="avg_474_gladiia_1#4",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Мне, в общем-то, всё равно.
+[name="Гладия"]  А вот о тебе такого, похоже, не скажешь. Это тебе нужно сбросить груз с плеч, не мне.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="One by one, the inhabitants walk up to the bishop with food still in their arms. They greet the bishop as though he is truly their brother and friend.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="—Just like a normal afternoon in your average Iberian town.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi slowly lets go.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_474_gladiia_1#4",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Хватит загадок! Кто он?!
+[character(name="avg_474_gladiia_1#3",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Я могла бы сказать, но поверишь ли ты мне?
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Background(image="bg_ibcoastn")]
+[character(name="avg_npc_178")]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi looks at the chapel on the top of the hill.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Beneath it, the bishop is waving goodbye to the inhabitants.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=2)]
+[name="Житель"]  Ах... Угх...
+[character(name="avg_npc_184")]
+[name="Епископ"]  Медленнее. Осторожно, не споткнись.
+[name="Епископ"]  Слышите? Шум волн. Тук, тук, тук — совсем как биение наших сердец.
+[name="Епископ"]  Еда, что вы едите, и вода, что вы пьёте, — дары моря. Братья и сёстры мои, чувствуете ли вы, как сила наполняет ваше тело и достигает сердца?
+[name="Епископ"]  Примите бескрайность перед собой! Это ваша надежда на возрождение!
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi looks at the people onshore.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character(name="avg_npc_180#2")]
+[Subtitle(text="The crowd has started to disperse. The girl has picked a basket full of seafood. At last, she looks up from the ground and begins to search for someone on the empty shore.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[musicvolume(volume=0.2,fadetime=1)]
+[name="Анита"]  А? Где певица?
+[name="Анита"]  Я лишь на миг отвела взгляд — и она снова исчезла.
+[name="Анита"]  *Вздох*.
+[name="Анита"]  Ну и ладно, дорогу обратно она знает. Наверное, снова пошла искать свою подругу.
+[name="Анита"]  Идём, Скамья. Отнесём еду домой.
+[dialog]
+[character]
+[name="Молодой житель"]  У-у...
+[character(name="avg_npc_180#3")]
+[name="Анита"]  Скамья, я хочу петь. Давай споём вместе.
+[name="Анита"]  Помнишь песню, что пела певица? Ничего, если нет. Ты ведь не умеешь говорить. Хочешь, я спою её для тебя?
+[name="Анита"]  Позади осталась родина♪
+[dialog]
+[character]
+[name="Молодой житель"]  Угу...
+[character(name="avg_npc_180#3")]
+[name="Анита"]  А путь лежит вперёд♪
+[dialog]
+[character]
+[name="Молодой житель"]  А-а...
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Почему ты меня останавливаешь? *Вздох*. Думаешь, ужасно? Я тоже так думаю.
+[name="Анита"]  Конечно, мне не спеть так, как певице!
+[character(name="avg_npc_180#3")]
+[name="Анита"]  Но если я буду стараться, станет лучше, правда?
+[name="Анита"]  Хе-хе... А путь лежит вперёд...
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1")]
+[Delay(time=1)]
+[musicvolume(volume=0.4,fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  Мне пора. Если не пойду, он что-то заподозрит.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Капитан! Что ты задумала?
+[name="Скади"]  Ты ищешь товарища? Почему сразу не сказала?
+[name="Скади"]  Или тебе нужен враг? Будь ты моим врагом, ты убила бы меня, когда я только что пыталась пронзить тебя ракушкой.
+[character(name="avg_474_gladiia_1#1",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Гладия"]  ......
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Gladiia shakes her head.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_474_gladiia_1#3")]
+[name="Гладия"]  Сначала пойми, чего хочешь ты сама. Нерешительная охотница не заметит ловушек и лишь сама станет чужой добычей. Ты этого хочешь?
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character]
+[musicvolume(volume=0, fadetime=1)]
+[Delay(time=2)]
+[Background(image="bg_ibbar",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Певица, твои глаза, кажется, немного изменились.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Хм?
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Раньше, когда ты смотрела на нас, это ничем не отличалось от того, как ты смотришь на морских чудовищ.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  ......
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  А теперь ты учишь меня делать алкоголь из водорослей и поёшь для нас.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Конечно, вы отличаетесь от чудовищ.
+[name="Скади"]  Чудовища не стали бы без конца упрашивать меня спеть. Чудовища даже говорить не умеют. Чаще всего они грязные и глупые и не умеют ничего, кроме как есть.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  З — значит... те морские чудовища нас съедят?
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Если будут голодны — съедят.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Значит, они выходят на берег по той же причине, по которой мы выходим в море. Они ищут еду.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Ты им сочувствуешь?
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Голодать тяжело.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Не думаю, что те, кого съедают, видят это так.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Верно... Я не хочу, чтобы чудовища вот так съели меня.
+[name="Анита"]  Раньше я об этом не думала, а теперь... Э-э, я хочу ещё немного послушать твои песни. Хочу и Скамью научить петь, как бабушка учила меня стольким вещам.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  В таком случае тебе нужно прожить так же долго, как твоя бабушка.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Ага! По крайней мере, сейчас я ни о чём не тревожусь.
+[name="Анита"]  И всё потому... Певица, что ты всё ещё здесь. Ты поможешь нам и прогонишь чудовищ, вот так — бам, бам, бам!
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Background(image="bg_ibcoastn",screenadapt="coverall")]
+[Character(name="avg_1012_skadiSP_1#1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[musicvolume(volume=0.4, fadetime=1)]
+[Delay(time=1)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Gladiia has left.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi looks out at the sea.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Unlike the dead silence of the day before, its waters are filled with living creatures. They cling onto each other and pile on top of one another. The creature at the very top stretches out its limb. It camouflages itself as a part of the sea waves, while striking the shore's reefs with each beating wave.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="Atop the hill, the chapel doors are wide open.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The people ashore have already gone home.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The monsters of the sea, eyeless as they may be, merely 'stare' at the sight.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=true)]
+[delay(time=0.51)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=true)]
+[delay(time=0.51)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=true)]
+[delay(time=0.51)]
+[name="Скади"]  Моё сердце... бьётся всё быстрее.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="It isn't just her heartbeat. She looks at her hands and sees something that only the eyes of a hunter can see. Unable to withstand the impact of her blood flow, her skin is trembling at a high speed.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="The off-key singing reverberates in her eardrums, all while the odor of the sea irritates her nostrils.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Понимаю... Верно.
+[name="Скади"]  Я всё ещё охотница...
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="A hunter chases her prey, and a hunter hunts her prey, but Abyssal Hunters dance atop the fangs and claws of their fallen prey. A hunter who has lost her partner is naturally lonely and despondent.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="She is a hunter herself, and not the kind after bounties. Running away any further would be meaningless. What she must do now is to turn around and join the hunt.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="They are the ones who should be afraid.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It is only now that Skadi has finally forgiven herself.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She dashes toward the Sea Terror-filled tides.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="There is a stench. A stench lingers in the air of the chapel.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

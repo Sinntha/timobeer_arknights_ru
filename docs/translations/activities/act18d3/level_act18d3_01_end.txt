@@ -1,0 +1,373 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_desert_1")]
+[character(name="char_263_skadi#3")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[playsound(key="$bodyfalldown3")]
+[delay(time=1)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[delay(time=1)]
+[character]
+[delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=1)]
+[character(name="avg_npc_181",fadetime=1.5)]
+[delay(time=2)]
+[name="???"]  Скади.
+[name="???"]  Ты сдала, Скади. Прежняя ты превратила бы их в фарш одним касанием.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Сеньор Хосе, я не настолько кровожадна.
+[PlayMusic(intro="$farce_intro", key="$farce_loop", volume=0.4)]
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Трудно сказать. Значит, ты изменилась. Ты даже дала им шанс сбежать.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Возможно.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Каким ветром тебя снова сюда занесло? С чего это они устроили на тебя засаду — это как-то связано со мной?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Не знаю.
+[PlayMusic(intro="$farce_intro", key="$farce_loop", volume=0.4)]
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Слышал, ты больше не в нашем ремесле. Подалась в какую-то... фармацевтическую компанию? Чего же ты бросила доброе, честное дело, чтобы снова таскаться по этим захудалым окраинам?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Вы хорошо осведомлены, сеньор Хосе. В этот раз мне нужна ваша помощь.
+[character(name="avg_npc_181")]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The old man licks his rolling paper, and pulls out some second-rate tobacco from his pouch.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Старый Хосе"]  Прошло несколько лет. Я уж думал, тебя прикончили — ведь через тебя прошло немало охотников за головами из Казимежа. От Казимежа сюда далеко, а слухи о твоих делах всё равно доходили.
+[name="Старый Хосе"]  Всегда думал, что ты только и умеешь, что устраивать большой шум.
+[name="Старый Хосе"]  А теперь ты вот такая тихая.
+[name="Старый Хосе"]  Ты прокатилась через всю страну Минос, как дорожный каток, только чтобы найти меня? Ну давай, говори, чего тебе надо.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Мне нужно попасть в Саль Вьенто.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Саль... Вьенто?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Только не говорите, что даже вы не слышали об этом месте.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Нет, слышал. Из всех нас, торговцев сведениями, только я, наверное, и слышал. Вопрос в другом — зачем тебе туда?
+[name="Старый Хосе"]  Там больше ничего нет. Несколько десятилетий назад... после этого почти ничего не осталось.
+[name="Старый Хосе"]  Так близко к огромному океану — и ты думаешь, что-то уцелело? Остались одни голые остовы, продуваемые ветром насквозь.
+[name="Старый Хосе"]  Многие охотники за головами рвутся в те заброшенные города, как зверята на гниющий труп вьючного зверя.
+[name="Старый Хосе"]  Все думают, что там ещё можно урвать кусок. Они не знают, что всё, что они там проглотят, может оказаться ядом.
+[name="Старый Хосе"]  Иберия. Все они думают, что эта молчаливая Иберия — как Казимеж или Галлия: куда ни плюнь, сокровища.
+[name="Старый Хосе"]  Ха, нет там ничего. Но когда в месте совсем ничего нет, именно тогда там, скорее всего, что-то да есть.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  И что вы говорите этим охотникам за головами?
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Если они просят продать сведения — я продаю. Для таких, как я, вернутся эти люди или нет — это всё бизнес.
+[name="Старый Хосе"]  На деле они вообще не возвращаются. Ни один не вернулся.
+[name="Старый Хосе"]  Две недели назад ко мне приходил отряд. Прихвостни «Кинжалорога».
+[name="Старый Хосе"]  Снаряжение у него было на голову выше, чем у всей этой мелюзги. И опытный к тому же. Привёл с собой больше десяти человек. Больше я их не видел.
+[name="Старый Хосе"]  Многие гадают, куда они делись. Может, их сцапал Штрафной батальон, может, это дело рук иберской Дефенсы, но я слышал и о другой возможности.
+[name="Старый Хосе"]  Там водятся... чудовища.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Вот как.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Или их прибрала Инквизиция. Не знаю, какой конец хуже.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Чудовища или люди — мой меч не видит разницы. Есть лишь те, кто стоит у меня на пути, и те, кто не стоит.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Ладно, ладно. В Саль Вьенто ты точно едешь не на отдых, это уж как пить дать.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Мне нужно кое-кого найти.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  На какого бедолагу пал твой гнев на этот раз?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  В этот раз всё иначе. Это мой... Это кое-кто из моего прошлого.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Из времён до нашего знакомства?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Задолго до.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  А я думал, они все ушли. Или погибли. По крайней мере, так ты говорила в те дни.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Потому я и ищу. Есть кое-что, в чём мне нужно разобраться.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Ты ищешь уже немало лет, верно?
+[name="Старый Хосе"]  И весь тот переполох в прошлый раз был явно не ради рыцарских сокровищ.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Вы сами мне говорили: людям следует идти вперёд.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  —
+[name="Старый Хосе"]  Ты принесла с собой карту сокровищ?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Что?
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Таких много, есть даже бывалые. Они бредут по пустошам, бредут и бредут, и забывают, куда хотели идти и что вообще искали.
+[name="Старый Хосе"]  Просто продолжают идти. Не знают ни голода, ни усталости.
+[name="Старый Хосе"]  Пока пустоши их не доконают.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Они были слишком слабы.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Слабы? Каким бы сильным ни был охотник, ему не покорить бескрайние пустоши. Сколько охотников гибнет в дороге без видимой причины, так и не узнав к своей смерти, что они искали, — такой конец тебе не подходит.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  К чему вы всё это говорите?
+[name="Скади"]  Будто я вам этого раньше не говорила? Им не сравниться даже с крошечной машиной эгир.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Ты сильная. Ну и что, спасла ты моего сына?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Мне жаль.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Не извиняйся! Я не пытаюсь тебя высечь. Я хочу, чтобы ты подумала. Это ты сама себя не простила, а не я.
+[name="Старый Хосе"]  Я жалею лишь о том, что не переломал ему ноги, не удержал от того, чтобы идти по стопам старика-отца. К тебе это не имеет никакого отношения.
+[name="Старый Хосе"]  Ты говоришь, что пришла из моря. А я ни о каком другом море, кроме иберского, и не слыхал. Ты — та, кого я не знаю.
+[name="Старый Хосе"]  А как насчёт тебя? Нет ли кого-то, кого не знаешь ты?
+[name="Старый Хосе"]  Потому что моего сына убил именно такой — тот, кого ты даже не знаешь.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Этого-то я и боюсь.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Не бери в голову. По крайней мере, те, о ком ты говоришь, не станут день и ночь замышлять моё убийство. Что ты собираешься делать в Саль Вьенто?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Туда увезли моего друга.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Странно это.
+[name="Старый Хосе"]  Возьми. Карта.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Хорошо. Что я должна вам дать?
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Дать?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Вы продаёте сведения. Услуга за услугу. Вы дали мне информацию — я дам вам то, что нужно.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  (Стряхивает пепел)
+[name="Старый Хосе"]  Дай подумать... В тот год ты принесла тело моего Хуана, отдала его мне. Голова и руки были при нём. Так что теперь мы в расчёте.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Сеньор Хосе, примите мою глубочайшую благодарность.
+[name="Скади"]  Тогда я пойду. Берегите себя.
+[dialog]
+[playsound(key="$d_gen_walk_n")]
+[character(fadetime=1)]
+[delay(time=2)]
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Стой! Ты что, так торопишься на тот свет?!
+[character(name="char_263_skadi#5")]
+[name="Скади"]  Хм?
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Эй. Скажи-ка — тебе кто-нибудь когда-нибудь такое говорил?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Нет.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Тогда кто-то должен тебе это как следует сказать.
+[name="Старый Хосе"]  Ты собралась разгуливать по иберскому городу в одежде охотницы за головами?
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Да.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Ты совсем не изменилась, Скади. Я тут глотку деру, а толку от моих слов не больше, чем от ветра.
+[name="Старый Хосе"]  Да иберская Дефенса за такой вид десять раз тебя прищучит!
+[name="Старый Хосе"]  И сколько времени ты готова на них потратить? Сколько ещё сможет ждать тот, кого ты ищешь? Иберы не чета этим жалким охотникам за головами. От них не так-то просто оторваться.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Вы хотите мне что-то предложить.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Я могу одолжить тебе кое-что. Возьми эту арфу.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Арфу?
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Играть умеешь? Помню, раньше ты играла.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Умею.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Хорошо, тем лучше. Впрочем, сгодилось бы, даже если б не умела — лишь бы вид делала.
+[name="Старый Хосе"]  И переоденься вот в это.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Что это за одежда? Очень странная.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Привычна ли она тебе — не важно. Важно, что иберы к ней привычны.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  ......
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Отныне ты — бродячая певица Скади.
+[name="Старый Хосе"]  Ступай теперь куда хочешь, певица. Следуй карте, иди по водным путям — и доберёшься быстро. Это тебе по силам, эгирка.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  Прощайте, сеньор Хосе.
+[character(name="avg_npc_181")]
+[name="Старый Хосе"]  Скади!
+[name="Старый Хосе"]  Только не умирай там. Ты должна умереть рядом с кем-то — с тем, кого знаешь.
+[character(name="char_263_skadi#3")]
+[name="Скади"]  ......
+[name="Скади"]  Хорошо.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Background(image="bg_ibcoastn")]
+[Delay(time=1)]
+[PlayMusic(intro="$mist_intro", key="$mist_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[playsound(key="$rungeneral")]
+[delay(time=1)]
+[character(name="avg_npc_007",fadetime=1)]
+[delay(time=1.5)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Охотник за головами"]  На помощь — на помощь!
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Охотник за головами"]  Что это за твари... они... они меня опутывают, не отпускают! Даже разрубить их не выходит. Что, всё побережье кишит такими чудовищами?
+[name="Охотник за головами"]  Эй — прочь, пошли прочь!
+[name="Охотник за головами"]  Знал бы, чёрт возьми, — ни за что бы не пришёл! Ja pierdolę, «Жёлтый Смог», гад, не дай ты себя тогда облапошить — разве торчал бы я здесь, подбирая всякий мусор?!
+[name="Охотник за головами"]  Skurwysyny, если я к концу этого не сдохну, то сам взвою! Проклятая Иберия! Будь она неладна, эта страна!
+[dialog]
+[character]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Что — что это, чёрт возьми, было? Всех в кашу одним ударом?
+[name="Охотник за головами"]  Ха... ха. Что бы это ни было, хоть ещё денёк проживу—
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Охотник за головами"]  Кха—
+[dialog]
+[character]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=1)]
+[character(name="avg_npc_183#3",blackstart=0.2,blackend=0.4,fadetime=1.5)]
+[delay(time=2)]
+[name="???"]  Ты. Ты никуда не уйдёшь.
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  А — а ты кто? Откуда в Иберии столько всяких уродов?
+[character(name="avg_npc_183#3",blackstart=0.2,blackend=0.4)]
+[name="???"]  Второй раз. Иберия запрещает распускать слухи. В следующий раз, прежде чем заговорить, будь осторожнее.
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Что? Взгляни на этот наряд, на это оружие—
+[name="Охотник за головами"]  Срань господня. Ты, ты... всё, мне конец, я...
+[dialog]
+[character]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[delay(time=2.5)]
+[character(name="char_empty",name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4)]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=1)]
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,fadetime=1.5)]
+[delay(time=2)]
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,focus=1)]
+[name="???"]  Командир. Побережье зачищено.
+[name="???"]  Здесь не осталось ничего живого — э-э, кроме этого чужака, который не может усидеть на месте и воняет до небес.
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,focus=2)]
+[name="???"]  Что ты видел?
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Я... я...
+[name="Охотник за головами"]  Прошу, я ничего не сделал! Клянусь, я... я просто заблудился, по неосторожности оказался здесь, я не хотел...
+[name="Охотник за головами"]  Смотрите, у меня есть золотые монеты и ещё много всего, чёрт бы побрал, сколько же я потерял... Заберите деньги, снаряжение, всё заберите, только отпустите, умоляю!
+[dialog]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$fightgeneral", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[characteraction(name="middle", type="jump", ypos=-30, times=1, fadetime=0.2, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6)]
+[name="???"]  Подбери своё барахло. Когда командир задаёт вопрос, он не затем слушает твою болтовню, чужак.
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Вопрос? Какой вопрос? Клянусь, ваша честь, я не посмел бы задавать вопросы... У меня нет вопросов, заверяю...
+[name="Охотник за головами"]  Умоляю, ваша честь, я не хочу... Не забирайте меня... Лучше бы мне просто сдохнуть!
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6)]
+[name="???"]  Броситься в море прямо у меня на глазах? Думаешь, ещё не поздно?
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Этот меч... моя рука... слишком близко... а-а-а...
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6)]
+[name="???"]  Ну что, пришёл в себя? Вы, чужаки, не лучше насекомых в траве: сердца алчные и чёрные, а рассыпаетесь вмиг.
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Ох, ах... Я никуда не бегу, ваша честь, я всё расскажу.
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6)]
+[name="???"]  Хорошо. Я не люблю повторять вопросы. Поэтому это будет последний раз.
+[name="???"]  Что ты видел на побережье?
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Я, я... *кхе* *кхе*... я видел чудовищ.
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6)]
+[name="???"]  Сколько вас пришло?
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Изначально двенадцать... э-э, вместе с проводником нас было тринадцать.
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,focus=1)]
+[name="???"]  Командир. Он не лжёт. Я сам нашёл трупы вдоль побережья.
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  *Всхлип*...
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,focus=1)]
+[name="???"]  Эй. Что тебе теперь дадут слёзы? Не вторгнись вы сюда, они бы вас не нашли. Нарушаешь закон — будь готов к расплате.
+[name="???"]  И всё же двенадцать погибших... По пути сюда их число всё растёт.
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,focus=2)]
+[name="???"]  Они не могли уйти далеко от своего гнезда.
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,focus=1)]
+[name="???"]  Это лишь подтверждает верность вашего суждения. Чем ближе, тем их больше. В том городе определённо творится неладное!
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,focus=2)]
+[name="???"]  Можешь идти.
+[character(name="avg_npc_182#1",blackstart=0.4,blackend=0.6,name2="avg_npc_183#3",blackstart2=0.2,blackend2=0.4,focus=1)]
+[name="???"]  А этот? Он видел много такого, чего видеть не следовало.
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Пощадите... Пощадите! Я рассказал всё, что мог! Сэр, командир, ваша честь... ой, мамочка...
+[character(name="avg_npc_183#3",blackstart=0.2,blackend=0.4)]
+[name="???"]  Что... ты видел?
+[character(name="avg_npc_007")]
+[name="Охотник за головами"]  Я... я...
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[stopmusic]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Background(image="bg_black")]
+[delay(time=1)]
+[character(name="avg_npc_186",blackstart=0.25,blackend=0.4,name2="avg_npc_184",blackstart2=0.25,blackend2=0.4)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[character(name="avg_npc_186",blackstart=0.25,blackend=0.4,name2="avg_npc_184",blackstart2=0.25,blackend2=0.4,focus=2)]
+[name="Епископ"]  У нас был уговор.
+[character(name="avg_npc_186",blackstart=0.25,blackend=0.4,name2="avg_npc_184",blackstart2=0.25,blackend2=0.4,focus=1)]
+[name="???"]  Я не вижу смысла в таком поведении.
+[character(name="avg_npc_186",blackstart=0.25,blackend=0.4,name2="avg_npc_184",blackstart2=0.25,blackend2=0.4,focus=2)]
+[name="Епископ"]  Ты согласился на это.
+[character(name="avg_npc_186",blackstart=0.25,blackend=0.4)]
+[name="???"]  Согласился? Поклялся — (кости и плоть трутся друг о друга) — пообещал? Сначала добиться одного, а затем совершить другое?
+[name="???"]  Нет.
+[name="???"]  На такие твои просьбы я отвечу. Никакого согласия. Никаких обещаний.
+[character(name="avg_npc_184",blackstart=0.25,blackend=0.4,focus=2)]
+[name="Епископ"]  Ответ... ну конечно.
+[name="Епископ"]  Почтенный вестник—
+[name="Епископ"]  Уже то, что ты соизволил ответить, — для меня честь.
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

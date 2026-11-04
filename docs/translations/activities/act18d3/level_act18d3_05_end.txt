@@ -1,0 +1,521 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibtownn")]
+[character(name="avg_1012_skadiSP_1#1")]
+[Delay(time=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="The streets have calmed.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="The wandering singer closes the bulky box and carries it on her back again.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi begins to step forward.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[playsound(key="$d_gen_walk_n")]
+[Subtitle(text="She takes one step and then another. The pile of limbs and coagulated fluids beneath her feet instantly rot and weather away.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="On her third step, as the hems of her dress flutter in the sea breeze, the tiny particles of crystal scattered all across the ground disperse into the air as well.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character(fadetime=1.5)]
+[subtitle]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="bg_ibindoor",fadetime=1,block=true)]
+[character(name="avg_npc_182#5",name2="avg_npc_180#2")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Т — ты это видела?
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Я видела всё.
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Как она вообще это сделала?
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Она певица...
+[name="Анита"]  Инквизитор, для неё в этом нет ничего странного. Она всегда так умела.
+[character(name="avg_npc_182#4",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Певица... что? Ты всё ещё зовёшь её этим именем?
+[character(name="avg_npc_182#4",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  А как мне её звать? Вы же Инквизитор. Вы мне и скажите.
+[character(name="avg_npc_182#3",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  ......
+[name="Инквизитор"]  Мне нужно выйти.
+[character(name="avg_npc_182#3",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Эй, постойте!
+[character(name="avg_npc_182#4",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Ты что делаешь? Думаешь, ты тоже можешь меня остановить? Я Инквизитор!
+[dialog]
+[character(name="avg_npc_180#2")]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$fightgeneral", volume=1)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]
+[Dialog]
+[delay(time=1)]
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Что это... Такое склизкое...
+[character(name="avg_npc_182#5",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Фух... Я — я попала! Я нанесла удар! Чуть не опоздала, Инквизитор.
+[name="Анита"]  Слава богу, вы разломали этот стул. Из него вышло оружие, когда понадобилось пристукнуть эту тварь. Иначе она бы на вас влезла!
+[character(name="avg_npc_182#4",name2="avg_npc_180#3",focus=1)]
+[name="Инквизитор"]  Т — ты...! Вы все сумасшедшие!
+[name="Инквизитор"]  Как можно не бояться, глядя на такое?
+[character(name="avg_npc_182#4",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Я боялась. Совсем чуть-чуть. Но вы страшнее.
+[character(name="avg_npc_182#5",name2="avg_npc_180#3",focus=1)]
+[name="Инквизитор"]  Ты... Да как ты смеешь сравнивать меня с этими чудовищами?!
+[name="Инквизитор"]  Ладно, не буду с тобой спорить. Ты их раньше не видела и не представляешь, на что они способны. Неудивительно, что тебе не страшно.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Стойте, остальные жители выходят наружу. Они... Что они делают?!
+[name="Инквизитор"]  Им тоже совсем не страшно...
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Проблема...
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Мне нужно найти, в чём эта проблема...
+[dialog]
+[musicvolume(volume=0.2,fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The problem, as the Inquisitor sees it, is the most abnormal sight she sees unfolding before her eyes.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The Inquisitor looks at the girl standing before her. Then, she looks over at the lone Ægir standing outside.", x=300, y=370, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle(text="Finally, she turns her gaze to the inhabitants now lining into the streets.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Background(image="bg_ibtownn")]
+[character(name="avg_npc_188",name2="avg_npc_189")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1.5)]
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  ......
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Песок.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Соль... Такая солёная.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Та штука, что только что была. Её можно есть. Она исчезла. Жаль.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Жаль.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Соль можно есть.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Да, она съедобная.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Ещё. Ещё... М-м, буэ.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Она грязная.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Глотай. Ещё...
+[dialog]
+[character]
+[delay(time=1)]
+[musicvolume(volume=0.4,fadetime=1)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_1012_skadiSP_1#1",fadetime=1.5)]
+[delay(time=3)]
+[character]
+[playsound(key="$rungeneral")]
+[character(name="avg_npc_182#4",fadetime=1)]
+[delay(time=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Инквизитор"]  Стоять!
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  ......
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  У меня всё ещё есть к тебе вопросы, и ты на них ответишь — что значит, они пришли за тобой?
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  У меня кровь.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Это я и сама вижу. Тебя ранил в бою Верховный Инквизитор, поэтому ты сбежала. Но при чём тут появление этих... чудовищ?
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Они чуют мою кровь.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Они пришли, чтобы... убить тебя? Я видела, как они все неслись к тебе—
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Возможно.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Возможно?
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Они не могут мне навредить.
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  Т — ты! Ты знаешь, как раздражает твоя манера говорить?
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Это правда.
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  Они — я имею в виду чудовищ — они исчезли.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Да.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Исчезли без следа, будто их и не было. Не увидь я их собственными глазами, решила бы, что это был сон.
+[name="Инквизитор"]  Эти чудовища... Морские Ужасы. Я сталкивалась с ними много раз. Они не очень похожи на этих, но воняют так же отвратительно.
+[name="Инквизитор"]  Но то было на пляже, и в таком количестве они не появляются никогда. Хочешь сказать, на самом деле они не живут в море?
+[name="Инквизитор"]  Они появляются, только когда кто-то лезет за неприятностями на берег, так? Как ты днём.
+[name="Инквизитор"]  А теперь они забрались так далеко от пляжа. Добрались почти до самых улиц.
+[character(name="avg_1012_skadiSP_1#5")]
+[name="Скади"]  Они могут пробраться куда угодно, дальше, чем ты можешь представить. Они распространяются, меняя форму, просачиваются в каждый уголок мира.
+[name="Скади"]  Будь то города из железа, деревни на высокогорьях или пустоши, где нет ничего, кроме песка. Куда может дойти один — доберутся и они.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Как такое возможно?!
+[character(name="avg_1012_skadiSP_1#5")]
+[name="Скади"]  Мир окружён океаном. То, что ты не видишь океана, не значит, что земля, на которой ты стоишь, навсегда останется нетронутой его водами. Моря живы и вечно в движении — как и бедствия, которые они несут.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Я знаю, что есть места, где моря опасны, но не знала, что эта опасность есть... и в землях за пределами Иберии.
+[character(name="avg_1012_skadiSP_1#7")]
+[name="Скади"]  Опасность есть везде.
+[name="Скади"]  И всё же эти бедствия здесь из-за меня. Если подойдёшь ближе, это коснётся и тебя.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Ты... Да кто ты такая?!
+[character(name="avg_1012_skadiSP_1#7")]
+[name="Скади"]  Я уже сказала.
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  Хватит с меня этих бродячих певиц! Я всё видела.
+[name="Инквизитор"]  Ты с ними сражалась и точно знаешь, как с ними сражаться.
+[name="Инквизитор"]  Когда ты с ними расправлялась, твоя техника была куда лучше, чем в бою с Верховным Инквизитором и со мной.
+[character(name="avg_1012_skadiSP_1#5")]
+[name="Скади"]  С людьми мне сражаться не так привычно.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  К — кхм... Оставим эти странные разговоры... Я знаю, что ты странная, но всё же...
+[name="Инквизитор"]  Ты была... охотницей? Что-то такое видно в твоих глазах.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Если тебе так кажется — пусть так.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  И раньше ты охотилась на этих... Морских Ужасов?
+[character(name="avg_1012_skadiSP_1#7")]
+[name="Скади"]  Их нужно истреблять.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Ох... Твоя манера говорить меня бесит, но — сама не знаю почему — в твоих устах это совсем не звучит ложью.
+[name="Инквизитор"]  Певица, охотница... Мне всё равно, кем ты была.
+[name="Инквизитор"]  Если судить по обстоятельствам, ты спасла не только мою жизнь, но и всех, кто живёт на этой улице, а может, и весь город.
+[name="Инквизитор"]  Возможно, ты враг моего врага, но другом это тебя не делает.
+[name="Инквизитор"]  Как бы то ни было, я должна делать свою работу. Я должна тебя забрать.
+[character(name="avg_1012_skadiSP_1#7")]
+[name="Скади"]  ......
+[name="Скади"]  Ты спрашивала, что я здесь делаю.
+[name="Скади"]  Я здесь, чтобы найти ответ, и этот ответ касается только меня... и той, кого я ищу.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Раньше ты ничего мне не говорила.
+[character(name="avg_1012_skadiSP_1#7")]
+[name="Скади"]  Ты не дала мне шанса сказать.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  ......
+[name="Инквизитор"]  Может, теперь ты и дала ответ, но это не значит, что моё суждение изменилось.
+[name="Инквизитор"]  Ты не принадлежишь этому городу. Появление такого человека, как ты, — ошибка.
+[name="Инквизитор"]  Не говоря уже о том... Ты сама сказала, что принесла с собой это бедствие.
+[name="Инквизитор"]  —Хотя вышло совсем не так, как я себе представляла.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  И всё же, эгирка. Ты опасна. Ты угроза для этого города. И в то же время этот город — угроза для тебя.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Хм?
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Посмотри на них. Они... едят останки Морских Ужасов. Они не боятся этих чудовищ... Нет, они даже не знают, что такое чудовища.
+[name="Инквизитор"]  Голодны — едят. Как чудовища. А люди... люди знают, что такое страх.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Так... они всё ещё люди?
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Я знаю лишь, что они изо всех сил пытаются жить.
+[name="Скади"]  С этой точки зрения людей от чудовищ ничто не отличает.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Когда живут вот так... можно ли сказать, что они живы?
+[name="Инквизитор"]  Верховный Инквизитор велел мне увидеть всё своими глазами, и только теперь я понимаю, что он имел в виду.
+[name="Инквизитор"]  В этом городе главная проблема не в том, что делают его жители. А в том, что они до сих пор живы — вот так. Это и есть самое ненормальное.
+[name="Инквизитор"]  Как и ты, они опасны, и эту опасность нужно держать под контролем, как и ошибки нужно исправлять.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Ты не сдалась.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Теперь я и правда не могу тебя отпустить.
+[character(name="avg_1012_skadiSP_1#7")]
+[name="Скади"]  Я уже сказала. У меня ещё есть дела, и я спешу.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Похоже, придётся всё повторить.
+[name="Инквизитор"]  Эгирка, я знаю, что ты ранена и наверняка вымоталась после боя с Морскими Ужасами.
+[name="Инквизитор"]  Но пощады от меня не жди.
+[dialog]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#3")]
+[delay(time=1)]
+[musicvolume(volume=0,fadetime=1)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[playsound(key="$fightgeneral")]
+[characteraction(name="right", type="move", ypos=-50, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="right", type="move", ypos=50, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[musicvolume(volume=0.4,fadetime=1)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_182#5",focus=2)]
+[name="Инквизитор"]  Что это? Маленькая ракушка?
+[name="Инквизитор"]  Это была не ты, эгирка... Ты бы не стала в меня этим бросать.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Может, кто-то из местных, кого выворачивает на пол? Нет, это не они. Они даже не знают, что запихивают себе в рот. Они бы не стали выступать против меня.
+[name="Инквизитор"]  Это... из окна сбоку?
+[dialog]
+[delay(time=0.6)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[playsound(key="$fightgeneral")]
+[characteraction(name="middle", type="move", ypos=-50, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="middle", type="move", ypos=50, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[name="Инквизитор"]  ......
+[name="Инквизитор"]  Кто это?!
+[name="Инквизитор"]  Кто это бросил? Выходи вперёд!
+[dialog]
+[character]
+[delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_npc_180#1",fadetime=1.5,block=true)]
+[name="Анита"]  Хах...
+[character(name="avg_npc_182#2",name2="avg_npc_180#1",focus=1)]
+[name="Инквизитор"]  Ты? Это ты бросила в меня? Всё ещё пытаешься встать у меня на пути, защищая эту эгирку?
+[character(name="avg_npc_182#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Э-э, да! Это я!
+[dialog]
+[character]
+[delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_npc_179#1",fadetime=1.5)]
+[delay(time=2)]
+[name="Пожилой житель"]  Анита, прекрати нести чушь.
+[character(name="avg_npc_182#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Бабушка Петра?! В — вам надо оставаться внутри...
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Это сделала я, ваша честь.
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Ты сейчас назвала меня «ваша честь»?
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Я знаю, кто вы такая. Эти ничего не знают.
+[character(name="avg_npc_182#5",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Здесь есть кто-то ещё в здравом уме...?
+[character(name="avg_npc_182#1",name2="avg_npc_179#1",focus=1)]
+[name="Инквизитор"]  Старушка, возможно, твои глаза уже не так хороши, как прежде. Пожалуйста, отойди. Мы тут разбираемся с кое-чем опасным.
+[stopmusic(fadetime=1)]
+[dialog]
+[delay(time=0.6)]
+[character(name="avg_npc_182#5",name2="avg_npc_179#1",focus=2)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[playsound(key="$fightgeneral")]
+[characteraction(name="middle", type="move", ypos=-50, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="middle", type="move", ypos=50, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[PlayMusic(intro="$jealous_intro", key="$jealous_loop", volume=0.4)]
+[character(name="avg_npc_182#5",name2="avg_npc_179#2",focus=2)]
+[name="Пожилой житель"]  Смотрите, ваша честь. Мои глаза в полном порядке. Пусть небо чернее ночи — я попаду в вас без труда, если вы забудете увернуться.
+[name="Пожилой житель"]  Ах, крошечные ракушки, прекрасные волны♪
+[name="Пожилой житель"]  Ракушка за ракушкой, волна за волной...
+[character(name="avg_npc_182#2",name2="avg_npc_179#2",focus=1)]
+[name="Инквизитор"]  Ты сама призналась. Теперь я должна—
+[character(name="avg_npc_182#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Инквизитор... ваша честь! Бабушка Петра больна... Пожалуйста, не вините её?
+[character(name="avg_npc_182#2",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Больна? Неудивительно. Да, я это вижу.
+[character(name="avg_npc_179#2")]
+[name="Пожилой житель"]  Ох, Анита. Хватит глупостей. С чего это я больна?
+[character(name="avg_npc_182#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Бабушка Петра, пожалуйста, перестань. Прошу.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Больна... больна!
+[name="Пожилой житель"]  Болен сам Саль Вьенто! Да — это место и все его люди! И вы, всемогущий Инквизитор... Вы тоже больны!
+[character(name="avg_npc_182#2",name2="avg_npc_180#2",focus=1)]
+[name="Инквизитор"]  Ты, отведи свою выжившую из ума бабушку домой.
+[name="Инквизитор"]  У меня есть дела поважнее.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Какие важные дела? Что может быть важнее жизни?
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  У Инквизитора есть то, что он должен оберегать даже ценой жизни. Например, всё, что закон называет правильным... а также саму нашу страну.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Своей жизнью... вы будете оберегать чью жизнь?
+[character(name="avg_npc_182#1")]
+[name="Инквизитор"]  Я... Впрочем... Мне не стоит больше тратить на тебя время. Старость и болезнь пошатнули твой рассудок, гражданин. Я могу закрыть глаза на твоё безумное поведение, если ты отойдёшь и дашь мне заняться важным.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Ваша честь, боюсь, я не понимаю это ваше «правильно и неправильно» и эту вашу страну.
+[name="Пожилой житель"]  Я хочу спросить лишь об одном. То, что вы пытаетесь защищать... Нас в этом никогда не было, верно?
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Что...?!
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Вы, Инквизиторы, увели наших людей. Сказали, что они нарушают порядок, что напали на кого-то, когда воровали еду. Они просто хотели жить.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Это была не я... но если они совершили преступление, значит, так и должно быть.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  И они так и не вернулись.
+[name="Пожилой житель"]  Вы увели своих плохих людей, но стало ли нам от этого лучше жить?
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Если вовремя устранить все факторы, несущие в общество хаос, порядок наступит сам собой.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Но еды становится всё меньше... Те из нас, кто постарше, умирают от голода или болезней. Даже некоторые из молодых не выдержали.
+[name="Пожилой житель"]  Вы говорите о порядке... а на деле хотите лишь, чтобы мы тихо умерли, ведь так? Тогда не станет шума, и вы, господа сверху, наконец-то сможете лечь на свои пуховые постели и спокойно поспать.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Это не так.
+[name="Инквизитор"]  Вся Иберия страдает. Не только вы.
+[name="Инквизитор"]  Разве преступника, который крадёт ресурсы и вредит людям, не следует остановить? Представь, что перед нами десять порций еды. Они должны накормить десятерых иберов.
+[name="Инквизитор"]  Если никто не скажет им, сколько кому положено, они будут драться без конца. В итоге из десяти останется один.
+[name="Инквизитор"]  Инквизиция проводит границу между правильным и неправильным посреди этого хаоса и ведёт народ верным путём. Иначе страна давно превратилась бы в груду песка.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Всё, что вы сказали... я не понимаю, и я этого не вижу.
+[name="Пожилой житель"]  У нас нет выхода. Когда нам по-настоящему нужен был выход — где были вы?
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Я... я хочу вам помочь. Я усердно тружусь, чтобы стать полноправным Инквизитором. Я выбрала этот путь, потому что хочу помогать людям, и я верю, что это единственный способ.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Помочь нам...?
+[name="Пожилой житель"]  Я надеялась, представляла, жаждала и даже мечтала, что кто-то придёт нас спасти. Я кричала столько ночей, пока не охрипла.
+[name="Пожилой житель"]  Вы так и не пришли.
+[name="Пожилой житель"]  Неужели вы, Инквизиторы, приходите только тогда, когда кто-то сделал что-то дурное?
+[name="Пожилой житель"]  Взгляните на эти старые кости. Я и не думала, что проживу так долго. Что за трагедия. Каждый день — одна сплошная боль.
+[dialog]
+[character]
+[delay(time=1)]
+[character(name="avg_npc_182#5")]
+[delay(time=0.6)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[playsound(key="$fightgeneral")]
+[characteraction(name="middle", type="move", ypos=-50, fadetime=0.3, block=true)]
+[delay(time=0.51)]
+[characteraction(name="middle", type="move", ypos=50, fadetime=0.5, block=true)]
+[delay(time=0.7)]
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Смотрите, я нападаю на вас, ваша честь.
+[name="Пожилой житель"]  Заберите меня! Заберите и покончите со мной! Избавьте меня от страданий!
+[name="Пожилой житель"]  Ну же, сделайте это! Я больше не могу ждать — я ждала все эти годы! *Кхе* *кхе*...
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Я...
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Я не хочу с тобой драться. Твой гнев... я понимаю. Мой меч не должен...
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Не вынуждай меня, гражданин.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  *Кхе* *кхе*...
+[character(name="avg_npc_180#1")]
+[name="Анита"]  Бабушка!
+[character(name="avg_npc_179#2")]
+[name="Пожилой житель"]  Ох... Анита... Ты тоже пришла на площадь.
+[name="Пожилой житель"]  Темно... Почему ещё не поют?
+[name="Пожилой житель"]  Певица, ты же говорила, что ты певица. Почему ты не поёшь? Где твоя арфа? Я хочу танцевать. Мне нужна мелодия.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  ......
+[character(name="avg_npc_179#2")]
+[name="Пожилой житель"]  Смотрите, ваша честь. От вас меньше толку, чем от бродячей певицы. Она для нас поёт. И ей даже хватает смелости... встать перед нами.
+[name="Пожилой житель"]  Я не боюсь чудовищ, и я не боюсь смерти. Я боюсь этой жизни. Я сумасшедшая, Анита?
+[character(name="avg_npc_180#3",name2="avg_npc_179#2",focus=1)]
+[name="Анита"]  Бабушка, всё хорошо. Ты дрожишь. Здесь холодно. Может, пойдём домой? Приляг, отдохни. Тебе станет легче.
+[character(name="avg_npc_180#3",name2="avg_npc_179#2",focus=2)]
+[name="Пожилой житель"]  Ладно... Ладно. Пойдём. Пойдём домой. Я всё равно не знаю, куда ещё идти.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Ты...!
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Передумали? Если передумали, можете меня забрать. Или убейте. Тогда хотя бы... я умру как человек.
+[name="Пожилой житель"]  Сделайте это, пока я жива, ваша честь. Мне осталось недолго.
+[name="Пожилой житель"]  Идём же... Певица, идём с нами. Я хочу услышать, как ты поёшь.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  ......
+[name="Инквизитор"]  Я отпущу тебя... пока что.
+[name="Инквизитор"]  Но я ещё вернусь!
+[name="Инквизитор"]  А ты, эгирка! Я за тобой слежу и докопаюсь до сути! Не думай, что выйдешь сухой из воды!
+[dialog]
+[stopmusic(fadetime=1)]
+[playsound(key="$d_gen_walk_n")]
+[character(fadetime=1.5)]
+[delay(time=2)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.4)]
+[character(name="avg_npc_180#1")]
+[name="Анита"]  Фух... Пронесло.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Певица, ты в порядке? Ты белая как полотно.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Я в порядке.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Тебе больше не нужно строить из себя крепкую. Инквизитор ушла.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Я её не боюсь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Знаю. Вижу, что не боишься. Чего вообще бояться такой, как ты?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Она неплохой человек.
+[name="Скади"]  И для вас будет лучше, если я покину это место.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Лучше? Здесь нет ничего хорошего.
+[name="Анита"]  Бабушка, может, и наговорила всего, но на самом деле она не ненавидит Инквизитора. Она ненавидит что-то другое. Я это знаю.
+[character(name="avg_npc_179#2")]
+[name="Пожилой житель"]  Танцуй же. Ха-ха, как я люблю твоё пение...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Хватит кружиться, бабушка. Ты устала. Певица тебе споёт. Правда ведь?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  ......
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Дай руку, певица. Дай взгляну на твою рану.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Нет...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Мне нельзя к тебе приближаться, потому что это опасно, да?
+[name="Анита"]  Всё в порядке. Я тебе доверяю. Если что-то случится — ты победишь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  ......
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Смотри, раны совсем не страшные. Кровь больше не идёт.
+[name="Анита"]  Певица, ты удивительная. Ты так быстро заживаешь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Могло быть и быстрее.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Но даже так вид у тебя неважный, а дом, который ты выбрала, разнесло в щепки. Вряд ли теперь даже ты там выспишься. Почему бы тебе не пойти домой со мной и бабушкой Петрой?
+[character(name="avg_npc_179#2")]
+[name="Пожилой житель"]  Верно. Останься с нами. Не давай им искать с тобой новых ссор.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Нет...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Хватит с меня этих «нет», «не нужно» и «у меня есть дела». Я от них устала.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Я ещё могу...
+[character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Ох...
+[character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Посмотри на себя. Силы кончились, да? За тобой нужно присмотреть, и тебе точно нужно поспать.
+[character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  И ещё я думаю, что та, кого ты ищешь, вряд ли хочет видеть, как ты себя изводишь.
+[character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  ......
+[stopmusic(fadetime=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[character(name="avg_npc_178")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[name="Житель A"]  Что это было... только что?
+[name="Житель A"]  Это больше не моё дело...
+[name="Житель A"]  Не нужно задавать вопросы. Теперь у меня есть ответ. Я знаю путь. Я знаю, куда идти.
+[name="Житель A"]  Мне нужно идти прямо... Прямо вперёд.
+[name="Житель A"]  Завтра у всех будет еда. Я... Нет, мы... Мы все будем жить.
+[name="Житель A"]  «Мы хотим выжить, поэтому должны любить друг друга ещё сильнее».
+[name="Житель A"]  «Ведь любовь — нерушимая связь между нами».
+[name="Житель A"]  «Я стану сильнее».
+[name="Житель A"]  «Наши люди тоже станут сильнее».
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[playsound(key="$d_gen_walk_n")]
+[Subtitle(text="The man limps forward toward the pitch-black seas until he comes upon an object blocking his way.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Житель A"]  ......
+[name="Житель A"]  Это...
+[name="Житель A"]  Её арфа. Она здесь.
+[name="Житель A"]  (Пытается играть на арфе, как Скади)
+[name="Житель A"]  (Аккорды)
+[name="Житель A"]  Звучит ужасно.
+[name="Житель A"]  Бесполезная вещь. Оставлю её здесь гнить.
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

@@ -1,0 +1,738 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[Character(fadetime=0)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Background(screenadapt="coverall", image="bg_bridge", width=1, height=1, fadetime=0)]
+[CameraEffect(effect="Grayscale", amount=0.7, keep=true)]
+[Blocker(a=0, fadetime=2, block=true)]
+[Delay(time=0.8)]
+[Character(name="char_003_kalts_1",fadetime=1)]
+[delay(time=2)]
+[name="Кальцит"]  Бреоган... был владельцем того ключа.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  В Золотой век Иберии он стал почётным гостем аристократов и знати. Его когда-то считали символом зарождающейся гармонии между островитянами Эгира и иберийцами.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Никто не знает, чем он занимался прямо перед катастрофой и что не успел сделать. Но он уже оставил значительное наследие. А для вас — значимые указания.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Как бы то ни было, он часть прошлого. Не сомневаюсь, что именно вы будете делать выбор здесь, в настоящем.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Что до ключа... Вопрос, почему ключ Бреогана остался в Казимеже, не тот, на который нам нужен ответ.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Но его нашла Охотница Скади. Это не совпадение, а неизбежность. У всех вас природная чувствительность к морю.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  ...Действительно, я отдала ключ той группе. Вы узнаете, что они такое на самом деле. Возможно, эгирцам понадобится их помощь.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Они тоже ищут ответы. Большинство из них молоды, им не по себе от перемен в океане. В конце концов, они не могут по-настоящему покинуть место своего рождения.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Да... Надеюсь, у нас получится. Перед человечеством слишком много проблем, и слои катастроф легко могут погасить свет нашей нынешней цивилизации.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Гладия, если ты хочешь действовать одна, я не стану тебя отговаривать. Скади такая же, как ты. Возможно, все Охотницы.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Но что бы ты ни делала, не думай, что сможешь решить все проблемы этой земли в одиночку.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Хм? Спрашивай. Я отвечу на любой вопрос.
+[Character(name="char_003_kalts_1#2")]
+[name="Кальцит"]  Ишар-мла...?
+[Character(name="char_003_kalts_1#2")]
+[name="Кальцит"]  Откуда ты слышала это имя?
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[Character(fadetime=0)]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Background(image="27_g24_cloudy_sea",screenadapt="coverall")]
+[PlayMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[PlaySound(key="$d_avg_sea", volume=0.6, loop=true, channel="sea")]
+[Character(name="avg_4009_irene_1#1$1",fadetime=1)]
+[delay(time=1)]
+[name="Инквизитор Ирене"]  Мы почти на месте.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Но океан слишком огромен. Даже небольшая неточность в координатах может привести к огромным ошибкам.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  ...И он гораздо спокойнее, чем я представляла.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Более чем спокойнее. С тех пор как мы покинули маяк, на нас нападают всё реже.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Даже ветер и волны не шевелятся.
+[Character(name="avg_4009_irene_1#1$1")]
+[name="Инквизитор Ирене"]  Что это значит?
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Это значит...
+[dialog]
+[Character(fadetime=0)]
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_4009_irene_1#1$1",focus=1)]
+[name="Спектер"]  Ты нервничаешь, моя бедная маленькая птичка?
+[Character(name="avg_4009_irene_1#2$1")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Инквизитор Ирене"]  Ик! К-Когда ты... Встань так, чтобы я тебя видела!
+[Character(name="avg_4009_irene_1#1$1")]
+[name="Инквизитор Ирене"]  И кто это нервничает? Просто... очень, очень немногие добираются так далеко в море, так что я... я не могу быть уверена, что...
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Нет, твои глаза возвращаются к твоему плечу, а не к горизонту. Ты боишься потери больше, чем неизвестности.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Твой начальник дал тебе этот шанс, чтобы ты поднялась на «Стультиферу» и установила контакт с эгирцами, а не чтобы ты колебалась в нерешительности.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  ...Я знаю.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Прежде чем бой придёт к нам, ты должна... Эй. Ты чувствуешь этот запах, Акула?
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Конечно. Держи эту уютную лодочку чуть правее, и скоро мы увидим лодку побольше.
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Хотя она давно стала очередным гнездом. Мы правда собираемся нырнуть прямо туда?
+[Character(name="char_263_skadi#4")]
+[name="Скади"]  Тебе нужно отдохнуть, Спектер?
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  Мне? Со мной что-то не так? Почему ты спрашиваешь?
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Твоя рука дрожит.
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  М?
+[dialog]
+Спектер смотрит на свою руку. Та, что не держит оружие, действительно слегка дрожит на морском бризе.
+Её сознание постепенно проясняется и погружается глубоко в бездну, недосягаемую.
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  Я... Ах, это тревога? Или... возбуждение?
+[name="Спектер"]  Но почему?
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  ......
+[dialog]
+[Character(fadetime=0)]
+[PlaySound(key="$d_avg_clothmovement", volume=0.6)]
+[delay(time=1)]
+Гладия протягивает руку и мягко берёт Спектер за руку, Скади делает то же самое. Три Охотницы Бездны делят мгновение тишины.
+[Character(name="avg_474_gladiia_1#4")]
+[name="Гладия"]  Добро пожаловать домой, Охотницы.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[Background]
+[Image(image="27_i28", fadetime=2,xScale=0.9, yScale=0.9,x=-20, y=20)]
+[ImageTween(xScaleTo=0.8, yScaleTo=0.8, duration=40,xTo=0, yTo=0,block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+Гладия торжественно ступает на нос корабля.
+Морской бриз прорезает путь сквозь ночь, неся знакомый запах.
+Тихое судно мирно спит на океане. Оно вассал морского бриза, гость эпохи.
+Идеализм был вездесущ в ту эпоху, и он отражал дух исследований народа — а также его высокомерие.
+Скади и Гладия молча смотрят на корабль.
+В одно мгновение их захлёстывает поток мыслей. Но в конце концов их неизменно утягивает в прошлое — их юность, их дом, ритмичное покачивание корабля.
+Только Спектер продолжает крепко сжимать оружие в руке, а морской бриз слегка усиливается.
+Этот бриз отнесёт Охотниц домой.
+[Dialog]
+[stopmusic(fadetime=3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[dialog]
+[Character(fadetime=0)]
+[Image]
+[delay(time=2)]
+[stopSound(channel="sea",fadetime=2)]
+[Background(image="27_g16_lighthouse_street",screenadapt="coverall")]
+[PlayMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1",fadetime=1)]
+[delay(time=2)]
+[name="Морской Ужас"]  (Скользит по каменистой поверхности)
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Мон3тр, сожги их.
+[Character(fadetime=0)]
+[dialog]
+[Character(name="npc_10002",fadetime=0.5)]
+[delay(time=0.51)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[PlaySound(key="$p_skill_Mon3trburst")]
+[PlaySound(key="$d_sp_ballista", volume=0.9)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$Mon3tr_n")]
+[name="Мон3тр"]  (Визжит)
+[Delay(time=1)]
+[dialog]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1")]
+[delay(time=0.51)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[character(fadetime=1)]
+[delay(time=2)]
+[Character(name="char_empty",name2="char_empty")]
+[characteraction(name="right", type="move", xpos=200, fadetime=0, block=true)]
+[characteraction(name="left", type="move", xpos=-200, fadetime=0, block=true)]
+[PlaySound(key="$d_avg_fish_howl")]
+[characteraction(name="right", type="move", xpos=-200, fadetime=1.5, block=false)]
+[characteraction(name="left", type="move", xpos=200, fadetime=1.5, block=false)]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1",fadetime=1.5)]
+[delay(time=2)]
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Лорд Кармен, мы не можем позволить себе оставаться здесь дольше. Отряд Охотниц в опасности.
+[Character(name="char_003_kalts_1",name2="avg_npc_447_1#1$1",focus=2)]
+[name="Святой Кармен"]  Штрафной батальон сдерживают. Похоже, даже я недооценил масштаб скверны Церкви Глубин.
+[name="Святой Кармен"]  Нам следовало очистить временную передовую базу в Гран Фаро, чтобы продолжить преследование.
+[Character(name="char_003_kalts_1",name2="avg_npc_447_1#1$1",focus=1)]
+[name="Кальцит"]  У нас не было выбора.
+[Character(name="char_003_kalts_1",name2="avg_npc_447_1#1$1",focus=2)]
+[name="Святой Кармен"]  Если у нас нет способа обезопасить город, мы окажемся под ударом с обеих сторон.
+[Character(name="char_003_kalts_1",name2="avg_npc_447_1#1$1",focus=1)]
+[name="Кальцит"]  Иберийская терция состоит как минимум из десяти рот, примерно трёх тысяч человек. Офицерам Штрафного батальона более чем достаточно, чтобы привести их к победе.
+[Character(name="char_003_kalts_1",name2="avg_npc_447_1#10$1",focus=2)]
+[name="Святой Кармен"]  Ты, похоже, хорошо в этом разбираешься.
+[Character(name="char_003_kalts_1",name2="avg_npc_447_1#10$1",focus=1)]
+[name="Кальцит"]  Наши пути пересекались не раз.
+[Character(name="char_003_kalts_1",name2="avg_npc_447_1#7$1",focus=2)]
+[name="Святой Кармен"]  Ты предлагаешь оставить Гран Фаро Штрафному батальону и направиться прямо к Оку Иберии?
+[name="Святой Кармен"]  Я не был бы против такого предложения, если бы мы имели дело с флотом Виктории.
+[Character(name="char_003_kalts_1",name2="avg_npc_447_1#7$1",focus=1)]
+[name="Кальцит"]  Иначе наши потери будут ещё больше.
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  ......
+[dialog]
+[Character(fadetime=0)]
+[stopmusic(fadetime=3)]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="npc_2003_Frost_1",fadetime=1,block=true)]
+[delay(time=1)]
+[name="Фрост"]  (Рифф)
+[Character(name="char_003_kalts_1#2")]
+[name="Кальцит"]  Мисс Фрост? Почему ты...
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  Разминка, сказала она.
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  Мы пришли из моря. Мы — море.
+[PlayMusic(intro="$drift_intro", key="$drift_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  Однако... (Уныло играет рифф)
+[Character(name="avg_npc_447_1#1$1",name2="npc_2003_Frost_1",focus=1)]
+[name="Святой Кармен"]  ...Если ты готова помочь, это было бы идеально. Что ты можешь предложить?
+[Character(name="avg_npc_447_1#1$1",name2="npc_2003_Frost_1",focus=2)]
+[name="Фрост"]  Я могу заставить их слушать. Слушать мою песню.
+[Character(name="avg_npc_447_1#1$1",name2="npc_2003_Frost_1",focus=1)]
+[name="Святой Кармен"]  А твои спутники?
+[Character(name="avg_npc_447_1#1$1",name2="npc_2003_Frost_1",focus=2)]
+[name="Фрост"]  Заранее извиняюсь, но Дэн хочет одолжить ту часовню. Остальные там придумывают новые песни.
+[Character(name="avg_npc_447_1#7$1",name2="npc_2003_Frost_1",focus=1)]
+[name="Святой Кармен"]  Музыка? Твои мелодии заметно отличаются от того, что я привык слышать в Лейтании. Ты уверена, что их это заинтересует?
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  (Коротко берёт рифф)
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  Смысл жизни... в музыке.
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  Я просто хочу убрать площадку перед началом шоу.
+[dialog]
+[character(fadetime=0)]
+[delay(time=1)]
+Фрост медленно достаёт гитару.
+Кармен не может не удивиться. Он видит, что организм перед ним действительно, искренне думает о «музыке». В её словах не было лишних намерений.
+Это отнюдь не метафора. Употреби это слово иначе, и внимание Фрост быстро уплывёт. Она думает только о музыке. Только эта форма искусства, способная будоражить её душу, удерживает её внимание.
+[dialog]
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Дрожащее змеиное шуршание)
+[Character(name="npc_2003_Frost_1")]
+[name="Фрост"]  (Экспериментально берёт рифф)
+[dialog]
+[character(fadetime=0)]
+[PlaySound(key="$d_avg_fish_howl")]
+Притаившиеся Морские Ужасы кружат вокруг неё. Наблюдают, изучают, судят.
+Они не смеют безрассудно приблизиться. Они чуют знакомый запах. Они понимают, что гитаристка перед ними — полый сосуд. Её далёкая связь резонирует сквозь глубины, дарованные им по праву рождения.
+Даже на суше они мгновенно чувствуют себя едиными с морем.
+[dialog]
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Противоречивое, растерянное змеиное шуршание)
+[Character(name="avg_npc_447_1#4$1")]
+[name="Святой Кармен"]  Как... чудесно.
+[Character(name="avg_npc_447_1#4$1")]
+[name="Святой Кармен"]  Эти существа тесно связаны с самой землёй. В их глазах люди и Морские Ужасы ничем не отличаются?
+[dialog]
+[Character(fadetime=0)]
+Фрост не отвечает. Она опьянена мелодией, поглощена страстью.
+Кальцит знает, что вопрос был риторическим.
+[Character(name="avg_npc_447_1#7$1")]
+[name="Святой Кармен"]  Кальцит, это тоже часть твоих планов? Чтобы они сидели на берегу, пока Штрафной батальон погружается в море?
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Если ты предпочитаешь так думать, то да.
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  Но Штрафной батальон даже не успел подготовить для нас хотя бы один корабль.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Один уже стоит у берега.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Проект Гран Фаро свёрнут много лет назад.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  ...Сначала мы должны выкорчевать зло, которое всё ещё держит эту землю.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Я остаюсь инквизитором. Я не буду сидеть сложа руки и смотреть, как порча, заражающая Иберию, ускользает прямо у меня на глазах.
+[Dialog]
+[stopmusic(fadetime=3)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(fadetime=0)]
+[Background(image="27_g21_goldenboat_deck",screenadapt="coverall")]
+[PlaySound(key="$d_avg_sea", volume=0.6, loop=true, channel="sea")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_474_gladiia_1#1",name2="char_263_skadi#2",fadetime=1)]
+[CameraShake(duration=0.4, xstrength=10, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[delay(time=1)]
+[Character(fadetime=0)]
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_4009_irene_1#1$1",fadetime=1)]
+[CameraShake(duration=0.4, xstrength=10, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[delay(time=1)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_4009_irene_1#2$1",focus=2)]
+[CameraShake(duration=0.4, xstrength=10, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Инквизитор Ирене"]  Ого!
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_4009_irene_1#2$1",focus=1)]
+[name="Спектер"]  Ты в порядке?
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_4009_irene_1#3$1",focus=2)]
+[name="Инквизитор Ирене"]  О-Отпусти меня! Нечего людей хватать!
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_4009_irene_1#3$1",focus=1)]
+[name="Спектер"]  Но, моя хрупкая маленькая птичка, как ты поднимешься на эту высокую палубу, если я тебя не понесу?
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_4009_irene_1#1$1",focus=2)]
+[name="Инквизитор Ирене"]  Я-Я не это имела в виду... Чт, забудь...
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_4009_irene_1#1$1",focus=1)]
+[name="Спектер"]  Что такое?
+[dialog]
+[Character(fadetime=0)]
+[BackgroundTween(image="27_g21_goldenboat_deck", duration=2, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1,xFrom=0,xTo=60)]
+[delay(time=2)]
+[BackgroundTween(image="27_g21_goldenboat_deck", duration=2, xFrom=60,xTo=-30)]
+[delay(time=2)]
+[BackgroundTween(image="27_g21_goldenboat_deck", duration=2, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1,xFrom=-30,xTo=0)]
+[delay(time=2)]
+[Character(name="avg_4009_irene_1#7$1")]
+Ирене просто тупо смотрит на пейзаж перед собой.
+Тусклая полоска света перед чернильным морем. Перед мачтой корабля время будто остановилось на последние шестьдесят лет.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Так вот она... «Стультифера». «Stultifera Navis». Корабль дураков.
+[name="Инквизитор Ирене"]  Флагман, приютивший и учёных, и солдат, плавучий дворец павшей династии. Он совсем... не такой, как описано в книгах.
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Идём.
+[Character(name="avg_4009_irene_1#7$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Инквизитор Ирене"]  П-Подожди!
+[name="Инквизитор Ирене"]  Что ты вообще ищешь на таком большом корабле?
+[Character(name="avg_4009_irene_1#7$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Бреоган был эгирцем.
+[Character(name="avg_4009_irene_1#7$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Этот ключ должен скрывать какую-то подсказку, которую эгирцы хотели оставить.
+[Character(name="avg_4009_irene_1#1$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Инквизитор Ирене"]  Ключ? Что он должен открыть?
+[Character(name="avg_4009_irene_1#1$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Вот это я и пришла выяснить.
+[Character(name="avg_4009_irene_1#2$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Инквизитор Ирене"]  Даже если не считать размеров, корабль потерян в море шестьдесят лет. Как ты собираешься...
+[Character(name="avg_4009_irene_1#2$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Возможно, вы, молодые иберийцы, мало сталкивались с такими транспортными судами. Даже с помощью Бреогана эта штука построена настолько топорно.
+[Character(name="avg_4009_irene_1#4$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Инквизитор Ирене"]  Да ты...!
+[Character(name="avg_4009_irene_1#4$1",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Море было спокойным по пути сюда? Уверена, ты знаешь ответ.
+[name="Гладия"]  Тогда мой следующий вопрос: «Почему этот корабль не затонул?»
+[Character(name="avg_4009_irene_1#1$1",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Инквизитор Ирене"]  Ты хочешь сказать...
+[dialog]
+[Character(fadetime=0)]
+[stopmusic(fadetime=2)]
+[delay(time=1)]
+[PlaySound(key="$d_gen_walk_n")]
+[delay(time=1)]
+Шаги. Тяжёлые, вязкие шаги.
+На палубе появляется тень там, где не должно быть живых существ.
+Нет, Ирене тут же ругает себя за такую мысль. Вопрос Гладии тоже вертелся у неё в голове. На берегу, в водах. Она уже видела столько таких.
+[dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="avg_npc_452_1#1$1",fadetime=2)]
+[delay(time=3)]
+[name="???"]  ......
+В момент, когда она видит врага, первым инстинктом молодой талантливой инквизиторши Ирене становится задержать дыхание.
+К тому времени, как она вспоминает, как дышать, Гладия уже шагнула вперёд.
+[PlaySound(key="$d_avg_fish_howl", volume=0.9)]
+[PlayMusic(intro="$tense_intro", key="$tense_loop", volume=0.8, crossfade=1, delay=0.5)]
+[name="???"]  (Визжащий вой) —!
+[dialog]
+[Character(name="avg_474_gladiia_1#2")]
+[characteraction(name="middle", type="move", xpos=-30,fadetime=0.5, block=true)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_clothmovement", volume=0.9)]
+[character(name="char_empty",fadtime=2)]
+[characteraction(name="middle", type="move", xpos=100, fadetime=0.2, block=true)]
+[CameraShake(duration=0.3, xstrength=0, ystrength=0, vibrato=0, randomness=0, fadeout=true, block=true)]
+[character(fadetime=0)]
+[CameraShake(duration=0.2, xstrength=0, ystrength=0, vibrato=0, randomness=0, fadeout=true, block=true)]
+[character(name="char_empty",name2="avg_npc_452_1#1$1")]
+[characteraction(name="right", type="move", xpos=-100, fadetime=0, block=true)]
+[characteraction(name="left", type="move", xpos=-300, fadetime=0, block=true)]
+[Character(name="avg_474_gladiia_1#2",name2="avg_npc_452_1#1$1",fadetime=0.5,block=false)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_atk_bigaxe_n", volume=1)]
+[PlaySound(key="$e_atk_bigaxe_n", volume=1)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[characteraction(name="left", type="move", xpos=300, fadetime=0.5, block=true)]
+[CameraShake(duration=0.2, xstrength=0, ystrength=0, vibrato=0, randomness=0, fadeout=true, block=true)]
+[characteraction(name="right", type="move", xpos=120, fadetime=0.5, block=true)]
+[characteraction(name="left", type="move", ypos=-20, fadetime=0.4, block=true)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_atk_bigaxe_n", volume=1)]
+[PlaySound(key="$e_atk_bigaxe_n", volume=1)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[characteraction(name="left", type="move", xpos=120, ypos=50,fadetime=0.8, block=true)]
+[CameraShake(duration=0.2, xstrength=0, ystrength=0, vibrato=0, randomness=0, fadeout=true, block=true)]
+[characteraction(name="right", type="move", xpos=60, fadetime=0.5, block=true)]
+[CameraShake(duration=0.4, xstrength=0, ystrength=0, vibrato=0, randomness=0, fadeout=true, block=true)]
+[Character(name="avg_474_gladiia_1#2",name2="char_empty",fadetime=0.5,block=false)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_atk_bigaxe_n", volume=1)]
+[PlaySound(key="$e_atk_bigaxe_n", volume=1)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[characteraction(name="left", type="move", xpos=100, ypos=-30,fadetime=0.6, block=true)]
+[characteraction(name="right", type="jump", xpos=260, fadetime=0.5, block=false)]
+[delay(time=0.51)]
+[Character(name="char_empty")]
+[characteraction(name="middle", type="move",xpos=-200,fadetime=0, block=true)]
+[Character(name="avg_npc_452_1#1$1",fadetime=1)]
+[characteraction(name="middle", type="jump",xpos=200, fadetime=0.4, block=true)]
+[delay(time=1)]
+[name="???"]  ......
+[Character(fadetime=0)]
+[Character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Интересно, ты увернулась.
+[Character(name="avg_npc_452_1#1$1",name2="char_empty")]
+[characteraction(name="right", type="move",xpos=300,power=60,times=1, fadetime=0,block=true)]
+[characteraction(name="left", type="move", xpos=100, fadetime=0, block=true)]
+[name="???"]  ......!
+[dialog]
+[Character(name="avg_npc_452_1#1$1",name2="avg_1023_ghost2_1#2$1",fadetime=1.5,block=false)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.5)]
+[PlaySound(key="$e_atk_saw_n_1", volume=1)]
+[PlaySound(key="$e_atk_saw_n_1", volume=1)]
+[PlaySound(key="$e_atk_saw_n_2", volume=1)]
+[Character(name="char_empty",name2="avg_1023_ghost2_1#2$1",fadetime=1,block=false)]
+[characteraction(name="right", type="move",xpos=-300,power=60,times=1, fadetime=0.5,block=false)]
+[CameraShake(duration=0.2, xstrength=0, ystrength=0, vibrato=0, randomness=0, fadeout=true, block=true)]
+[characteraction(name="left", type="move", ypos=-20, fadetime=0.3, block=true)]
+[CameraShake(duration=0.2, xstrength=0, ystrength=0, vibrato=0, randomness=0, fadeout=true, block=true)]
+[characteraction(name="left", type="move", ypos=200, xpos=-200,power=0, times=1, fadetime=0.5, block=true)]
+[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.51)]
+[character(fadetime=0)]
+[Character(name="char_empty")]
+[characteraction(name="middle", type="move",xpos=200,ypos=200,fadetime=0, block=true)]
+[Character(name="avg_npc_452_1#1$1",fadetime=1)]
+[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[characteraction(name="middle", type="move",xpos=-200, ypos=-200,fadetime=0.2, block=true)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[CameraShake(duration=0.3, xstrength=0, ystrength=0, vibrato=0, randomness=0, fadeout=true, block=true)]
+[characteraction(name="middle", type="move",xpos=-20,fadetime=1.5, block=false)]
+[delay(time=2)]
+[character(fadetime=0)]
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Недолго.
+[Character(name="char_263_skadi#8")]
+[PlaySound(key="$rungeneral", volume=0.9)]
+[name="Скади"]  Даже не думай!
+[dialog]
+[CameraShake(duration=0.3, xstrength=0, ystrength=0, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Character(fadetime=0)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[PlaySound(key="$d_sp_ballista", volume=0.9)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Character(name="avg_npc_452_1#1$1")]
+[characteraction(name="middle", type="jump", xpos=100, fadetime=0.5, block=true)]
+[delay(time=2)]
+[PlaySound(key="$d_avg_clothmovement", volume=0.9)]
+[character(fadetime=1.5)]
+[delay(time=2)]
+[Character(name="char_263_skadi#6")]
+[name="Скади"]  Что...?
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  Оно спряталось в каюте! Нам за ним?
+[stopmusic(fadetime=3)]
+[Character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  ...Да, оно ушло туда.
+[Character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Но почему оно прячется внутри? Мы посреди океана.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Что нам делать?
+[Character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  ......
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Оно не одно. На этом корабле больше одного сиборна. И ещё больше Морских Ужасов.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Нам стоит разделиться.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Я пойду за ним.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Я спущусь вниз.
+[Character(name="avg_4009_irene_1#2$1")]
+[name="Инквизитор Ирене"]  В-Вниз? Как? Вы что, уже знаете планировку корабля?
+[Character(name="avg_474_gladiia_1#3")]
+[name="Гладия"]  Нет, но это не проблема для острого клинка.
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Простите?! Речь о важнейшем наследии иберийских мудрецов!
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  А куда пойдёшь ты, маленькая птичка?
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Я... я обязана за вами приглядывать. Так что я пойду с тобой.
+[name="Инквизитор Ирене"]  «Стультиферу» окружает столько тайн. Если она так хорошо сохранилась, почему за последние шестьдесят лет ни разу не попыталась вернуться в Иберию?
+[name="Инквизитор Ирене"]  Как инквизитор, я должна раскрыть правду.
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Тогда возьмёмся за руки?
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  Ч-Что это значит?!
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Ты плод изящества и грации. Но твой труд и природные таланты ничего не стоят перед врагами, с которыми ты столкнёшься.
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Боюсь, мы потеряем тебя из-за мгновенной потери концентрации.
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  ...Ты слишком презираешь других, эгирка.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Тогда присмотри за ней.
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Сделаю.
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Акула.
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  М?
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Ты что-то вспомнила?
+[Character(name="avg_1023_ghost2_1#3$1")]
+[name="Спектер"]  ...Морской бриз сказал мне. Он говорил о скульптуре. Она плачет и ждёт меня.
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Смогу ли я найти её на этом корабле?
+[Character(name="avg_474_gladiia_1#4")]
+[name="Гладия"]  Конечно. Но поторопись.
+[Character(name="avg_474_gladiia_1#4")]
+[name="Гладия"]  Я буду ждать тебя.
+[dialog]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_bldwhoosh")]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$d_gen_explo_n")]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[PlaySound(key="$d_avg_rockfall", volume=1)]
+[delay(time=1)]
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Что за скульптура?
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Что ж, давай поприветствуем усопших, пока ищем её, Скади.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  ...Я рада, что ты ещё помнишь моё имя.
+[Dialog]
+[stopmusic(fadetime=3)]
+[stopSound(channel="sea",fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(fadetime=0)]
+[Background(image="27_g23_goldenboat_pass",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_clothmovement", volume=0.6)]
+[delay(time=0.51)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[PlayMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Character(name="avg_4009_irene_1#2$1",fadetime=1)]
+[delay(time=1)]
+[name="Инквизитор Ирене"]  Это место... действительно годится в дворцы.
+[name="Инквизитор Ирене"]  Но как оно так безупречно? Ни пылинки. Смотри, даже половицы блестят.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Может, кто-то хотел содержать его в чистоте.
+[Character(name="avg_4009_irene_1#2$1")]
+[name="Инквизитор Ирене"]  Кто же?
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Кто знает.
+[Character(name="avg_4009_irene_1#1$1")]
+[name="Инквизитор Ирене"]  ......
+[Character(name="avg_4009_irene_1#1$1")]
+[name="Инквизитор Ирене"]  Ты сказала, что собираешься преследовать того монстра. Как ты собираешься это делать?
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Его запах не лжёт.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Хотя здесь полно гнилостных запахов. Должно быть, ещё...
+[dialog]
+[Character(fadetime=0)]
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1",fadetime=1)]
+[delay(time=1)]
+[name="Морской Ужас"]  (Тяжёлое змеиное шуршание)
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  Морские Ужасы!
+[Character(name="char_263_skadi#8")]
+[name="Скади"]  Как и ожидалось, они превратили это место в гнездо.
+[dialog]
+[Character(name="avg_1023_ghost2_1#2$1")]
+[PlaySound(key="$rungeneral", volume=0.9)]
+[delay(time=0.51)]
+[dialog]
+[character(fadetime=0)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[PlaySound(key="$e_atk_saw_n_1", volume=1)]
+[PlaySound(key="$e_atk_saw_n_1", volume=1)]
+[PlaySound(key="$e_atk_saw_n_2", volume=1)]
+[delay(time=0.51)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[PlaySound(key="$e_atk_saw_n_1", volume=1)]
+[PlaySound(key="$e_atk_saw_n_1", volume=1)]
+[PlaySound(key="$e_atk_saw_n_2", volume=1)]
+[delay(time=1)]
+[dialog]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1")]
+[delay(time=0.51)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[character(fadetime=1)]
+[delay(time=2)]
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Я разберусь.
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Скользит на месте)
+[Character(name="char_263_skadi#6")]
+[name="Скади"]  —Подожди! Спектер! Запах идёт снизу!
+[dialog]
+[Character(fadetime=0)]
+[Blocker(a=1,r=1, g=1, b=1,  fadetime=0.1, block=true)]
+[PlaySound(key="$d_sp_ballista")]
+[CameraShake(duration=3, xstrength=20, ystrength=30, vibrato=20, randomness=60,block=false)]
+[PlaySound(key="$d_gen_explo_n")]
+[PlaySound(key="$d_sp_ballista")]
+[PlaySound(key="$d_avg_rockfall", volume=1)]
+[Blocker(a=0.7,r=1, g=1, b=1,  fadetime=0.3, block=true)]
+[Blocker(a=0,r=0, g=0, a=0, fadetime=2, block=false)]
+[delay(time=2)]
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  Угх...
+[Dialog]
+[stopmusic(fadetime=3)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+Ишар-мла.
+Ишар-мла.
+[dialog]
+[Character(fadetime=0)]
+[Background(image="27_g22_goldenboat_hall",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[CameraShake(xstrength=5, ystrength=3, vibrato=30, randomness=90,block=false)]
+[PlaySound(key="$d_gen_explo_n", volume=0.7)]
+[PlaySound(key="$d_sp_ballista", volume=0.7)]
+[PlaySound(key="$d_avg_rockfall", volume=0.7)]
+[delay(time=2)]
+[Character(name="avg_1023_ghost2_1#4$1",name2="char_263_skadi#8",fadetime=1)]
+[CameraShake(duration=1, xstrength=10, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[delay(time=2)]
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Ургх, этот удар... Ты в порядке, Спектер?
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  ......
+[Character(name="char_263_skadi#6")]
+[name="Скади"]  ...Спектер? Лаурентина!
+[Character(name="char_263_skadi#4")]
+[name="Скади"]  На что ты смотришь? Зеркало? Почему здесь зеркало?
+[dialog]
+[Character(fadetime=0)]
+[PlaySound(key="$d_gen_walk_n")]
+[delay(time=3)]
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  ...Зеркало разбито.
+[Character(name="char_263_skadi#4")]
+[name="Скади"]  Что с этим местом? Зачем иберийцы превратили транспортное судно в дворец?
+[Character(name="char_263_skadi#4")]
+[name="Скади"]  Совсем не похоже на Родос Айленд.
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  ......
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  В зеркале есть что-то особенное?
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  Я видела это.
+[dialog]
+[Character(fadetime=0)]
+Сначала с поверхности разбитого зеркала мелькнула крупица света. Но её быстро сменила тёмная тень под ним. Его глаз.
+Сиборн давно ждал здесь, сидя один в своём золотом зале.
+[dialog]
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_458_1#1$1",fadetime=1)]
+[delay(time=1)]
+[name="Сиборн"]  ...Ишар-мла, Ла-тина, Луу-тина, Ларен-тина......?
+[PlayMusic(intro="$tense_intro", key="$tense_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Character(name="char_263_skadi#8")]
+[name="Скади"]  Оно молодое... Нет, мы не можем судить их силу по размеру. Ещё один сиборн, без сомнений.
+[Character(name="char_263_skadi#8")]
+[name="Скади"]  Морские Ужасы тоже! Они собираются, Спектер!
+[dialog]
+[Character(fadetime=0)]
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1",fadetime=1)]
+[delay(time=2)]
+[dialog]
+[Character(fadetime=0)]
+Спектер игнорирует её слова, тупо глядя в зеркало. И на сиборна за ним.
+[Character(name="avg_1023_ghost2_1#4$1")]
+[name="Спектер"]  ...Ты помнишь меня?
+[dialog]
+[Character(fadetime=0)]
+Сиборн слегка кивает. Он смотрит на Спектер и Скади с недоумением. Думает.
+Почему они не такие, как в «прошлом»? Что с ними случилось? Как помочь освободить их от оков плоти и крови?
+[Character(name="avg_1023_ghost2_1#4$1")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Спектер"]  ......!
+[Character(name="char_263_skadi#8")]
+[name="Скади"]  Спектер!
+[Character(name="avg_1023_ghost2_1#3$1")]
+[name="Спектер"]  Я...
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Не думай об этом!
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Я не думаю.
+[dialog]
+[Character(fadetime=0)]
+Её тон изменился.
+Скади с изумлением смотрит на Спектер. Она так и не смогла получить определённого ответа ни от Гладии, ни от Кальцит о моменте ясности, который Спектер проявила в Саль Вьенто.
+[Character(name="char_263_skadi#6")]
+[name="Скади"]  Лаурентина, ты...
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Лаурентина. Да, Лаурентина.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Смотри, вот на свитке, висящем на моём оружии. Когда я записала своё имя и повесила его здесь, я ещё помнила, где родилась.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  А-а-ах... Ясный сон, да? Действительно, прошло слишком много времени.
+[Character(name="char_263_skadi#5")]
+[name="Скади"]  Спектер.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Мм. Мы можем вспомнить позже.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  В Саль Вьенто или на этом знакомом и незнакомом судне, я очень надеюсь, что в следующий раз меня разбудят сверкающие купола Эгира, а не вы, уродливые монстры.
+[Character(name="avg_npc_458_1#1$1")]
+[name="Сиборн"]  ......
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Эй, спасибо, что посидел и дал мне договорить. Погоди, ты ведь не серьёзно собирался назвать нас своими сородичами? Мерзость.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Давай. Почему бы тебе тоже не вздремнуть?
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Погрузись в трясину сознания и откажись от дара жизни.
+[Character(name="avg_npc_458_1#1$1")]
+[PlaySound(key="$d_avg_fish_howl")]
+[CameraShake(duration=1, xstrength=10, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Сиборн"]  —– (Визжит)
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=3)]
+[Character(fadetime=0)]
+

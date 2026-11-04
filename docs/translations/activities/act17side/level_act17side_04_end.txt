@@ -1,0 +1,621 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_room_2",screenadapt="coverall")]
+[playMusic(intro="$warm_intro", key="$warm_loop", volume=0.4,fadetime=3)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Character(name="avg_npc_061#3",fadetime=1)]
+[Delay(time=1)]
+[name="Мария"]  *зевок*... Уже утро?
+[Character(name="avg_npc_061#1")]
+[name="Мария"]  Снаряжение оперативников пострадало куда серьёзнее, чем мы предполагали... И всё же то, что им удалось спасти столько людей от той Катастрофы, говорит о том, насколько они удивительны.
+[Character(name="avg_npc_061#2")]
+[name="Мария"]  Мгм. Мне тоже нужно держать хвост пистолетом.
+[Dialog]
+[Character]
+[PlaySound(key="$d_gen_walk_n", volume=0.7 )]
+[Delay(time=1)]
+[PlaySound(key="$dooropenquite")]
+[Delay(time=1)]
+[Character(name="char_220_grani#3",fadetime=1)]
+[Delay(time=1)]
+[name="Грани"]  Привет, Мария, я пришла забрать заказ из Инженерного отдела.
+[Dialog]
+[Character(name="avg_npc_061#1")]
+[PlaySound(key="$d_avg_clothmovement")]
+[Delay(time=1)]
+[name="Мария"]  О, Грани! Минутку. Так... куда я это положила? Прости, я несколько дней не убиралась, тут небольшой бардак.
+[Character(name="avg_npc_061#1",name2="char_220_grani#2",focus=2)]
+[name="Грани"]  Аха-ха... Но теперь это действительно больше похоже на настоящую казимежскую мастерскую, чем в прошлый мой визит. Хм? Что это?
+[Character(name="avg_npc_061#1",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Роман?
+[Character(name="avg_npc_061#1",name2="char_220_grani#3",focus=1)]
+[name="Мария"]  «Последний Рыцарь»! Что он здесь делает? Он что, застрял под чертежами, когда я вчера рылась в ящиках? А я всё думала, куда он пропал.
+[Character(name="avg_npc_061#1",name2="char_220_grani#2",focus=2)]
+[name="Грани"]  «Последний Рыцарь»?
+[Character(name="avg_npc_061#1",name2="char_220_grani#2",focus=1)]
+[name="Мария"]  Когда-то это была моя любимая книга. Сестра подарила мне её в детстве.
+[Character(name="avg_npc_061#1",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Рыцарский роман из Казимежа, да?
+[Character(name="avg_npc_061#1",name2="char_220_grani#2",focus=2)]
+[name="Грани"]  Можно взять почитать?
+[Character(name="avg_npc_061#1",name2="char_220_grani#2",focus=1)]
+[name="Мария"]  Конечно!
+[name="Мария"]  Угх, так вот куда делась книга по теории арт-модулей... Прости, Грани, это может затянуться. Могу потом принести тебе, если хочешь.
+[Character(name="avg_npc_061#1",name2="char_220_grani#2",focus=2)]
+[name="Грани"]  Не волнуйся, это не срочно. Значит, я побуду на Родос Айленде подольше.
+[name="Грани"]  Я буду здесь читать, чтобы скоротать время.
+[Character(name="avg_npc_061#1",name2="char_220_grani#2",focus=1)]
+[name="Мария"]  Мне действительно очень, очень жаль.
+[Dialog]
+[Character]
+[Character(name="char_220_grani#2",fadetime=0.5)]
+[PlaySound(key="$d_avg_paper2")]
+[Delay(time=1)]
+[Character(name="char_220_grani#3",fadetime=0.5)]
+[name="Грани"]  ......
+[Dialog]
+[Character]
+«Последний Рыцарь».
+Название такое же напыщенное, как и клишированное. Наверняка написаны сотни книг о последнем рыцаре, самом быстром рыцаре или самом сильном рыцаре.
+Но раз Сияющий Рыцарь подарила её собственной сестре, наверняка в ней есть нечто большее?
+С этой мыслью Грани открывает книгу и обнаруживает внутри закладку.
+Корявыми казимежскими буквами написана строка, которую, возможно, скопировали из книги.
+[StopMusic(fadetime=2)]
+[name="Грани"]  «Если ты считаешь волны слишком буйными, прикажи океану утихнуть». А?..
+[Dialog]
+[PlaySound(key="$d_avg_sea")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character]
+Легенда гласит, что Последний Рыцарь вернулся в Иберию. Враги, отражённые в его глазах, были не живыми существами, а он бросался на горы, города и волны.
+Легенда гласит, что Последний Рыцарь поселился у побережья, питаясь ветром и укрываясь в тумане, пока наконец не забыл, как снимать шлем.
+Легенда гласит, что Последний Рыцарь в конце концов исчез, столкнувшись с великими волнами. Его семья обнаружила то, что он оставил на берегу, и привезла это обратно в Землю Рыцарей, похоронив глубоко в горах.
+[dialog]
+[Background(image="27_g19_lighthouse_front",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+Легенда гласит, что его или её историю обнародовал поэт. Приукрасил, воспел, придал смысл и символизм. И в таком виде они наконец вернулись в Землю Рыцарей как весьма противоречивая фигура.
+Однако...
+[Dialog]
+[Character(name="avg_npc_448_1#1$1",fadetime=1)]
+[Delay(time=1)]
+...Есть те, кто верит, что безумный рыцарь победил океан, время и саму смерть. Что его поиск продолжается до конца всех вещей.
+[Dialog]
+[playMusic(intro="$industv2_intro", key="$industv2_loop", volume=0.4,fadetime=3)]
+[Delay(time=1)]
+[name="???"]  ......
+[name="???"]  ............
+[Character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Что... ты такое?
+[Character(name="avg_npc_448_1#1$1")]
+[name="???"]  ......
+Рыцарь не отвечает. Его смертельный взгляд прикован к Гладии.
+Однако она быстро понимает, что на самом деле он смотрит не на неё.
+Он смотрит только на ключ в её руках.
+[CameraShake(duration=0.3, fadeout=true, xstrength=25, ystrength=25, vibrato=30, randomness=90, block=false)]
+[name="???"]  Гух... *кашель* *кашель*... Шшш...
+Рыцарь открывает рот, будто хочет заговорить. Но наружу выходит лишь сухой хрип, похожий на звук разрываемой мышцы.
+Он делает шаг вперёд.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#1$1")]
+[Background(image="27_g16_lighthouse_street",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#1$1",focus=2)]
+[name="Святой Кармен"]  Откуда у тебя этот ключ?
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#1$1",focus=1)]
+[name="Кальцит"]  ......
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#8$1",focus=2)]
+[name="Святой Кармен"]  О, я не собирался... лезть во внутренние дела Родос Айленда.
+[name="Святой Кармен"]  Но это наследие Бреогана, прошедшее через руки четырёх фераммутов и вновь вернувшееся к той Охотнице Бездны.
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#8$1",focus=1)]
+[name="Кальцит"]  По чистой случайности одна из Охотниц нашла его в Казимеже.
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#4$1",focus=2)]
+[name="Святой Кармен"]  ...Казимеж? Какой далёкий край. Я до сих пор помню, как путешествовал со своим наставником, чтобы принять посланника из Земли Рыцарей, и подслушал, как несколько рыцарей кампании Серебряного Копья описывают свои идеалы.
+[name="Святой Кармен"]  Говорят, с тех пор страна сильно изменилась.
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#4$1",focus=1)]
+[name="Кальцит"]  К лучшему или худшему, но каждая политическая сущность в нашу эпоху претерпела похожие изменения. Но к Иберии это не имеет отношения.
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#2$1",focus=2)]
+[name="Святой Кармен"]  Мы как пойманные звери. Если бороться — страдаем и истекаем кровью. Если сдаться — наши жизни кончены.
+[name="Святой Кармен"]  Прежде чем мы разоблачим тех предателей, что ещё люди, у меня к тебе новый вопрос, Кальцит.
+[name="Святой Кармен"]  Ты, несомненно, уже поняла: тот ребёнок не может быть потомком Бреогана. Инквизиция не упустила бы такую важную зацепку.
+[Character(name="char_003_kalts_1#1",name2="avg_npc_447_1#5$1",focus=2)]
+[name="Святой Кармен"]  Так почему ты всё равно обрекаешь его на бессмысленную смерть?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="27_g19_lighthouse_front",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_fish_howl",volume=0.3)]
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Зовёт сородичей змеиным звуком)
+[Dialog]
+[Character]
+[Character(name="avg_npc_457_1#1$1",name2="char_empty",fadetime=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1",fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Верховный инквизитор!
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  ...Их становится больше. Но ни один не появлялся, пока мы не дошли до маяка.
+[Character(name="avg_4042_lumen_1#13$1")]
+[name="Джорди"]  С-Сэр, я нашёл способ открыть главную дверь!
+[name="Джорди"]  Но основные сооружения Ока Иберии на вершине башни. И она очень, очень высокая! Подъёмный механизм тоже не работает, так что подняться можно только пешком!
+[PlaySound(key="$d_avg_fish_howl",volume=0.1)]
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Змеиное шуршание)
+[Dialog]
+[CameraShake(duration=0.3, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.7)]
+[delay(time=1)]
+[Character(fadetime=0.7)]
+[Delay(time=1)]
+[Character(name="avg_4009_irene_1#7$1")]
+[name="Инквизитор Ирене"]  Верховный инквизитор, нам нужно больше времени!
+[Dialog]
+[Character(name="avg_npc_457_1#1$1")]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.7)]
+[delay(time=1)]
+[Character(fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Забирай эгирца с собой.
+[Character(name="avg_npc_183#2")]
+[name="Верховный инквизитор Дарио"]  Нельзя терять ни минуты, Ирене.
+[Dialog]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#1$1")]
+[Characteraction(name="right", type="move", xpos=200,fadetime=0,block=true)]
+[Characteraction(name="right", type="move", xpos=-200,fadetime=0.6,block=true)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  Есть! Сейчас!
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Джорди"]  Подождите, стойте!
+[Dialog]
+[playsound(key="$rungeneral",volume=0.5)]
+[Character(fadetime=0.5)]
+[Delay(time=2)]
+[CameraShake(duration=1, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_fish_howl",volume=0.6)]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Интенсивное змеиное шуршание)
+[PlaySound(key="$d_gen_explo_n", volume=0.3)]
+[delay(time=1)]
+[name="Морской Ужас"]  —!
+[Dialog]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.7)]
+[delay(time=1)]
+[Character(name="char_empty",name2="avg_npc_457_1#1$1",fadetime=0.5)]
+[delay(time=1)]
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  О, они пришли? Нет, пламя фонаря мерцает. Что-то вошло в область моих искусств.
+[Character(name="char_empty",name2="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Трусливое змеиное шуршание)
+[Dialog]
+[characteraction(name="right", type="move", xpos=100, fadetime=1, block=true)]
+[delay(time=1)]
+[characteraction(name="right", type="jump", xpos=30, times=1, fadetime=0.2,block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  (Они напуганы. Странно, раньше эти твари не выказывали страха.)
+[name="Верховный инквизитор Дарио"]  (Тогда замешательство? Но что могло быть причиной...?)
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Замешательное змеиное шуршание)
+[Dialog]
+[Characteraction(name="left", type="jump", xpos=20, power=20, times=1, fadetime=0.3,block=true)]
+[Characteraction(name="right", type="jump", xpos=-20, power=20, times=1, fadetime=0.4,block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Characteraction(name="right", type="jump", xpos=30, power=20, times=1, fadetime=0.3,block=true)]
+[Characteraction(name="left", type="jump", xpos=-30, power=20, times=1, fadetime=0.4,block=true)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_fish_howl",volume=0.3)]
+[Characteraction(name="left", type="move", xpos=-200, fadetime=1,block=true)]
+[Characteraction(name="right", type="move", xpos=200, fadetime=1.4,block=true)]
+[Character(fadetime=0.5)]
+[delay(time=1)]
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  ......
+[Character]
+Верховный инквизитор высоко поднимает фонарь, и Морской Ужас отступает в тени рифа.
+Оглядевшись ещё раз, он замечает, что риф усеян проржавевшим и сломанным оружием, пропитанным свежей кровью монстров.
+Оружие Инквизиции. Как говорила его наставница Кармен, Инквизиция вовсе не задумывалась о возвращении единственного оставшегося маяка.
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Не затронутый Великой Тишиной, он неплохо сохранился.
+[name="Верховный инквизитор Дарио"]  И всё же после Великой Тишины Инквизиция ни разу не предприняла серьёзной попытки вернуть собственное Око.
+[name="Верховный инквизитор Дарио"]  Когда-то здесь была впечатляющая смотровая площадка. Захватывающий, ничем не заслонённый вид на весь город.
+[name="Верховный инквизитор Дарио"]  Здесь день за днём несли службу иберийцы.
+[Character(name="avg_npc_457_1#1$1")]
+[name="Морской Ужас"]  (Осторожное змеиное шуршание)
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Но вы превратили это место в кормовую площадку, самовольно построив гнездо для своего потомства.
+[name="Верховный инквизитор Дарио"]  Хуп...
+[Character]
+Эмоции.
+Давно утраченные эмоции.
+От солдата к инквизитору и наконец к тому, кто видит правду. Его бесчисленное множество раз закаляли, теряли и перековывали заново. Так Дарио стал одним из немногих Верховных инквизиторов Иберии.
+Инквизитора от Верховного инквизитора отделяет лишь одно слово, но это слово — разница между небом и землёй.
+Когда-то он считал себя твёрдым, как сталь. Перед врагами Иберии его фонарь мерцал, сабля блестела, и каждая строка Писаний претворялась в жизнь.
+Но теперь он чувствует, как в нём поднимается сильная эмоция. Не только порождение проповедуемого закона и справедливости.
+Признав её рациональность, Верховный инквизитор Дарио принимает тот факт, что действительно испытывает горе и гнев. Его ручная пушка нацелена на Морского Ужаса, но глаза устремлены к морю.
+[Dialog]
+[Blocker(a=0, fadetime=1, block=true)]
+[Blocker(a=0.1, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[PlaySound(key="$char_emp")]
+[PlaySound(key="$d_gen_explo_n",delay=0.3)]
+[CameraShake(duration=3, fadeout=true, xstrength=25, ystrength=25, vibrato=30, randomness=90, block=false)]
+[Delay(time=2)]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1")]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character(fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  Когда ты умрёшь, человечество может процветать.
+[Character(name="avg_npc_183#2")]
+[name="Верховный инквизитор Дарио"]  Эти слова не из наших законов или писаний, а из ваших. «Выживание сильнейшего».
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="27_g20_lighthouse_core",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$rungeneral", loop=true, channel="bgs")]
+[Character(name="avg_4042_lumen_1#1$1",fadetime=1)]
+[Delay(time=1)]
+[StopSound(channel="bgs", fadetime=1)]
+[Character(name="avg_4042_lumen_1#13$1")]
+[name="Джорди"]  Здесь!
+[name="Джорди"]  Всё как в записях! Маяк работает от источника питания у основания, а центральная колонна разделена на несколько зон. Консоль на этом этаже управляет...
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_4009_irene_1#1$1",focus=2)]
+[name="Инквизитор Ирене"]  ...Управляет чем?
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#1$1",focus=1)]
+[name="Джорди"]  Э-э, записью сигналов.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#1$1",focus=2)]
+[name="Инквизитор Ирене"]  Позже мы сможем это использовать. Но сейчас нам нужно в первую очередь запитать весь маяк. Продолжаем.
+[name="Инквизитор Ирене"]  Надеюсь, всё пойдёт хорошо до прибытия подкрепления.
+[Dialog]
+[character]
+[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=20, randomness=90, fadeout=true, block=false)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#2$1",focus=2)]
+[name="Инквизитор Ирене"]  Угх—!
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_4009_irene_1#2$1",focus=1)]
+[name="Джорди"]  Что случилось, донья Ирене?
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  ...Ничего. Наверное, просто показалось. Маэстро... Верховный инквизитор охраняет снаружи. Мы в безопасности.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Джорди"]  Х-Хорошо... После перезапуска энергосистемы маяка мы сможем воспользоваться лифтом. Тогда остальные смогут нас догнать.
+[name="Джорди"]  Так что поторопимся!
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  ......
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="27_g19_lighthouse_front",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_448_1#1$1")]
+[Delay(time=1)]
+[characteraction(name="middle", type="move", xpos=-1000, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[Character]
+[Character(name="char_263_skadi#8",name2="avg_npc_448_1#1$1")]
+[characteraction(name="right", type="move", xpos=200, fadetime=0, block=true)]
+[characteraction(name="right", type="move", xpos=-400, fadetime=0.5, block=true)]
+[CameraShake(duration=0.3, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.7)]
+[PlaySound(key="$skadi_n",delay=0.2)]
+[CameraShake(duration=1.5,xstrength=22,ystrength=33,vibrato=30,randomness=90,fadeout=true,block=false)]
+[Delay(time=1)]
+[characteraction(name="left", type="move", xpos=-500, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Character(name="char_empty",name2="avg_npc_448_1#1$1")]
+[Delay(time=1)]
+[Character(name="char_empty",name2="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  ......
+[Character]
+[Character(name="char_263_skadi#4",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Скади"]  С ним что-то не так. Какой-то... затянувшийся запах.
+[Character(name="char_263_skadi#4",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Но что это?
+[Character(name="char_263_skadi#4",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Скади"]  Запах другой земли. Тебе это будет неинтересно.
+[Character(name="char_263_skadi#4",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Он, несомненно, сиборн. Но не такой, как Квинтус.
+[Character(name="char_263_skadi#4",name2="avg_474_gladiia_1#2",focus=2)]
+[name="Гладия"]  Как столько земных существ могли стать сиборнами? У них не должно быть частых контактов с океаном.
+[Character(name="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  ......
+[Dialog]
+[characteraction(name="middle", type="jump", xpos=0, power=10, times=3, fadetime=4, block=false)]
+[playsound(key="$d_avg_walk_water", loop=true, channel="a")]
+[playsound(key="$d_gen_walk_n", loop=true, channel="bgs")]
+[Delay(time=2)]
+[Character(name="char_263_skadi#4",name2="avg_474_gladiia_1#5",focus=2)]
+[name="Гладия"]  Без возможности общаться мы ничего не можем сделать, кроме как позволить его телу утратить все функции.
+[Character(name="char_263_skadi#8",name2="avg_474_gladiia_1#5",focus=1)]
+[name="Скади"]  Сейчас атакует!
+[StopSound(channel="bgs", fadetime=1)]
+[StopSound(channel="a", fadetime=1)]
+[Dialog]
+[Character]
+[Character(name="avg_npc_448_1#1$1")]
+[characteraction(name="middle", type="move", ypos=200, fadetime=0.3, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[Character(fadetime=0.1)]
+[Delay(time=1)]
+Рыцарь внезапно будто исчезает с места. Но для чувств Охотника Бездны поймать его — совсем не вызов.
+С его скоростью он решает не атаковать их, а высоко прыгает в воздух и с яростным рёвом несётся к маяку.
+[Dialog]
+[CameraShake(duration=1.5, ystrength=50, vibrato=50, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[PlaySound(key="$d_gen_explo_n")]
+[Character(name="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  Гра-а-а-а-а!
+[Delay(time=1)]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#1$1")]
+[Background(image="27_g20_lighthouse_core",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[CameraShake(duration=3, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_gen_explo_n",volume=0.5,delay=1)]
+[Delay(time=2)]
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_4009_irene_1#1$1",focus=1)]
+[name="Джорди"]  Ого... Ч-Что это было?
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  Не паникуй! Продолжай подниматься!
+[name="Инквизитор Ирене"]  Выполним нашу задачу: зажжём этот маяк!
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Джорди"]  Х-Хорошо!
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  (Эти вибрации... Стены атакуют? Как это возможно? Мы уже в десятках метров над землёй. У Морских Ужасов есть пушка?)
+[name="Инквизитор Ирене"]  (Или... может, какое-то огромное существо? Но кроме этой дрожи я больше ничего не заметила.)
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_4009_irene_1#4$1",focus=2)]
+[name="Инквизитор Ирене"]  (Маэстро...!)
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="27_g19_lighthouse_front",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  ......
+Рыцарь поднимает голову и смотрит вверх. Маяк не сдвинулся ни на дюйм.
+Он неодобрительно встряхивает своё искажённое оружие. Это длинное копьё, когда-то созданное великим мастером, теперь пропитано запахом глубин.
+Он не видит, кто стоит у него на пути. Рыцарь снова сгибает колени, намереваясь попробовать ещё раз.
+[Dialog]
+[Character]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character(name="avg_npc_183#1",focus=3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0.3)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.7)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(name="avg_npc_448_1#1$1")]
+[characteraction(name="middle", type="move", xpos=200, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0.6)]
+[Delay(time=1)]
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=2)]
+[name="Последний Рыцарь"]  —!
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=1)]
+[name="Верховный инквизитор Дарио"]  Что ты делаешь?
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=2)]  ]
+[name="Последний Рыцарь"]  ......
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=1)]
+[name="Верховный инквизитор Дарио"]  Ты с презрением провоцируешь Иберию, вторгаешься в запретные зоны и повреждаешь драгоценное наследие.
+[name="Верховный инквизитор Дарио"]  Только посмотри на себя. Осталась ли в тебе хоть крупица человеческого достоинства?
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=2)]
+[name="Последний Рыцарь"]  ......
+[name="Последний Рыцарь"]  ...Досто...инство...?
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=1)]
+[name="Верховный инквизитор Дарио"]  Похоже, твои голосовые связки всё ещё работают.
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=2)]
+[name="Последний Рыцарь"]  (Невнятные звуки) ...Морю... не нужно.
+[name="Последний Рыцарь"]  Сокрушить... волны. Растоптать солнце. Прекратить боль.
+[name="Последний Рыцарь"]  Всё не должно оставаться прежним. Великое древо пускает корни в этой земле.
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=1)]
+[name="Верховный инквизитор Дарио"]  Твоя стойка. Твои серые доспехи. И то копьё.
+[name="Верховный инквизитор Дарио"]  Ты из Казимежа?
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=2)]
+[name="Последний Рыцарь"]  Я... я...
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1",focus=1)]
+[name="Верховный инквизитор Дарио"]  ......
+[CameraShake(duration=3, fadeout=true, xstrength=15, ystrength=15, vibrato=20, randomness=90, block=false)]
+[Character(name="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  Рыцарь!
+[Dialog]
+[Character]
+[Delay(time=1)]
+[Character(name="avg_npc_183#1",name2="avg_npc_448_1#1$1")]
+[characteraction(name="right", type="move", xpos=100,fadetime=0, block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[characteraction(name="right", type="move", xpos=-430, ypos=-20,fadetime=0.4, block=true)]
+[PlaySound(key="$e_skill_skulsrsword")]
+[CameraShake(duration=0.5, fadeout=true, xstrength=5, ystrength=5, vibrato=50, randomness=90, block=false)]
+[characteraction(name="left", type="move", xpos=-50,ypos=-30, fadetime=0.2,delay=0.1, block=true)]
+[PlaySound(key="$swordtsing2")]
+[Delay(time=0.6)]
+[Character(name="avg_npc_183#2",name2="avg_npc_448_1#1$1")]
+[characteraction(name="left", type="move", xpos=-50,ypos=-30, fadetime=0, block=true)]
+[characteraction(name="left", type="move", xpos=30,ypos=30, fadetime=0.3, block=true)]
+[characteraction(name="right", type="jump",xpos=50, ypos=20,times=1,power=10,fadetime=0.5, block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Blocker(a=0.1, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[PlaySound(key="$char_emp")]
+[PlaySound(key="$d_gen_explo_n",delay=0.3)]
+[CameraShake(duration=3, fadeout=true, xstrength=25, ystrength=25, vibrato=30, randomness=90, block=false)]
+[characteraction(name="right", type="jump", xpos=400, times=1,power=20,fadetime=0.5, block=true)]
+[Delay(time=2)]
+[Character(name="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  ...Скользящая сталь... Волны океана...
+[Character(name="avg_npc_183#1")]
+[name="Верховный инквизитор Дарио"]  (Поднять фонарь ничего не даст. Признаков других кораблей нет.)
+[name="Верховный инквизитор Дарио"]  (Светящееся Клеймо Нижнего моря игнорирует его. Возможно, он и есть источник паники Морских Ужасов.)
+[name="Верховный инквизитор Дарио"]  (Тогда... он действительно сиборн, маскирующийся под человека?)
+[Dialog]
+[Character]
+[Character(name="avg_npc_448_1#1$1")]
+[Characteraction(name="middle", type="jump", xpos=-50, power=30, times=1, fadetime=0.3,block=true)]
+[Characteraction(name="middle", type="move", ypos=100, fadetime=0.3,block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[Character(fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_npc_183#2")]
+[name="Верховный инквизитор Дарио"]  Ты хочешь уничтожить Око Иберии? Инквизиция не позволит.
+[Dialog]
+[Character]
+[Blocker(a=0.1, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[PlaySound(key="$char_emp")]
+[PlaySound(key="$d_gen_explo_n",delay=0.3)]
+[CameraShake(duration=1, fadeout=true, xstrength=25, ystrength=25, vibrato=30, randomness=90, block=false)]
+[Delay(time=1)]
+[Character(name="avg_npc_448_1#1$1")]
+[Characteraction(name="middle", type="move", ypos=100, fadetime=0,block=true)]
+[Characteraction(name="middle", type="jump", xpos=50, power=30, times=1, fadetime=0.3,block=true)]
+[Characteraction(name="middle", type="move", ypos=-100, fadetime=0.3,block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[Delay(time=1)]
+[Character(name="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  А-а-а-а, земля—!
+[Character(name="avg_npc_183#2")]
+[name="Верховный инквизитор Дарио"]  Сейчас!
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  ...Добрый вечер, мистер Рыцарь.
+[Character(name="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  —?!
+[Dialog]
+[Character(name="avg_1023_ghost2_1#2$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.7)]
+[Character(fadetime=0.3)]
+[Delay(time=1)]
+[Character(name="avg_npc_448_1#1$1")]
+[PlaySound(key="$bodyfalldown3",delay=0.2)]
+[Characteraction(name="middle", type="move", xpos=300, fadetime=0.5,block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_1023_ghost2_1#4$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Где остальные двое?
+[Character(name="avg_1023_ghost2_1#4$1",name2="avg_npc_183#1",focus=1)]
+[name="Спектер"]  Остальные? Они... сейчас немного беседуют с друзьями мистера Рыцаря.
+[Dialog]
+[Character(name="avg_1023_ghost2_1#4$1",name2="avg_npc_183#1")]
+[CameraShake(duration=0.3,xstrength=20,ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$skadi_n",volume=0.6)]
+[PlaySound(key="$swordtsing4",volume=0.6,delay=0.1)]
+[PlaySound(key="$swordtsing6",volume=0.6,delay=0.2)]
+[Delay(time=1)]
+[Character(name="avg_1023_ghost2_1#4$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Значит, неподалёку вспыхнул бой. Похоже, это столкновение цивилизаций.
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_npc_183#1",focus=1)]
+[name="Спектер"]  Но это не имеет ко мне отношения, поэтому я пришла сюда.
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  Ты... Ты не такая, как в Саль Вьенто.
+[name="Верховный инквизитор Дарио"]  И не такая, как при нашей встрече в Гран Фаро. Ты всегда меняешься.
+[Character(name="avg_1023_ghost2_1#3$1",name2="avg_npc_183#1",focus=1)]
+[name="Спектер"]  Морская вода отрезвляет. Даже малейшее дуновение, приносимое морским бризом.
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_npc_183#1",focus=1)]
+[name="Спектер"]  Хотя... я хочу вернуться в объятия моря, но Скади остановила меня.
+[name="Спектер"]  Моя маленькая Скади. Она так боится... Но чего?
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  ......
+[Dialog]
+[Character]
+[PlaySound(key="$d_avg_walk_water")]
+[Character(name="avg_npc_448_1#1$1",fadetime=1)]
+[Delay(time=1)]
+[name="Последний Рыцарь"]  ......
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_npc_183#1",focus=2)]
+[name="Верховный инквизитор Дарио"]  С тем, что сейчас происходит, мне тем более нужно объяснение Гладии.
+[Character(name="avg_1023_ghost2_1#2$1",name2="avg_npc_183#1",focus=1)]
+[name="Спектер"]  (Эгирский) Мистер Рыцарь, сударь, вернитесь в свой сладкий сон в глубинах бездны.
+[name="Спектер"]  (Эгирский) Мы не враги.
+[Character]
+[Character(name="avg_npc_448_1#1$1")]
+Рыцарь игнорирует Лаурентину, которая бормочет, словно поёт.
+Что же до «врага», только что нанёсшего ему тяжёлый удар, рыцарь лишь слегка наклоняет голову, а затем быстро переводит внимание обратно на возвышающийся маяк.
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Увы, как трагично. Язык больше не достигает твоих ушей, как те облака закрывают твои глаза.
+[name="Спектер"]  Даже в безумии твоя воля всё ещё ведёт тебя вперёд, как часовой механизм, заставляя тело двигаться?
+[Character(name="avg_npc_448_1#1$1")]
+[name="Последний Рыцарь"]  ......
+[Character(name="avg_1023_ghost2_1#2$1")]
+[name="Спектер"]  Тогда иди, буря.
+[name="Спектер"]  Разделим этот танец.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character]
+[Background(image="27_g20_lighthouse_core",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_4042_lumen_1#13$1")]
+[name="Джорди"]  Нашёл! Главная панель управления!
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  Как выглядит?
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Джорди"]  Я, я не совсем уверен. Это сложнее, чем на схемах, и, э-э, я никогда раньше не управлял такими вещами.
+[Dialog]
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_4009_irene_1#7$1")]
+[CameraShake(duration=0.3,xstrength=20, ystrength=20, vibrato=10, randomness=90, fadeout=true, block=true)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Джорди"]  Опять этот звук... Что происходит снаружи?
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  Возможно, мы всё ещё недооцениваем опасности, которые здесь встретим. Такими темпами продержаться до прибытия техников Штрафного батальона может быть...
+[name="Инквизитор Ирене"]  Нет, даже если подкрепление придёт, жертвы, необходимые для ремонта маяка в таких условиях, сравнимы с разбивкой лагеря под прицелом высокоскоростного военного корабля.
+[name="Инквизитор Ирене"]  Джорди, ты гражданский и часть Иберии. Пока я не буду спрашивать, откуда ты и что случилось в прошлом Гран Фаро.
+[name="Инквизитор Ирене"]  Мы в гонке со временем. Прямо сейчас, в этот миг, постарайся вытащить из Ока Иберии как можно больше информации. Мы с маэстро защитим башню, и мы...
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Джорди"]  Х-Хорошо... Мне удалось извлечь журналы. Панель всё ещё отвечает, а энергетический модуль под башней всё ещё работает.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=2)]
+[name="Инквизитор Ирене"]  ...Ты быстро действуешь. Похвально.
+[name="Инквизитор Ирене"]  Что дальше? Сколько времени займёт перезапуск всего маяка?
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Джорди"]  Я, я посмотрю, что смогу сделать!
+[name="Джорди"]  Эм... Даже зная, что люди снаружи сражаются с теми морскими монстрами, я всё равно должен это сказать!
+[name="Джорди"]  Пока панель отвечает, перезапустить её должно быть не так сложно. Я читал об этом в записях, оставленных родителями... Н-Но я впервые буду управлять чем-то подобным, так что это всё ещё немного авантюра!
+[name="Джорди"]  В любом случае это займёт время! Нам, наверное, стоит...
+[Dialog]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_4009_irene_1#1$1")]
+[PlaySound(key="$d_gen_explo_n",volume=0.4)]
+[CameraShake(duration=0.3, ystrength=20, vibrato=10, randomness=90, fadeout=true, block=true)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_4009_irene_1#7$1",focus=1)]
+[name="Джорди"]  Ик—!
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_4009_irene_1#4$1",focus=2)]
+[name="Инквизитор Ирене"]  Охранять это место, да?
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  Не смотри вниз. Продолжай идти вперёд.
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]
+[stopmusic(fadetime=3)]
+[Character]
+[Image(fadetime=2)]
+

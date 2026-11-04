@@ -1,0 +1,423 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_black")]
+[character(name="avg_npc_180#2")]
+[Delay(time=1)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[Subtitle(text="The girl closes her eyes and lets go as she is told.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The force gripping onto her leg quickly disappears. She can hear all sorts of tiny trinkets splashing into the water. Just before she herself touches the surface of the sea, a force pulls her upward and sends her back to dry land again.", x=300, y=370, alignment="left", size=24, delay=0.04, width=720)]
+[Subtitle(text="—She lands face first.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Background(image="bg_ibcoastn")]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.4)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  *кхе* *кхе* *кхе*.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Нелегко рассчитать силу и угол, когда имеешь дело с человеком.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Н — ничего. Я в порядке.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  (Принюхивается к себе)
+[name="Скади"]  Кровь остановилась.
+[name="Скади"]  Почему они всё ещё так возбуждены? Здесь всегда было так много Морских Ужасов?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Это те же чудовища, что и прошлой ночью?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Более или менее.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Я их раньше не видела.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Тебе лучше пару дней не приближаться к этому месту. А теперь возвращайся.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Певица.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Перестань тянуть меня за юбку... Ты не ребёнок.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Я просто хочу сказать... кажется, теперь я знаю, чего хочу. Я хочу услышать, как ты поёшь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Вот как...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Потому что... я не знаю, какими бывают песни. Я слышала, как ты напевала во сне, но не поняла.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Хорошо.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Певица, ты правда споёшь? Вот что значит дать обещание?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Более или менее.
+[name="Скади"]  (Хмурится)
+[name="Скади"]  Моя арфа.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  А? Ах да, певица, а куда делась твоя арфа?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Пойду поищу её...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Хорошо. Я помогу.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Значит, ты вернёшься со мной? З — здорово!
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  ......
+[name="Скади"]  Разве это повод так радоваться?
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=1)]
+[Character(name="avg_npc_187",name2="char_empty")]
+[Background(image="bg_ibtownn")]
+[Delay(time=1)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[name="Житель B"]  ......
+[dialog]
+[playsound(key="$d_gen_walk_n")]
+[Character(name="avg_npc_187",name2="avg_npc_180#3",fadetime=1.5)]
+[delay(time=2)]
+[Character(name="avg_npc_187",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Эй, Штукатурка, доброе утро!
+[Character(name="avg_npc_187",name2="avg_npc_180#3",focus=1)]
+[name="Житель B"]  Жестянка...
+[Character(name="avg_npc_187",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ах да, а куда делся Жестянка? Вы же друг без друга никуда.
+[Character(name="avg_npc_187",name2="avg_npc_180#2",focus=1)]
+[name="Житель B"]  Жестянка.
+[Character(name="avg_npc_187",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ты смотришь... на море?
+[name="Анита"]  Значит... это Жестянке досталась красная раковина прошлой ночью?
+[name="Анита"]  *Вздох*...
+[Character(name="avg_npc_187",name2="avg_npc_180#2",focus=1)]
+[name="Житель B"]  Деревяшка, мне стало хуже.
+[name="Житель B"]  Грудь раздувается, будто вот-вот лопнет.
+[name="Житель B"]  Я даже есть не хочу. Оставь меня.
+[Character(name="avg_npc_187",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  *Вздох*...
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Background(image="bg_ibbar")]
+[Delay(time=1)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_1012_skadiSP_1#1",fadetime=1.5)]
+[delay(time=3)]
+[Character(name="avg_npc_180#3")]
+[name="Анита"]  Певица, снова добро пожаловать в наш милый дом!
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  Угх... ах...
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Твоя бабушка...
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Бабушка Петра всё ещё спит. Она лежит с тех пор, как мы вернулись прошлой ночью.
+[name="Анита"]  Наверное, устала, так разволновавшись. Я не ожидала, что она выбежит и будет так говорить с Инквизитором. Она была совсем другой.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Ты права. Это было поразительно. Она дала отпор Инквизитору.
+[character(name="avg_npc_179#1")]
+[name="Пожилой житель"]  М-м... ха...
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Дала отпор... Инквизитору?! Певица, если Инквизитор услышит такое, она очень разозлится.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Мне всё равно, даже если так.
+[name="Скади"]  А если она захочет ещё раз...
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Она ведь больше не придёт искать с тобой ссоры?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Мне всё равно, с кем она ищет ссоры.
+[name="Скади"]  (Поглаживает футляр)
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ах да, может, пойдём поищем твою арфу?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Погоди.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Э?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  У тебя что-то на голове.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ого! Всё это зелёное и склизкое... Ч — что это?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Это водоросли.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Они попали мне на голову, когда я споткнулась?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Наверное.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  А они... полезные? Похожи на морскую траву. Можно набить ими постель, когда высохнут? У бабушки Петры болит спина, так что пригодятся.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Дай мне.
+[name="Скади"]  Возьми ракушки и разотри ими эти водоросли. Слизь не смывай.
+[name="Скади"]  Добавь морской воды столько, чтобы она полностью покрыла водоросли. Сложи всё в банку, запечатай и жди полгода.
+[name="Скади"]  Пить можно, когда зеленоватый цвет жидкости поблёкнет. Тогда она перебродила.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Певица...?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Что такое? Ты что-то не поняла?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Нет... Просто ты, кажется, никогда ещё не говорила со мной так много за один раз.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Да.
+[name="Скади"]  И ракушки не выбрасывай. Вымой их и разложи сушиться. Из них можно пить алкоголь и тому подобное.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Алкоголь? А что это?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Вон там так и написано. Раньше это место было баром — заведением, где пьют алкоголь.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Так это слово и значит «алкоголь»!
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Говорят, алкоголь приносит счастье и помогает забыть все тревоги.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Он помогает?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Совсем нет...
+[name="Скади"]  Но на вкус он довольно приятный.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ты часто пила его дома... в Эгире?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Не совсем.
+[name="Скади"]  Я пила что-то похожее перед танцами.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Наверное, это было очень весело. О, теперь я поняла! Алкоголь не приносит счастье — его пьют, когда счастливы!
+[name="Анита"]  А все снаружи, э-э, пьют алкоголь? Значит, все снаружи всегда так счастливы?
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Не обязательно.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Понятно. Они точно не так счастливы, как я сейчас. Певица, спасибо, что научила меня делать алкоголь. Я бы очень хотела выпить его с тобой прямо сейчас.
+[Character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Ты неправильно двигаешь рукой.
+[name="Скади"]  Если тереть так, ничего не разотрётся. Попробуй под другим углом. Используй самый острый край и веди вдоль волокон водоросли.
+[name="Скади"]  Следи за ритмом и дыханием... Пусть твоя рука и всё тело сольются с морским бризом, что касается кожи.
+[name="Скади"]  Вот так — один взмах, и она измельчена.
+[dialog]
+[character]
+[delay(time=1)]
+[character(name="avg_npc_187",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Житель B"]  ......
+[character(name="avg_npc_187",name2="avg_1012_skadiSP_1#1",focus=2)]
+[name="Скади"]  Ты на меня смотришь. Всё ещё хочешь ещё разок? Теперь ты один, так что всё закончится очень быстро.
+[character(name="avg_npc_187",name2="avg_1012_skadiSP_1#1",focus=1)]
+[name="Житель B"]  Нет... не хочу.
+[name="Житель B"]  Это твоё.
+[character(name="avg_npc_187",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Хм?
+[name="Скади"]  Это моя арфа.
+[character(name="avg_npc_187",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Житель B"]  Её нашёл Жестянка.
+[name="Житель B"]  Он видел, как ты уронила её ночью снаружи.
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  ......
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  О, как здорово! Певица, теперь нам не нужно идти искать твою арфу!
+[character(name="avg_npc_187",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Житель B"]  Он принёс её в наш дом... и... и велел мне отдать её тебе.
+[name="Житель B"]  Это всё, что он сказал перед уходом...
+[character(name="avg_npc_187",name2="avg_1012_skadiSP_1#4",focus=2)]
+[name="Скади"]  Спасибо.
+[character(name="avg_npc_187",name2="avg_1012_skadiSP_1#4",focus=1)]
+[name="Житель B"]  А? Ох...
+[dialog]
+[character(name="avg_1012_skadiSP_1#4")]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#5")]
+[name="Скади"]  (Перебирает струны)
+[Character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  А...? Эта мелодия... Ты напевала её во сне прошлой ночью.
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Она всегда у меня в голове.
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Эту песню вы пели вместе с твоей подругой?
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  У нас дома много таких песен. Мы поём... чтобы говорить друг с другом.
+[name="Скади"]  Когда я ушла, пение исчезло вместе со мной. Я совсем одна, и эта песня — всё, что у меня осталось.
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Неудивительно, что она звучит так печально.
+[Character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  (Перебирает струны)
+[Character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Певица, помнишь наше обещание?! Ты вернула свою арфу. Значит, теперь ты споёшь для нас?
+[name="Анита"]  Мы все ждём. Правда, бабушка Петра?
+[character(name="avg_npc_179#2")]
+[name="Пожилой житель"]  М-м... Угх...
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Бабушка сегодня, наверное, не может говорить. Если бы могла — подпела бы тебе.
+[character(name="avg_npc_179#2")]
+[name="Пожилой житель"]  Ах... А-ах...
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Певица, бабушка хочет услышать твою песню.
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  ......
+[name="Скади"]  Хорошо.
+[dialog]
+[stopmusic(fadetime=1)]
+[dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1.5, block=true)]
+[Character]
+[Image(image="ac18_05",xScale=1.2,yScale=1.2, fadetime=0)]
+[ImageTween(xFrom=30, xTo=-30, duration=25, block=false)]
+[delay(time=1)]
+[Blocker(a=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlayMusic(intro="$newhope01_intro", key="$newhope01_loop", volume=0.4)]
+[Subtitle(text="Clad in her red dress, the wandering singer sits in the middle of the group. She closes her eyes as her fingers stroke the strings of her harp.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The notes and the lyrics flow out from her naturally as she plunks away at her harp strings, permeating every corner of the rundown bar. The melody twists and expands in the air as though this is where it belongs.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+Охотник бредёт по прибрежной тропе♪
+Позади осталась родина, а путь его лежит вперёд♪
+Оторван он от предков своих и детей♪
+Его возлюбленную унесло в моря, и плывёт она в глубине, мёртвая♪
+[dialog]
+[delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[image]
+[background(image="bg_black")]
+[character(name="avg_474_gladiia_1#1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  ......
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Я заметил перемену в твоём лице. Ты что-то почувствовала?
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=1)]
+[name="Гладия"]  Ничего.
+[character(name="avg_474_gladiia_1#5",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Неудивительно. Твои рефлексы всё ещё довольно медленны. Взгляни на воду перед собой. Колебания уровня, частота волн, движение бликов. Всё это — информация.
+[name="Епископ"]  Скоро прилив. Нам пора.
+[dialog]
+[character(fadetime=1)]
+[dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Image(image="ac18_05",xScale=1.2,yScale=1.2, fadetime=0)]
+[ImageTween(xFrom=-30, xTo=30, duration=25, block=false)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Delay(time=1)]
+Охотник бредёт по прибрежной тропе♪
+Позади осталась родина, осталось лишь скорбеть и молиться♪
+Нет конца его пути♪
+Дорога впереди окутана серой мглой♪
+[dialog]
+[delay(time=1)]
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Background(image="bg_ibtownn",fadetime=1)]
+[Image]
+[delay(time=0.6)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_npc_182#5",fadetime=1.5)]
+[delay(time=1)]
+[name="Инквизитор"]  Она поёт.
+[name="Инквизитор"]  Как она может петь перед этими людьми в этом ветхом доме?
+[name="Инквизитор"]  И... они её слушают.
+[name="Инквизитор"]  Те, кто вечно опускает голову, всё так же смотрят в пол. Те, кто молчит, всё так же безмолвны. Её пению не пробиться сквозь их холодные, застывшие панцири, но их глаза...
+[name="Инквизитор"]  Неужели они что-то понимают?
+[dialog]
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character(name="avg_1012_skadiSP_1#5",fadetime=0.5)]
+[Background(image="bg_ibbar")]
+[Image]
+[delay(time=0.6)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="A hunter is walking on seacoast way♪", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The singer stops her fingers, but the harmony formed by her harp and voice together does not simply disappear because of that.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It yet remains with the wanderer herself, creating an open seam in the thick dust.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="A few sprouts land in that crevice just as others begin to sprout from it.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[stopmusic(fadetime=1)]
+[name="Скади"]  ......
+[Character(name="avg_npc_188",name2="avg_npc_189")]
+[name="Житель"]  ......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#1")]
+[Background(image="bg_ibbar")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[Character(name="avg_1012_skadiSP_1#5",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Бабушка Петра?
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Что случилось?
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Она... уснула.
+[name="Анита"]  Она никогда не спит так спокойно. Обычно она начинает кричать, едва закрыв глаза, и хватается за пустоту.
+[name="Анита"]  Я думала, она захочет танцевать, когда услышит твоё пение. Она ведь всё время щебечет, что хочет танцевать.
+[Character(name="avg_npc_187")]
+[name="Житель B"]  ......
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Штукатурка?
+[Character(name="avg_npc_187")]
+[name="Житель B"]  Я умру. У меня в глазах морская вода... Она солёная. Совсем невкусная.
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ого... Ты... плачешь?
+[Character(name="avg_npc_187")]
+[name="Житель B"]  Плачу? А что это?
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Это чувство, которое вытекает из самых глубин твоего тела...
+[Character(name="avg_npc_187")]
+[name="Житель B"]  Правда...? Кажется, я не понимаю.
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Певица, мне нравятся твои песни. Ты не любишь говорить, но когда поёшь, тебе есть что сказать.
+[name="Анита"]  Спой ещё раз? Я хочу услышать, как ты расскажешь ещё много всего.
+[Character(name="avg_1012_skadiSP_1#4",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  ......
+[dialog]
+[Character(name="avg_1012_skadiSP_1#5")]
+[name="Скади"]  (Перебирает струны)
+[dialog]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The sea breeze envelops the singer's fingers and wafts into her nostrils. The smell here has changed.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It's now high tide.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Еда...
+[Character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Снова будет еда...
+[Character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  На пляж.
+[Character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Священник!
+[dialog]
+[Character(name="avg_npc_188",name2="avg_npc_189")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The masses rush outside.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The melody of her song has stopped.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

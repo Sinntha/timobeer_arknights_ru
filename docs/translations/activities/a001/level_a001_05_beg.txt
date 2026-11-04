@@ -1,0 +1,120 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 5 (до боя)
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.6, crossfade=1.5)]
+[Background(image="bg_caveentrance", fadetime=2)]
+[Delay(time=1)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Значит, это и правда единственный вход в пещеру?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Ага. Внутри пещеры — настоящий лабиринт, но деревенские старейшины приводили меня сюда несколько раз, в том числе когда я перенимала дела у прежнего старосты...
+[name="Кэрол"]  ...Эм, мне, может, просто кажется, но разве крики из леса не становятся громче...?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Если медлить и дальше, станет только хуже.
+[name="Грани"]  Кэрол, ты ведь знаешь дорогу внутри пещеры? Я хочу, чтобы ты прямо сейчас пошла внутрь и забрала сокровища.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  А? А как же вы...
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Я останусь у входа.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Ни за что!
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=2)]
+[name="Грани"]  А? Кэрол...
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=1)]
+[name="Кэрол"]  Вы собираетесь встретить охотников за головами в одиночку? Это слишком опасно! Вы же...
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Если я не помогу тебе заполучить сокровища, то подведу всю деревню и тебя тоже.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  ...Но я не хочу вас потерять.
+[name="Кэрол"]  Сейчас... не время и не место играть в героя...!
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  А что плохого в том, чтобы играть в героя?
+[name="Грани"]  «Даже пронзённые вражескими клинками в самое сердце, рыцари Короля не выпускали копий из рук».
+[name="Грани"]  Я отказываюсь бежать.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Грани...
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  К тому же, Кэрол, это не только моя битва.
+[name="Грани"]  Это и твоя битва. Возможно, впереди тебя ждут опасности, но если мы сможем вернуть этой земле покой...
+[name="Грани"]  Мы должны встретить свой долг лицом к лицу.
+[name="Грани"]  Я верю, что ты найдёшь сокровища.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Но... если я буду одна...
+[name="Кэрол"]  Сокровища...
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Доверься мне.
+[name="Грани"]  Что бы ни случилось, я тебя защищу. Когда я тебя спасала, то обещала, что больше никто тебя не обидит.
+[name="Грани"]  Даже волоска на твоей голове не тронут.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Хоть вы и совсем ребёнок...
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Ничего подобного... Просто я маленького роста!
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  Ха-ха!
+[name="Кэрол"]  ...Да, я сделаю, как вы сказали, Грани.
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=0.6, crossfade=1.5)]
+[Background(image="bg_caveentrance", fadetime=1)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[Character(name="avg_npc_007",fadetime=0.5)]
+[name="Охотник за головами"]  Эти проклятые беломасочники... Почему они всегда появляются в самый неподходящий момент?!
+[Character(name="char_1002_nsabr_1")]
+[name="Боец Реюниона"]  Бесполезные отбросы, все вы.
+[name="Боец Реюниона"]  У вас даже нет права оспаривать у нас сокровища.
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Чего-о? О чём это ты? Здесь давно наша очередь, так что проваливайте, а не то!
+[Character]
+[Dialog]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=2, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Delay(time=0.7)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Dialog]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  (Отсюда видно бой... Похоже, охотники за головами сцепились с Реюнионом.)
+[name="Грани"]  (Кто бы ни приблизился к этой пещере, я обязательно...)
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Бежим к пещере, пока эти идиоты мутузят друг друга!
+[name="Охотник за головами"]  Стойте, а что этот парень там делает?!
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Вы не пройдёте.
+[Character]
+[Dialog]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="avg_npc_008")]
+[name="Охотник за головами"]  Гва-а...!
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Blocker(a=0, fadetime=1, block=true)]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="char_263_skadi#2",fadetime=1)]
+[Delay(time=3)]
+[Character(name="avg_npc_008")]
+[name="Охотник за головами"]  Ты, это ты—
+[Character]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Dialog]
+[Delay(time=0.7)]
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Прочь с дороги, все вы.
+[name="Скади"]  Я не в настроении играть.
+[Delay(time=0.3)]
+[Dialog]
+[Blocker(block=true)]
+[Image]
+

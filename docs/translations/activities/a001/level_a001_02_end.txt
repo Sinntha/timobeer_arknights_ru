@@ -1,0 +1,180 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 2 (после боя)
+[Background(image="bg_county_1", fadetime=1)]
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=0.6, crossfade=1.5)]
+[Dialog]
+[Character]
+[Delay(time=1)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Чёрт, до чего же настырные эти охотники за головами!
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  И-и-и! Жуки!!
+[name="Кэрол"]  Гадость!
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Фу, они все липкие...
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Быстрее окружайте их! На этот раз не дайте им сбежать!
+[name="Охотник за головами"]  Не страшно, если не одолеете этого парня. Просто займите его, пока не схватите девчонку из деревни!
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Кэрол! Держись рядом со мной!
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$e_atk_arrow_h")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  А-ах...!
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Dialog]
+[Background]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="avg_npc_010",fadetime=0.5)]
+[name="???"]  Закройте уши, вы двое!
+[Background(image="bg_county_1")]
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  А? Ты кто? Откуда взялся, толстяк?
+[Character(name="avg_npc_010",fadetime=0.5)]
+[Dialog]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=2, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Delay(time=0.7)]
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Гья-а-а-а—!
+[Character(name="avg_npc_010")]
+[name="???"]  Хм. Толстяк? Просто кость широкая.
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Dialog]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Это звучало как... взрывчатка?!
+[Character(name="avg_npc_010")]
+[name="???"]  Всего лишь светошумовая граната. Громко, но никого не убьёт! Зато отлично отпугивает жуков и прочую живность!
+[name="???"]  Уходим, пока они не опомнились! Сначала найдём безопасное место!
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Кэрол! Только не веди нас снова в какой-нибудь тесный чердак!
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Эм, тогда сюда!
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[Background(image="bg_outcounty", fadetime=2,block=true)]
+[name=""]  Ясно \ Видимость: 14 км
+[name=""]  Лес за деревней
+[Blocker(a=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Этот лес довольно глухой. Дорогу здесь знают немногие — только я и мои друзья детства...
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Погоди, Кэрол, не теряй бдительности.
+[Character]
+[Character(name="avg_npc_010",fadetime=2)]
+[Delay(time=1)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6,crossfade=1)]
+[name="???"]  Ч-ч.
+[Dialog]
+[PlaySound(key="$e_atk_blunt_n",volume=0.4,block=true)]
+[name="???"]  Моя пила, боеприпасы и взрывчатка...
+[name="???"]  Я сложил всё своё оружие. Теперь мы можем поговорить о сокровищах?
+[name="???"]  Я тоже охотник за головами, но не такой жадный, как те, позади. Эти идиоты, по сути, просто мальчики на побегушках; сокровища им всё равно ни за что не найти.
+[name="???"]  Вместо того чтобы рисковать, выпытывая сведения у этой юной старосты, гораздо эффективнее просто сотрудничать с вами.
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Спасибо, что выручили нас там, но о сокровищах мы пока говорить не можем.
+[Character(name="avg_npc_010",name2="char_220_grani#5",focus=1)]
+[name="???"]  Ты ведь не охотник за головами? Это видно с первого взгляда.
+[name="???"]  А вот я знаю все уловки этого ремесла.
+[Character(name="avg_npc_010",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Полагаю, вы знаете о том, что творится с охотниками за головами в Дьювилле?
+[Character(name="avg_npc_010",name2="char_220_grani#5",focus=1)]
+[name="???"]  Разумеется. «Труппа Поток», «Флорентийские изверги», «Люблинская лига», «Авангард Вальк»...
+[name="???"]  Все охотники за головами последние несколько дней прочёсывают эти места. Честно говоря, вопрос лишь в том, когда кто-нибудь найдёт сокровища.
+[name="???"]  Но кто бы их ни нашёл, разные группировки в конце концов прольют кровь в драке за них.
+[name="???"]  Тогда Дьювилль не только ничего не получит — его и вовсе могут стереть с карты. Уверен, вы обе это понимаете.
+[Character(name="avg_npc_010",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  ...
+[name="Грани"]  И что вы можете нам предложить?
+[Character(name="avg_npc_010",name2="char_220_grani#5",focus=1)]
+[name="???"]  У меня есть опыт выживания в дикой местности, охоты, взлома шифров, обезвреживания ловушек и не только. И, разумеется, в бою я за себя постою.
+[name="???"]  Вам обеим всего этого, скорее всего, не хватает.
+[Character(name="avg_npc_010",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Для начала, как к вам обращаться?
+[Character(name="avg_npc_010",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Зовите меня Большой Боб.
+[Character(name="avg_npc_010",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Э-э, одну секунду. Мне нужно сначала поговорить со старостой.
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Отсюда Большой Боб нас не услышит.
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  Я... не могу доверять охотнику за головами...
+[name="Кэрол"]  Он может заманивать нас в ловушку или действовать заодно с другими охотниками за головами. Этого допустить нельзя...
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Кэрол, ты раньше видела этого Большого Боба?
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  Нет... Я отчётливо помню лица всех охотников за головами, что ступали на землю нашей деревни, особенно тех, кто причинял нам вред.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Работать с ним точно рискованно.
+[name="Грани"]  Но со временем всё будет только усложняться.
+[name="Грани"]  Возможно, придётся с ним сотрудничать, если мы хотим найти сокровища как можно скорее.
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  А что насчёт вашей сослуживицы, Грани? Она могла бы помочь?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Не могу сказать наверняка. С ней не так-то просто поладить. К тому же она и сама охотница за головами.
+[name="Грани"]  Если получится, я хотела бы взять ситуацию под контроль, прежде чем что-то ей говорить.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Дайте мне подумать.
+[name="Кэрол"]  Я не могу вот так прямо сказать ему, где сокровища. Может, просто давать ему подсказки — словно морковку перед носом?
+[name="Кэрол"]  Думаете, это сработает?
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Хм, пожалуй, это лучший вариант.
+[name="Грани"]  Я буду за ним присматривать. Если почувствую неладное, сразу выведу тебя из леса.
+[name="Грани"]  Кэрол, я тебя защищу.
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Dialog]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Delay(time=1)]
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Ну так что? Скажите хотя бы, каков план.
+[Character(name="avg_npc_010",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Нам нужен маршрут, который приведёт нас к горе Террат как можно быстрее.
+[Character(name="avg_npc_010",name2="char_220_grani#3",focus=1)]
+[name="Большой Боб"]  Чтобы добраться до горы Террат, придётся пересечь северную часть леса.
+[name="Большой Боб"]  К сожалению, эта часть леса — спорная территория охотников за головами.
+[name="Большой Боб"]  Держу пари, там уже полно народу, поджидающего нас в засаде. Но я проведу вас безопасной тропой.
+[Character(name="avg_npc_010",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Большой Боб, прежде чем согласиться работать с вами, мы должны поставить условия.
+[Character(name="avg_npc_010",name2="char_220_grani#3",focus=1)]
+[name="Большой Боб"]  Конечно. Разве не об этом мы и собирались говорить дальше?
+[name="Большой Боб"]  Просто скажите, как мы поделим сокровища.
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Character]
+[Background(image="bg_county_1")]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[Character(name="avg_npc_008")]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[name="«Капитан»"]  Я не хочу пить! Не нужна мне твоя вода!
+[Character(name="avg_npc_008",name2="avg_npc_007",focus=2)]
+[name="Охотник за головами"]  Ладно, ладно. В общем, капитан, мы продолжим искать этих двоих?
+[Character(name="avg_npc_008",name2="avg_npc_007",focus=1)]
+[name="«Капитан»"]  Что за вопрос? Ты забыл, зачем мы вообще сюда приехали?
+[name="«Капитан»"]  До ближайшего города далеко, а связи здесь почти нет. Пусть на подмогу рассчитывать не приходится, но остальные в таком же положении. Это наш лучший шанс!
+[Character(name="avg_npc_008",name2="avg_npc_007",focus=2)]
+[name="Охотник за головами"]  Но то чудовище тоже направилось в ту сторону. Мы...
+[Character(name="avg_npc_008")]
+[name="«Капитан»"]  Чего боишься? Драться она умеет, но не забывай: местность мы знаем лучше неё. Вот наткнётся она на наши ловушки — посмотрим!
+[name="«Капитан»"]  Сокровища существуют, чтобы мы их забрали! Чудовища существуют, чтобы мы на них охотились!
+[name="«Капитан»"]  Я получу всё!
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]
+

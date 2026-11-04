@@ -1,0 +1,66 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 6 (после боя)
+[Background]
+[Delay(time=1)]
+[PlayMusic(intro="$babel_loop", key="$babel_loop", volume=0.8,crossfade=1)]
+[Dialog]
+[Character]
+...Его стоит запихнуть в мешок...
+...а на рассвете повесить на мачте...
+[Delay(time=1)]
+...Ему стоит перерезать горло...
+...и принести океану в жертву бушующему урагану...
+[Dialog]
+[Delay(time=2)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8,crossfade=1)]
+[Delay(time=1)]
+[Background(image="bg_infirmary", fadetime=2,block=true)]
+[Character(name="char_143_ghost")]
+[name="Спектер"]  У-у!
+[name="Спектер"]  ...снова тот же сон.
+[Character(name="char_263_skadi#1")]
+[name="???"]  ......
+[Character(name="char_143_ghost")]
+[name="Спектер"]  Кто здесь?
+[name="Спектер"]  ...А, это всего лишь ты. Хм, я даже не могу вспомнить твоё имя.
+[Character(name="char_263_skadi#1")]
+[name="???"]  Это неважно. Просто относись ко мне как к обычной оперативнице Родос Айленда.
+[name="???"]  Похоже, тебе больно.
+[Character(name="char_143_ghost")]
+[name="Спектер"]  Это просто очередной кошмар.
+[name="Спектер"]  Тёмные осколки кружат в моём сознании, прячась в тенях той разрушенной церкви...
+[name="Спектер"]  Стоит к ним приблизиться — и они оборачиваются цепями, что утаскивают меня в морскую глубину.
+[Character(name="char_263_skadi#1")]
+[name="???"]  ......
+[name="???"]  Но скоро появится способ избавиться от твоих мучений.
+[Character(name="char_143_ghost")]
+[name="Спектер"]  Хе, правда? Было бы замечательно. Но с чего мне тебе верить?
+[name="Спектер"]  Хе.
+[name="Спектер"]  Твоя аура... Она мне хорошо знакома.
+[name="Спектер"]  Нет, твой запах. Резкий, терпкий запах... запах крови... «их» запах. Запах морских глубин.
+[name="Спектер"]  Знакомый и отвратительный запах.
+[Character(name="char_263_skadi#1")]
+[name="???"]  Вот как?
+[Character(name="char_143_ghost")]
+[name="Спектер"]  Назовёшь мне своё имя?
+[Character(name="char_263_skadi#1",fadetime=1)]
+[name="Скади"]  Скади.
+[Character(name="char_143_ghost",name2="char_263_skadi#1",focus=1)]
+[name="Спектер"]  Любопытно. И почему же ты решила сюда явиться?
+[name="Спектер"]  Тебе не положено здесь находиться без разрешения Кальцит, разве что ты не боишься, что я разорву тебя на куски.
+[Character(name="char_143_ghost",name2="char_263_skadi#1",focus=2)]
+[name="Скади"]  Боюсь. Как и все остальные. Но я привыкла к страху.
+[name="Скади"]  Мне пора. Когда я вернусь, всё, возможно, уже сдвинется с места. А ты можешь забыть обо мне, как и прежде.
+[Character(name="char_143_ghost",name2="char_263_skadi#1",focus=1)]
+[name="Спектер"]  Куда ты направляешься?
+[Character(name="char_143_ghost",name2="char_263_skadi#1",focus=2)]
+[name="Скади"]  Туда, где погребена тайна.
+[Character]
+[Dialog]
+[Background(fadetime=1)]
+[Delay(time=2)]
+[name="Скади"]  В место далеко-далеко отсюда.
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(fadetime=3,block=true)]
+[Image]
+

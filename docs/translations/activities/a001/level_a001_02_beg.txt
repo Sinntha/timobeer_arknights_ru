@@ -1,0 +1,172 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 2 (до боя)
+[Background(image="bg_county_1", fadetime=1)]
+[PlayMusic(intro="$mist_intro", key="$mist_loop", volume=0.6,crossfade=1)]
+[Dialog]
+[Character]
+[Delay(time=1)]
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=1)]
+[name="Охотник за головами"]  Остановите её!
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=2)]
+[name="Жестокий охотник за головами"]  Остановить это чудовище? Ты видишь, скольких она уже уложила!
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=1)]
+[name="Охотник за головами"]  Почему нет? Ты же всё время твердишь, какой ты сильный!
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=2)]
+[name="Жестокий охотник за головами"]  Я-я не могу! Она же ходячая Катастрофа, разве не видишь?
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Image(image="ac1_3",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt="cvoerall")]
+[Blocker(a=0, fadetime=0.6, block=false)]
+[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-20, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]
+[Character(name="char_263_skadi#1",fadetime=0.5)]
+[name="???"]  ......
+[name="???"]  (эгирский) Всё, что встанет предо мной, погибнет.
+[name="???"]  (эгирский) Всякий, кто поднимет на меня оружие, обратится во прах.
+[name="???"]  (эгирский) Всякий, кто жаждет смерти, выйди вперёд.
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Image(fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=false)]
+[Character(name="avg_npc_008")]
+[name="«Капитан»"]  Что ты там бормочешь, чёрт возьми?
+[character]
+[Dialog]
+[playsound(key="$p_imp_blunt_h")]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Delay(time=0.7)]
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=1)]
+[name="Охотник за головами"]  А? Капитан? Куда делся капитан?
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=2)]
+[name="Жестокий охотник за головами"]  Капитан упал в реку...!
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=1)]
+[name="Охотник за головами"]  Она... она отправила его в полёт одним ударом...
+[Character(name="char_263_skadi#1")]
+[name="???"]  Ах, забыла, что они меня не понимают... Ну и ладно.
+[name="???"]  Скажите, где она?
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Она? О ком ты? Не спрашивай меня, я ничего не знаю!
+[character]
+[Dialog]
+[playsound(key="$p_imp_blunt_h")]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Охотник за головами"]  Гья-а-а!!!
+[Delay(time=0.7)]
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Ты... ты об этом пожалеешь!
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Эй! Куда побежали! Сначала вытащите капитана из реки!
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Background(image="bg_towerinside",block=true)]
+[Blocker(a=0.5, r=0,g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Этот человек...
+[Character(name="avg_npc_003",name2="char_220_grani#1",focus=1)]
+[name="Кэрол"]  Вы её знаете?
+[Character(name="avg_npc_003",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  Возможно, это моя сослуживица...
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=2)]
+[name="Грани"]  Но разве это задание не поручили мне? Я его у Метеорита с таким трудом выцарапала...
+[name="Грани"]  Хм-м... Может, она здесь по другому заданию?
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=1)]
+[name="Кэрол"]  Похоже, охотники за головами отступают?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Сейчас или никогда. Это наш шанс выбраться из деревни.
+[name="Грани"]  Если в деревню прибудут другие оперативники, у нас даже может появиться преимущество.
+[name="Грани"]  Кэрол, лестница совсем тёмная. Держись за меня.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Эм, а вы остановитесь, чтобы поговорить с ней?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Хм, если получится, то, может быть—
+[character]
+[Dialog]
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Background(image="bg_county_1")]
+[Dialog]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[stopmusic(fadetime=1)]
+[Delay(time=3)]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[name="???"]  Ай-я-я-я-й—!
+[Character(name="char_220_grani#1")]
+[name="Грани"]  О-о-ой!
+[Character(name="avg_npc_008")]
+[name="Охотник за головами"]  Мой нос... мой нос...! Как эта дверь сама распахнулась...
+[Character(name="char_220_grani#1")]
+[name="Грани"]  А? Почему здесь кто-то сидит на корточках...
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Грани! Что случилось—
+[Character(name="avg_npc_008",name2="char_220_grani#1",focus=1)]
+[name="Жестокий охотник за головами"]  Все, заткнитесь! Тссс!
+[Character(name="avg_npc_008",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  ...Тише?
+[Character(name="avg_npc_008",name2="char_220_grani#1",focus=1)]
+[name="Охотник за головами"]  Да, вы, деревенщина, всё равно не поймёте. Вы что, не видели эту ходячую Катастрофу?!
+[name="Охотник за головами"]  Ни один охотник за головами не настолько глуп, чтобы лезть на неё в открытую! Так беспечно к ней подходят только те, кто не видел, как она стирает с лица земли целые города!
+[Character(name="avg_npc_008",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  Ого, правда?! То есть она может такое в одиночку—
+[Character(name="char_220_grani#1",name2="avg_npc_007",focus=2)]
+[name="Жестокий охотник за головами"]  Тихо, не дай ей нас услышать!
+[Character(name="char_220_grani#1",name2="avg_npc_007",focus=1)]
+[name="Грани"]  Знаете, а я надеялась, что она меня заметит—
+[Character(name="char_220_grani#1",name2="avg_npc_007",focus=2)]
+[name="Жестокий охотник за головами"]  Я сказал, тихо!
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Ладно, ладно...
+[name="Грани"]  Почему-то слухи о ней здесь даже безумнее тех, что рассказывают на Родос Айленде...
+[Character]
+[Dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[Delay(time=3)]
+[Character(name="avg_npc_008")]
+[name="Охотник за головами"]  Э-это чудовище ушло?
+[Character]
+[Dialog]
+[Delay(time=4)]
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Д-думаю, да...!
+[Character(name="avg_npc_008")]
+[name="Охотник за головами"]  Фух, наконец-то ушла... Чуть инфаркт меня не хватил...
+[Character(name="char_220_grani#3")]
+[name="Грани"]  Д-да.
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Я думал, нашей команды хватит для этого дела, но как мы вообще вляпались в такое... Как вообще справиться с чем-то подобным—
+[CameraShake(duration=5, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]
+[name="Жестокий охотник за головами"]  —Погоди-ка!
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Ой.
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=0.6, crossfade=1.5)]
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  А-а! Ты тот парень с копьём! Надо же, какая встреча!
+[name="Жестокий охотник за головами"]  И староста с тобой! Ты сам привёл её к нам!
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Грани, только не говорите, что вы...
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Нет-нет, они просто казались такими послушными, что я потеряла бдительность!
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Хватит болтать, отдай нам старосту! Иначе совсем скоро познакомишься с остриём моего клинка!
+[Character]
+[Dialog]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_220_grani#2")]
+[name="Грани"]  Этим маленьким ножиком?
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  ......К-когда этот парень успел достать копьё?!
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Подай сигнал и зови остальных!
+[name="Жестокий охотник за головами"]  И ещё выпусти остальных жуков, которыми мы уничтожали их посевы. Покажем им, что бывает, когда пытаются нам сопротивляться!
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+

@@ -1,0 +1,124 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 4 (после боя)
+[Background(image="bg_caveentrance", fadetime=1)]
+[Delay(time=1)]
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=0.6, crossfade=1.5)]
+[Dialog]
+[Character]
+[name="Большой Боб"]  Н-гх...
+[name="Боец Реюниона"]  Этот хромает! Прикончите его первым!
+[playsound(key="$p_imp_blunt_h")]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[Delay(time=0.7)]
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Грани! Такими темпами нам всем конец!
+[PlaySound(key="$b_char_defboost")]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=20, block=false)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[Delay(time=1)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Даже если так...!
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Скорее! Забирай Кэрол и уходи!
+[name="Большой Боб"]  С этой ногой я вас только задержу!
+[name="Большой Боб"]  Потом найду способ встретиться с вами! Спеши!
+[Dialog]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[Delay(time=0.7)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  ...
+[name="Грани"]  Тогда обещаю! Обязательно приходи за своей долей сокровищ!
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  ...Хе.
+[name="Большой Боб"]  Просто уходи!
+[Character]
+[PlaySound(key="$d_gen_soldiersrun",volume=0.8)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.7, block=true)]
+[Dialog]
+[Blocker(a=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[Character(name="char_1002_nsabr_1")]
+[name="Боец Реюниона"]  Они сбежали!
+[Character(name="avg_npc_010")]
+[name="Большой Боб"]  Ну-с, кто хочет поиграть?
+[PlaySound(key="$e_atk_saw_n_1")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[PlaySound(key="$e_atk_saw_n_2")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[Delay(time=0.7)]
+[Character]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[Background(image="bg_forest")]
+[Blocker(a=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  ...Звуки боя стихают.
+[name="Грани"]  Но отдыхать пока нельзя, Кэрол. Прости...
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Я в порядке... Но господин Боб... как же он...?!
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=2)]
+[name="Грани"]  Ему может понадобиться время.
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=1)]
+[name="Кэрол"]  Время...? Вы хотите сказать...
+[Character(name="avg_npc_003")]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=20, fadeout=true, block=true)]
+[name="Кэрол"]  Ай!
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Кэрол! Ты в порядке?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Простите, я споткнулась об этот корень...
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Вот, возьми меня за руку.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  ...Спасибо.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Идти можешь?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  ...Я в порядке, просто ушиб. Как вы и сказали, лучше продолжать идти...
+[name="Кэрол"]  Перейдя этот лес, мы окажемся у подножия горы Мортика. Нам нужно найти вторую пещеру на середине склона.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Попасть внутрь можно только через вход в пещеру?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Да. Внутри придётся идти по тёмным ходам, но я знаю дорогу. Сокровища спрятаны в самой глубине пещеры.
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Ага. Ну, в таком случае...
+[Dialog]
+[PlaySound(key="$d_sp_ballista",volume=0.2)]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[Delay(time=0.7)]
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Ой?! Это что, взрыв вдалеке...? Э-это плохой знак...
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Прислушайся — ещё и крики слышны.
+[name="Грани"]  Кто-то сражается. Ещё не конец.
+[name="Грани"]  ...Кэрол, тебе страшно?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=1)]
+[name="Кэрол"]  Мне...
+[name="Кэрол"]  ...Да, страшно.
+[name="Кэрол"]  Но чтобы защитить деревню и вернуть этим землям покой... я должна это сделать.
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=2)]
+[name="Грани"]  Понимаю...
+[name="Грани"]  Ты очень храбрая.
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=1)]
+[name="Кэрол"]  А?
+[Character(name="avg_npc_003",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Не обращай внимания. Ладно, идём дальше.
+[Delay(time=0.3)]
+[Dialog]
+[Blocker(block=true)]
+[Image]
+

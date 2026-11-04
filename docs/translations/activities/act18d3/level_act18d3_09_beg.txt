@@ -1,0 +1,519 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibcave")]
+[character(name="avg_474_gladiia_1#4")]
+[Delay(time=1)]
+[PlayMusic(intro="$tense_intro", key="$tense_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[name="Гладия"]  Скади, ты можешь двигаться?
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  Не знаю. Трудно... держать такое чувство под контролем. Трудно не думать о нём.
+[name="Скади"]  Я не могу пошевелить пальцами. Кажется, если попробую, все мои ногти уплывут прочь.
+[character(name="avg_474_gladiia_1#4")]
+[name="Гладия"]  Твои нервные клетки стремительно метаболизируют. Помни: ты охотница. Они ничего не смогут тебе сделать.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Разве размышления об этом помогут?
+[character(name="avg_474_gladiia_1#4")]
+[name="Гладия"]  Если не хочешь стать сиборном — очень даже помогут.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Ладно.
+[name="Скади"]  Думаю... я всё ещё могу поднять оружие.
+[dialog]
+[character]
+[character(name="avg_npc_184")]
+[name="Епископ"]  Полукровка без оружия, другая ранена, а третья заражена. На что вы вообще надеетесь?
+[dialog]
+[delay(time=1)]
+[name="Епископ"]  Что это за выражение лица? Уже начала мнить себя благородной?
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Я?
+[name="Скади"]  Погоди, странно... Боюсь, ты неправильно понял.
+[name="Скади"]  Сиборна мне, может, и жаль, но если думаешь, что к тебе я чувствую то же самое, — ты ошибаешься. Стоит мне убить тебя, и всё закончится.
+[character(name="avg_474_gladiia_1#3")]
+[name="Гладия"]  —
+[name="Гладия"]  Ты и правда думаешь, что в её футляре саксофон?
+[name="Гладия"]  Русалочка, сколько ещё ты будешь спать? Открой глаза. Прошлое не может держать тебя в плену.
+[character(name="avg_npc_184")]
+[name="Епископ"]  Она тоже была всего лишь подопытной!
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Акула, ты ведь уже давно не спишь?
+[dialog]
+[character(name="avg_npc_184")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The bishop turns around.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="There, he finds Specter stroking the glass of the water tank. She looks at the bishop with a curious... and gentle gaze.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[name="Епископ"]  Что...? Даже жидкость с такой плотностью ориджинита...?
+[dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The bishop stumbles backwards a little but then remembers the two Abyssal Hunters are standing behind him, petrifying him.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Specter mouths a few words.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="They seem to be some really ferocious words.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1",name2="avg_474_gladiia_1",focus=2)]
+[name="Гладия"]  Рада видеть, что ты всё та же, Акула.
+[character(name="avg_1012_skadiSP_1",name2="avg_474_gladiia_1",focus=1)]
+[name="Скади"]  Ох, я почти забыла, что она всегда была такой.
+[dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Subtitle(text="Skadi kicks open the box. There is a blade inside. Yes, her greatsword had been inside the box the whole time... alongside a circular saw with a long handle.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Ахх... Рука всё ещё онемела.
+[name="Скади"]  Я не зря провела все эти годы на «Родос Айленд» — к такому я готова. Держи.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playsound(key="$bottlebroken")]
+[Subtitle(text="Skadi bends back a little and vigorously throws the saw at the glass tank.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop hurriedly dodges, but the circular saw sweeps up a gale that manages to tear open a wide hole in his long robe.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Right before the merciless weapon lands on the glass tank and shatters it to pieces, a pale white hand shatters the glass pane herself. Just as the water inside spills out from the tank, the hand grabs onto the saw without regard to the sharp shards of glass flying in the air.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Caught between her hand and the handle of the saw, the glass shards immediately shatter into fine, glittering dust that spills from the gaps between her fingers.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Needless to say, Specter's hand is completely unharmed.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="The hunter has awakened. Specter has awakened.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="char_143_ghost#2",fadetime=1)]
+[delay(time=1.5)]
+[name="Спектер"]  А я-то думала, что смогу ещё немного побыть той учтивой леди, которой являюсь.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Specter answers with an ill-boding grin.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Спектер"]  Я так долго пробыла милой, послушной монахиней, что уже не знала, как к вам двоим подступиться.
+[character(name="avg_474_gladiia_1#3")]
+[name="Гладия"]  Хватит. Выходи уже.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Давно не виделись. Не уверена, к чему я больше привыкла: к тебе нынешней или к той безумной и взвинченной.
+[dialog]
+[character]
+[character(name="avg_npc_184")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Before the bishop can come back to his senses, the predator in the water tank has already broken out of her fragile cage.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Subtitle(text="She begins to hack away at the one responsible for this string of events with her saw.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Subtitle(text="A scream echoes through the cave.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="char_143_ghost#2")]
+[name="Спектер"]  Ого, какой крепкий.
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Акула, назад! Теперь он сиборн!
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="A foul stench fills the air. It is then that Skadi realizes what has actually been the source of this strange phenomenon.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Капитан, Спектер... Уходим отсюда!
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The three of them realize what is about to happen.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=1)]
+[stopmusic(fadetime=2)]
+[character(name="avg_npc_184")]
+[name="Епископ"]  Вы... полукровки... Я уничтожу—
+[dialog]
+[CameraShake(duration=5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[character(fadetime=1,block=true)]
+Тело епископа начинает стремительно раздуваться.
+[dialog]
+[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+Вырастая, он размахивает своими длинными отростками, вмиг круша стены пещеры.
+[dialog]
+[name="Епископ"]  Вы... Ургх...
+[name="Епископ"]  Вы... заходите... слишком далеко...
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Image(image="ac18_10",screenadapt="coverall", fadetime=0)]
+[PlayMusic(intro="$warchaos_intro", key="$warchaos_loop", volume=0.4)]
+[CameraShake(duration=3, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Delay(time=1)]
+Череп епископа раскалывается между глаз.
+Веки отрываются от огромных глазных яблок. Отступление охотниц отражается в стеклянных осколках, что лежат вокруг.
+Бессчётные щупальца стремительно вздуваются из некогда тонкого, хрупкого тела. Они хлещут по тем насекомым, над которыми он раньше лишь насмехался.
+Морская вода начинает заполнять пещеру, пока тело епископа продолжает расти.
+Извиваясь, епископ крушит всё оборудование поблизости. Его тело ничем не отличается от тела сиборна, но источаемая им ярость, несомненно, человеческая.
+[dialog]
+[delay(time=1)]
+[name="Епископ"]  (Шумные, торопливые звуки подёргивания)
+[character(name="char_143_ghost#4")]
+[name="Спектер"]  С чего он вдруг так вырос? Чем он набил своё тело, что в нём столько мяса?
+[name="Спектер"]  Ха, смотри. Его голова раскололась надвое. Запомни: правая сторона — моя.
+[dialog]
+[character]
+[name="Епископ"]  (Причудливые звуки)
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Почему вы, твари, вечно воете...?
+[dialog]
+[character]
+[name="Епископ"]  (Звуки, похожие на человеческую речь)
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Действуй быстрее, иначе твоя добыча уйдёт. Или умрёт от рук другой охотницы.
+[dialog]
+[character]
+[name="Епископ"]  Вы...
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[name="Епископ"]  (Внезапные звуки скрежещущего скелета) ...Вы...
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[name="Епископ"]  (Звуки лопающихся пузырей) ...Полукровки...!
+[delay(time=1)]
+[dialog]
+[character(name="char_143_ghost#4")]
+[name="Спектер"]  Вы только посмотрите: так разъярился, что и предложения целиком сложить не может.
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Он больше не человек. Такая добыча ценна лишь тогда, когда её преследуют охотницы. Идём! Наверх!
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The giant monster, once human, chases after the three miniscule hunters.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Its body is continuing to expand. It longs to destroy everything and to tear all that refutes its beliefs to shreds.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="They all dash towards the end of this path upwards.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Meanwhile, the water beneath begins to surge upwards as the monster's body continues to grow until the water has finally reached the top of the path, the chapel.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="The waves roil in the hunters' surroundings, sending splashes flying toward their fingers and feet—", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Background(image="bg_black")]
+[image(fadetime=1)]
+[delay(time=1)]
+[Subtitle(text="The seawater brushes their fingertips.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="They have made it home.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Background(image="bg_ibbar")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[CameraShake(duration=-1, xstrength=20, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель"]  ......
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель"]  Э-э...
+[character(name="avg_npc_187")]
+[name="Житель B"]  Что... происходит?
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Земля трясётся... Это холм у берега? Похоже, что-то падает. Отсюда видно в окно. Это... часовня?
+[name="Анита"]  А-а — дом тоже трясётся. Мой сундук, еда... Бабушка Петра!
+[character(name="avg_npc_179#1")]
+[name="Бабушка Петра"]  *кхе*, *кхе* *кхе* *кхе*...
+[dialog]
+[character]
+[delay(time=1)]
+[playsound(key="$rungeneral")]
+[character(name="avg_npc_182#1",fadetime=1)]
+[delay(time=2)]
+[name="Инквизитор Ирене"]  Все, немедленно выходите со мной на улицу! Оставаться внутри опасно—
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель"]  ......
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель"]  ......
+[character(name="avg_npc_182#1")]
+[name="Инквизитор Ирене"]  Эх, что я трачу воздух!
+[name="Инквизитор Ирене"]  Так, пошли—
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Ого, Инквизитор... Вы подняли бабушку Петру одним движением?!
+[character(name="avg_npc_182#1")]
+[name="Инквизитор Ирене"]  Хватит стоять! Я знаю, что ты понимаешь мои слова! Ты хоть представляешь, сколько лет этому дому? Он рухнет после пары толчков!
+[name="Инквизитор Ирене"]  Не знаю, что там творится в часовне, но они пошли туда... Может, даже... Тьфу! Что бы ни случилось дальше, это уже не моя проблема!
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Штукатурка, Кирпич, Каменная Колонна, дядя Камин! Держитесь за меня! Штукатурка, веди остальных...!
+[name="Анита"]  Следуйте за Инквизитором! Уходим!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[CameraShake(duration=0.1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Background(image="bg_ibtownd")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playsound(key="$rungeneral")]
+[character(name="avg_npc_182#1",fadetime=1)]
+[delay(time=2)]
+[name="Инквизитор Ирене"]  Фух...
+[name="Инквизитор Ирене"]  Наконец-то... Кажется, все выбрались.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Холм... Часовня.
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Еда...
+[character(name="avg_npc_188",name2="avg_npc_189",focus=1)]
+[name="Житель C"]  Еда...
+[character(name="avg_npc_188",name2="avg_npc_189",focus=2)]
+[name="Житель D"]  Священник...
+[character(name="avg_npc_182#3")]
+[name="Инквизитор Ирене"]  Вы всё ещё переживаете за этого волка в овечьей шкуре?!
+[name="Инквизитор Ирене"]  Будто не понимаете, кто довёл вас до этого... Тьфу... Ладно! Ты, стоять! Вернись!
+[character(name="avg_npc_180#1",name2="avg_npc_179#3",focus=2)]
+[name="Бабушка Петра"]  М-м... Угх...
+[character(name="avg_npc_180#2",name2="avg_npc_179#3",focus=1)]
+[name="Анита"]  Бабушка Петра... Ты открыла глаза? Я здесь, бабушка...
+[character(name="avg_npc_182#4")]
+[name="Инквизитор Ирене"]  Эй, берегись!
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_180#2",name2="avg_npc_179#3",focus=1)]
+[name="Анита"]  К — камни! Они падают с крыши—
+[name="Анита"]  Э-э, Инквизитор, вы заслонили нас?
+[character(name="avg_npc_182#3")]
+[name="Инквизитор Ирене"]  Ты...
+[dialog]
+[character(name="avg_npc_179#1",name2="avg_npc_182#3")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The elderly woman grips tightly onto the Inquisitor's sleeve.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Бабушка Петра смотрит на вас, Инквизитор. Она благодарит вас.
+[character(name="avg_npc_179#1",name2="avg_npc_182#1",focus=2)]
+[name="Инквизитор Ирене"]  Тогда держись крепче...
+[character(name="avg_npc_180#2")]
+[name="Анита"]  У вас кровь.
+[character(name="avg_npc_179#1",name2="avg_npc_182#2",focus=2)]
+[name="Инквизитор Ирене"]  Тск... Это от того удара. И болит, между прочим.
+[name="Инквизитор Ирене"]  Ты тоже помогла мне, когда напал Морской Ужас. Будем считать, что мы в расчёте.
+[name="Инквизитор Ирене"]  И зачем я вообще всё это делаю...? Вы ведь никогда ничего не боитесь. Даже не убегаете, когда вашей жизни грозит опасность. Разве это можно назвать жизнью?
+[name="Инквизитор Ирене"]  ......
+[name="Инквизитор Ирене"]  Её песня... всё ещё звучит у меня в голове.
+[dialog]
+[character]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[character(name="avg_npc_180#2")]
+[name="Анита"]  Инквизитор, певицы здесь нет. Это плохо?
+[character(name="avg_npc_179#1",name2="avg_npc_182#2",focus=2)]
+[name="Инквизитор Ирене"]  Плохо...? Хм, думаю, то, что ты считаешь проблемой, — проблема другого рода.
+[name="Инквизитор Ирене"]  Ты знаешь, какая она... Если у неё и правда проблема, ответ на твой вопрос наверняка окажется неплохим.
+[name="Инквизитор Ирене"]  Хочешь узнать, чем всё обернётся, — придётся подождать. Может быть, она... и правда даст тебе достойный ответ.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="bg_ibcave")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playsound(key="$rungeneral")]
+[character(name="avg_1012_skadiSP_1#1",fadetime=1)]
+[delay(time=1)]
+[name="Скади"]  Мы почти у часовни!
+[character(name="char_143_ghost#3")]
+[name="Спектер"]  Он не останавливается!
+[dialog]
+[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Image(image="ac18_11_1",screenadapt="coverall", fadetime=0)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Character]
+[Delay(time=1)]
+Щупальца тянутся вверх, дробя падающие камни в пыль. Обломки врезаются в стены и покрывают их трещинами.
+Пила Спектер рокочет, и в миг, когда щупальца приближаются к ней, на её лице появляется усмешка.
+[name="Спектер"]  Интересно, сколько же я не охотилась на такую добычу? Это становится восхитительным.
+Спектер взмахивает пилой одним горизонтальным ударом, врубаясь в стену. В гранитной породе зияет огромная дыра.
+Используя инерцию, она переворачивается в воздухе. В то же время пила прочерчивает под ней серую дугу, пересекающую щупальце.
+Резкий звук рассечения разрывает воздух, и щупальце распадается надвое.
+Волосы развеваются в воздухе; «монахиня» хватается за то, что было частью лестницы, отталкивается и продолжает бег к часовне.
+Она смотрит на срез щупальца. Из полупрозрачной белой плоти выпирают крошечные споры.
+[name="Спектер"]  Слышишь? Его клетки кричат — совсем как мы.
+[name="Скади"]  У него есть эмоции. Когда-то он был эгиром... Нет. Больше нет, да и раньше его едва ли можно было так назвать.
+Внезапно кончик отрубленного щупальца выбрасывает споры, и к охотницам устремляются несколько острых струй жидкости.
+Скади переворачивает меч и прижимает клинок к телу, как щит.
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+Три струи бьют в клинок, отталкивая Скади на несколько метров. Жидкость попадает на скалу рядом, прожигая небольшие отверстия, и испаряется.
+[name="Скади"]  Давление выше, чем у водомёта на моём верстаке.
+[name="Спектер"]  Он смотрит на нас.
+[name="Скади"]  Придумай что-нибудь. Он что, будет расти без конца?
+[dialog]
+[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Image(image="ac18_11_2",screenadapt="coverall", fadetime=0)]
+[delay(time=1)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=1, block=true)]
+Внезапно глаза на голове «епископа» испускают странный луч.
+[name="Скади"]  Энергетический луч?!
+[dialog]
+В этот миг копьё Гладии рассекает органы зрения «епископа».
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[delay(time=0.7)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[delay(time=2.5)]
+Твёрдая мембрана тут же покрывает глаза чудовища. Остриё копья оставляет на ней длинный шрам.
+Затем она взмывает вверх, пока монстр внизу воет от досады.
+Охотницы почти у основания здания; пол часовни уже обрушился во время их яростной битвы. До вершины остаются считанные секунды.
+Однако Гладия замедляется.
+[name="Спектер"]  Меч-рыба?
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Image]
+[delay(time=0.6)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Мы почти закончили. Судя по его размерам и весу, этого должно хватить.
+[name="Гладия"]  Приготовьтесь.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The monster's body lets out a strange sound. The noise of the mountain collapsing and its strange howl are mingled together as they reverberate throughout the chapel.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Yet its hunt has come to an abrupt end.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Епископ"]  Как такое возможно...
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The monster is confident.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Its power comes from the sea. Their assault is unstoppable. All they have to do is reach out to their consciousness, and the answer will reveal itself.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Its tentacles can almost reach the nun's leg. It will pull her down onto the ground, drag her back, and tear her apart—", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Yet it cannot reach her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It realizes its tentacles cannot extend any further. That difference of four centimeters between it and its prey feels as wide as the deep trenches of the sea.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="As her saw revolves in the air, the nun quickly twists herself around, like seagrass in a turbulent current. She tilts her weapon downwards, ready to counter! It mustn't give her this opportunity... It mustn't give them any chances at all!", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop is starting to fret. That is, if his blood temperature allows for that.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It needs to evolve. It must evolve further! Its inner shell should still be able to expand further and break free from its flesh!", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It should be able to fill its signum with blood before ejecting it in all directions like spikes... Its neural system should be able to release electric currents, and the tips of its tentacles should be able to harden and be used as weapons!", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Its body should not be rooted to the bottom of the sea! It should be able to move. Yes, it should move, and it should then be able to slither and swim among the rubble, leap upward, pull their bodies into its coils and crush them!", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Evolve! It must evolve... and evolve!", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="But, suddenly, it 'remembers' the Seaborn, and it realizes, that Seaborn was unconcerned about its life.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The tribe will continue, their future is prolonged. Their descendants will evolve... Their descendants. Its descendants. Descendants.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Not itself.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop's ability to reason is frozen dead in its already dissolved skull.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Evolution is something that concerns the entire group for generations to come. It has nothing to do with itself individually.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It will die.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Its only plausible outcome is to die here in despair.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="No, do the Seaborn despair? Are its hopes being shattered only because it had been an Ægir?", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="It starts to struggle desperately with its external tentacles while its inner ones reach out to its consciousness.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It no longer understands anything. It cannot begin to understand. Just what was it that pushed it to surpass what had been its kinsmen, spurred its growth, and led it to its downfall?", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="This is as far as it can grow. The Sea Terrors are making their way here by following its pheromones, but they won't be here in time. They are not fast enough... It won't reach those rich nutrients in time.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="The Seaborn are not God...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="They are a different kind of organism, and so is it. This is as far as it gets. Its body will feed the sea.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Having finally come to this realization, the bishop screams in terror, but its lungs have already been transformed into a kind of filtration organ. All it can do is hopelessly let its cysts continue their beating.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="An intense stream of gas gushes out of its mouth. It desperately curls its all-too-long body. The gas that streams out lets out a sharp shriek as it passes through the beast's layers of teeth, sending the entire chapel trembling.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="But the monster is unable to escape.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It is prey.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="And the hunters have already found their prey.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[Image(image="ac18_11_3",screenadapt="coverall", fadetime=1)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Спектер"]  Сейчас!
+[name="Спектер"]  Это расплата за всё, что ты со мной сделал...! Можно сказать, я была с тобой очень снисходительна!
+[name="Гладия"]  Не дайте ему уйти.
+[name="Скади"]  Мы и так наделали много шума...
+[name="Скади"]  За остальных Охотников мы тебя простим, епископ.
+[name="Скади"]  Но этот удар — за мою семью и моих друзей, морских и сухопутных, которых ты убил.
+[name="Скади"]  Умри, ублюдок.
+[dialog]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Like flowers blossoming in the sea, the hunters slam downwards straightaway with the stone cold weapons in their hands.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop makes an attempt to retreat back to its cave. Prey animals tend to think their nests are the safest of all locations. This response was etched into their bodies tens of thousands of years ago.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="As the enormous creature pulls away, the path begins to collapse as it twists and turns. The mountain crumbles away like cake, large chunks of rock falling down like crumbs.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop flees. It is fast, so fast that it has exceeded the limitations of living organisms. Its body possesses all the qualities that predators and survivalists could only dream of.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="As long as it makes it back to its nest and seals off the path, its enemies will have no way to follow it, and it will swallow them as they sleep.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="All it needs to do is make it back to its nest.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="But it is all too late.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="In their swift fall downwards, the hunters look just like—", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="—Shooting stars.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="A sight that those who live in the deep seas rarely have the opportunity to witness.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="With his desires and plans clouding his head, the bishop has, of course, never looked up at the night sky to enjoy that spectacle.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="But they are different.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="When the Abyssal Hunters had to fight for their lives and escape from the melancholy and sacrifice, they swam upwards, and when they finally reached the surface, they could only solemnly gaze upon the star-filled night sky... The Hunters have all etched the destinies of these short-lived stars into their hearts.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Despite everything, the darkness can still be broken.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Умри.
+[dialog]
+[stopmusic]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Image(image="ac18_11_4",screenadapt="coverall", fadetime=0)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The three shooting stars illuminate the deep passageway.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop is horrified. It has no lungs and no vocal tracts. This thundering sound is as close as it gets to a scream for its current body.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Image]
+

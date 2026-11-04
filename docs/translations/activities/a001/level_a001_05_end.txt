@@ -1,0 +1,250 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 5 (после боя)
+[Background(image="bg_caveentrance", fadetime=1)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.6, crossfade=1.5)]
+[Delay(time=1)]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Га-а...!
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Ты... Ты, нахальный сопляк!
+[name="Охотник за головами"]  У тебя башка уже почти расколота, так что сделай себе одолжение и уйди с дороги!
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Хе, это ерунда. На ежедневных тренировках бывало и похуже!
+[Character]
+[Dialog]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Гх—
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Сколько их ещё осталось...?
+[name="Грани"]  Ладно, я сбилась со счёта. Главное, чтобы они не прорвались внутрь...
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.5, block=true)]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Dialog]
+[Character(name="char_220_grani#1")]
+[Delay(time=0.7)]
+[CameraShake(duration=3, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  З-землетрясение?
+[Dialog]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  А? Это там лавина? Но почему?
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character]
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[Character(name="char_263_skadi#2",fadetime=1)]
+[Delay(time=3)]
+[name="Скади"]  ...
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Да ладно... Она может проломить даже такую толстую каменную стену?
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Там открылся новый проход! Скорее, идём туда!
+[playsound(key="$d_gen_soldiersrun")]
+[Character]
+[Dialog]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Чёрт, эти ребята точно полезут внутрь через новый проход, который только что пробила Скади!
+[name="Грани"]  Нужно найти Кэрол—
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  Стоять.
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Скади...
+[Character(name="char_220_grani#1")]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  ...
+[name="Грани"]  Невероятно... Даже гора не может её остановить. Слухи и правда не врали.
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  Где девчонка?
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Не скажу.
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  Не только я охочусь за этой... штукой.
+[name="Скади"]  Тебе стоит пойти на сотрудничество, пока мне не пришлось действовать силой.
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Я не могу просто отдать тебе Кэрол, если ты не объяснишь, что происходит!
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  Значит... ты намерена помешать заданию Родос Айленда?
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Какому заданию? Ты мне о нём ничего не говорила!
+[name="Грани"]  Если только ты...
+[Character(name="char_220_grani#5")]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_263_skadi#2",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  Эй, хватит размахивать оружием перед товарищами!
+[Character(name="char_263_skadi#2",name2="char_220_grani#1",focus=1)]
+[name="Скади"]  Я тебе не товарищ.
+[name="Скади"]  Это твой последний шанс. Отведи меня к этой девчонке.
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Ни за что на свете. Моё задание — защищать её.
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  ...
+[Dialog]
+[Character(name="char_263_skadi#2")]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_220_grani#5")]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  А-а-а-а-а...
+[name="Грани"]  Чёрт... Она лишь слегка ударила мечом по моему копью, а руку будто сейчас переломит...
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  Думаешь, с такими способностями ты и правда сможешь её защитить?
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Могу я или нет... не имеет отношения к тому, буду ли я это делать!
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  ...
+[stopmusic(fadetime=2)]
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  А? Погоди!
+[name="Грани"]  Берегись!
+[Character]
+[Dialog]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=0.6, crossfade=1.5)]
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Ч-ч, это должно было сработать!
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Да, мы... нет, мы в неё не попали?! Она всё ещё цела и невредима!
+[Character]
+[Dialog]
+[Character(name="char_263_skadi#2",fadetime=1)]
+[name="Скади"]  ...Снова вы?
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=1)]
+[name="Охотник за головами"]  Га-а...!
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Ж-живая Катастрофа! Это ты ранила капитана! Мы не можем отпустить тебя живой—
+[Character(name="char_220_grani#3")]
+[name="Грани"]  Вот мой шанс!
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  Даже не думай!
+[Character(name="char_220_grani#2")]
+[name="Грани"]  Вам бы сначала побеспокоиться о том, как её задержать!
+[Character]
+[Dialog]
+[PlaySound(key="$b_char_defboost")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[Character(name="avg_npc_007")]
+[name="Охотник за головами"]  ...А?
+[name="Охотник за головами"]  Что случилось?! Этот парень только что перепрыгнул через наши головы?
+[Character(name="char_263_skadi#2",name2="char_220_grani#2",focus=2)]
+[name="Грани"]  Увидимся позже, Скади!
+[Character(name="char_263_skadi#2",name2="char_220_grani#2",focus=1)]
+[name="Скади"]  Ты...
+[Character(name="char_263_skadi#2",name2="char_220_grani#2",focus=2)]
+[name="Грани"]  Прости! Когда будешь готова объяснить, что происходит, тогда и поговорим о Кэрол!
+[Character(name="char_263_skadi#2",name2="char_220_grani#2",focus=1)]
+[name="Скади"]  Стой, вернись!
+[Character(name="char_220_grani#3")]
+[name="Грани"]  И снова прости!
+[PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=2)]
+[name="Жестокий охотник за головами"]  Как ты мог так просто дать ей уйти?!
+[Character(name="avg_npc_007",name2="avg_npc_007",focus=1)]
+[name="Охотник за головами"]  Она слишком быстрая, нам не догнать!
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  ...
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Ладно, сначала разберёмся с этой.
+[name="Жестокий охотник за головами"]  Ты куда крупнее, так что вряд ли перепрыгнешь нас.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  ...Вы все трупы.
+[Character]
+[Dialog]
+[stopmusic(fadetime=3)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[Background]
+[Background(image="bg_cave_2", fadetime=1)]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, fadetime=2, block=true)]
+[playsound(key="$d_gen_walk_n")]
+[Character(name="char_220_grani#5",fadetime=2)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.6, crossfade=1.5)]
+[Delay(time=2)]
+[name="Грани"]  Внутри и правда лабиринт — сплошные извилистые ходы. Кэрол была права.
+[name="Грани"]  Хм? А что здесь делает охотник за головами—
+[Character]
+[name="Охотник за головами"]  У-у... спасите...
+[name="Охотник за головами"]  ...
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Бедняга...
+[name="Грани"]  Похоже, его несколько раз отделали...
+[name="Грани"]  Н-но Скади ведь всё ещё снаружи пещеры, да?
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Что это за проём? Похоже, стену пробили взрывом...
+[name="Грани"]  Это значит—
+[stopmusic(fadetime=2)]
+[name="Грани"]  Ты уже всё поняла.
+[Delay(time=0.5)]
+[Character]
+[Dialog]
+[PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
+[Character(name="char_1002_nsabr_1",name2="char_1002_nsabr_2",fadetime=1,block=true)]
+[Delay(time=2)]
+[Character]
+[playsound(key="$d_gen_walk_n")]
+[Delay(time=1)]
+[Character(name="avg_npc_010#2",fadetime=2)]
+[Delay(time=3)]
+[name="???"]  ......
+[name="???"]  Я неплохой актёр, правда?
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Так это твоих рук дело...
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]
+

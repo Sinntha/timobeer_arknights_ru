@@ -1,0 +1,871 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibchurch")]
+[Delay(time=1)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[character(name="avg_npc_184")]
+[name="Епископ"]  Ну же, входи, входи. Я знал, что ты доберёшься сюда.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Откуда?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Что я могу сказать...?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Хм. Не нужно.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Ты повсюду носишь с собой этот футляр, бродячая певица?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Да.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Тогда не позволишь ли задать ещё один вопрос?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Давай.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Что внутри этого футляра?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Саксофон.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Ах, отлично, саксофон... духовой инструмент. Весьма неплохо.
+[name="Епископ"]  Могу ли я иметь счастье услышать его? Музыка... этот город не слышал музыки уже много лет.
+[name="Епископ"]  Ах нет, прошу прощения... Я вдруг осознал, что бродячая певица берёт плату за свою песню.
+[name="Епископ"]  Это ставит меня в тупик. Боюсь, я не могу предложить сколько-нибудь стоящих чаевых.
+[name="Епископ"]  Взгляните на это старое здание. Хм, заботиться о нём — непростая задача, ведь деньги здесь мало что значат: никто их не собирает и никто ими не пользуется.
+[name="Епископ"]  Но я могу потратить силы и приготовить вам обед. Бродячая певица, что скажете? Не соблаговолите ли что-нибудь исполнить?
+[name="Епископ"]  В моих силах хотя бы пригласить вас поесть досыта, пусть это и не изысканный деликатес...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  ......
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Вижу, вы умолкли... Ах, осмелюсь предположить: вы предпочитаете танец песне?
+[name="Епископ"]  Видите ли, на вас платье танцовщицы... вы талантливы. Слишком давно у нас не было друга со столь ярким блеском, как вы.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  (...Тошнотворно.)
+[name="Скади"]  Если хочешь что-то послушать, пока можешь позволить мне спеть.
+[name="Скади"]  Я пришла задать вопрос. Тот, кто стоит рядом с тобой, наверняка знает ответ. Думаю, тебе больше не уйти от этой темы.
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  ......
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Епископ"]  Были ли мои — люди, здесь, и вы когда-то знакомы?
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  Разумеется, были.
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Епископ"]  Я спрашивал не тебя.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_474_gladiia_1#1")]
+[Subtitle(text="Gladiia turns her head away, and does not speak further.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Мы не знакомы.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  О...?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Потому что теперь я понятия не имею, тот ли это человек, которого я знала раньше.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Ох, ох...
+[name="Епископ"]  И это тоже естественно. Все люди меняются. Морская вода бьётся о сушу и со временем превращает побережье в песок.
+[name="Епископ"]  Итак. Ваш приход — разве не её воля?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  —Разве не ты хотел, чтобы я пришла?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Будь на то лишь моя воля, вы бы здесь не появились, верно? Я всего лишь незнакомец.
+[name="Епископ"]  Я просто спрашиваю: она пожелала, чтобы вы пришли, или нет?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Нет. Я пришла сама.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Хм, вы не лжёте. Я слышу, когда говорят ложь... но вы честны.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Ты всё спрашиваешь, а я ещё ничего не сказала. Как можно быть таким несносным?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Спокойнее, спокойнее, певица. Я не хотел. Немного осмотрительности всем нам на пользу.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Тогда моя очередь спрашивать.
+[name="Скади"]  Люди этого города всецело тебе доверяют, но то, что происходит на берегу—
+[name="Скади"]  —совершенно ненормально.
+[name="Скади"]  Сбор отбросов. Морские Ужасы. Океан.
+[name="Скади"]  Откуда ты? Ты что-то знаешь, верно? Что вы с ней скрыли от меня?
+[dialog]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Ах, ха-ха. Да, действительно, я знаю куда больше остальных.
+[name="Епископ"]  И действительно, я знаю одного, кто хочет встретиться с вами.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Встретиться со мной? Потому что я бродячая певица?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Тот, кто любит музыку, — это я.
+[name="Епископ"]  Хоть это и может вызвать недоверие, тот, кто хочет встретиться с вами, — не я.
+[name="Епископ"]  Это мой друг. Я пригласил вас сюда по его просьбе.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=1)]
+[name="Скади"]  Кто? Он хочет встретиться со мной?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Идёмте со мной. Узнаете, когда увидите его.
+[name="Епископ"]  В конце концов... у вас и здесь есть друг.
+[dialog]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="'You wish to meet her, do you not?'", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="The bishop's tone makes light of it, but Skadi remains calm.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The hunter secretly grips the case's handle tight. Only fruits of progress in material science and Rhodes Island earnestly investing vast funds are to thank right now, that she does not crush the handle of this specialized 'saxophone case' apart.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[name="Епископ"]  Прошу, сюда.
+[dialog]
+[character]
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Епископ"]  Что до тебя.
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#1",focus=2)]
+[name="Гладия"]  ......
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#1",focus=1)]
+[name="Епископ"]  Идём и ты. Время твоей награды тоже пришло.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_474_gladiia_1#1",focus=1)]
+[Subtitle(text="Skadi glances at Gladiia briefly, and does not say much.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_184",focus=2)]
+[Subtitle(text="Skadi follows over to the figure of the bishop. Unsure as to why, she's felt the whole time that the bishop has a very odd gait. Like his legs are lame, or his joints are missing.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[character(fadetime=1)]
+[playsound(key="$d_gen_walk_n")]
+[Subtitle(text="The three descend the stairs. Shockingly, below the chapel's graves lies a cave, the staircase winding downwards by its wall, circling and circling, as if walking into some colossus's esophagus. Without a ray of light, they feel through the path on pure sense, at risk of falling into the abyss at any time.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_184")]
+[name="Епископ"]  К сожалению, я не зажгу лампу, но вам это не должно доставить неудобств, верно?
+[name="Епископ"]  Я слышал, бродячие певицы по большей части весьма проворны. Ни города, ни пустоши не слишком дружелюбны, и те, кто уходит далеко, легко страдают. Приходится учиться основам самозащиты.
+[name="Епископ"]  Богатство не купит музыку, но музыка может служить богатством. Пока поётся хорошая песня, человек не умрёт с голоду, куда бы ни шёл...
+[name="Епископ"]  Когда-то я очень жаждал такой жизни — наверное, потому, что не гожусь для того, чего она требует... Стоит мне где-то пустить корни, как мне становится очень трудно снова подняться и уйти.
+[dialog]
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="The bishop seems to talk in soliloquy, because the two others utter not a word while descending.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Character]
+[Background(image="bg_ibcave")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="avg_npc_184",fadetime=1.5)]
+[delay(time=2)]
+[name="Епископ"]  Мы на месте.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Только не говори, что мы...
+[character(name="avg_npc_184")]
+[name="Епископ"]  Верно. На морском дне.
+[dialog]
+[character(name="avg_1012_skadiSP_1#1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Led deep and deeper by the staircase, they finally set foot on flat ground. Even Skadi feels challenged to breathe in the sealed-off damp, until they emerge into a shaft of light, and the open scene before them reinvigorates the hunters.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="The massive karst cave is filled with twisted equipment. From a hidden place above, daylight illuminates as it penetrates the ocean, permeates the cave, the faint blue making where it lies clear.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Это—!
+[PlayMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.4)]
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Subtitle(text="How could this be.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Image(image="ac18_07",screenadapt="coverall", fadetime=0)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Delay(time=1)]
+Тело Спектер плавает в чане с водой, будто мёртвое — или, быть может, крепко спящее.
+В голове Скади проносятся бессчётные мысли.
+Почему она здесь? Это сделала Гладия? Что, если Спектер мертва? Как Гладия могла позволить Спектер умереть?! Неужели она и правда—
+[name="Епископ"]  А ведь это ваша подруга, не так ли?
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[character(name="avg_npc_184")]
+[image]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=1, block=true)]
+[name="Епископ"]  Вас зовут Скади? Не я следил за вашими делами. С вами обращались очень хорошо...
+[name="Епископ"]  Особенно те, кто рядом с вами. Они всё сделали хорошо, позволяя вам сохранять рассудок под грузом таких чувств.
+[Character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  —
+[dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi's eyes open wide.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Что?
+[character(name="avg_npc_184")]
+[name="Епископ"]  В последнее время у них не было времени навещать вас, но по скромной милости вашей предводительницы вы пришли — практически как подарок мне.
+[dialog]
+[Character(name="avg_1012_skadiSP_1#1")]
+[Image]
+[delay(time=0.6)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi turns in anger to Gladiia, but finds no one behind her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[character(name="avg_npc_184",name2="char_empty")]
+[delay(time=0.7)]
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#3",fadetime=0.5)]
+[delay(time=1)]
+[Subtitle(text="Gladiia is already pacing for the bishop, her step free of concern in its lightness. The speed she takes pride in, the speed rumored amongst the Abyssal Hunters... seems to be in this silent, single step.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#3",focus=1)]
+[name="Епископ"]  Я удивлён, что первой выступила ты... а не та певица. Чего ты ждёшь? Почему не убила меня раньше?
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#3",focus=2)]
+[name="Гладия"]  Неужели ты настолько глуп?
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#3",focus=1)]
+[name="Епископ"]  Вы, нечестивые создания, и ваше вечное состояние... Ваше утончённое чувство собственного достоинства, выраженное без смысла. Была бы ты так же безразлична, если бы этот эксперимент — её жизнь — исчез здесь?
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#3",focus=2)]
+[name="Гладия"]  Подтверждение твоих результатов придало тебе уверенности. Твоё удовлетворение сквозило в словах, но ты не дал мне увидеть, куда ты её унёс. Полагаю, ты ещё не можешь позволить ей умереть.
+[name="Гладия"]  Из нас немногих, уверена, её жизнь ты ценишь больше всего.
+[name="Гладия"]  Я уничтожила твою экспериментальную площадку—
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#3",focus=1)]
+[name="Епископ"]  Неудивительно, что это была ты.
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#3",focus=2)]
+[name="Гладия"]  —Спектер чрезвычайно ценна. Из всех тестов на заражение ориджинитом, что ты проводил на Охотниках Бездны, лишь этот образец даёт результат.
+[character(name="avg_npc_184",name2="avg_474_gladiia_1#3",focus=1)]
+[name="Епископ"]  Первородный грех низменных сухопутных тварей может подействовать на ваши нечестивые тела. Разве это не поразительно интересно?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#2",name2="avg_474_gladiia_1#5")]
+[Subtitle(text="The looks on Skadi and Gladiia's faces both change.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_184")]
+[name="Епископ"]  Хотя... должен сказать, ты нанесла слишком большой ущерб площадке, где мы сейчас. Столько очищенного, сжиженного ориджинита, столько применённых технологий эгир... всё это больше не увидеть.
+[name="Епископ"]  Она и правда чрезвычайно ценна. Одна моя загадка — как она сопротивляется ориджинитовой инфекции такого масштаба... Её спинного мозга, разбавленного, хватило бы заразить небольшую страну.
+[name="Епископ"]  Теперь всё изменилось. Благодарю тебя за то, что вложила её в мои руки, нечестивое создание. Я поведу остальных двоих... Я раскрою все ваши последние тайны.
+[name="Епископ"]  Я докажу собственный успех. Мои исследования. Секреты нашего врага. А также его слабости...
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Ты начнёшь с того, что умрёшь здесь.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi covertly applies her strength. Her puzzlement and irritation towards Gladiia pale completely to her present anger at the bishop.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Given one chance, this originator of evil will be shattered, flesh pasted.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Just one chance.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_474_gladiia_1#3")]
+[name="Гладия"]  То, что я пощадила тебя, было доказательством: ты тот самый человек, один и тот же. Тех, кого щадить не стоило, я уже казнила.
+[name="Гладия"]  Раз доказано, что ты, они и этот эксперимент связаны, тебе больше незачем жить.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Церковь Глубин... ты из Церкви Глубин.
+[character(name="avg_npc_184")]
+[name="Епископ"]  Разве я позволял тебе так ко мне обращаться?
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Вы слишком хорошо прячетесь. Каждый из вас не похож на другого. Вы скажете что угодно.
+[name="Скади"]  Спектер тоже свели с ума... твои наставления и пытки?
+[name="Скади"]  Те люди снаружи. Ты их использовал. Они для тебя тоже эксперименты?
+[name="Скади"]  Все, кого бросали в море... были жертвами твоих опытов?
+[character(name="avg_npc_184")]
+[name="Епископ"]  Дерзко.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The bishop's figure seems to enlarge some. He may truly be angered.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Епископ"]  Милостыня океана — не эксплуатация. Это спасение.
+[name="Епископ"]  Я мог бы вовсе не заботиться о них, и они бы умерли.
+[name="Епископ"]  Океан даёт им пищу, даёт нежелающим жить свободу жить дальше в возрождении...
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="A cold shudder runs through Skadi. Sea Terrors. Sea Terrors. They become Sea Terrors.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_184")]
+[name="Епископ"]  Как вы, нечестивые создания, можете надеяться понять...
+[character(name="avg_474_gladiia_1#3")]
+[name="Гладия"]  Довольно, епископ. Разве я когда-нибудь проявляла интерес к твоей цели? Если ты помнишь что-то неверное, прошу немедленно это забыть. Твоё позорное поведение не поддаётся описанию. Меня заботит лишь то, как далеко может дрейфовать твой яд.
+[name="Гладия"]  Этого достаточно.
+[character(name="avg_npc_184")]
+[name="Епископ"]  Ты верила, что, приведя ещё одного... сможешь легко меня одолеть?
+[name="Епископ"]  Ты и тебе подобные так самоуверенны — и так глупы.
+[character(name="avg_474_gladiia_1#3")]
+[name="Гладия"]  Я знаю, что некоторые из вас уже решили стать Морскими Ужасами. Боюсь, козырем это не станет.
+[name="Гладия"]  Даже если ты сможешь стать сиборном—
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi suddenly registers that the scent of a Seaborn has drawn near.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Moreover, it is not the bishop.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[stopmusic(fadetime=1)]
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Капитан!
+[dialog]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0.03, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.03, block=true)]
+[Character]
+[Image(image="ac18_08",screenadapt="coverall", fadetime=0)]
+[Subtitle(text="Skadi leaps forward, but the Seaborn is already too close to Gladiia, much too close.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, fadetime=0.05, block=true)]
+[Delay(time=1)]
+С её скоростью Гладия способна уклониться ещё до того, как долетит звук.
+Но для этого прежде всего нужно, чтобы Гладия намеревалась уклониться.
+Гладия даже не заметила...
+[PlayMusic(intro="$tense_intro", key="$tense_loop", volume=0.4)]
+[name="Гладия"]  Кха, хг-эгх... (Захлёбывается собственной кровью)
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character(name="avg_npc_186")]
+[Image]
+[delay(time=0.6)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=1, block=true)]
+[name="???"]  Гла-дия. Такова была его просьба. И я это сделал.
+[name="???"]  Отдыхай.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi, having witnessed the instant the monster impaled Gladiia, now watches as it extracts its limb and leaves Gladiia to crumple, ruined.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="A trap. This was a trap. Skadi had long readied herself to confront a Seaborn... but why did Gladiia not notice it?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Did she allow herself to underestimate the enemy? Or did what happened to Specter destroy her calm?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Who is the hunter, and who is the hunted?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Moreover—how could—a Seaborn—", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ишар-мла.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="(Why... why, why?)", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Why did Gladiia choose to make a move here? She could've just said something to Skadi, and the two of them would've easily killed the bishop!", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[character(name="avg_npc_184")]
+[Subtitle(text="Can this bishop truly be not a monster? Was the scent she smelled the whole time this Seaborn, and not the bishop?", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[character(name="avg_npc_186")]
+[Subtitle(text="What is this thing in front of her? Is it a Sea Terror? The bishop's transformation? A Seaborn?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="If it's one of her unendingly long-despised enemies, why can it talk?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ишар-мла. Я хотел встретиться с тобой.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi does not speak. Her hand reaches for her case as she watches for the Seaborn's first move, its first possible movement.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Life and death are an instant apart. She wants the monster dead.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Бессчётные годы в дрейфе. Бессчётные годы в скитаниях. Бессчётные жили и умирали.
+[character(name="avg_npc_184")]
+[name="Епископ"]  *Тьфу*...
+[name="Епископ"]  Глупое нечестивое отродье. Не попроси вестник о тебе, все вы, нечестивые, давно были бы мертвы на пляже.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Ублюдок...
+[character(name="avg_npc_184")]
+[name="Епископ"]  Вестник, покончи с этой проблемой. Меня всегда тошнило от того, как эти люди посягают на наш океан.
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ты так жаждешь напасть на них?
+[character(name="avg_npc_184")]
+[name="Епископ"]  Скольких наших убили эти твари — эти полукровки, порождённые Эгиром?
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Может быть, ты — не один из нас.
+[name="Сиборн"]  Тогда сперва я закончу задавать этот вопрос.
+[name="Сиборн"]  Ишар-мла, моя сестра.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Что...?
+[character(name="avg_npc_184")]
+[name="Епископ"]  ......
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Сестра, сейчас ты не помнишь, откуда ты родом.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Я из Эгира, чудовище... Я твой естественный враг.
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ты не помнишь.
+[name="Сиборн"]  Тогда позволь мне рассказать тебе правду.
+[name="Сиборн"]  Ты — это мы.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  ......
+[dialog]
+[musicvolume(volume=0,fadetime=1)]
+[Blocker(a=0, r=255, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=255, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="What?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="What?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="No.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="No.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[musicvolume(volume=0.4,fadetime=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  В тебе течёт наша кровь.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi has wondered so many times. Skadi knew she had some connection to them, but she blamed every last part upon the scars the final battle left on her.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="But she smells it. She knows it. She hears it. She recognizes it.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Лжец!
+[character(name="avg_npc_184")]
+[name="Епископ"]  Вестник, ты... что?
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ишар-мла. Твоя кровь — наша кровь.
+[name="Сиборн"]  Сначала были ваши тела, а потом в них вошла наша кровь.
+[name="Сиборн"]  У меня бессчётное множество кровных родичей. Они встречают тебя. Они умирают.
+[name="Сиборн"]  Они чуют твой запах. Как ты чуешь наш запах.
+[name="Сиборн"]  Они верят, что их сородичи пойманы под твоей кожей. Они вгрызаются в твою шкуру и плоть, невзирая на опасность, желая освободить своих родичей из твоих оболочек.
+[name="Сиборн"]  Они не подготовлены, и у них нет органов, чтобы это осознать.
+[name="Сиборн"]  Вы не держите родичей в своих телах. Вы и есть наши родичи.
+[name="Сиборн"]  Ишар-мла. Ты — это мы.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="It is as if the Seaborn's words carry some magical power. Skadi's cacophonous train of thought returns to the past, when she and the other hunters executed Sea Terrors together, and the thicker the stench of blood, the more excited they became, the fiercer their movements, their bodies responding.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="To their same blood.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Я разбужу тебя. Ты вспомнишь то ощущение. Тела эгир хрупки, и всё проходит слишком быстро. Я помогу тебе отыскать его.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Остановись. Остановись!
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  И всё же ты хочешь знать. Я знаю, что ты хочешь знать.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi wishes to know.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi wishes to know just what she is in the end. She wishes to know why she must suffer so much misfortune.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Вы убиваете нас, эгир... а теперь намерены быть мне роднёй?!
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Моя кровь и твоя кровь одинаковы.
+[name="Сиборн"]  Ты чуешь мой запах, как мы чуем твой.
+[name="Сиборн"]  Ты находишь нас, убиваешь нас...
+[name="Сиборн"]  Когда мы не понимаем, мы тоже убиваем тебя.
+[name="Сиборн"]  Мы кормим океан. Наши тела послужили океану.
+[name="Сиборн"]  Ишар-мла, у нас один дом.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Вы убили мою семью. Это вы убили мою мать, мою бабушку, мою младшую сестру.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi wishes to know.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Нет. Мы бы не стали.
+[name="Сиборн"]  Мы не ходим в города эгир.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Столько городов — и все уничтожены вами!
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Те города — на нашей территории.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Кхе! Даже в глубинных городах Эгира вы охотитесь на людей!
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Нет... Нет.
+[name="Сиборн"]  Мы бы так не поступили. Те, кто умирает в городах, не могут послужить многим.
+[name="Сиборн"]  Эгиры нападают на нас, мы нападаем на эгир. Разницы нет.
+[name="Сиборн"]  Те, кто умирает на вашей территории, умирают от рук тех, кто на вашей территории.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Ложь!
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ложь? Я хочу знать, что значит «ложь». И «лжец» ты сказала раньше. Я хочу знать.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi is unable to move.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi seems to have touched upon the Seaborn's thought.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The Seaborn's message flows directly from its scent into the waters of her mind.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She may do this. Of course... she...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Нет, нет...!
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ишар-мла, барьер между тобой и нами слишком крепок. Ты не можешь передать нам свои мысли.
+[name="Сиборн"]  Тебе достаточно знать, что думаем мы.
+[name="Сиборн"]  Моё тело выросло, может говорить, может общаться с тобой.
+[name="Сиборн"]  Язык громоздок, им нелегко пользоваться. Я умею говорить только так, но так ты можешь сказать мне.
+[name="Сиборн"]  Ишар-мла, я пришёл встретиться с тобой.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi knows. From every part of the sum of all of it, Skadi knows—", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The Seaborn would not lie.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Я и ты... не...
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ты часто чувствуешь, что существа вокруг тебя тебе чужды.
+[name="Сиборн"]  В странствиях ты чувствуешь направление морской воды и знаешь многое о том, что происходит в неосвещённом океане.
+[name="Сиборн"]  Иногда во сне ты чувствуешь, что плывёшь вместе со многими из нас.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi's blood is already boiling.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="How could this be? How could this... be?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="Skadi understands.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi sympathizes.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi and the other hunters whisper.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi and the other hunters are all monsters.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Зачем ты сказал мне это? Зачем было это говорить?
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="She is a monster.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She murders her own kind.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She for her own kind murders her own kind.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She by her own kind murders her own kind.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[character]
+[Subtitle(text="The eyes of the people in the streets are filled with warmth. They don't know anything.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The eyes from the research institutes and in the tents are filled with ice.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="When the hunters sleep, there are patrollers guarding. No. Those aren't guards. That night patrol doesn't serve the hunters.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The patrollers are waiting for the hunters to become monsters.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="And, she sees... she has seen...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="That sister of hers ate Ægir, chewing the bones, corners of her mouth torn, up until the Captain had her killed.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="'Her nerves have been infected by Sea Terrors. It may be that some kind of Sea Terror has become a part of her body. We can't save her.'", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="No, no.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="That was because she no longer regarded Ægir as her kin. She returned to her home.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  ......
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ты вспомнила.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Skadi is sunken in a black, still sea.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Her escape and defense were all meaningless.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Her past and future were all meaningless.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She is a sea monster.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Sea Terror. Seaborn.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Aside from her, anyone and everyone probably knew.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Sea monster.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="And—she has already committed the gravest sin...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="If she is a sea monster, if her brothers and sisters are here, then she...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="She recalls that which did not resist.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She feels calls to mind its tentacles softly folding over its own skin.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="I killed it.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="I killed her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="I killed Him.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[character(name="avg_npc_184")]
+[Subtitle(text="The bishop is in disarray, his questions now answered. His self-esteem and spite intermingle, yet he is unable to undo the truth that comes from the Seaborn's mouth.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Епископ"]  ...Этого не может быть...
+[name="Епископ"]  Почему... мы никогда раньше... почему мы не могли этого увидеть?! Почему мы не могли это выяснить?!
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_474_gladiia_1#5")]
+[Subtitle(text="The wound that found its way through Gladiia's chest is still gurgling with fresh blood. But in spite of it, her heart has not yet stopped pulsing...", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ишар-мла. У меня есть вопрос, Ишар-мла. Подними голову.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#2")]
+[Subtitle(text="Mechanically, Skadi raises her face, and stares at the lifeform in front of her calling itself her own brother, her eyes vacant.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Я убила его.
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ты не убивала.
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  Я убила...
+[dialog]
+[musicvolume(volume=0,fadetime=1)]
+[Blocker(a=0, r=255, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=255, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="I killed their God.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="I killed their genesezoic.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="I killed our genesezoic.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=255, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[musicvolume(volume=0.4,fadetime=1)]
+[name="Скади"]  Я убила Его...
+[name="Скади"]  Он ничего не сделал, а я... я всё равно...
+[name="Скади"]  Даже моя... моя младшая сестра... была... эгиркой... эгиркой...
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="All killed by the Ægir.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="My sister, my mother, my grandmother...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="All my years of revenge were mistaken, from the very beginning.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="I never knew. All of this, everyone, killed by the Ægir. The Church of the Deep. The Ægir.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The Seaborn does not lie.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Грех?
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  Мой грех... Я...
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ишар-мла, не терзайся сомнениями. У нас нет греха.
+[name="Сиборн"]  Ты лишь делала то, что могла делать, Ишар-мла. Мы, родичи, действуем без греха.
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  Но я действовала ради Эгира... Мы убили так многих...
+[dialog]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The stench of blood gushes against the throat.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Is it a sense of guilt? Not at all.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi is simply at a loss. She suddenly realizes. The force that supported her for all these years, the impetus that led her to assume such vast suffering... has disappeared.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="All she has done, empty, void.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="For all of Ægir? Skadi certainly isn't one to present so loftily. Finding a justification for herself is little else but consolation.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Ægir... How did Ægir even look upon the Abyssal Hunters?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Just what 'am I'? What exactly have I lived? All of everything, and the reckless, death-defying me of back then—how are they even related?", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="'What—am I even doing?'", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The Seaborn's unmatured words pull her back to reality, if such violent vertigo and profound anxiety can amount to 'reality'...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ты веришь, что ты эгирка, поэтому тебе было правильно убивать.
+[name="Сиборн"]  Ты считаешь других своими кровными родичами, поэтому ты так поступаешь, мы не знаем, а когда мы нападаем на тебя и ты так поступаешь — ты права.
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  —
+[name="Скади"]  Почему?
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  —Ишар-мла.
+[name="Сиборн"]  Только в языке эгир, лишённых чешуи и плавников, есть слово «грех».
+[name="Сиборн"]  Делать, чтобы выжить, — всегда правильно.
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  Значит...
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  На тебе нет вины. Поэтому ты можешь говорить всё, что знаешь. У нас нет желаний и воли, только говорить и не говорить.
+[name="Сиборн"]  Я могу задавать вопросы. Говори.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="In the end, this question has come.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi does not want to speak. But in her flows Seaborn blood... flows the truth.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Could Ægir be ignorant of who it was that murdered all of her family?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="If there truly are Seaborn that enter cities... could it really have been only her family who were hurt?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ишар-мла. После твоей атаки мы потеряли связь с ним — нашу тесную связь. Мы лишь чувствуем его пульс, но не слышим его голос.
+[name="Сиборн"]  В последний раз вы плыли вместе, в последний раз атаковали вместе — тогда.
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Yes. She knows it clearly herself. Yes.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="In the end, only she alone was left.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="They tore the monstrous many to shreds. Opened up the sky. Charged into the dark.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="All the Abyssal Hunters came out at full force. All her colleagues' lives were bled off under the soles of her feet. All the battles were fought for that one instant.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The instant she staked life, and stabbed.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The sea monsters and the hunters' blood almost led the ocean to rot, death settling to a point where no life could ever be born anew.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She saw... she saw Him sink under.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Before that, she saw that colossal eyeball staring straight at her. She felt something had connected with her own consciousness. She sensed her skin so tart, her vision ear-splitting, and she smelt pain, and she so much as felt she had already gone mad.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="But she was so lucid. To live is lucid.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Because He 'began to speak.'", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  И вот...
+[name="Сиборн"]  Когда он снова погрузился в сон перед тобой, ты—
+[name="Сиборн"]  Слышала, как он говорил?
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[character(name="avg_1012_skadiSP_1#2")]
+[Subtitle(text="Skadi's blood is already near the point of burning away in her body.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Skadi knows the answer.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She knows. She planned to leave this secret lie until her death—", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="But yet—", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Он—
+[name="Скади"]  Он говорил—
+[dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, r=255, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=255, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The hardship we suffer is ever present.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi is not in time to say these words.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The last fiber of resistance in Skadi's heart drives her to blink incessantly.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[PlayMusic(intro="$warchaos_intro", key="$warchaos_loop", volume=0.4)]
+[character(name="avg_474_gladiia_1#5",fadetime=2)]
+[delay(time=2)]
+[Subtitle(text="She sees one glimpse of Gladiia clambering up from her pool of blood.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[delay(time=1)]
+[subtitle]
+[Blocker(a=0, r=255, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_184")]
+[name="Епископ"]  Ты?! Вестник!
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  Ах. Только в следующий раз...
+[dialog]
+[dialog]
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character]
+[character(name="avg_474_gladiia_1#5")]
+[Subtitle(text="Gladiia knows she should've dodged the last. Gladiia did not act to dodge it.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Image(image="ac18_09",screenadapt="coverall", fadetime=0)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[Image(image="ac18_09",screenadapt="coverall", fadetime=0)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_186")]
+[name="Сиборн"]  (Его телесные жидкости булькают, забивая горло.)
+[name="Сиборн"]  Гла-дия...
+[name="Сиборн"]  (Голос, похожий на хныканье.) ...Ты такая крепкая, Гла-дия.
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Мусор. (по-эгирски) Я не окажу тебе ни крупицы любезности.
+[name="Гладия"]  (по-эгирски) Добыча должна вести себя подобающе... и жалобно визжать в своей ловушке. Добыча здесь — ты, мусор.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The lance slides once again, in a single instant cutting a great wound open upon the Seaborn's body. Its fluids dribble out, corroding Gladiia's arm... but her wounds likewise heal rapidly, extremely so.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Character(name="avg_474_gladiia_1#5",name2="avg_npc_186")]
+[image(fadetime=1)]
+[delay(time=1.5)]
+[Character(name="avg_474_gladiia_1#5",name2="avg_npc_186",focus=2)]
+[name="Сиборн"]  Сестра... твой сигнал... такой плотный.
+[Character(name="avg_474_gladiia_1#5",name2="avg_npc_186",focus=1)]
+[name="Гладия"]  Эмоции. Ненависть. Разве добыче это понять?
+[name="Гладия"]  Любовь. Ненависть. Боль. Печаль. Радость. Довольство. Всё это ничего не стоит в твоих глазах. Ты считаешь это отбросами... ненужными, излишними, не так ли?
+[Character(name="avg_474_gladiia_1#5",name2="avg_npc_186",focus=2)]
+[name="Сиборн"]  У нас нет того, о чём ты говоришь.
+[Character(name="avg_474_gladiia_1#5",name2="avg_npc_186",focus=1)]
+[name="Гладия"]  Тогда у тебя ещё меньше надежды понять, мусор. Мы предпочтём излишнее в себе и хотим жить именно так. Мы — не вы.
+[Character(name="avg_474_gladiia_1#5",name2="avg_npc_186",focus=2)]
+[name="Сиборн"]  Гла-дия. Эмоции. Поистине такие сильные эмоции.
+[Character(name="avg_474_gladiia_1#5",name2="avg_npc_186",focus=1)]
+[name="Гладия"]  Ты даже петь не можешь и надеяться. Умри сейчас.
+[character(name="avg_npc_184")]
+[name="Епископ"]  Почему — как такое возможно?
+[name="Епископ"]  Почему её тело оправилось от столь тяжкого ранения?!
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1")]
+[Subtitle(text="With force, Gladiia pulls her lance from the Seaborn's body, leaps to Skadi's front, landing as though floating.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Gladiia has struggled free, or perhaps she knows that if she didn't, the Seaborn would have crushed her in the next second, no matter its intent.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Violently, she draws her lance horizontal. Though the Seaborn doesn't wish to, the bishop surely wants to kill Skadi. And she, Gladiia, an Abyssal Hunter Captain, has a duty to protect her own hunters.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="Well, it doesn't matter that she's not part of her own company.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="In the sea of her mind, a breadth of thoughts fly past like lightning, yet not one considers her own injured state.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Because it is entirely enough now. This body's current condition suffices for her to kill off anyone.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character(name="avg_npc_186")]
+[Subtitle(text="The Seaborn's body is jerking, convulsing, his regenerating flesh bracing his frame.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[character(name="avg_474_gladiia_1#5",name2="avg_1012_skadiSP_1#1")]
+[Subtitle(text="Blood constantly pours fresh from Gladiia's wound. Skadi's veins and arteries bulge from her head to toe—she cannot break free of the awareness, and the tremendous nervous signals that the Seaborn brought to her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character]
+[Subtitle(text="The ocean is serenely wide and vast, its sons and daughters delighting in both the roles of hunter and hunted.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[delay(time=1)]
+[subtitle]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

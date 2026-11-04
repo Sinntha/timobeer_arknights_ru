@@ -1,0 +1,351 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[character(fadetime=0)]
+[Background(image="27_g16_lighthouse_street",screenadapt="coverall")]
+[PlayMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.8)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_451_1#4$1")]
+[name="Тиаго"]  Ускоряй шаг!
+[Character(name="avg_npc_450_1#12$1")]
+[name="Элизиум"]  Угх...
+[Character(name="avg_npc_451_1#9$1")]
+[name="Тиаго"]  Это... Клеймо Нижнего моря. Что это вообще такое?
+[Character(name="avg_npc_453_1#1$1")]
+[name="Культист-палач"]  Хотя эти светящиеся формы жизни крошечные и разнообразные, они тоже продолжение наших сородичей.
+[Character(name="avg_npc_453_1#1$1")]
+[name="Культист-палач"]  Пророчица однажды сказала, что есть часть океана, где эти светящиеся создания заполняют всё море. Они — Целое, и они формируют колыбель жизни для наших сородичей.
+[Character(name="avg_npc_453_1#1$1")]
+[name="Культист-палач"]  «Клеймо Нижнего моря» — лишь фрагменты Его воли с десятков тысяч морских миль, принесённые приливом. Даже крошечное количество неизбежно поглотит землю.
+[Character(name="avg_npc_453_1#1$1")]
+[name="Культист-палач"]  Оно превратит землю в новый вид океана.
+[Character(name="avg_npc_451_1#1$1")]
+[name="Тиаго"]  ...Действительно.
+[Character(name="avg_npc_451_1#1$1")]
+[name="Тиаго"]  Значит, Иберия была первой жертвой ваших планов, а Гран Фаро — следующая.
+[Character(name="avg_npc_450_1#5$1")]
+[name="Элизиум"]  ......!
+[Character(name="avg_npc_453_1#1$1")]
+[name="Культист-палач"]  Жертвой? Неужели ты употребил не то слово?
+[Character(name="avg_npc_451_1#1$1")]
+[name="Тиаго"]  Нет.
+[Character(name="avg_npc_451_1#1$1")]
+[name="Тиаго"]  Инквизиция заберёт мой город. И это «прекрасное» Клеймо Нижнего моря сделает то же самое.
+[Character(name="avg_npc_451_1#1$1")]
+[name="Тиаго"]  Так или иначе, это больше не наш дом. Он потеряет историю, золотые годы взрывного роста и жизненной силы.
+[Character(name="avg_npc_453_1#1$1")]
+[name="Культист-палач"]  Тиаго, ты ведь не имеешь в виду...
+[Character(name="avg_npc_451_1#1$1")]
+[name="Тиаго"]  Джорди тоже забрали. Тех, кто сбежал, вероятно, уже всех собрал Штрафной батальон.
+[Character(name="avg_npc_451_1#7$1")]
+[name="Тиаго"]  Вы все убийцы.
+[dialog]
+[character]
+[Character(name="npc_10002",fadetime=0.5)]
+[delay(time=1)]
+[PlaySound(key="$Mon3tr_n")]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Мон3тр"]  — (Визжит возбуждённо)
+[Character(name="avg_npc_450_1#5$1")]
+[name="Элизиум"]  Мон3тр?!
+[Character(name="avg_npc_453_1#1$1")]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Культист-палач"]  Почему оно здесь?! Невозможно! Оно только что было на западной стороне города...!
+[Character(name="avg_npc_453_1#1$1")]
+[name="Культист-палач"]  Ты нам соврал, Тиаго!
+[Character(name="avg_npc_451_1#7$1")]
+[name="Тиаго"]  ......
+[Character(name="avg_npc_453_1#1$1")]
+[name="Культист-палач"]  И ты тоже?!
+[dialog]
+[character]
+[Character(name="avg_npc_461_1#1$1",fadetime=1)]
+[delay(time=1)]
+[name="Спокойный горожанин"]  До того как стать шпионкой Инквизиции, я была всего лишь дочерью обычного рабочего из Гран Фаро.
+[Character(name="avg_npc_461_1#1$1")]
+[name="Спокойный горожанин"]  Не недооценивай нашу ненависть. Все унижения, которые мы терпели, были лишь чтобы уничтожить вас всех.
+[Character(name="avg_npc_451_1#7$1")]
+[name="Тиаго"]  И вы, и Инквизиция — не более чем враги, топчущие наш дом.
+[Character(name="avg_npc_451_1#7$1")]
+[name="Тиаго"]  Посмотри сам, как выглядит настоящее разрушение. Посмотри сам, что мы видели тогда.
+[Character(name="avg_npc_450_1#7$1")]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Элизиум"]  Тиаго! Ложись!
+[Character(name="avg_npc_451_1#6$1")]
+[name="Тиаго"]  Угх!
+[Dialog]
+[character]
+[Character(name="char_empty",name2="avg_npc_451_1#6$1")]
+[characteraction(name="left", type="move", xpos=-400, power=0, times=1, fadetime=0, block=true)]
+[PlaySound(key="$rungeneral", volume=1)]
+[characteraction(name="left", type="move", xpos=400, power=0, times=1, fadetime=1, block=true)]
+[Character(name="avg_npc_450_1#7$1",name2="avg_npc_451_1#6$1",focus=1,fadetime=0.51)]
+[characteraction(name="left", type="jump", xpos=100, power=0, times=1, fadetime=0.1, block=true)]
+[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[PlaySound(key="$fightgeneral",volume=1)] 
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]
+[characteraction(name="left", type="jump", xpos=-100, power=5, times=1, fadetime=1,block=true)]
+[characteraction(name="right", type="move", xpos=300, power=0, times=1, fadetime=1, block=true)]
+[Character(fadetime=0.5)]
+[dialog]
+[Delay(time=1)]
+[Character(name="npc_10002")]
+[PlaySound(key="$Mon3tr_n")]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Мон3тр"]  (Визжит)
+[dialog]
+[character(fadetime=0)]
+[Blocker(a=1,r=1, g=1, b=1,  fadetime=0.1, block=true)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$p_skill_Mon3trburst")]
+[PlaySound(key="$d_sp_ballista")]
+[PlaySound(key="$d_avg_rockfall", volume=1)]
+[CameraShake(stop=true)]
+[Blocker(a=0,r=0, g=0, a=0, fadetime=2, block=false)]
+[delay(time=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[character(fadetime=0)]
+[Background(image="27_g20_lighthouse_core",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_4042_lumen_1#7$1")]
+[name="Джорди"]  Больше нечего чинить. Всё остальное обесточено...
+[Character(name="avg_4042_lumen_1#7$1")]
+[name="Джорди"]  Остаётся лишь смотреть, сколько этот маяк сможет продержаться.
+[Character(name="avg_4042_lumen_1#9$1")]
+[name="Джорди"]  (Клеймо Нижнего моря уже добралось до этого этажа?)
+[Character(name="avg_4042_lumen_1#9$1")]
+[name="Джорди"]  Придётся подниматься выше.
+[name="Джорди"]  Верховный инквизитор...
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[character(fadetime=0)]
+[Background(image="27_g19_lighthouse_front",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор Дарио"]  ......
+Его руки онемели.
+Форма рифа уже сильно изменилась. Верховный инквизитор не жалеет сил, уничтожая всех врагов в поле зрения.
+Но его враги буквально бесконечны.
+Его меч изъеден коррозией, и он израсходовал весь запас взрывчатки.
+Только пламя в его фонаре горит ещё ярче, чем прежде.
+Дарио ни разу не смотрит назад, на маяк, который защищает с самого начала.
+Он смотрит за горизонт моря.
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор Дарио"]  Создания моря, Иберия не будет уничтожена вами.
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор Дарио"]  Человечество не будет уничтожено вами.
+Он выкашливает кровь, застрявшую в горле. Металлический запах наполняет ноздри.
+[Character(name="avg_npc_457_1#1$1")]
+[PlaySound(key="$d_avg_fish_howl")]
+[name="Морской Ужас"]  (Медленное змеиное шуршание)
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор Дарио"]  И я тоже не буду уничтожен вами. Для этого потребуется нечто большее, чем смерть.
+[dialog]
+[character(fadetime=0)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[character(fadetime=0)]
+[Background(image="27_g22_goldenboat_hall",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Character(name="avg_npc_446_1#2$1")]
+[name="Капитан Альфонсо"]  Жди терпеливо, Гарсия.
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  (Послушно садится рядом с капитаном)
+[Character(name="avg_npc_446_1#2$1")]
+[name="Капитан Альфонсо"]  Всегда скучно ждать, пока добыча клюнет на приманку.
+[Character(name="avg_npc_446_1#2$1")]
+[name="Капитан Альфонсо"]  Помнишь, как мы во второй раз отправились охотиться на этих монстров? Тогда у нас оставалось ещё больше сотни выживших.
+[Character(name="avg_npc_446_1#2$1")]
+[name="Капитан Альфонсо"]  Когда мы впервые вышли в море, воздух наполняли приветственные крики и пушечные залпы. Эти звуки эхом звучат в наших ушах до сих пор. Мы прощались с великим берегом, неся легенды Эгира, и устремлялись в глубины.
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Через несколько дней в море — да, всего через несколько дней — обрушилась катастрофа.
+[Character(name="avg_npc_446_1#6$1")]
+[name="Капитан Альфонсо"]  Гра-а-ах... Почему эти тупые чёртовы клетки отняли у тебя язык?
+[Character(name="avg_npc_446_1#6$1")]
+[name="Капитан Альфонсо"]  Как же я хочу снова поговорить с тобой, а не с теми тупыми, прогорклыми идиотами, которым понадобилось больше шестидесяти лет, чтобы добраться сюда!
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  (Печально трётся о руку Альфонсо)
+[dialog]
+[character(fadetime=0)]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="avg_1023_ghost2_1#1$1",fadetime=1)]
+[delay(time=1)]
+[name="Спектер"]  Добрый день, мистер Капитан.
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  О, нам как раз не хватало приманки. Хочешь искупаться? Учитывая, что ты эгирка, в конце концов.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  ......
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Что? Уже забыла, что я сказал?
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Либо уходите, либо я выброшу тебя за борт.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Чудо, что ты выжил. Я не думала, что кто-то из иберийцев протянет так долго.
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Это не имеет отношения ни к тебе, ни к Иберии. После шестидесяти лет единственное, чему я принадлежу, — этот корабль.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Но мы...
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Дай мне попробовать, Скади.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Как идёт охота?
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Возможно, моё чрезвычайно любезное отношение породило ряд недоразумений. Но я вижу, что в твоих жилах течёт кровь монстров, как и у меня.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Мы... одинаковые?
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Ты, мы и твой старший помощник тоже?
+[Character(name="avg_npc_446_1#7$1")]
+[name="Капитан Альфонсо"]  ...Кто дал тебе разрешение говорить о Гарсии? Кто дал тебе разрешение СМОТРЕТЬ на мою Гарсию, вы, грязные эгирские выродки?
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  ......
+[Character(name="avg_npc_446_1#7$1")]
+[name="Капитан Альфонсо"]  Я никогда не говорил тебе, кем Гарсия является. Мужчина или женщина, высокий или низкий, полный или худой, перро или дьявол — ты не знаешь.
+[Character(name="avg_npc_446_1#7$1")]
+[name="Капитан Альфонсо"]  Но знай: Гарсия — мой старший помощник и моя любовь, и я никогда не раскрою чужакам прежнюю сущность Гарсии.
+[Character(name="avg_npc_446_1#7$1")]
+[name="Капитан Альфонсо"]  Нам не нужна ваша жалость или сравнение с любым образом нас из прошлого. Ни нам, ни тебе это не нужно.
+[Character(name="avg_npc_446_1#7$1")]
+[name="Капитан Альфонсо"]  Что за шутка. Охотники, чья кровь смешана с кровью их добычи. Даже волны океана не смывают вашу грязь, а вы смеете скалить клыки перед нами?
+[dialog]
+[character(fadetime=0)]
+Брови Скади хмурятся. Она редко заботится о том, что говорят другие, особенно сухопутные. Но слова, исходящие от исключения перед ней, заставляют её чувствовать себя неуютно.
+Старший помощник бросает резкий взгляд на Скади. Это предупреждение.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Но нам нужна твоя помощь.
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  ...Как вы, говорите, называются эти монстры? Морские-что-то?
+[Character(name="avg_1023_ghost2_1#5$1")]
+[name="Спектер"]  А, «сиборны».
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Хорошо, так почему мы должны помогать вам, сиборнам? Ты знаешь, сколько хороших парней погибло в море после катастрофы?
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Вы болтаетесь по этим водам и отказываетесь возвращаться в порт, но всё ещё настаиваете, что вы враг моря?
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Ага. Такова моя жизнь.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Мы... Охотники Бездны. Мы из Эгира, и хотя мы можем лишь догадываться, как именно ты выжил, мы испытываем к тебе только уважение.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Мы также надеемся, что ты поймёшь: всё, что мы делаем, — борьба с теми врагами.
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  И с какой стати мне должно быть дело до того, что делает Эгир?
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Э-э, нет, ты не понял.
+[dialog]
+[character(fadetime=0)]
+Скади бросает взгляд на Спектер рядом. Когда та сказала «дай мне попробовать», Скади думала, что она будет лучше вести переговоры.
+Но обнажать оружие совершенно точно не должно быть частью «переговоров».
+[Character(name="avg_1023_ghost2_1#7$1")]
+[name="Спектер"]  Скажу иначе. Наша работа — вырезать их. И, кстати, этот процесс мне довольно приятен.
+[name="Спектер"]  Раз ты охотишься только ради еды, я могу оставить тебе немного мяса, когда закончу. В конце концов, я никогда не любила иметь дело с этой тошнотворной дрянью.
+[Character(name="avg_npc_446_1#5$1")]
+[name="Капитан Альфонсо"]  ......
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Ты... довольно высокого о себе мнения, да? По сравнению с викторианцами или лейтанцами? Я видел, как вы убиваете сиборнов. Вы не стоите ни гроша.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  О, не пойми нас неправильно, иметь дело с этими низшими созданиями, которых мы называем Морскими Ужасами, для 2-й роты даже не считается боем. Гладия тоже не из скупых.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Я сильнее тебя. Это просто неоспоримый факт.
+[dialog]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.3)]
+[delay(time=1)]
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  Хра-а-аг...!
+[Character(name="avg_1023_ghost2_1#7$1")]
+[name="Спектер"]  О, не будем забегать вперёд, мистер старший помощник. Или мисс? В общем, ещё не твоя очередь.
+[Character(name="avg_npc_446_1#7$1")]
+[name="Капитан Альфонсо"]  ...Тронешь Гарсию — умрёшь.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Неужели?
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Раз миссия нашего капитана — вернуть этот корабль и вернуться в Эгир, у нас нет роскоши сидеть и пытаться вас переубедить.
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Этот путь всегда был более простым средством общения — путь Охотниц.
+[Character(name="avg_npc_446_1#9$1")]
+[name="Капитан Альфонсо"]  Ха, ты ищешь смерти!
+[dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[PlaySound(key="$d_avg_attack_heavy")]
+[PlaySound(key="$d_sp_ballista", volume=0.4)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.51)]
+[character]
+[Character(name="avg_npc_456_1#1$1",fadetime=2)]
+[delay(time=2)]
+[PlayMusic(intro="$tense_intro", key="$tense_loop", volume=0.8)]
+[name="Сиборн"]  Сородичи, я пришёл за вами.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Охотиться и поглощать — важное дело.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Вы не все сородичи. Но я знаю, вы всё ещё можете вернуться к нашему роду.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Так я спрашиваю: что вы будете делать?
+[Character(name2="avg_npc_446_1#3$1",name="avg_1023_ghost2_1#1$1")]
+[name="Капитан Альфонсо и Спектер"]  Отвали!
+[dialog]
+[Character(name="avg_npc_446_1#9$1")]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[PlaySound(key="$d_avg_attack_heavy")]
+[PlaySound(key="$d_sp_ballista", volume=0.4)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.51)]
+[Character(name="avg_1023_ghost2_1#1$1")]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_atk_saw_n_1", volume=1)]
+[PlaySound(key="$e_atk_saw_n_1", volume=1)]
+[PlaySound(key="$e_atk_saw_n_2", volume=1)]
+[PlaySound(key="$d_avg_attack_heavy")]
+[PlaySound(key="$d_sp_ballista", volume=0.4)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.51)]
+[Character(name="avg_npc_456_1#1$1")]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Сиборн"]  ......!
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(fadetime=0)]
+[Image(image="27_i39", fadetime=0,xScale=1.2, yScale=1.2,x=20, y=-40)]
+[ImageTween(xScaleTo=0.8, yScaleTo=0.8, duration=50,xTo=0, yTo=0,block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="Капитан Альфонсо"]  Ха, вот и простой способ доказать, что ты не сиборн. Убей его. Если только ты не хочешь нападать на своих «сородичей».
+[name="Спектер"]  Тогда я искренне надеюсь, что ты не потянешь меня вниз.
+[name="Капитан Альфонсо"]  Я больше волнуюсь, что ты проявишь милосердие к своим искажённым «сородичам», эгирка.
+[name="Спектер"]  Тогда волноваться не о чем. В конце концов, если бы я действительно была на их стороне, ты был бы уже мёртв.
+[name="Спектер"]  Итак, как только я докажу, что не одна из них, ты одолжишь нам свой корабль?
+[name="Капитан Альфонсо"]  Ни за что на свете. Корабль принадлежит мне.
+[name="Спектер"]  Тем хуже. Может, если я помогу тебе потерять эту руку в бою, это разбудит часть твоей человечности?
+[name="Капитан Альфонсо"]  Старший помощник! Стой, ничего не делай. Посмотрим, насколько мы отличаемся от этих монстров, называющих себя людьми.
+[name="Спектер"]  Ты тоже, Скади, не хватай мою цель. Эта охота моя. И мне нужно... немного выпустить пар.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[dialog]
+[character(fadetime=0)]
+[Image]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  ......
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Охотиться, должно быть сделано.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Цель — формировать среду.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Ты, богат питательными веществами.
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=3)]
+[character(fadetime=0)]
+

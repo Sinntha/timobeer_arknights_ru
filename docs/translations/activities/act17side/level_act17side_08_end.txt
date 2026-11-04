@@ -1,0 +1,527 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[Character(fadetime=0)]
+[PlayMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Background(screenadapt="coverall", image="bg_ibbar", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=2, block=true)]
+[Delay(time=0.8)]
+[PlaySound(key="$d_avg_clothmovement", volume=0.6)]
+[Character(name="avg_npc_451_1#9$1",fadetime=1)]
+[delay(time=1)]
+[name="Тиаго"]  Угх... Что случилось?
+[Character(name="avg_npc_450_1#5$1")]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Элизиум"]  Ты очнулся!
+[Character(name="avg_npc_450_1#9$1")]
+[name="Элизиум"]  Умоляю, мужик, в следующий раз хотя бы кричи, когда такое случается, ладно? Ещё раз так сделаешь — и я не смогу тебя спасти!
+[Character(name="avg_npc_451_1#1$1")]
+[name="Тиаго"]  Хм.
+[Character(name="avg_npc_451_1#1$1")]
+[name="Тиаго"]  Как обстановка? Монстры той женщины... их уже всех сожгли?
+[Character(name="avg_npc_450_1#9$1")]
+[name="Элизиум"]  Не могу сказать наверняка, но, вероятно. То есть, полную мощь огня Мон3тра я раньше видел только в тактических записях.
+[Character(name="avg_npc_451_1#7$1")]
+[name="Тиаго"]  ...Сожги. Сожги всё.
+[Character(name="avg_npc_451_1#7$1")]
+[name="Тиаго"]  Гран Фаро уже в прошлом. Просто сожги всё дотла.
+[Character(name="avg_npc_450_1#2$1")]
+[name="Элизиум"]  Мистер Тиаго, ты...
+[dialog]
+[character(fadetime=0)]
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25,fadetime=1)]
+[delay(time=1)]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Обгоревший культист"]  А-а, предатель! И ты, ибериец! Я учуял ваши запахи. Вот где вы прячетесь!
+[name="Обгоревший культист"]  Вы пришли как раз вовремя. Да, да, как раз вовремя...!
+[Character(name="avg_npc_450_1#5$1")]
+[name="Элизиум"]  —Что ты такое?!
+[Character(name="avg_npc_451_1#4$1")]
+[name="Тиаго"]  Хм. Уже ослеп и не узнать. Так ему и надо — ублажать себя с этим монстром!
+[Character(name="avg_npc_451_1#4$1")]
+[name="Тиаго"]  Так тебе и надо! Слышишь?!
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  Так мне и надо? Ха, конечно, Тиаго. За то, что решил довериться человеку, ослеплённому ненавистью, за то, что питал иллюзии, будто таких, как ты, можно спасти. Так мне и надо, действительно.
+[name="Обгоревший культист"]  Но теперь всё... иначе. (Кости скрежещут и хрустят)
+[dialog]
+[character(fadetime=0)]
+[PlaySound(key="$d_avg_fish_howl")]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_457_1#1$1",fadetime=1)]
+[delay(time=1.5)]
+[Character(name="avg_npc_450_1#12$1")]
+[name="Элизиум"]  —Морские Ужасы? Но когда?!
+[Character(name="avg_npc_450_1#12$1")]
+[name="Элизиум"]  Тиаго, не подходи близко! С этим парнем что-то не так!
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  Иберия должна быть уничтожена! Мы сотрём эту страну. Эта земля станет колыбелью океана. Волны поглотят облака, и десятки гор растворятся без звука...
+[name="Обгоревший культист"]  Мы все станем едины!!
+[Character(name="avg_npc_450_1#7$1")]
+[name="Элизиум"]  Берегись! Тиаго!
+[Dialog]
+[Character(name="avg_npc_451_1#4$1",name2="avg_npc_453_1#1$1",blackstart2=0.1,blackend2=0.25)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$p_imp_sword_n", volume=0.9)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[characteraction(name="left", type="move", xpos=-20, fadetime=0.3, block=false)]
+[characteraction(name="right", type="move", xpos=-100, fadetime=0.2, block=false)]
+[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1.5)]
+[Character(name="avg_npc_451_1#4$1",name2="avg_npc_453_1#1$1",blackstart2=0.1,blackend2=0.25,focus=1)]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Тиаго"]  Гух?! *кашель*—!
+[Character(name="avg_npc_450_1#12$1")]
+[name="Элизиум"]  Тиаго! Чт, он уже превращается в монстра! Как в отчётах из Саль Вьенто!
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[PlaySound(key="$d_avg_fish_howl")]
+[name="Обгоревший культист"]  Я начну с тебя, предатель.
+[name="Обгоревший культист"]  Ради увековечения вечной жизни Иберия... не имеет значения!
+[dialog]
+[character(fadetime=0)]
+[name="???"]  Не имеет значения, говоришь?
+[dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="avg_npc_447_1#1$1",fadetime=1)]
+[delay(time=2)]
+[name="Святой Кармен"]  Ты называешь меня по имени, еретик?
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  ...Верховный инквизитор, вы пришли как раз вовремя.
+[name="Обгоревший культист"]  Молитесь. Мы докажем вам, что ваш бог тоже ничего не значит. Вы будете смотреть, как Иберия тонет в бездну.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Этого никогда не случится.
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  ...Что?
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Меня зовут... Кармен I Иберия. Когда девять святых дали себе этот ложный титул, они отказались от собственных имён — а вместе с ними и от своих убеждений.
+[name="Святой Кармен"]  Нас испепеляет ложь. Никто не знает этого лучше нас. Бог никогда не предлагал Иберии спасения. Мы должны стать своими богами.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  От имени Инквизиции я объявляю тебе приговор, еретик.
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  —
+Что это за тяжесть, которую я чувствую?
+Моё тело уже принято моими сородичами. Моя жизнь уже получила возвышение.
+Так почему? Почему я не могу оторвать глаз от его фонаря?
+Самосохранение? Да, все инквизиторы довольно сильны, так что я настороже.
+[name="Обгоревший культист"]  Ты можешь убить меня, но не можешь убить наш род. Убей наш род — и море умрёт. Когда умрёт море, земля умрёт вместе с ним.
+[name="Обгоревший культист"]  Вы все в конце концов утонете в поднимающемся приливе эволюции. Вы не доживёте до будущего этой земли! Эта эпоха раздута и дисгармонична, и все мы лишь скот, запертый в клетках!
+[name="Обгоревший культист"]  Я уничтожу тебя и твою Инквизицию...
+[dialog]
+[Character]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=2)]
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  ...Что...?
+Он с неверием смотрит на своё тело. Прекрасный поперечный разрез.
+С тех пор как началось вторжение в Гран Фаро, старый инквизитор, сидевший в городской часовне, ни разу не поднял руку.
+Он никогда не обнажал меч и не доставал ручную пушку. Он использовал только фонарь и свои искусства, подобающе столь древнему существу.
+Да, древнему. Он очень стар. Промежуток времени, слишком огромный для обычной жизни.
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  Сухопутный... скот... Как ты...?
+[name="Обгоревший культист"]  По крайней мере, я успел... купить...
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Ты ничего не добился.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Совершенно новая форма жизни, но не способна отнять жизнь даже у этого старого иберийца. Чем тебе гордиться?
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Посмотри на меня, еретик.
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  Ты... *кашель*, *кашель*... Проклятье!
+[Character(name="avg_npc_447_1#6$1")]
+[name="Святой Кармен"]  Ты когда-то был человеком. Но ты узколобо недооценил потенциал собственного рода.
+[Character(name="avg_npc_447_1#6$1")]
+[name="Святой Кармен"]  Десятки тысяч лет мы так выигрывали наши войны. Природа отбирает, жизнь приспосабливается.
+[Character(name="avg_npc_447_1#6$1")]
+[name="Святой Кармен"]  Ты и твои жалкие идеи будете погребены в Иберии. Перед последним вздохом обязательно передай нашему роду наш громовой рёв.
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  «Море столкнулось с древним врагом по имени цивилизация, и у тебя нет шансов его одолеть».
+[Character(name="avg_npc_453_1#1$1",blackstart=0.1,blackend=0.25)]
+[name="Обгоревший культист"]  Ты... Грк... Ты... ты ничего не понимаешь...
+[dialog]
+[delay(time=0.51)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[character(fadetime=1)]
+[delay(time=1)]
+[stopmusic(fadetime=2)]
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  ......
+[Character(name="avg_npc_447_1#5$1")]
+[name="Святой Кармен"]  Как он?
+[Character(name="avg_npc_450_1#2$1")]
+[PlayMusic(intro="$dignified_intro", key="$dignified_loop", volume=0.8, crossfade=1, delay=0.5)]
+[name="Элизиум"]  Я всё это время делал всё, что мог! Но рана слишком глубокая!
+[Character(name="avg_npc_450_1#12$1")]
+[name="Элизиум"]  Если бы здесь была доктор Кальцит. Ему немедленно нужна медицинская помощь, сэр! Где она?
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Ждёт в часовне.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Я должен внести ясность, член Родос Айленда. Его измена неоправданна, и он должен ответить за свои преступления.
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Осознанное укрывательство культистов Церкви Глубин лишило Инквизицию первоклассной возможности. Это также подвергло Дарио и бесчисленных наших братьев в Штрафном батальоне смертельной опасности.
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  ...Чт, старый дурак.
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Сколько тебе вообще лет? Сто? Как ты... угх... всё ещё делаешь вид, что у тебя столько энергии?
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  Это мой долг.
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Значит, ты должен... *кашель*, *кашель*... угх... знать всякие вещи...
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Скажи мне, инквизитор. Скажи мне правду, ты, жалкий палач...
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Зачем ты... угх... уничтожил группу людей... надеявшихся отстроить... свой дом?
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Все вы... Все вы...
+[Character(name="avg_npc_450_1#2$1")]
+[name="Элизиум"]  Не говори, Тиаго! Я не могу остановить кровотечение!
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Ха... Ха-ха... Нет, я должен спросить.
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Все вы, Инквизиция! Те эгирцы, которых вы забрали из Гран Фаро... среди них действительно были культисты?
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  ......
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Скажи... Ты правда из... *кашель*, паранойи... не более чем смехотворной паранойи... убил всех тех хороших людей?
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Обычные граждане не имеют права знать секреты Инквизиции.
+[Character(name="avg_npc_451_1#4$1")]
+[name="Тиаго"]  Ты ублюдок...!
+[Character(name="avg_npc_447_1#1$1")]
+[name="Святой Кармен"]  Знание правды не поможет тебе удержаться за угасающую жизнь, Тиаго.
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Нет, нет-нет-нет... Умоляю тебя... Умоляю... Я умру, а ты так и не скажешь мне правду...
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Хотя бы... Марин... Скажи мне...
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  Файлы об эгирцах Гран Фаро засекречены. Я не могу раскрыть ничего гражданскому лицу.
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  ...Нет... *кашель*, *кашель*... Гах...
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Я... Будь ты проклят. Клянусь, я никогда тебя не прощу!
+[Character(name="avg_npc_451_1#3$1")]
+[name="Тиаго"]  Иберия... Ибе... будет...
+[dialog]
+[character(fadetime=0)]
+Проклятие так и не срывается с его губ.
+Старый Тиаго смотрит на тусклый, сырой потолок, где с деревянных балок вот-вот упадёт капля воды.
+Кап.
+[name="Тиаго"]  ......
+[dialog]
+[delay(time=2)]
+[Character(name="avg_npc_450_1#2$1")]
+[name="Элизиум"]  ......
+[Character(name="avg_npc_450_1#2$1")]
+[name="Элизиум"]  Его больше нет.
+[Character(name="avg_npc_450_1#9$1")]
+[name="Элизиум"]  Так в чём правда?
+[Character(name="avg_npc_447_1#7$1")]
+[name="Святой Кармен"]  Я не вижу, какое это имеет отношение к тебе, член Родос Айленда.
+[Character(name="avg_npc_447_1#7$1")]
+[name="Святой Кармен"]  Возвращайся к Кальцит. Мы потеряли слишком много времени, и Око Иберии, вероятно, падёт.
+[Character(name="avg_npc_450_1#9$1")]
+[name="Элизиум"]  Прошу. Скажи мне.
+[Character(name="avg_npc_450_1#9$1")]
+[name="Элизиум"]  Как член Родос Айленда я тоже желаю сотрудничать с Инквизицией. Но прежде всего я ибериец.
+[name="Элизиум"]  Я недолго знал Тиаго. Но только что понял... он никогда не проклял бы Иберию. Потому что он действительно считал это место своим домом.
+[name="Элизиум"]  Но осознав это, я тем более не могу просто...
+[Character(name="avg_npc_450_1#11$1")]
+[name="Элизиум"]  Лорд Кармен, увидев столько трагедий на моей родине, вы ведь не можете просто... велеть мне закрыть на всё глаза.
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  ......
+Кармен смотрит на старого рабочего, лежащего на руках Элизиума. Его глаза выдают несколько иную эмоцию.
+После минутного молчания он говорит.
+[Character(name="avg_npc_447_1#7$1")]
+[name="Святой Кармен"]  Из Гран Фаро забрали примерно сто тридцать эгирцев, и около половины из них были связаны с Церковью Глубин. Даже некоторые члены Штрафного батальона, ранее расквартированные в городе, оказались предателями.
+[Character(name="avg_npc_447_1#7$1")]
+[name="Святой Кармен"]  Они украли массу информации об Эпохе мореплавания Иберии, препятствовали Инквизиции и с самого начала замышляли превратить Гран Фаро в узел вторжения моря на землю.
+[Character(name="avg_npc_447_1#7$1")]
+[name="Святой Кармен"]  Во главе их стояла женщина-епископ, островитянка Эгира. Женщина, которую люди называли «Марин».
+[Character(name="avg_npc_447_1#2$1")]
+[name="Святой Кармен"]  А теперь предай его земле.
+[Dialog]
+[stopmusic(fadetime=3)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[character(fadetime=0)]
+[Background(image="27_g22_goldenboat_hall",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(intro="$exciting_intro", key="$exciting_loop",fadetime=3, volume=0.8)]
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Сильный. Работайте вместе, и вы достаточно сильны, чтобы вести наш род.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Но вы не планируете этого делать. Это озадачивает меня.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Наш род, как вы будете с ним обращаться?
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Воля порождает всё. Любую пропасть можно преодолеть.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Наша среда, полная и чистая. Примеси не нужны.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  О Родителях я пытаюсь найти ответ. Но вопрос не ясен. Пока я не могу спросить.
+[dialog]
+[Character(name="avg_npc_446_1#1$1")]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[PlaySound(key="$d_avg_attack_heavy")]
+[PlaySound(key="$d_sp_ballista", volume=0.4)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.51)]
+[Character(name="char_empty")]
+[characteraction(name="middle", type="move",xpos=-200,fadetime=0, block=true)]
+[Character(name="avg_npc_456_1#1$1",fadetime=1)]
+[characteraction(name="middle", type="jump",xpos=300, fadetime=1, block=true)]
+[delay(time=1)]
+[name="Сиборн"]  (Звук скрежета и трения костей)
+[character]
+[Character(name="avg_npc_446_1#9$1")]
+[name="Капитан Альфонсо"]  Все морские младенцы так быстро учатся говорить, как ты?
+[Character(name="avg_1023_ghost2_1#7$1")]
+[name="Спектер"]  Что такое, мистер Капитан? Одиночество наконец заставило тебя искать общества говорящих сиборнов?
+[Character(name="avg_1023_ghost2_1#7$1")]
+[name="Спектер"]  Знаешь, каждая рана на его теле пока что — МОИХ рук дело.
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  *Плевок*.
+[Character(name="avg_npc_446_1#7$1")]
+[name="Капитан Альфонсо"]  Оно всё ещё живо и брыкается. Мы только подходим к интересному.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  ...Сражаться бессмысленно.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Уходить — правильный выбор.
+[Dialog]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.4)]
+[PlaySound(key="$d_avg_attack_heavy", volume=0.9)]
+[PlaySound(key="$d_avg_bone_rub", volume=0.9)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_rockfall", volume=1)]
+[delay(time=0.51)]
+[PlaySound(key="$rungeneral", volume=0.9)]
+[character(fadetime=1)]
+[delay(time=1)]
+[Character(name="avg_npc_446_1#3$1")]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Капитан Альфонсо"]  Угх, вернись сюда!
+[Character(name="avg_1023_ghost2_1#5$1")]
+[name="Спектер"]  Оно прорвало стену и сбежало. И зачем иберийцам понадобилось делать этот корабль таким сложным?
+[Character(name="avg_npc_446_1#3$1")]
+[name="Капитан Альфонсо"]  Я не позволю ему дальше крушить мой корабль. Гарсия!
+[dialog]
+[character(fadetime=0)]
+[PlaySound(key="$rungeneral", volume=0.9)]
+[Character(name="avg_npc_452_1#1$1",fadetime=1)]
+[delay(time=2)]
+[Character(name="avg_1023_ghost2_1#1$1")]
+[name="Спектер"]  Это, знаешь ли, читерство~
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Как, по-твоему, мы все эти годы удерживали корабль от того, чтобы он не покрылся дырами и не затонул, в окружении монстров? Полагаясь исключительно на технологии Бреогана?
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Мы систематически убиваем тех, кто достаточно опасен, чтобы нанести урон. Затем мало-помалу выжившие медленно зашивают шрамы, которые они оставили.
+[Character(name="avg_npc_446_1#1$1")]
+[name="Капитан Альфонсо"]  Этот экземпляр можно считать разумным в меру их возможностей, но он отнюдь не самый сильный.
+[Character(name="avg_npc_446_1#7$1")]
+[name="Капитан Альфонсо"]  Мне больше не хочется играть с тобой в игры, так что этот фарс заканчивается здесь. Убей его сейчас, пока он не сделал чего-то, что мы не сможем исправить.
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[character(fadetime=0)]
+[Background(image="27_g23_goldenboat_pass",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(intro="$nervous_intro", key="$nervous_loop",fadetime=3, volume=0.8)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_rockfall", volume=1)]
+[delay(time=1)]
+Убегающий сиборн легко разрывает стены корабля. Он чует сородичей, как и океан сразу за пределами этой странной коробки.
+Ему больно. Ему нужно исцеление. Ему нужно питание. Ему нужно время. Бесчешуйные сородичи купили ему шанс вздохнуть, но времени далеко не достаточно.
+Многое ещё предстоит завершить.
+[dialog]
+[Character(name="avg_4009_irene_1#2$1",fadetime=1)]
+[delay(time=1)]
+[name="Инквизитор Ирене"]  Что?! Сиборн!
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  ......
+Сиборн не говорит.
+Потому что перед ним не сородич. Не сородич, который говорит. Не сородич без чешуи.
+В таком случае маленькое, хрупкое существо, борющееся перед его глазами, — просто обычная форма жизни. Ещё одна часть Цикла.
+Его следует поглотить.
+Придя к этому выводу, сиборн почти сразу бросается на Ирене с зубами и когтями.
+[Dialog]
+[Character(name="avg_npc_456_1#1$1")]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.4)]
+[PlaySound(key="$d_avg_attack_heavy", volume=0.9)]
+[PlaySound(key="$d_avg_bone_rub", volume=0.9)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  (Так быстро! Его тело не такое, как раньше?!)
+[dialog]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$swordtsing2", volume=1)]
+[CameraShake(duration=0.2, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$swordtsing1", volume=0.9)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  ......
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  Оно такое прочное?!
+[name="Инквизитор Ирене"]  (Мерда... В этот раз я не увернусь...)
+[dialog]
+[character(fadetime=0)]
+[character(name="char_empty")]
+[characteraction(name="middle", type="move", ypos=300, fadetime=0,block=true)]
+[Character(name="avg_npc_452_1#1$1",fadetime=0.3)]
+[characteraction(name="middle", type="move", ypos=-300, fadetime=0.5,block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[PlaySound(key="$d_avg_attack_heavy", volume=0.9)]
+[PlaySound(key="$d_avg_bone_rub", volume=0.9)]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[delay(time=1)]
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  ......!
+[Character(name="avg_npc_452_1#1$1")]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[name="Старший помощник"]  (Рычит)
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  (Потусторонние звуки) Встань... и беги...
+[Character(name="avg_4009_irene_1#2$1")]
+[name="Инквизитор Ирене"]  Ты... Ты можешь говорить?! По-иберийски?
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  (Потусторонние звуки) Я... спасу тебя. Не дай... ему узнать.
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  (Потусторонние звуки) Не дай... Альфонсо... узнать, что я... всё ещё человек.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Язык, ты тоже его знаешь.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Эффективность, относительно низкая. Недостаточно информации, недостаточно времени. При необходимости я завершу это.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Сородич, ты сформировал собственную группу. И твоё потомство пожирает друг друга.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Ты, неполон.
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  (Потусторонние звуки) Альфонсо... не сможет... быстро добраться.
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  (Потусторонние звуки) Ты... беги.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Сородич, нет смысла взращивать.
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Плоть и кровь, пожертвуй нам.
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  (Вой) —!
+[dialog]
+[Character(name="avg_npc_456_1#1$1")]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.4)]
+[PlaySound(key="$d_avg_attack_heavy", volume=0.9)]
+[PlaySound(key="$d_avg_bone_rub", volume=0.9)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[character]
+[PlaySound(key="$blooddrop", volume=0.9)]
+Всё ещё пытаясь выплюнуть остатки человеческой речи, старший помощник пронзён клыками сиборна.
+Оно не недооценивает врага и не отвлекается на присутствие Ирене. Движения сиборна явно эволюционировали.
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  Ты...
+[Character(name="avg_npc_452_1#1$1")]
+[name="Старший помощник"]  Альфонсо... Скорее... Скорее...
+[dialog]
+[Character(name="avg_4009_irene_1#1$1")]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$swordtsing1", volume=0.9)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  (Я даже не могу пробить его панцирь!)
+[Character(name="avg_4009_irene_1#4$1")]
+[name="Инквизитор Ирене"]  (Такими темпами я...)
+[Dialog]
+[stopmusic(fadetime=3)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(fadetime=0)]
+Ирене. Ты знаешь, где это.
+Да! Это же инквизиция...
+Подземелье. Место, где каждый Верховный инквизитор видел правду.
+Правду...
+Подумай об одном, Ирене. За что сражается Инквизиция?
+За чистоту и добродетель Иберии, за святость наших Законов и Писаний.
+Но что, если концепция правды в глазах людей лишь поверхностна? Что, если Закон не достаёт, Писания не пророчествуют, а мораль, управляющая всем, ничего не стоит? Как ты тогда вынесешь приговор?
+Я... буду судить по своим собственным меркам.
+Даже если это означает отбросить различие между добром и злом, которого ты всегда придерживалась?
+Конечно!
+Легче сказать, чем сделать, Ирене. Нет смысла учить на моём примере, и я не так привязан к словам, как ты.
+Маэстро...
+Но.
+[Dialog]
+[Background]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Character(name="avg_npc_183#3",fadetime=1)]
+[delay(time=1)]
+[name="Верховный инквизитор Дарио"]  Придёт день, когда твои враги заставят тебя отбросить всё, что ты знала. Твою веру, твою мораль, твою этику. Всё будет разорено, осквернено, обращено в ничто.
+[Character(name="avg_npc_183#3")]
+[name="Верховный инквизитор Дарио"]  Когда это случится, если ты сможешь восстановить свою внутреннюю веру, какой бы она ни была, это станет основой, которая поможет тебе одолеть тех врагов.
+[name="Верховный инквизитор Дарио"]  До того как увидеть правду, до того как пережить более жестокую историю, всё, что мы делаем, пусто и не имеет основания в реальности.
+[name="Верховный инквизитор Дарио"]  Я не скажу тебе, как поступать дальше. Но когда придёт время, я хочу, чтобы ты вспомнила мои слова, Ирене.
+[name="Верховный инквизитор Дарио"]  Ты должна стать последней линией обороны Иберии.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[character(fadetime=0)]
+[Background(image="27_g23_goldenboat_pass",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[dialog]
+[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[PlaySound(key="$d_avg_gunsingle", volume=0.9)]
+[PlaySound(key="$d_sp_ballista", volume=0.4)]
+[PlaySound(key="$tactfulboost", volume=0.3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=false)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[delay(time=1)]
+[playMusic(intro="$batmeeting_intro", key="$batmeeting_loop",fadetime=3, volume=0.8)]
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Нет...
+[Character(name="avg_npc_456_1#1$1")]
+[name="Сиборн"]  Выживание, на самом деле не твоя цель. Возможно, ты можешь стать чем-то большим.
+[dialog]
+[Character(name="avg_4009_irene_1#1$1")]
+[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[PlaySound(key="$d_avg_gunsingle", volume=0.9)]
+[PlaySound(key="$d_sp_ballista", volume=0.4)]
+[PlaySound(key="$tactfulboost", volume=0.3)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=false)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[dialog]
+[character(fadetime=0)]
+[Image(image="27_i30",xScale=0.9, yScale=0.9,x=80, y=-40)]
+[ImageTween(xScaleTo=0.8, yScaleTo=0.8, duration=70,xTo=0, yTo=0,block=false)]
+[Blocker(a=0, fadetime=2, block=false)]
+[Delay(time=0.51)]
+Ирене поднимает ручную пушку.
+В несокрушимом теле сиборна внезапно появляется вторая полость, когда поток жара прожигает его прочные, необычные стены.
+Вздымающаяся температура превращает окружение в море огня. Старший помощник всхлипывает и отступает в сторону, тупо глядя на сцену перед глазами.
+Сиборн никогда прежде не был окутан такими искусствами. Он чувствует себя подавленным, но быстро адаптируется.
+Однако обстрел инквизитора не прекратится, пока пламя в её фонаре не погаснет.
+[name="Ирене"]  Отпусти старшего помощника, монстр. И как следует вдохни запах ориджиниума.
+[name="Ирене"]  Ты ни в чём не виновен. Святые Писания даже не упоминают твоё существование.
+[name="Ирене"]  Прямо сейчас приговор выношу только я, как иберийка.
+[name="Ирене"]  Бич морей должен быть уничтожен. Ты не имеешь права жить.
+[name="Ирене"]  Именем Иберии.
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]
+[character(fadetime=0)]
+[Image]
+[delay(time=0.6)]
+[Dialog]
+[stopmusic(fadetime=3)]
+[character(fadetime=0)]
+

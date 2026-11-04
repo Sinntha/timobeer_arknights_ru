@@ -1,0 +1,514 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibindoor")]
+[character(name="avg_npc_180#3")]
+[Delay(time=1)]
+[PlayMusic(intro="$mist_intro", key="$mist_loop", volume=0.4)]
+[delay(time=1)]
+[name="???"]  Конца нет... Туман повсюду...
+[dialog]
+[Subtitle(text="A glowing mist rises from the bottomless abyss and engulfs her whole.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="That instant, all her senses are cut off from the rest of the world.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Perhaps she can feel there is something right in front of her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Before her is the entire ocean.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="She puts her whole strength into striking the enormous yet almost shapeless object before her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[delay(time=1)]
+[Subtitle(text="Everything she can feel immediately crumbles away.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="An ice cold yet burning hot liquid swallows her. These are the ocean's currents, as well as its blood.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="The very last dance has concluded. The seas have calmed, and she can no longer hear her people's singing.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She saved... No, she has no idea what it is that she actually saved.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Likewise, she does not have the faintest idea what it is she triumphed over.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="She paddles her arms and kicks her feet as though her life depends on it, yet the waters of the ocean pay no heed to her willpower. Like solid blocks of iron, the water has become cold and stiff, squeezing her body from all directions.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="She stops moving, leaving herself to the mercy of the sea.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="As she sinks further and further into the ocean, a black shadow envelops her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The countless voices begin to materialize around her. Some of them are crying and some... are murmuring.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="The sea is talking to her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="Its cold, lightless form has been restored, as have her eyes. She cannot see the path upward. She is sinking downward further and further, just as she is rising upward more and more.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="At a place deeper than even the sea's deepest abysses, she is lifted up by the warm waters, as though the waters themselves are the waiting arms of her family.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She opens her lips. The saltwater gushes into her throat and dissolves her completely before reconstructing her anew.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She has found her singing voice once more.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=2)]
+[musicvolume(volume=0,fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[name="Анита"]  Хм...♪
+[character(name="avg_1012_skadiSP_1#2",fadetime=1,block=true)]
+[name="Скади"]  А-ах...
+[character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#2",focus=1)]
+[name="Анита"]  Певица, ты проснулась! Доброе утро!
+[character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#2",focus=2)]
+[name="Скади"]  Кто-то только что пел?
+[character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#2",focus=1)]
+[name="Анита"]  Э — это разве песня? Я петь не умею, но ты напевала это во сне.
+[character(name="avg_npc_180#3",name2="avg_1012_skadiSP_1#2",focus=2)]
+[name="Скади"]  Я...
+[dialog]
+[CameraShake(duration=0.6, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[delay(time=1)]
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#2",focus=1)]
+[name="Анита"]  Ой! Певица... Ты слишком сильно сжимаешь...
+[character(name="avg_npc_180#2",name2="avg_1012_skadiSP_1#2",focus=2)]
+[name="Скади"]  Ты...
+[dialog]
+[character(fadetime=0.5)]
+[musicvolume(volume=0.4,fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="The girl's figure turns faint. Just like in the sea.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[character(name="avg_1012_skadiSP_1#2",fadetime=1)]
+[Subtitle(text="No, the one in the sea was someone else.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The dream is ripping her nerves to shreds.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The musical notes are dancing, twisting themselves into the cries of her family.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Мама...
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="They are dying before her eyes, and there is nothing she can do to prevent it.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Чудовища...
+[name="Скади"]  Чудовища.
+[name="Скади"]  Чудовища!
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="They are screaming, as is everyone around her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She must grab her weapon.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$fightgeneral", volume=1)]
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ах!
+[name="Анита"]  *кхе*... Певица, твой ящик... Мне очень больно в груди, когда ты прижимаешь его ко мне...
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Her blade pierces through a monster in the midst of feeding on a person.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The monster turns around.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She sees a face she often sees in the mirror.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Я...
+[dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Subtitle(text="The box falls on the ground, bouncing slightly before it comes to a stop. The object stored therein tumbles inside the box a little but does not fall out.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Т — ты меня отпускаешь? Я правда испугалась...
+[name="Анита"]  Певица, я думала, ты меня убьёшь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  ......
+[name="Скади"]  Если бы я хотела тебя убить, я бы сделала это без труда.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Но ты не хочешь меня убивать.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Откуда ты знаешь?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Знаю.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  А я не знаю.
+[dialog]
+[playsound(key="$rungeneral")]
+[characteraction(name="left", type="move", xpos=-300, fadetime=2,block=false)]
+[Character(name="char_empty",name2="avg_npc_180#2",fadetime=0.5)]
+[delay(time=2)]
+[name="Анита"]  Э?
+[name="Анита"]  С — снова убегаешь...? Певица, ты куда?!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character]
+[Background(image="bg_ibcoastn")]
+[Delay(time=1)]
+[PlayMusic(intro="$jealous_intro", key="$jealous_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[character(name="avg_npc_182#1")]
+[name="Инквизитор"]  Сэр... Приливы снова поднимаются.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Цвет моря... То пятно изменило цвет.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Что там, в воде? Э — это ракушки и рыбы? Почему они вдруг появились в воде? И почему подбираются всё ближе к берегу?
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Они пришли сюда из куда более глубоких мест, следуя течениям, которых обычно не существует.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Что?!
+[name="Инквизитор"]  Я думала... причина, по которой они уходят в море, утверждая, что оно даст им еду, — какое-то нелепое, безосновательное верование. Думала, в отчаянии их обманом заставили так поступать...
+[name="Инквизитор"]  Но я и представить не могла... что они на самом деле договариваются с морем? Что они используют своих людей как корм для морских чудовищ, а чудовища потом кормят их в ответ?
+[name="Инквизитор"]  Этот симбиоз ужасен... и жалок...! Неудивительно, что здесь так много Морских Ужасов!
+[name="Инквизитор"]  Но я думала, что вчера положила этому конец...!
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Не всякое исправление приносит плоды. Это ты должна понять.
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Я...
+[name="Инквизитор"]  Я неправа, Верховный Инквизитор? Я просто хотела их спасти.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Чтобы исправить зло, ты либо возвращаешь сбившееся с праведного пути обратно на верную дорогу—
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Но... Что здешние люди вообще считают верным?
+[name="Инквизитор"]  На землях и в морях Саль Вьенто больше не вырастить еды.
+[name="Инквизитор"]  Это стало неизбежным десятилетия назад, и бороться с этим бесполезно. Кочующий город, общество и люди, что в нём живут... Все они медленно идут к своей смерти.
+[name="Инквизитор"]  Они спросили меня... Если... если выхода нет... как им отличить правильное от неправильного?
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  —Или делаешь так, чтобы того, что неправильно, больше не было.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Сэр...! Вы же не хотите сказать...
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Ты сомневаешься во мне.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Я... Нет, конечно нет. Просто я...
+[name="Инквизитор"]  Может, они и стали такими... но когда-то они были гражданами Иберии. Я хочу их защитить и надеюсь, что смогу помочь этим жителям... чтобы они сделали нашу страну лучше.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Тебе и следует сомневаться.
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  А?
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Вынося суждение, не полагайся ни на кого, кроме себя самой!
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Да, сэр...
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Взгляни на море. Что ты видишь?
+[character(name="avg_npc_182#2")]
+[name="Инквизитор"]  Я вижу... угрозу.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Не повторяй заученные ответы.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Да, сэр!
+[name="Инквизитор"]  Море... течёт. Оно вечно меняется.
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  Запомни всё, что видишь.
+[name="Верховный инквизитор"]  Перемены происходили, происходят и будут происходить. Если не увидишь их ясно сама — потеряешься.
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_npc_182#5")]
+[name="Инквизитор"]  Сэр, что это у вас под ногами?!
+[character(name="avg_npc_183#3")]
+[name="Верховный инквизитор"]  А как ты думаешь?
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Морской Ужас... Мы упустили одного во время вчерашней атаки?! Нет, не похоже... Этот приполз с пляжа... Кажется, он проделал долгий путь... Он не совсем такой же...
+[name="Инквизитор"]  Я... э-э... я должна это знать...
+[dialog]
+[character(name="avg_npc_183#3")]
+[delay(time=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Верховный инквизитор"]  Это зло, которое следует искоренить.
+[character(name="avg_npc_182#3")]
+[name="Инквизитор"]  Понимаю... Теперь вижу... В этом вся суть их сделки.
+[name="Инквизитор"]  Значит, вот что происходит с каждым, кто уходит в море... Это не просто гнездо чудовищ. Это их рассадник.
+[name="Инквизитор"]  Ох...
+[name="Инквизитор"]  Разве это не значит, что все здешние люди станут чудовищами?!
+[name="Инквизитор"]  ......
+[delay(time=1)]
+[name="Инквизитор"]  (Сжимает ножны)
+[character(name="avg_npc_182#4")]
+[name="Инквизитор"]  Верховный Инквизитор, мне нужно вернуться в город.
+[Dialog]
+[stopmusic(fadetime=1)]
+[playsound(key="$rungeneral")]
+[character(fadetime=1)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(name="avg_1012_skadiSP_1#1")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Skadi sits on the shore.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Carried by the winds, the sea waves beat the shore ceaselessly, but never reaching her dress.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[PlayMusic(intro="$loneliness_intro", key="$loneliness_loop", volume=0.4)]
+[character]
+[delay(time=1)]
+[playsound(key="$rungeneral")]
+[character(name="avg_npc_180#1",fadetime=1)]
+[delay(time=1.5)]
+[name="Анита"]  *пых*... *пых*... Фух... П — певица, ты слишком быстрая...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Но недостаточно.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  А?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Ты снова смогла меня выследить.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Х — ха-ха... Певица, это мой дом... Я знаю эти места куда лучше тебя.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Мне следует уйти.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Уйти? Что ты имеешь в виду?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Я имею в виду — уйти отсюда.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  А? Ты поняла, куда идти, чтобы найти свою подругу?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  По крайней мере... мне стоит держаться от тебя подальше.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  А? Это почему?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Инквизитор была права в одном.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Она говорила о многом...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Я опасна для всех вас.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Из-за того, что случилось ночью? Ты спасла нас, певица. Мы очень благодарны тебе за то, что ты сделала.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Я спасла вас? Ты так думаешь?
+[name="Скади"]  Пропусти я хоть одного Морского Ужаса, он разорвал бы тебя на куски, проходя мимо.
+[name="Скади"]  Ты была бы убита.
+[name="Скади"]  Я привела его сюда. Значит, это я тебя убила.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Нет, это не так...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Почему не так? Такое уже случалось.
+[name="Скади"]  Они погибли из-за меня. Они презирали меня, боялись меня и винили во всём меня.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Они... Они были неправы!
+[name="Анита"]  Ты не хотела этого.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Не хотела?
+[name="Скади"]  Я не знаю.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  Э-э...
+[character(name="avg_1012_skadiSP_1#2")]
+[name="Скади"]  После всего этого я уже... не уверена.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="She thinks back to her dream.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Ever since that final battle, she has had that dream countless of times.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The Abyssal Hunters never stay in one place. They always march forward.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Yet Skadi was trapped there.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She has no idea what is happening to her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Скади"]  Я думала: если убью его, то найду ответ.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Killing that gigantic monster.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Things would get better for everyone. No one would cry anymore, and no one would scream anymore.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She just had to kill it.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="And she killed it...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Yet an even greater problem engulfed her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="The Abyssal Hunters never ask why. They simply do.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="But Skadi wants to know why.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="She has no idea what is happening to her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  Певица...? Ты плохо выглядишь.
+[name="Анита"]  Ты ранена и потратила столько сил. Ты ведь ещё не совсем восстановилась?
+[name="Анита"]  Пойдём со мной и отдохни. Поспишь ещё — и тебе станет намного лучше.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  ......
+[name="Скади"]  Почему ты меня не боишься?
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Хм?
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Твоя бабушка назвала меня чудовищем, а твои друзья смотрели на меня с враждебностью.
+[name="Скади"]  Такие взгляды повсюду... Я давно к ним привыкла.
+[name="Скади"]  А ты? Когда ты смотришь на меня, что ты видишь?
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ты... Ты певица.
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Певица. Это я тебе сказала, и ты поверила. А та Инквизитор — нет. Если я сейчас скажу, что я чудовище, ты поверишь?
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Нет...
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  ......
+[name="Скади"]  Почему ты всё время ходишь за мной?
+[character(name="avg_1012_skadiSP_1#2",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  А?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Всё, что я могу тебе дать, ты вольна взять, но тебе это не нужно.
+[name="Скади"]  И убивать меня ты не хочешь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  У — убить тебя? Нет, певица, с чего бы мне хотеть тебя убить?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Когда я делаю что-то для тебя, ты платишь мне чем-то в ответ. Так всегда — либо так, либо наоборот.
+[name="Скади"]  Когда чем-то обмениваешься, существует обещание. И только когда есть обещания, есть доверие.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Обещание?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Ты не знаешь, что это.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  (Качает головой)
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Слушай. Ты помогла мне, поэтому я дам тебе то, что ты хочешь. Вот что такое обещание.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  Я ничего не хочу...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Ты лжёшь.
+[name="Скади"]  Мой нос чует не хуже, чем видят мои глаза.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  Э-э...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Ты сказала, что это твой дом, и поэтому так быстро меня находишь. Это тоже ложь.
+[name="Скади"]  Если не скажешь правду, я не смогу тебе доверять.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Нет, певица, не уходи!
+[name="Анита"]  Дело не в том, что я говорю неправду. Просто... я не понимаю.
+[name="Анита"]  Певица, для всех нас... Для меня ты всё ещё загадка. Ты пришла извне, и я никогда не встречала таких, как ты...
+[name="Анита"]  Ты хочешь знать, как я догадалась, что ты здесь. Я не пыталась соврать. Мне просто... неловко.
+[name="Анита"]  Это... окраина. Самое дальнее место от города.
+[name="Анита"]  Я знаю, что ты от нас прячешься, и подумала, что, если захочешь убежать, ты, наверное, придёшь сюда.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  «Тоже»?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  Я и сама сюда часто прихожу. Конечно, Жестянке и другим я не говорю. Им не нравится, когда я убегаю так далеко.
+[name="Анита"]  Видишь вон ту глыбу? Она высокая. Я иногда на неё забираюсь. Чем сильнее ветер, тем дальше я вижу.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Тебе любопытно, что там снаружи.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  Не знаю. Я... иногда думаю о том, каково снаружи. Понимаю, что это глупости, и мне об этом тоже твердили, так что я просто воображаю всё это здесь, в одиночестве.
+[name="Анита"]  Это самое дальнее место, куда я дохожу, когда выхожу собирать припасы. Снаружи... Снаружи нет ничего полезного.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Если тебе любопытно, что снаружи, нужно просто пройти ещё немного.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=2)]
+[name="Анита"]  Я раньше ходила на запад. Жестянка предупреждал, что снаружи чудовища и что мы умрём, если выйдем за черту.
+[name="Анита"]  Певица, ты ведь пришла извне. Я хожу за тобой, потому что у меня много-много вопросов... Я хочу узнать, правда ли то, что говорил Жестянка.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#4",focus=1)]
+[name="Скади"]  Возможно.
+[name="Скади"]  Если выйдешь наружу — умрёшь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Фух... значит, правда...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Ты не разочарована.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Певица, если у меня будет шанс, думаю, я хочу увидеть это своими глазами.
+[name="Анита"]  Не важно, есть там чудовища или нет... Мне кажется, я их не боюсь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Хм?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=2)]
+[name="Анита"]  Инквизитор сказала, что я не боюсь чудовищ, потому что не знаю, что они могут со мной сделать.
+[name="Анита"]  Думаю, в этом она права.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#1",focus=1)]
+[name="Скади"]  Она это выдумала.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  *кхе*, *кхе*...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Я их тоже не боюсь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Ха-ха... Наверняка потому, что ты знаешь: чудовища ничего не могут тебе сделать.
+[name="Анита"]  Не то что я. Прошлой ночью я впервые как следует разглядела этих чудовищ. Я не знала, что со мной будет. Сердце колотилось как никогда.
+[name="Анита"]  А когда я проснулась утром, погода казалась лучше, чем когда-либо. Я чувствовала ветер и видела, как морские волны плещут всё ближе.
+[name="Анита"]  Этот день не похож на все остальные дни моей жизни, потому что я не знаю, что случится дальше.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Похоже, ты взволнована.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Взволнована?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Страх и волнение — почти одно и то же. И от того, и от другого сердце бьётся чаще, а кровь бежит быстрее.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Я больна?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Ты не больна. Для некоторых людей снаружи это и значит — быть живым.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Я не знала, что быть живой так приятно. Снаружи так каждый день?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  Должно быть лучше, чем здесь.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Я правда смогу выйти наружу...?
+[name="Анита"]  Мой сундук... Вот наполню свой сундук.
+[name="Анита"]  Мне нужно... добыть больше еды. Нужно позаботиться о бабушке Петре.
+[name="Анита"]  Я... Ах!
+[dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Excited, the girl loses her footing.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Just as she is about to fall into the sea, a hand reaches out and grabs her.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Если будешь такой беспечной, чудовища тебя съедят.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=2)]
+[name="Анита"]  Певица... ты снова меня спасла.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#3",focus=1)]
+[name="Скади"]  А ты могла бы избавить меня от хлопот, если бы не пришла.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ха-ха... П — прости...
+[dialog]
+[delay(time=1)]
+[PlayMusic(intro="$tense_intro", key="$tense_loop", volume=0.4)]
+[name="Анита"]  А? А?
+[name="Анита"]  Моя нога... Что-то схватило мою ногу.
+[name="Анита"]  Оно скользкое... и тяжёлое!
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Опять они... И повсюду. Какая морока.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Ох... Певица, я — я соскальзываю...
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Закрой глаза.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Хм?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  А потом отпусти.
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=2)]
+[name="Анита"]  Мне правда можно...?
+[character(name="avg_1012_skadiSP_1#1",name2="avg_npc_180#2",focus=1)]
+[name="Скади"]  Можешь верить мне или нет. Выбор за тобой.
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

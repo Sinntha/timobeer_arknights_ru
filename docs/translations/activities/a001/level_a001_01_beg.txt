@@ -1,0 +1,273 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 1 (до боя)
+[Dialog]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.6, crossfade=1.5)]
+[Delay(time=1)]
+[Dialog]
+[name="???"]  ......
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Image(image="ac1_0",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt="cvoerall")]
+[Blocker(a=0, fadetime=0.6, block=false)]
+[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-20, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]
+[name="???"]  (...Жжёт...)
+[name="???"]  (...Больно...)
+[Dialog]
+[Delay(time=1)]
+[name="Охотник за головами"]  Ну что, девчонка так и не заговорила?
+[Character]
+[Dialog]
+[Delay(time=1)]
+[Dialog]
+[name="???"]  (Как пить хочется... В горле будто огонь...)
+[name="???"]  (...Сколько я уже здесь...?)
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1.6, block=true)]
+[Image(image="ac1_4",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt="cvoerall")]
+[Blocker(a=0, fadetime=0.6, block=false)]
+[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-20, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]
+[Delay(time=1)]
+[Background(image="bg_med", fadetime=2,block=true)]
+[Character(name="avg_npc_009",name2="avg_npc_009",focus=1,fedetime=1,block=true)]
+[Delay(time=1)]
+[name="Охотник за головами"]  Ха, крепкий орешек... Висит тут уже больше суток, а всё не ломается.
+[Character(name="avg_npc_009",name2="avg_npc_009",focus=2)]
+[name="Жестокий охотник за головами"]  Эй, ты её пока не прикончи. Она ещё не сказала, где сокровища!
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Image(fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=false)]
+[Character(name="avg_npc_003",fadetime=1,block=true)]
+[Delay(time=1)]
+[name="Кэрол"]  ...Я вам... ничего не скажу...
+[Character(name="avg_npc_009")]
+[name="Охотник за головами"]  Ну и ладно. Воды ей не давать, пока не согласится сотрудничать!
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5,block=true)]
+[Dialog(fadetime=0)]
+[Character(fadetime=0)]
+[Background]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character]
+[Dialog]
+[Delay(time=1)]
+[Dialog]
+[name="Кэрол"]  (Неужели я... умру?)
+[Character]
+[Dialog]
+[Delay(time=1.5)]
+[Dialog]
+[stopmusic(fadetime=1)]
+[PlaySound(key="$d_gen_walk_n")]
+[Delay(time=1)]
+[name="???"]  ......
+[name="???"]  Значит, даже в Казимеже...
+[name="???"]  ...повсюду бесчинствуют головорезы.
+[Dialog]
+[Background(image="bg_med", fadetime=1,block=true)]
+[Character(name="avg_npc_008")]
+[name="Охотник за головами"]  А? Чего? Ты кто такой? Жить надоело?
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  Эй, парень, живо проваливай, пока...
+[Dialog]
+[PlaySound(key="$b_char_defboost", volume=0.7)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=20, block=false)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[Delay(time=1)]
+[Character(name="avg_npc_007")]
+[name="Жестокий охотник за головами"]  А-а-а! Это... это больно...!
+[name="Жестокий охотник за головами"]  Его одежда... Он не из этих мест.
+[Character(name="avg_npc_008")]
+[name="Охотник за головами"]  Да плевать, откуда он! Этот дурак совсем не дорожит жизнью, раз хочет драться с нами в одиночку!
+[Character]
+[Dialog]
+[Character(name="char_220_grani#5",fadetime=1.5,block=true)]
+[Delay(time=1)]
+[name="???"]  Полагаю, дипломатия тут не сработает?
+[Character]
+[Character(name="avg_npc_008")]
+[PlaySound(key="$b_char_defboost", volume=0.7)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=20, block=false)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[name="Жестокий охотник за головами"]  Угх!
+[Character(name="avg_npc_007")]
+[PlaySound(key="$b_char_defboost", volume=0.7)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=20, block=false)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[name="Охотник за головами"]  Гх...
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6,crossfade=1)]
+[Character(name="char_220_grani#3")]
+[name="???"]  Хорошо. Какое-то время они нас не побеспокоят. Уходим, пока есть возможность.
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Кто... вы...?
+[Character(name="char_220_grani#3")]
+[name="???"]  Не бойся, тебя больше никто не обидит. Я выведу тебя отсюда.
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  ...
+[name="Кэрол"]  Простите... В голове... до сих пор кружится...
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=2)]
+[name="???"]  Ты очень бледная. Не волнуйся, я понесу тебя.
+[name="???"]  Держись крепче.
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  Ага...
+[Character]
+[Dialog]
+[PlaySound(key="$d_gen_soldiersrun")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2,block=true)]
+[Background(image="bg_county_1",fadetime=1)]
+[Delay(time=1)]
+[name=""]  Ясно \ Видимость: 14 км
+[name=""]  Деревня поблизости
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[Character]
+[Character(name="avg_npc_008",name2="avg_npc_005",focus=1)]
+[name="Охотник за головами"]  Никто из вас не видел мальчишку с копьём?
+[Character(name="avg_npc_008",name2="avg_npc_005",focus=2)]
+[name="Селянин"]  Я всё это время был дома. Не видел, что творилось снаружи.
+[Character(name="avg_npc_008",name2="avg_npc_005",focus=1)]
+[name="Охотник за головами"]  Сильно пожалеешь, если узнаю, что ты их прячешь!
+[PlaySound(key="$d_gen_soldiersrun")]
+[Character]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1,block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6,crossfade=1)]
+[Character(name="avg_npc_005")]
+[name="Селянин"]  ...
+[Character]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1,block=true)]
+[name="Селянин"]  Они ушли, госпожа Грани. Теперь вам можно выходить.
+[Character]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="char_220_grani#3",fadetime=1)]
+[Delay(time=1)]
+[name="Грани"]  Оп~!
+[name="Грани"]  Похоже, я снова у вас в долгу, господин!
+[Character(name="avg_npc_005")]
+[name="Селянин"]  Ты в порядке, Кэрол? Прости, что тебе пришлось через это пройти.
+[Character(name="avg_npc_003",name2="avg_npc_005",focus=1)]
+[name="Кэрол"]  Спасибо, Люк. Мне уже гораздо лучше.
+[Character(name="char_220_grani#3")]
+[name="Грани"]  Я бы не смогла тебя спасти без помощи всех остальных.
+[Character(name="avg_npc_003",name2="avg_npc_005",focus=2)]
+[name="Селянин"]  Не волнуйся, Кэрол!
+[name="Селянин"]  Мы помогали этой юной рыцарше! Она обещала спасти нашу деревню!
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  А? Она?
+[Character(name="avg_npc_003",name2="char_220_grani#2",focus=2)]
+[name="Грани"]  Ах да. Я девушка.
+[Character(name="avg_npc_003",name2="char_220_grani#2",focus=1)]
+[name="Кэрол"]  А?
+[Character(name="avg_npc_003",name2="char_220_grani#1",focus=2)]
+[name="Грани"]  Ну хватит! Может, по мне и не скажешь, но в душе я самая настоящая девушка!
+[Character(name="avg_npc_003",name2="char_220_grani#1",focus=1)]
+[name="Кэрол"]  А, эм, простите...
+[name="Кэрол"]  ...
+[name="Кэрол"]  По вашей одежде трудно понять, но...
+[name="Кэрол"]  Простите, вы... тот рыцарь из Казимежа... которого недавно посвятили?
+[name="Кэрол"]  Когда вы спасёте нашу деревню... Вы заставите нас платить дань?
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Нет-нет. Вообще-то я не рыцарь и даже не из Казимежа.
+[name="Грани"]  Хотя в Виктории и есть рыцари, на самом деле я просто служила в конной полиции!
+[name="Грани"]  В отличие от рыцарей, наша работа — лишь поддерживать общественный порядок. Мы не берём платы за службу, так что уж подати с вас точно не потребуем!
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  Виктория?
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Это земля за пределами Казимежа. Мои предки были курантами, которые перебрались туда из Казимежа.
+[name="Грани"]  Я приехала, получив просьбу вашей деревни о помощи. Мне и самой хотелось увидеть родину родителей, но... я не ожидала, что всё настолько плохо.
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  ...Эти мольбы о помощи... казались посланиями в бутылке.
+[name="Кэрол"]  Мы привыкли, что большинство неправительственных организаций нас игнорируют — ведь мы в такой глуши...
+[Character(name="char_220_grani#4")]
+[name="Грани"]  Интересно, почему правительство Казимежа не прислало помощи?
+[Character(name="avg_npc_003",name2="char_220_grani#4",focus=1)]
+[name="Кэрол"]  Хм... Зачем этим заносчивым рыцарям тащиться в такую даль?
+[name="Кэрол"]  Мы и без их помощи много лет жили здесь спокойно. Городская суета нас ничуть не привлекает.
+[Character]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, block=true)]
+[Background]
+[Blocker(a=0, r=0, g=0, b=0, block=true)]
+[Image(image="ac1_2",x=-100, y=0, xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[ImageTween(xFrom=-100, yFrom=0, xTo=0, yTo=0, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1.2, yScaleTo=1.2, duration=10, block=false)]
+[name="Кэрол"]  Поколениями жители Дьювилля живут у этих гор.
+[name="Кэрол"]  Пусть мы небогаты, но живём своим трудом.
+[name="Кэрол"]  И хоть иногда приходилось эвакуироваться из-за Катастроф, это всё равно наш дом.
+[name="Кэрол"]  Поэтому... мы не можем отдать эту землю...
+[Blocker(a=1, r=0, g=0, b=0,fadetime=0.5, block=true)]
+[Character]
+[Dialog]
+[Image]
+[Background(image="bg_county_1",block=true)]
+[Blocker(a=0, r=0, g=0, b=0,fadetime=0.5, block=true)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Но теперь охотники за головами принесли с собой разрушения...
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  ...И всё из-за этих «Сокровищ рыцарей».
+[Character]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, block=true)]
+[Background]
+[Blocker(a=0, r=0, g=0, b=0, block=true)]
+[Image(image="ac1_1",x=-100, y=0, xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[ImageTween(xFrom=-100, yFrom=0, xTo=0, yTo=0, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1.2, yScaleTo=1.2, duration=10, block=false)]
+[name="Кэрол"]  За последние несколько лет окрестные деревни стали местом разгула охотников за головами.
+[name="Кэрол"]  Я слышала, что на севере Казимежа началась смута, и туда потянулись толпы охотников за головами в надежде разбогатеть. Говорят, единственный путь на север проходит как раз мимо нашей деревни.
+[name="Кэрол"]  Раньше мимо нас проходило немало охотников за головами, но хлопот они не доставляли.
+[name="Кэрол"]  Но примерно месяц назад какие-то охотники за головами откопали в этих горах рыцарский саркофаг. И даже нашли ларец с золотыми монетами...
+[Blocker(a=1, r=0, g=0, b=0,fadetime=0.5, block=true)]
+[Character]
+[Dialog]
+[Image]
+[Background(image="bg_county_1",block=true)]
+[Blocker(a=0, r=0, g=0, b=0,fadetime=0.5, block=true)]
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Золотые монеты с гербом Казимежа, вот такие?
+[showitem(image="item_act1_1")]
+[name="Грани"]  Эти охотники за головами попытались затеять со мной драку, едва я приехала. Я забрала у них эти монеты в качестве возмещения за их грубость.
+[hideitem]
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[name="Кэрол"]  М-м... да, это те самые монеты. Наши беды начались, когда среди охотников за головами пошла гулять одна легенда.
+[name="Кэрол"]  «Древних рыцарей Казимежа хоронили вместе с их богатствами близ земель, что они звали домом. Их души вечно оберегают эти безымянные могилы».
+[name="Кэрол"]  «Лишь тот, кто не страшится жертв и несёт в себе истинную, бесстрашную кровь Казимежа, сможет открыть путь».
+[name="Кэрол"]  Такие слухи всё ширились, и сюда стягивалось всё больше охотников за головами.
+[name="Кэрол"]  Поначалу они лишь обсуждали, где искать следующую крупную находку. Но потом почему-то пошли разговоры, будто жители деревни знают, где зарыты сокровища...
+[Character(name="char_220_grani#5")]
+[name="Грани"]  —Тсс! Всем тихо!
+[stopmusic(fadetime=1)]
+[Dialog]
+[Character]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_soldiersrun")]
+[name="Охотник за головами"]  Как это вы их не нашли? Возвращайтесь и ищите лучше!
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=0.6, crossfade=1.5)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Здесь оставаться опасно. Нельзя, чтобы пострадало ещё больше невинных.
+[name="Грани"]  Сначала уйдём отсюда.
+[Character(name="avg_npc_005")]
+[name="Селянин"]  Берегите себя, госпожа рыцарь... то есть, офицер! Пожалуйста, присмотрите за нашей старостой!
+[Character(name="char_220_grani#2")]
+[name="Грани"]  Не волнуйтесь, господин. Я обязательно защищу—
+[Character(name="char_220_grani#1")]
+[name="Грани"]  А? Староста?
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  ...Я на этой должности всего полгода, но это я... Может, по мне и не скажешь, но в душе я настоящая староста~
+[Delay(time=0.5)]
+[Dialog]
+[Blocker(block=true)]
+[Image]
+

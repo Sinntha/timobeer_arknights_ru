@@ -1,0 +1,221 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 6 (после боя)
+[Background(image="bg_cave_2", fadetime=1)]
+[Delay(time=1)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8, crossfade=1.5)]
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  Ха... Так я и думал...
+[Character(name="avg_npc_010#2",name2="char_1002_nsabr_1",focus=2)]
+[name="Боец Реюниона"]  Боб! Т-ты истекаешь кровью!
+[name="Боец Реюниона"]  Мы не можем позволить тебе истечь кровью просто так! Я ещё могу—
+[Character(name="avg_npc_010#2",name2="char_1002_nsabr_1",focus=1)]
+[name="Большой Боб"]  Нет, хватит.
+[Character(name="avg_npc_010#2",name2="char_1002_nsabr_1",focus=2)]
+[name="Боец Реюниона"]  Боб...
+[Character(name="avg_npc_010#2",name2="char_1002_nsabr_1",focus=1)]
+[name="Большой Боб"]  Сколько крови мы пролили за эти годы?
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Ты намерен продолжать?
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  Хм. Мы сражаемся за то, чтобы выжить, так зачем нам разбрасываться жизнями?
+[name="Большой Боб"]  Признаю поражение. Я недостаточно силён.
+[Character(name="avg_npc_010#2",name2="char_220_grani#4")]
+[name="Грани"]  ...
+[Character(name="avg_npc_010",name2="avg_npc_003",focus=2)]
+[name="Кэрол"]  Простите, господин Боб... Но без этих сокровищ нашей деревне конец.
+[Character(name="char_263_skadi#2",name2="avg_npc_003",focus=1)]
+[name="Скади"]  Отойди от сундука. Дай мне ключ.
+[Character(name="char_263_skadi#2",name2="avg_npc_003",focus=2)]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[name="Кэрол"]  Ч-что?
+[Character(name="char_263_skadi#2",name2="avg_npc_003",focus=1)]
+[name="Скади"]  В тот миг, когда ты откроешь этот сундук, ты умрёшь.
+[Character(name="char_263_skadi#2",name2="avg_npc_003",focus=2)]
+[name="Кэрол"]  Но я...
+[name="Кэрол"]  Мы оберегаем это уже много поколений. Отец говорил, что хранить этот ключ — одна из наших важнейших обязанностей—
+[Character(name="char_263_skadi#2",name2="avg_npc_003",focus=1)]
+[name="Скади"]  —Когда ты воспользуешься этим ключом, он разрежет тебе руку и выпьет твою кровь. А коснувшись того, в ком нет крови курантов, он сломается.
+[name="Скади"]  Отдай ключ мне!
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Не могу... В этом ключе — будущее всех жителей деревни.
+[Character(name="char_220_grani#1")]
+[name="Грани"]  У-у...
+[name="Грани"]  Это правда, Скади?
+[Character(name="char_263_skadi#2",name2="char_220_grani#1",focus=1)]
+[name="Скади"]  Тот, кто спрятал Сокровище рыцаря, пошёл на крайние меры, чтобы защитить свои тайны. Лишь—
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  —Лишь тот, кто несёт в себе истинную, бесстрашную кровь Казимежа, сможет открыть путь.
+[Blocker(a=1, r=255, g=255, b=255, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[PlaySound(key="$flashback", volume=0.4)]
+[Background(image="bg_county_1")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Character(name="avg_npc_003",name2="char_220_grani#3",focus=1)]
+[Blocker(a=0, fadetime=0.2, block=true)]
+[name="Кэрол"]  «Лишь тот, кто не страшится жертв и несёт в себе истинную, бесстрашную кровь Казимежа, сможет открыть путь».
+[Blocker(a=1, r=255, g=255, b=255, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[PlaySound(key="$flashback", volume=0.1)]
+[CameraEffect(effect="Grayscale", amount=0)]
+[Background(image="bg_cave_2")]
+[Character(name="avg_npc_003")]
+[Blocker(a=0, fadetime=0.1, block=true)]
+[name="Кэрол"]  Я знала, что открыть сундук потребует какой-то жертвы, но не ожидала, что всё обернётся так.
+[Character(name="char_220_grani#1")]
+[name="Грани"]  ...
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Но ради всех жителей деревни я уже всё решила. Я должна открыть этот сундук!
+[name="Кэрол"]  Грани, если со мной что-то случится, пожалуйста, продайте сокровища и раздайте деньги жителям!
+[StopMusic(fadetime=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[name="Кэрол"]  Прости, отец...
+[name="Грани"]  Стой!
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  А?
+[Character(name="char_220_grani#3")]
+[name="Грани"]  Кэрол, можно мне на секунду взглянуть на этот ключ?
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Эм... конечно.
+[Character(name="char_220_grani#3")]
+[name="Грани"]  Ключ не такой уж и большой, да?
+[Character(name="char_263_skadi#2",name2="char_220_grani#1",focus=1)]
+[name="Скади"]  Пусть он и невелик, обычный человек не переживёт такой потери крови.
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Иными словами, этот чудовищный ключ высасывает лишь определённое количество крови?
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Кэрол,
+[Character(name="char_220_grani#3")]
+[name="Грани"]  Сундук открою я.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Что?!
+[Character(name="avg_npc_003")]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[name="Кэрол"]  А? Но если вы это сделаете, Грани, вы же...
+[Character(name="char_220_grani#2")]
+[name="Грани"]  Всё в порядке.
+[name="Грани"]  Прости, Кэрол.
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Character(name="char_220_grani#3")]
+[name="Грани"]  Эй, Скади, смотри поймай меня, если я потеряю сознание, ладно?
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Стойте, Грани! Не надо!
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[name="Грани"]  Н-н-н!!!
+[name="Кэрол"]  Грани!
+[Dialog]
+[Delay(time=1)]
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Background(image="bg_med", fadetime=1,block=true)]
+[StopMusic(fadetime=3)]
+[name=""]  Несколько дней спустя
+[name=""]  Ясно \ Видимость: 12 км
+[name=""]  У лагеря охотников за головами
+[Blocker(a=0, fadetime=2, block=true)]
+[PlaySound(key="$d_gen_walk_n")]
+[Delay(time=2)]
+[Character(name="avg_npc_008")]
+[name="«Капитан»"]  Вы... Как вы посмели сюда явиться!
+[name="«Капитан»"]  Общий сбор! Все сюда!
+[PlayMusic(intro="$epic_intro", key="$epic_loop", volume=0.8,crossfade=1)]
+[Character]
+[Dialog]
+[PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
+[Character(name="avg_npc_007",name2="avg_npc_008",fadetime=2)]
+[Delay(time=3)]
+[Character]
+[PlaySound(key="$d_gen_walk_n")]
+[Dialog]
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",fadetime=3)]
+[Delay(time=3)]
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=1)]
+[name="Скади"]  Какая морока. Почему я должна разбираться с этими охотниками за головами?
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Ну, мы помогли тебе найти нужный ключ, так что теперь твоя очередь помогать мне с моим заданием.
+[name="Грани"]  Вообще-то, будь ты здесь раньше, нам бы даже не пришлось нанимать других людей для помощи жителям.
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=1)]
+[name="Скади"]  Ц-ц. Не моя проблема.
+[name="Скади"]  Их тут немало. Учитывая, что ты только оправилась от... этого... Ты уверена, что справишься с ними?
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Разве не поэтому ты здесь?
+[Character]
+[Dialog]
+[Image(image="avg_ac01_1",x=0, y=0, xScale=1, yScale=1,fadetime=0.7,block=true)]
+[ImageTween(xFrom=0, yFrom=0, xTo=-20, yTo=0, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]
+[name="Скади"]  Давай просто покончим с этим. Хочется поскорее вернуться на Родос Айленд.
+[name="Грани"]  Отлично, тогда за дело!
+[name="Грани"]  Кэрол тоже нас ждёт!
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[StopMusic(fadetime=2)]
+[Dialog]
+[Character]
+[Background]
+[Image]
+[Delay(time=2)]
+[Dialog]
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Dialog]
+[Background(image="bg_outcounty")]
+[Blocker(a=0, fadetime=1, block=true)]
+[PlayMusic(intro="$path_intro", key="$path_loop", volume=0.8, crossfade=1.5)]
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  Прости, я так и не смог вам помочь...
+[Character(name="avg_npc_010#2",name2="avg_npc_003",focus=2)]
+[name="Кэрол"]  Всё в порядке. Жители, наверное, испугались бы, увидев здесь Заражённых...
+[name="Кэрол"]  Так что пусть это останется между нами.
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  В любом случае, ещё раз спасибо.
+[name="Большой Боб"]  Я благодарен за решение, которое вы с Грани приняли...
+[Character(name="char_220_grani#3")]
+[name="Грани"]  Не стоит благодарности!
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Если мы закончили, я иду домой.
+[Character(name="char_220_grani#1")]
+[name="Грани"]  Эй, погоди!
+[name="Грани"]  Прости, Кэрол! Давай сначала вернёмся в деревню. Нам ещё многое нужно сделать...
+[Character(name="avg_npc_010#2",name2="avg_npc_003",focus=2)]
+[name="Кэрол"]  Хорошо!
+[Character(name="char_220_grani#2")]
+[name="Грани"]  И ещё, Большой Боб, береги себя! Если понадобится лечение, не забудь заглянуть на Родос Айленд!
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  Погоди, парень!
+[name="Большой Боб"]  Вот, эта монета тебе!
+[Character(name="char_220_grani#2")]
+[showitem(image="item_act1_1")]
+[name="Грани"]  О!
+[name="Грани"]  Я обязательно буду ею дорожить!
+[hideitem]
+[Delay(time=1)]
+[Character]
+[Dialog]
+[Background]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[Blocker(a=0, fadetime=2, block=true)]
+[StopMusic(fadetime=2)]
+[Delay(time=4)]
+Несколько месяцев спустя...
+(Письмо от Большого Боба)
+Добрый день.
+Это Боб.
+Пишу тебе это письмо из поместья на окраине Колумбии.
+У нас всё хорошо. Пусть часть проблем Заражённых никуда не девается, одна лишь возможность жить под солнечным светом — уже больше радости, чем мы могли себе представить.
+Благодаря доброте Грани и девочки по имени Кэрол, которые после восстановления деревни решили оставить нам остатки сокровищ, я смог спокойно обосноваться вместе с братьями.
+У нас уже есть всё необходимое, чтобы жить своим трудом, и мы даже собираемся попробовать выращивать хмель.
+Всё это стало возможным благодаря тем самым сокровищам Дьювилля.
+Впрочем, это уже совсем другая история. Очень интересная. Но вдаваться в подробности здесь не буду.
+Я также немного изменил свои взгляды на некоторые вещи.
+И я знаю, что у тебя давно есть собственное мнение на этот счёт. Просто знай: Реюнион — не единственное место, куда могут податься Заражённые.
+Я знаю, ты сумеешь принять верное для себя решение.
+Я очень по тебе скучаю. Надеюсь однажды увидеть тебя в Колумбии.
+Боб
+Для Мадрока.
+[Dialog]
+[Character(name="avg_npc_011",fadetime=2)]
+[Delay(time=3)]
+[name="???"]  ......
+[name="???"]  Я рада это слышать.
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(fadetime=3,block=true)]
+[Image]
+

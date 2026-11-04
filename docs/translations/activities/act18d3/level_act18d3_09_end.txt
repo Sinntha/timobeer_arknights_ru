@@ -1,0 +1,209 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_ibcave")]
+[Delay(time=1)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Among the debris and crumbled walls, the monster's bloated corpse fills much of the karst cave. Its bizarre body, which had until now emanated a strange sense of beauty, begins to stiffen as it dreads its impending doom.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Из него повсюду сочится вода. Прикончим его. Нам пора идти.
+[character]
+[name="Епископ?"]  Почему вы, слепые невежды, живёте, а я обречён на провал, посвятив всю жизнь этой благородной цели...?
+[name="Епископ?"]  Вы всего лишь питомцы Эгира! Слепые и застывшие... Вы лишь помеха науке и будущему!
+[name="Епископ?"]  Я... так близко к истине! Почему я должен умереть здесь, пока вы... вы избегаете заслуженной кары?!
+[name="Епископ?"]  Я зашёл так далеко! Моя воля и моя плоть были на грани преодоления человеческих пределов! Почему?!
+[name="Епископ?"]  Почему? Почему?! Почему!!
+[character(name="avg_474_gladiia_1#2")]
+[name="Гладия"]  Заткнись.
+[character]
+[name="Епископ?"]  ......
+[name="Епископ?"]  Эгир... падёт. От вас ничего не останется... Ничего...
+[character(name="avg_474_gladiia_1#2")]
+[name="Гладия"]  Глупец. Я — эгирка. Пока я жива, Эгир жив.
+[character]
+[name="Епископ?"]  Ты... Но...
+[name="Епископ?"]  Иронично... Как иронично.
+[name="Епископ?"]  Ты другая. Хах... Тебе суждено быть другой...
+[name="Епископ?"]  Ты знаешь. Твоя судьба предрешена.
+[character(name="avg_474_gladiia_1#2")]
+[name="Гладия"]  Хватит бреда. Просто умри. Это единственное, о чём я тебя прошу, и в этом я совершенно искренна.
+[character]
+[name="Епископ?"]  Будьте прокляты... Будьте прокляты все... пока земли не падут... Вы сбежите от моря... лишь затем, чтобы раствориться в его водах, как соль.
+[name="Епископ?"]  На бесплодных пустошах, устланных вашими трупами, наши бесконечные волны поглотят всю сушу мира!
+[dialog]
+[character(name="avg_474_gladiia_1#2")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Gladiia seems to be trying to control herself. The last bit of her courtesy is merely a byproduct of the contempt she cannot contain.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop whimpers as he reaches his limb out to Gladiia.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="But before it could reach the hunter, the limb has stiffened, twitched, and curled into a ball.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop is dead, and he will be forgotten completely.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1)]
+[Subtitle(text="Gladiia looks at Specter and Skadi.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Image(image="ac18_12_1",xScale=1.2,yScale=1.2, fadetime=0)]
+[ImageTween(xFrom=-30, xTo=30, duration=25, block=false)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[stopmusic(faddetime=2)]
+[character(name="char_143_ghost#2")]
+[name="Спектер"]  Наконец-то его нет. Всё наконец закончилось... Я покончила с ним своими руками... но это далеко не так приятно, как я представляла.
+[name="Спектер"]  По сравнению со всем, что они со мной сделали, этого далеко не достаточно, но один готов — осталось двое.
+[name="Спектер"]  Ох, у меня немного кружится голова. Как я вообще здесь оказалась? Это почти как сон.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Акула?
+[character(name="char_143_ghost#2")]
+[name="Спектер"]  Я, похоже... всё-таки не могу долго бодрствовать...
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Наконец-то мы поймали их щупальца. Если вырвать их корни там, мы обязательно найдём способ тебя исцелить.
+[character(name="char_143_ghost#2")]
+[name="Спектер"]  Это не такая уж проблема. Сейчас они не могут меня контролировать, и я чувствую себя исключительно хорошо. Чувство свободы... Кто бы мог подумать, что я испытаю его теперь? Я так ликую, что, кажется, лечу от восторга.
+[character(name="char_143_ghost#2")]
+[name="Спектер"]  Хотя, капитан, боюсь, я слышала всё, что вы сказали.
+[name="Спектер"]  Епископ говорил, что мы тоже станем сиборнами? Капитан, а вы станете одним из тех, что посильнее? Они довольно сильные.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Этого не будет.
+[name="Скади"]  Ты слишком отличаешься от них.
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Надеюсь, мои действия не подвергли вас двоих опасности.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Ответь на несколько вопросов.
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Спрашивай.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  В наших венах течёт кровь сиборнов?
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Да.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Ты здесь, чтобы выяснить причину проблем с телом Спектер, и ты приняла тот удар, чтобы понять, почему сиборн искал меня.
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Да, верно.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  И ты с самого начала знала, что епископ — не единственный сиборн здесь?
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Да.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Ты знаешь, что я сделала после той финальной битвы, что была на грани самоубийства?
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Нет.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Мы победили?
+[character(name="avg_474_gladiia_1#1")]
+[name="Гладия"]  Не знаю. Я потеряла связь с Эгиром.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Эгир нас бросил...?
+[dialog]
+[character]
+[character(name="avg_474_gladiia_1#1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Yes? The Abyssal Hunters are like bait.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Yes? The Abyssal Hunters are like a glow at the bottom of the sea.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Yes? The Abyssal Hunters are strong, yet their strength is but a tiny fraction of Ægir's power.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Yes? The only thing special about the Abyssal Hunters is that they are indeed related to the sea monsters somehow.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Anger rages in Skadi's crimson pupils, but there is that tiny bit of hope...", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="How much of it is real, and how much of it is fake...?", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[PlayMusic(intro="$newhope01_intro", key="$newhope01_loop", volume=0.4)]
+[Image(image="ac18_12_2",xScale=1.2,yScale=1.2, fadetime=1.5)]
+[delay(time=2)]
+[name="Гладия"]  Нет.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Ладно, идём.
+[character(name="char_143_ghost#2")]
+[name="Спектер"]  Как быстро.
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Нет причин мешкать. Я Охотница Бездны.
+[name="Скади"]  Разве у девушек из твоего отряда иначе?
+[character(name="avg_474_gladiia_1#4")]
+[name="Гладия"]  Все Охотники Бездны такие.
+[stopmusic(fadetime=1)]
+[character(name="avg_1012_skadiSP_1#8")]
+[name="Скади"]  Это место вот-вот обрушится. Кроме того...
+[dialog]
+[character]
+[PlayMusic(intro="$tense_intro", key="$tense_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="As though lured here by the bishop's lifeless body, the Sea Terrors are boring into the cave through the fissures.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="In huge numbers, no less.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Three hunters are walking on seacoast way♪", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[character(name="char_143_ghost#3")]
+[image]
+[Background(image="bg_ibcoastd")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[name="Спектер"]  Их слишком много.
+[name="Спектер"]  Скади, приложи усилия! Только у тебя руки и ноги не изранены!
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Что мне сделать...? Руки уже онемели. Когда ты в последний раз совала руки им в пасти, чтобы разорвать пополам?
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Три секунды назад.
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Gladiia turns around and sticks her hand into the mouth of one of the monsters, piercing its entire body through its head. She quickly swings her arm, and, unable to withstand the force the hunter is exerting on its body, the monster is torn into two from the inside before being flung away.", x=300, y=370, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Гладия"]  Только что.
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Нет, пока его тело здесь... Морским Ужасам не будет конца. Оно их призывает. Это якорь!
+[character(name="char_143_ghost#3")]
+[name="Спектер"]  Тогда нужно уничтожить тело... Похоронить его будет недостаточно...
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Я это сделаю.
+[character(name="char_143_ghost#2")]
+[name="Спектер"]  С дырой в теле?
+[character(name="avg_474_gladiia_1#5")]
+[name="Гладия"]  Вы двое—
+[dialog]
+[character]
+[stopmusic(fadetime=2)]
+[playsound(key="$d_gen_walk_n")]
+[character(name="char_003_kalts_1",fadetime=1.5)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="A figure appears before the Hunters, surprising Skadi when she sees her face.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Кальцит"]  Вперёд, Охотницы!
+[character(name="avg_1012_skadiSP_1#1")]
+[name="Скади"]  Что ты здесь делаешь?!
+[character(name="char_003_kalts_1")]
+[name="Кальцит"]  Поговорим позже! Мон3тр, давай!
+[dialog]
+[character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Mon3tr crashes into the ceiling of the chapel. It tears the Sea Terrors apart with its sharp blades. A black sphere forms in its mouth before blasting away downwards.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="It shakes the entire city and hill, sending what is left of the chapel crumbling down.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The bishop and its secrets have been destroyed forever, and no one will know any of it.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[Image]
+

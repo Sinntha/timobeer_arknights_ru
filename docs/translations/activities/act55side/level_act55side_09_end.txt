@@ -1,0 +1,1480 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g14_prolocutoroffice",screenadapt="coverall")]
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_npc_1984_1#1$1",posfrom="60,0",posto="60,0",focus="l")]
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",posfrom="-60,0",posto="-60,0",focus="l")]
+[name="Фёдор"]  ...Вит, когда это ты успел перенять повадки бандитов?
+[name="Фёдор"]  И если меня вернули сюда только для того, чтобы я подписал всё, чего пожелает Светлана...
+[charslot(slot="l",name="avg_4244_tocka_1#13$1",focus="l")]
+[name="Фёдор"]  То можно было бы не устраивать весь этот спектакль. В нынешнем положении я могу подписать эти бумаги где угодно, даже не утруждая себя поисками более приличествующей одежды.
+[charslot(slot="r",name="avg_npc_1984_1#1$1",focus="r")]
+[name="Вит"]  Ваше величество, мы должны сначала освободить вас из-под контроля Реюниона.
+[charslot(slot="l",name="avg_4244_tocka_1#12$1",focus="l")]
+[name="Фёдор"]  Этого можно было добиться переговорами и должным устрашением, а не полным, кровавым предательством.
+[charslot(slot="l",name="avg_4244_tocka_1#5$1",focus="l")]
+[name="Фёдор"]  Ты знаешь, как мне отвратительно подобное.
+[charslot(slot="r",name="avg_npc_1984_1#7$1",focus="r")]
+[name="Вит"]  Но не всё идёт так, как нам хотелось бы, ваше величество.
+[charslot(slot="l",name="avg_4244_tocka_1#4$1",focus="l")]
+[name="Фёдор"]  ...
+[charslot(slot="l",name="avg_4244_tocka_1#3$1",focus="l")]
+[name="Фёдор"]  Ладно. Раз это уже случилось, лучше подумать, как уменьшить последствия.
+[name="Фёдор"]  Что с остальными бойцами Реюниона в городе?
+[charslot(slot="r",name="avg_npc_1984_1#1$1",focus="r")]
+[name="Вит"]  Как вам известно, Реюнион вошёл в Сент-Стидбург раньше Первой армейской группы. Заводы и склады, которые они заняли, тоже входят в число целей, которые нужно вернуть.
+[charslot(slot="r",name="avg_npc_1984_1#1$1",focus="r")]
+[name="Вит"]  Если в этом процессе не удастся добиться мирной передачи, потерь не избежать.
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",focus="l")]
+[name="Фёдор"]  Пусть Светлана остановится.
+[charslot(slot="r",name="avg_npc_1984_1#4$1",focus="r")]
+[name="Вит"]  Ваше величество?
+[charslot(slot="l",name="avg_4244_tocka_1#13$1",focus="l")]
+[name="Фёдор"]  Пока они не окончательно потеряли рассудок... пока дело не дошло до «массовой резни», я ещё могу заставить обе стороны сесть за стол переговоров.
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",focus="l")]
+[name="Фёдор"]  Я не нарушу обещание, данное Светлане, из-за её самонадеянности и не откажусь от согласия, достигнутого ранее с Реюнионом.
+[name="Фёдор"]  Вит, мы должны прекратить войну. Урсус больше не выдержит войны такой интенсивности.
+[charslot(slot="r",name="avg_npc_1984_1#3$1",focus="r")]
+[name="Вит"]  Но, ваше величество, их лидер, этот «Турин»... уже арестован.
+[stopmusic(fadetime=2)]
+[charslot(slot="l",name="avg_4244_tocka_1#10$1",focus="l")]
+[name="Фёдор"]  ...Когда это случилось?
+[charslot(slot="r",name="avg_npc_1984_1#1$1",focus="r")]
+[name="Вит"]  Это было решено одновременно с планом вашего освобождения.
+[charslot(slot="r",name="avg_npc_1984_1#8$1",focus="r")]
+[name="Вит"]  Тот лидер отверг протянутую нами оливковую ветвь. Но эти Заражённые никогда не хотели всего лишь несколько передвижных городов.
+[playMusic(intro="$sjoyasorrow_intro",key="$sjoyasorrow_loop", volume=0.6)]
+[charslot(slot="l",name="avg_4244_tocka_1#3$1",focus="l")]
+[name="Фёдор"]  Ты хочешь сказать, они собираются занять Сент-Стидбург и превратить столицу в свою территорию.
+[charslot(slot="r",name="avg_npc_1984_1#8$1",focus="r")]
+[name="Вит"]  Мы уступали до последнего. Но когда они настояли на сохранении оружия и начали своевольно захватывать припасы, это уже противоречило нашему первоначальному сотрудничеству.
+[name="Вит"]  И, возможно, вы ещё не знаете: в прежней смуте в Сент-Стидбурге были убиты многие аристократы, державшие в руках множество предприятий и ресурсов...
+[name="Вит"]  А Реюнион столь же спокойно «принял» их наследство.
+[name="Вит"]  Ваше величество, те, кому вы сочувствуете, могут пошатнуть основы этой страны.
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",focus="l")]
+[name="Фёдор"]  Ты должен ответить мне только на одно: сколько их?
+[charslot(slot="r",name="avg_npc_1984_1#8$1",focus="r")]
+[name="Вит"]  Они разбили Четвёртую армейскую группу. Силу Реюниона недооценивать нельзя.
+[charslot(slot="l",name="avg_4244_tocka_1#1$1",focus="l")]
+[name="Фёдор"]  Эта победа была одержана с помощью Второй дивизии Пятой армейской группы и Девятой дивизии моей Центральной армейской группы.
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",focus="l")]
+[name="Фёдор"]  Я спрашиваю ещё раз: сколько бойцов Реюниона вошло в Сент-Стидбург?
+[charslot(slot="r",name="avg_npc_1984_1#8$1",focus="r")]
+[name="Вит"]  ...Они не только отказались сложить оружие, но и взяли под контроль множество рабочих в городе. Они показали в городе мощную способность к мобилизации, и это тревожный сигнал.
+[charslot(slot="l",name="avg_4244_tocka_1#12$1",focus="l")]
+[name="Фёдор"]  Ты хочешь сказать, они приняли под своё начало баррикады, которые горожане и рабочие построили сами? Если бы для захвата целого города хватало баррикад, Сент-Стидбург наверняка падал бы в истории бесчисленное множество раз.
+[charslot(slot="l",name="avg_4244_tocka_1#3$1",focus="l")]
+[name="Фёдор"]  И если бы они действительно хотели захватить Сент-Стидбург, им следовало бы в первую очередь занять казармы Столичного гарнизонного корпуса, артиллерийские позиции и транспортные узлы всех районов, а не заводы и склады.
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",focus="l")]
+[name="Фёдор"]  Они готовятся принять город под контроль — или пытаются выжить?
+[charslot(slot="r",name="avg_npc_1984_1#7$1",focus="r")]
+[name="Вит"]  ...
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",focus="l")]
+[name="Фёдор"]  Вит, ты знаешь. Ты прекрасно знаешь: если эти заводы попадут прямо в руки Светланы, у них не останется даже права на переговоры.
+[name="Фёдор"]  Ты только что сказал, что они отказались сложить оружие. А если бы они действительно его сложили, пощадила бы их Первая армейская группа?
+[charslot(slot="l",name="avg_4244_tocka_1#14$1",focus="l")]
+[name="Фёдор"]  Судя по нынешним фактам, Реюнион не ошибся ни в чём.
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",focus="l")]
+[name="Фёдор"]  Так чего же они хотят — «слишком многого»? Или, зная, что у них ничего нет, они вынуждены хвататься за единственное, что лежит перед ними?
+[charslot(slot="r",name="avg_npc_1984_1#11$1",focus="r")]
+[name="Вит"]  Ваше величество...
+[charslot(slot="l",name="avg_4244_tocka_1#5$1",focus="l")]
+[name="Фёдор"]  Ха... до боли знакомая ситуация.
+[charslot(slot="r",name="avg_npc_1984_1#1$1",focus="r")]
+[name="Вит"]  Ваше величество, вы должны знать: мы уже не собираемся вести переговоры с Реюнионом.
+[charslot(slot="l",name="avg_4244_tocka_1#1$1",focus="l")]
+[name="Фёдор"]  «Мы»?
+[charslot(slot="l",name="avg_4244_tocka_1#12$1",focus="l")]
+[name="Фёдор"]  Почему теперь я должен по умолчанию стоять на стороне Первой армейской группы и служить их инструментом, вместо того чтобы, как настоящий император, самому искать лучший исход?
+[charslot(slot="l",name="avg_4244_tocka_1#14$1",focus="l")]
+[name="Фёдор"]  И почему ты всё время объясняешь их действия? Тебе следовало бы стоять рядом со мной, разве нет?
+[charslot(slot="r",name="avg_npc_1984_1#7$1",focus="r")]
+[name="Вит"]  Потому что, пока вы находились под контролем Реюниона, я уже заключил за вас соглашение с Первой армейской группой.
+[charslot(slot="l",name="avg_4244_tocka_1#9$1",focus="l")]
+[name="Фёдор"]  ...Какое соглашение?
+[charslot(slot="r",name="avg_npc_1984_1#1$1",focus="r")]
+[name="Вит"]  Они поддержат ваше возвращение на трон, а вы должны будете с поддержкой Первой армейской группы как можно скорее восстановить центральное правительство и признать их контроль над всей обороной Урсуса и местной администрацией.
+[charslot(slot="l",name="avg_4244_tocka_1#1$1",focus="l")]
+[name="Фёдор"]  ...
+[stopmusic(fadetime=2)]
+[charslot(slot="l",name="avg_4244_tocka_1#11$1",focus="l")]
+[name="Фёдор"]  Ты... согласился?
+[charslot(slot="r",name="avg_npc_1984_1#1$1",focus="r")]
+[name="Вит"]  Да.
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+Фёдор резко обернулся. Впервые после возвращения сюда он посмотрел Виту в глаза, и знакомые декорации вокруг впервые показались ему настолько чужими.
+А может, чужим ему казался лишь человек перед ним.
+[playMusic(intro="$drift_intro",key="$drift_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4244_tocka_1#13$1")]
+[CameraShake(duration=0.4, xstrength=18, ystrength=14, vibrato=30, randomness=80, fadeout=true, block=false)]
+[name="Фёдор"]  Как ты посмел — как ты посмел согласиться за меня?!
+[charslot(slot="m",name="avg_npc_1984_1#5$1")]
+[name="Вит"]  Потому что это единственное условие, которое они готовы были принять.
+[charslot(slot="m",name="avg_4244_tocka_1#14$1")]
+[name="Фёдор"]  Значит, я здесь на самом деле не нужен, раз все ваши решения могут обходиться без меня!
+[charslot(slot="m",name="avg_npc_1984_1#8$1")]
+[name="Вит"]  По крайней мере, так они не убьют вас.
+[charslot(slot="m",name="avg_4244_tocka_1#13$1")]
+[name="Фёдор"]  Замолчи.
+[charslot(slot="m",name="avg_npc_1984_1#5$1")]
+[name="Вит"]  Великая княгиня хочет вашей смерти, а Светлана отказала ей. Сейчас Первая армейская группа уже вернула половину района Саревград. Именно поэтому мы должны...
+[charslot(slot="m",name="avg_4244_tocka_1#12$1")]
+[CameraShake(duration=0.5, xstrength=22, ystrength=18, vibrato=35, randomness=85, fadeout=true, block=false)]
+[name="Фёдор"]  Замолчи!!!
+[charslot(slot="m",name="avg_npc_1984_1#4$1")]
+[name="Вит"]  ...
+[charslot(slot="m",name="avg_4244_tocka_1#11$1")]
+[name="Фёдор"]  Значит, ты хочешь только вернуть меня на это кресло, чтобы я ничего не делал и ждал, пока Первая армейская группа преподнесёт мне победу, словно украшение?
+[charslot(slot="m",name="avg_4244_tocka_1#5$1")]
+[name="Фёдор"]  Неужели я и правда всего лишь хрупкий оловянный солдатик в стеклянной крепости, годившийся лишь для того, чтобы на меня смотрели?
+[charslot(slot="m",name="avg_npc_1984_1#11$1")]
+[name="Вит"]  Ваше величество, я лишь хочу, чтобы вы выжили.
+[charslot(slot="m",name="avg_4244_tocka_1#5$1")]
+[name="Фёдор"]  Нет, ты лишь хочешь, чтобы выжил «император». Ради этого тебе даже всё равно, стал ли он Заражённым.
+[charslot(slot="m",name="avg_npc_1984_1#4$1")]
+[name="Вит"]  —?!
+[name="Вит"]  Это... Нет, я сейчас позову врача...
+[charslot(slot="m",name="avg_4244_tocka_1#3$1")]
+[name="Фёдор"]  Когда ты велел переодеть меня, молодой слуга заметил камень у меня на ноге. Я следил за выражением его лица... И знаешь, какой была его реакция?
+[charslot(slot="m",name="avg_npc_1984_1#11$1")]
+[name="Вит"]  Ваше величество, прошу вас...
+[charslot(slot="m",name="avg_4244_tocka_1#5$1")]
+[name="Фёдор"]  Он никак не отреагировал. Он всё так же стоял на коленях, надел мне сапоги и завязал шнурки.
+[name="Фёдор"]  Это значит, что он увидел, но ему было всё равно. Таково же и твоё отношение ко мне.
+[charslot(slot="m",name="avg_4244_tocka_1#11$1")]
+[name="Фёдор"]  Пока общепризнанный император жив, эти люди могут его именем командовать армией, его печатью принимать города, его скипетром направлять империю...
+[name="Фёдор"]  Использовать его положение, чтобы сказать всем: всё, что они делают, законно.
+[charslot(slot="m",name="avg_npc_1984_1#11$1")]
+[name="Вит"]  ...Вы должны поверить, мне небезразличны вы...
+[charslot(slot="m",name="avg_4244_tocka_1#7$1")]
+[name="Фёдор"]  Не может быть.
+[charslot(slot="m",name="avg_4244_tocka_1#1$1")]
+[name="Фёдор"]  Если бы я был тебе небезразличен, ты бы поверил мне — поверил, что я ещё могу по-своему закончить эту войну.
+[charslot(slot="m",name="avg_4244_tocka_1#5$1")]
+[name="Фёдор"]  А если даже ты считаешь, что единственное, что я могу, — сидеть здесь, пока другие действуют от моего имени...
+[name="Фёдор"]  Тогда, вероятно, в этом и состоит вся ценность «Фёдора Владимировича Лацисаля».
+[charslot(slot="m",name="avg_npc_1984_1#4$1")]
+[name="Вит"]  ...Ваше величество, прошу вас, сначала успокойтесь.
+[charslot(slot="m",name="avg_4244_tocka_1#3$1")]
+[name="Фёдор"]  Но, возможно, именно об этом я и избегал думать всё это время.
+[charslot(slot="m",name="avg_4244_tocka_1#11$1")]
+[name="Фёдор"]  Возможно, всем всегда был нужен не я, а лишь «император». Роль, которую можно в любой момент возвести на престол и в любой момент бросить, которой можно воспользоваться.
+[charslot(slot="m",name="avg_4244_tocka_1#1$1")]
+[name="Фёдор"]  Тогда...
+[Dialog]
+[charslot]
+Фёдор посмотрел на кресло за письменным столом.
+Он вспомнил пустынный зал, где стояло ещё более высокое и пустое сиденье. Оно стояло там с самого основания Урсуса и до...
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[bgeffect(name="$eb_whitemask",layer=1)]
+[Image(image="72_i14", screenadapt="coverall",fadetime=0)]
+[Delay(time=1)]
+[ImageTween(xScaleTo=1.3,yScaleTo=1.3,xTo=50,yTo=-40, duration=3,ease="6",block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]
+[Delay(time=1.5)]
+[Image(image="73_i19", screenadapt="coverall",xScale=1.2, yScale=1.2,x=30,y=-70,fadetime=1)]
+[ImageTween(xScaleTo=1.2,yScaleTo=1.2,xTo=0,yTo=-70, duration=2,ease="6",block=false)]
+[Delay(time=1.7)]
+[Image(image="79_i01", screenadapt="coverall",xScale=1.7, yScale=1.7,x=250,y=180,fadetime=1)]
+[ImageTween(xTo=420,duration=3,ease="3",block=false)]
+[Delay(time=2.5)]
+[Image(image="79_i08_1", screenadapt="coverall",xScale=2.2, yScale=2.2,x=0,y=220,fadetime=1)]
+[ImageTween(xScaleTo=1,yScaleTo=1,xTo=0,yTo=0, duration=8,ease="2", block=false)]
+[Delay(time=9)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=2, block=true)]
+[image]
+[bgeffect]
+[charslot(slot="m",name="avg_4244_tocka_1#2$1")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="Фёдор"]  (тихо) А что, если этой роли вообще не существует?
+[name="Фёдор"]  (тихо) Может быть, тогда Урсус впервые... действительно начнёт принадлежать ей самой?
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="79_g8_blockroad_n",xScale=1.2,yScale=1.2,y=30,screenadapt="coverall")]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_explosion", volume=0.4)]
+[CameraShake(duration=1.2, xstrength=28, ystrength=22, vibrato=40, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$frontline_intro",key="$frontline_loop", volume=0.6)]
+[PlaySound(key="$d_avg_explosion", volume=1)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[CameraShake(duration=1.2, xstrength=28, ystrength=22, vibrato=40, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+Осада продолжалась, но строй рабочих уже начал разваливаться.
+Наспех сложенные заграждения не выдерживали и нескольких залпов, а те, кто продолжал держаться здесь, всё искали обломки, чтобы построить новые баррикады.
+[Dialog]
+[name="Рабочий A"]  Релькин!
+Кто-то крикнул издалека. Названный быстро поднялся и выглянул наружу. Он увидел двух юношей, придавленных обрушившейся старой баррикадой.
+[Dialog]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[charslot(slot="m",name="avg_npc_2462_1#6$1",posfrom="0,-50",posto="0,0",duration=0.6)]
+[Delay(time=0.8)]
+[name="Никто"]  ...Не двигайтесь, я сейчас!
+[charslot]
+[name="Рабочий A"]  Осторожно!
+[Dialog]
+[PlaySound(key="$d_avg_arrowshot")]
+[Delay(time=1)]
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$bodyfalldown2")]
+[Delay(time=0.5)]
+Стрела просвистела мимо капюшона. Он бросился к обломкам, нашёл двух студентов, едва укрывавшихся столами и стульями, и с силой вытащил одного из-под плиты, уводя его к рабочим.
+[charslot(slot="m",name="avg_npc_2228_1#3$1")]
+[name="Рабочий B"]  Релькин, под обломками ещё один!
+[Dialog]
+[charslot(slot="m",name="avg_npc_2462_1#1$1")]
+[PlaySound(key="$d_avg_clothmovement", volume=0.6)]
+[name="Никто"]  Знаю, сначала прими его!
+[charslot(slot="m",name="avg_npc_2227_1#3$1")]
+[name="Рабочий C"]  Может, лучше я схожу, Релькин, ты ведь двое суток не смыкал глаз...
+[Dialog]
+[charslot(slot="m",name="avg_npc_2462_1#8$1")]
+[name="Никто"]  Нет, я пойду.
+[charslot(slot="m",name="avg_npc_2462_1#3$1")]
+[name="Никто"]  Идите дальше искать, что можно использовать как укрытие, но не трогайте тех, кто ещё живёт в домах.
+[name="Никто"]  Большинство из них — старики, не успевшие уйти. Не отнимайте у них вещи.
+[charslot(slot="m",name="avg_npc_2227_1#4$1")]
+[name="Рабочий C"]  Я, я знаю! Тогда будь осторожен...
+[Dialog]
+[charslot]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_walkfast")]
+[BackgroundTween(image="70_g2_tjlibrary", duration=0.8, xTo=-30, block=false)]
+[charslot(slot="m",name="avg_npc_2462_1#3$1",posfrom="0,0",posto="180,0",afrom=1,ato=1,duration=0.8,block=false)]
+[Delay(time=0.2)]
+[charslot(slot="m",name="avg_npc_2462_1#3$1",afrom=1,ato=0,duration=0.3,block=false)]
+[Delay(time=0.5)]
+[charslot]
+Юноша, которого называли «Релькиным», кивнул и снова бросился в зону боя.
+[Dialog]
+[PlaySound(key="$d_avg_statueshake", volume=0.6)]
+[Delay(time=0.5)]
+[CameraShake(duration=1, xstrength=20, ystrength=18, vibrato=30, randomness=80, fadeout=true, block=false)]
+[Delay(time=0.5)]
+[PlaySound(key="$d_avg_statuecollapse", volume=0.8)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=false)]
+Когда он вытащил второго человека из-под плиты, шаткие остатки стены с грохотом обрушились, похоронив под собой всю уцелевшую баррикаду.
+[charslot(slot="l",name="avg_npc_2462_1#2$1",posfrom="70,0",posto="70,0")]
+[charslot(slot="r",name="avg_npc_2184_1#1$1",posfrom="-70,-10",posto="-70,-10")]
+[Dialog]
+[bgeffect(name="$eb_smoke",y=-120,layer=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot="r",focus="r")]
+[name="Испуганный студент"]  Я... я...
+[charslot(slot="l",name="avg_npc_2462_1#2$1",focus="l")]
+[name="Никто"]  Пока не говори, иди за мной.
+[name="Никто"]  Давай, держись за мою спину.
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+В дыму он не остановился, а, воспользовавшись моментом, взвалил на спину студента со сломанной ногой и пополз обратно.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[bgeffect]
+[delay(time=1)]
+[charslot]
+[PlaySound(key="$d_avg_warfireamb_loop",volume=0, channel="ba", loop=true)]
+[SoundVolume(volume=1, channel="ba",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+Когда они вернулись за баррикаду, началась новая атака.
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="Испуганный студент"]  Спасибо... спасибо тебе!
+[name="Испуганный студент"]  Говорят, ты Релькин, верно? Тот самый, кто предложил «связать рудники». Я вступил в бой именно ради встречи с тобой! Но я и не думал, что ты такой худой...
+[charslot(slot="m",name="avg_npc_2462_1#3$1")]
+[name="Никто"]  ...
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="Испуганный студент"]  Но даже такой ты продолжаешь сражаться! Мне следует брать с тебя пример, господин!
+[charslot(slot="m",name="avg_npc_2184_1#1$1")]
+[name="Испуганный студент"]  Только что мы с товарищем почти хотели сдаться. Знаю, это стыдно. Но после этого боя я понял...
+[Dialog]
+[charslot]
+Никто посмотрел на свои дрожащие руки. Крики и голоса постепенно отдалялись.
+[StopSound(channel="ba", fadetime=2)]
+Он пристально смотрел на свои руки, потом поднял их и положил на плечи стоявшего перед ним юноши.
+[PlaySound(key="$d_avg_slapcloth_light", volume=1)]
+[charslot(slot="m",name="avg_npc_2184_1#4$1")]
+[name="Испуганный студент"]  — А?
+[charslot(slot="m",name="avg_npc_2462_1#2$1")]
+[name="Никто"]  Вам не нужно брать с меня пример. У каждого... своё место. Не все рождаются воинами.
+[charslot(slot="m",name="avg_npc_2184_1#4$1")]
+[name="Испуганный студент"]  Но, господин Релькин...
+[Dialog]
+[charslot]
+[stopmusic(fadetime=2)]
+Всё прервала чёрная человеческая фигура. Она «вышла» из постепенно рассеивавшегося дыма.
+[Dialog]
+[bgeffect(name="$eb_blacksmoke_01",layer=1)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_4246_dminon_1#1$1",bstart=0.2,bend=0.7,duration=1.5)]
+[Delay(time=2)]
+[name="???"]  ...
+[Dialog]
+[charslot]
+[playMusic(intro="$nervous_intro",key="$nervous_loop", volume=0.6)]
+«Вышла» — не совсем верное слово.
+Потому что впереди не было слышно ни одного шага. Казалось, даже холодные стрелы, выпущенные из темноты, исказились в воздухе и растворились.
+За баррикадой кто-то узнал это существо. Ужас заставил его тут же закричать:
+[charslot(slot="r",name="avg_npc_2228_1#6$1",focus="l")]
+[charslot(slot="l",name="avg_npc_2184_1#3$1",focus="l")]
+[name="Испуганный студент"]  Внутренняя стража —?!
+[charslot(slot="r",name="avg_npc_2228_1#6$1",focus="r")]
+[name="Рабочий B"]  Проклятье, это внутренняя стража!
+[charslot(slot="l",name="avg_npc_2184_1#6$1",focus="l")]
+[name="Испуганный студент"]  Разве вся внутренняя стража не погибла? Ради защиты императора — внутренняя стража должна была погибнуть!
+[charslot(slot="r",name="avg_npc_2228_1#3$1",focus="r")]
+[name="Рабочий B"]  Что делать, Релькин?
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_dkmgcvlspd", volume=0.5)]
+[charslot(slot="m",name="avg_4246_dminon_1#1$1",bstart=0.2,bend=0.7)]
+[name="???"]  Ш-ш...
+[Dialog]
+[charslot]
+Рука в доспехе постепенно обрела в черноте форму оружия.
+Арбалетный болт, кирка, острый шипастый молот — и наконец она застыла в облике чёрного клинка.
+Затем клинок сверкнул в воздухе лишь раз —
+[Dialog]
+[PlaySound(key="$d_avg_arrow_rain",channel="jian", volume=1)]
+[Delay(time=0.5)]
+[PlaySound(key="$e_skill_skulsrsword",channel="hui", volume=1)]
+[Effect(name="$e_bladeline_01_large", x = 0, y = -26, rox = 0, roy = 0, roz = -58, layer = 1)]
+[PlaySound(key="$swordtsing4",channel="1", volume=1)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[PlaySound(key="$swordtsing1",channel="2", volume=0.6)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.15, block=true)]
+[PlaySound(key="$swordtsing6",channel="3", volume=0.8)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.15, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.08, block=true)]
+Все стрелы, непрерывно летевшие из переулка, были сбиты на землю.
+[charslot(slot="m",name="avg_npc_2227_1#4$1")]
+[name="Рабочий A"]  ...Он не атаковал нас?
+[charslot(slot="m",name="avg_npc_2227_1#7$1")]
+[name="Рабочий A"]  Почему? Неужели он нам помогает?
+[name="Рабочий A"]  Релькин?
+[charslot(slot="m",name="avg_npc_2462_1#11$1")]
+[name="Никто"]  ...
+[Dialog]
+[charslot]
+У юноши не было времени отвечать. Он мог лишь неотрывно смотреть на чёрную фигуру.
+Казалось, в какой-то миг, одновременно с тем, как стоявший рядом произнёс это имя, он увидел под чёрными доспехами нечто такое, что больше не должно было увидеть.
+Разум отказывался верить, но он не смел отвести взгляд ни на миг.
+[charslot(slot="m",name="avg_npc_2462_1#11$1")]
+[name="Никто"]  Релькин...
+[Dialog]
+[charslot]
+Он видел. Он действительно видел. В струящейся, искажённой черноте он видел —
+Он видел того молодого, дерзкого солдата, всего в крови, стоявшего в лесу на границе Уки, — хотя сам не был этому свидетелем.
+Он видел того усталого вождя, в глазах которого не скрыть было ярости, стоявшего на тундре у блокпоста, — и его он видел своими глазами.
+Он видел того человека.
+Того — того, кто всегда был в первых рядах каждой атаки, в центре каждого сопротивления...
+И каждого робкого кошмара.
+[Dialog]
+[charslot(slot="m",name="avg_4246_dminon_1#1$1",duration=1)]
+[Delay(time=1.2)]
+[PlaySound(key="$d_avg_strongwind_dream", volume=0.6)]
+[charslot(slot="m",name="avg_npc_1963_1#4$1",bstart=0.2,bend=0.5,duration=2)]
+[Delay(time=2)]
+[name="???"]  ...«Релькин»...
+[name="???"]  Кто это?
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="79_g13_sjbbattlefield_n",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$m_bat_essenceofevolution_intro", key="$m_bat_essenceofevolution_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2237_1#1$1",duration=0.8)]
+[Delay(time=1)]
+[name="Военный заклинатель"]  Ты думаешь, что предвещаешь гибель.
+[name="Военный заклинатель"]  Но ты всего лишь примечание к гибели.
+[name="Военный заклинатель"]  Мы с радостью оборвём жалкую кровную линию.
+[Dialog]
+[charslot]
+Чёрные доспехи придали форму пустоте. Талула слышала их истории: чудовища, которых империя убивала в безднах мучений и вновь выводила на свет, боевые машины, искусные в заклинаниях.
+[charslot(slot="m",name="avg_4247_oxi_1#6$1")]
+[name="Талула"]  Жалкую? Как ваша судьба?
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_firemagic")]
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[name="Военный заклинатель"]  (древний урсусский диалект) «Огонь на камне не зажечь нигде...»
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_thinsword_whoosh")]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Effect(name="$e_bladeline_01_large", x=0, y=-26, rox = 0, roy = 0, roz = -38, layer =2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[playsound(key="$d_avg_weightloss",volume=0.5,delay=0.5)]
+Она ударила мечом, но вокруг неё вдруг возник незримый барьер. Сила ушла в невидимую глубину, словно рассекая бездонную воду.
+[Dialog]
+[PlaySound(key="$d_avg_dimnlspamb", volume=0, loop=true, channel="di")]
+[SoundVolume(volume=0.5, channel="di",fadetime=2)]
+[Delay(time=0.5)]
+Пространство вокруг искажалось. Даже меч, наполненный искусством, не мог остановить то, что происходило перед ней... Её шаги ещё никогда не были такими тяжёлыми.
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[name="Военный заклинатель"]  Тебе следует научиться молчанию, дракон.
+[PlaySound(key="$d_avg_darkmagic", volume=1)]
+[name="Военный заклинатель"]  (древний урсусский диалект) «Открой глаза и войди в сеть, расставленную на драконов».
+[name="Военный заклинатель"]  (древний урсусский диалект) «Сим дозволяю тебе взглянуть в глаза смерти».
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_ftrub", volume=0.8)]
+[charslot(slot="m",name="avg_4247_oxi_1#7$1",posfrom="-100,0",posto="0,-10",duration=0.8)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_sphere", volume=1)]
+[CameraEffect(effect="Colorinverse",amount = 1,keep = true)]
+[Delay(time=0.2)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.05, block=true)]
+[CameraEffect(effect="Colorinverse",keep = false)]
+[bgeffect]
+[Blocker(a=0, r=255,g=255, b=255,  fadetime=0.7, block=true)]
+[charslot(slot = "m",name="avg_4247_oxi_1#7$1", action="shake", power=5, times=60,isblock=true,duration=0.2)]
+[name="Талула"]  Угх—
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_tirelightwave")]
+[playsound(key="$d_avg_tirelightwave",channel="a",delay=0.4)]
+[playsound(key="$d_avg_tirelightwave",channel="b",volume=1,delay=0.8)]
+[playsound(key="$d_avg_beamamb",volume=0.5,delay=0.5)]
+[CameraShake(duration=1.5,xstrength=20,ystrength=20,vibrato=30,randomness=90,fadeout=true,block=false)]
+[delay(time=1)]
+Яростная энергия обрушилась на Талулу, но тело дракона не разлетелось на куски, как ожидали военные заклинатели.
+Почти в тот миг, когда энергия коснулась её, пространство вокруг неё скрутилось и разорвалось в обратном направлении, словно невидимый зверь рвал когтями чёрно-красный занавес.
+[PlaySound(key="$bodyfalldown2", volume=0.7)]
+Её правое колено ударилось о землю, левая рука упёрлась в пол, между пальцами проступила кровь.
+[charslot(slot="m",name="avg_npc_2237_1#1$1",posfrom="0,0",posto="0,0")]
+[name="Военный заклинатель"]  ...Агония.
+[Dialog]
+[charslot]
+Он подался на пядь вперёд.
+[Dialog]
+[bgeffect(name="$eb_distorsion",layer=2)]
+[PlaySound(key="$d_avg_churchfire",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=0.4)]
+[delay(time=1)]
+[playsound(key="$d_avg_slapcloth_light")]
+[delay(time=0.5)]
+[playsound(key="$d_avg_slapcloth_light")]
+Внезапно пламя взметнулось на его маске; он поспешно сбил его правой рукой и едва погасил.
+[StopSound(channel="di", fadetime=2)]
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[name="Военный заклинатель"]  —!
+[name="Военный заклинатель"]  ...Проклятье, я разотру тебя в грязь!
+[charslot(slot="m",name="avg_4247_oxi_1#9$1")]
+[name="Талула"]  Попробуйте... чудовища, попробуйте, справятся ли ваши трюки со мной.
+[name="Талула"]  Не дайте мне... найти следующий шанс!
+[Dialog]
+[charslot]
+Воздух стал душным. Военные заклинатели смотрели, как созданное ими поле искусства пожирается и поглощается невидимым пламенем; в пространстве открывались бреши.
+Они быстро читали новые заклинания, непрерывно заполняя выжженные пустоты.
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[name="Военный заклинатель"]  Пустая угроза! Ты, покалеченная добыча, у нас есть бесчисленные способы охоты!
+[name="Военный заклинатель"]  Орипатия каждую секунду отнимает твоё тело. До каких пор ты сможешь держаться?
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_explosion", volume=1)]
+[CameraShake(duration=1.2, xstrength=30, ystrength=24, vibrato=40, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.9, r=1, g=1, b=1, fadetime=0.15, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.08, block=true)]
+[bgeffect]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[name="Военный заклинатель"]  А—
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2427_1#7$1")]
+[name="Лаврен"]  Вот так, *урсусское ругательство*, выпустите все снаряды! Наведите всю артиллерию сюда!
+[charslot(slot="m",name="avg_npc_2452_1#1$1")]
+[name="Офицер Пятой армейской группы"]  Генерал-майор, мы можем задеть своих—
+[charslot(slot="m",name="avg_npc_2427_1#7$1")]
+[name="Лаврен"]  Выполнять приказ! Не давайте военным заклинателям ни мгновения передышки!
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[name="Военный заклинатель"]  ...Глупцы! Предатели!
+[name="Военный заклинатель"]  Эта жалкая уловка лишь салют в честь вашей смерти!
+[charslot(slot="m",name="avg_npc_2427_1#6$1")]
+[name="Лаврен"]  Кто здесь предатель, трусы?!
+[charslot(slot="m",name="avg_npc_2427_1#7$1")]
+[name="Лаврен"]  Это ваша Первая армейская группа первой оскорбила урсусских военных!
+[Dialog]
+[charslot]
+Он поднял ручной ориджиниумный гранатомёт и вместе с подчинёнными дал залп по врагу.
+[Dialog]
+[PlaySound(key="$grenade_launcher_shot",channel="1",volume=0.3)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.08, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]
+[Delay(time=0.3)]
+[PlaySound(key="$grenade_launcher_shot",channel="2",volume=0.6)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.25, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[Delay(time=0.8)]
+Однако все атаки лишь слегка покачнули военных заклинателей.
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[name="Военный заклинатель"]  Довольно, предатели—
+[PlaySound(key="$d_avg_darkmagic", volume=1)]
+[name="Военный заклинатель"]  (древний урсусский диалект) «Я отдам ваши черепа мхам и червям!»
+[charslot(slot="m",name="avg_npc_2427_1#6$1")]
+[name="Лаврен"]  ...Проклятье.
+[Dialog]
+[charslot]
+Военные заклинатели повернулись к нему. Он понял, что, возможно, пришёл к концу, о котором мечтал в юности.
+[Dialog]
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[PlaySound(key="$d_avg_wtchkgmgcbfr", volume=0.8)]
+[Delay(time=0.6)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[effect(name="$e_talulah_hit",y=0,x=0,rox=0,roy=0,roz=0,layer=2)]
+[bgeffect(name="$eb_073_smoke_01",fade = true, fadetime=0.5,layer=3)]
+[Delay(time=0.2)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[CameraShake(duration=0.5, xstrength=18, ystrength=14, vibrato=30, randomness=80, fadeout=true, block=false)]
+[Delay(time=0.6)]
+[charslot(slot = "m", action="shake", power=5, times=600,duration=10)]
+[name="Военный заклинатель"]  А-а—
+[dialog]
+[charslot(duration=0.5)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4247_oxi_1#8$1")]
+[name="Талула"]  Предупреждала тебя, чудовище.
+[name="Талула"]  Не дай мне найти следующий шанс... хотя бы на мгновение.
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[bgeffect]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]
+[PlaySound(key="$d_avg_burnsword", volume=2)]
+[effect(name="$e_talulah",y=50,x=100,rox=58,roy=70,roz=-40,layer=2)]
+[Delay(time=1)]
+Она рассекла тень, рассекла бездну, что держала души в плену. Чёрный туман рассеялся перед её глазами, и остались лишь две злобные твари.
+[Dialog]
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[charslot(slot = "m", action="shake", power=5, times=60,duration=0.2,isblock=true)]
+[name="Военный заклинатель"]  Низкородный дракон!
+[PlaySound(key="$d_avg_phantommagic", volume=1)]
+[name="Военный заклинатель"]  (древний урсусский диалект) «Пусть твоя грязная оболочка—»
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_churchfire",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=0.4)]
+[bgeffect(name="$eb_burn",layer = 2)]
+Он не договорил и половины, как жар вдруг наполнил его изломанную грудь и горло.
+Затем пылающая чёрная тень рухнула прямо на землю.
+[CameraShake(duration=0.3, xstrength=10, ystrength=8, vibrato=30, randomness=90, fadeout=false)]
+[Dialog]
+[StopSound(channel="f", fadetime=2)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4247_oxi_1#1$1")]
+[name="Талула"]  Второе предупреждение.
+[charslot(slot="m",name="avg_npc_2237_1#1$1")]
+[name="Военный заклинатель"]  Ты—
+[Dialog]
+[PlaySound(key="$d_avg_wtchkgmgcbfr", volume=0.8)]
+[Delay(time=0.6)]
+[PlaySound(key="$d_avg_swordsheath", volume=0.8,delay=0.1)]
+[PlaySound(key="$d_avg_towercllps", volume=0.8,delay=0.2)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[effect(name="$e_talulah",y=0,x=0,rox=-128.8,roy=-73.4,roz=57.8,layer=2)]
+[Delay(time=0.2)]
+[effect(name="$e_talulah_hit",y=50,x=0,rox=-77.9,roy=-208.8,roz=95.5,layer=1)]
+[effect(name="$e_talulah_hit",y=-50,x=50,rox=-177.9,roy=-78.8,roz=195.5,layer=1)]
+[effect(name="$e_talulah_hit",y=-50,x=50,rox=-377.9,roy=-38.8,roz=25.5,layer=1)]
+[Delay(time=0.8)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=0.7, g=0, b=0, fadetime=0.05, block=true)]
+[PlaySound(key="$p_imp_sword_n", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[CameraShake(duration=0.5, xstrength=18, ystrength=14, vibrato=30, randomness=80, fadeout=true, block=false)]
+[charslot(slot = "m", action="shake", power=5, times=600,duration=10)]
+[Delay(time=0.5)]
+[effect]
+[charslot(slot = "m",posfrom="0,0",posto="0,-20",afrom=1,ato=0,duration=1)]
+[Delay(time=1)]
+[charslot]
+[charslot(slot="m",name="avg_4247_oxi_1#6$1")]
+[name="Талула"]  Третье.
+[name="Талула"]  Урсус сорвал с вас кожу, осквернил ваши души, а вы гордитесь своим искажённым разумом и ценностями.
+[charslot(slot="m",name="avg_4247_oxi_1#6$1")]
+[name="Талула"]  Я пришла лишь положить конец несправедливости. Но если кто-то готов стать продолжением рук палачей —
+[charslot(slot="m",name="avg_4247_oxi_1#8$1")]
+[name="Талула"]  Я не побрезгую вырезать вас всех!
+[Dialog]
+[charslot]
+[stopmusic(fadetime=4)]
+[curtain(direction = 0,fillfrom = 0.1,fillto = 0.2, fadetime=2)]
+[curtain(direction = 4,fillfrom = 0.1,fillto = 0.2, fadetime=2)]
+[BackgroundTween(image="79_g13_sjbbattlefield_n", duration=3, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.05, yScaleTo=1.05, yFrom=0, yTo=-40, block=false)]
+[PlaySound(key="$firestorm", volume=1)]
+[PlaySound(key="$burningloop1", volume=0.6, loop=true, channel="a")]
+[SoundVolume(volume=1, channel="a",fadetime=1.5)]
+[bgeffect(name="$eb_originiumrain",layer = 3)]
+Пространство, сотканное заклинанием, рассыпалось на мириады искр.
+Жар вырвался из трещин и в мгновение ока стал пожаром.
+[Dialog]
+[charslot]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="79_g13_sjbbattlefield_n",x=0,y=0,screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+Три скелета, три призрака исчезали из глаз людей вместе с пламенем.
+Лаврен рухнул на землю, тяжело хватая воздух.
+[Dialog]
+[Delay(time=1)]
+[curtain(direction = 0,fillfrom = 0.2,fillto = 0, fadetime=1)]
+[curtain(direction = 4,fillfrom = 0.2,fillto = 0, fadetime=1)]
+[Delay(time=1)]
+[SoundVolume(volume=0.8, channel="a",fadetime=1.5)]
+[charslot(slot="m",name="avg_4247_oxi_1#1$1")]
+[name="Талула"]  ...Ты в порядке, генерал-майор?
+[Dialog]
+[charslot]
+Она протянула левую руку.
+[Dialog]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",name="avg_npc_2427_1#1$1",duration=0.5,posfrom = "0,-50", posto = "0,0")]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2427_1#4$1")]
+[name="Лаврен"]  ...В порядке.
+[charslot(slot="m",name="avg_npc_2427_1#8$1")]
+[name="Лаврен"]  Ха... не думал, что однажды меня поднимет человек с одной рукой.
+[charslot(slot="m",name="avg_4247_oxi_1#13$1")]
+[name="Талула"]  Первая армейская группа стягивается сюда... Если ты жалеешь, возможно, ещё не поздно—
+[charslot(slot="m",name="avg_npc_2427_1#1$1")]
+[name="Лаврен"]  Ты знаешь, я уже выбрал свою участь.
+[charslot(slot="m",name="avg_4247_oxi_1#3$1")]
+[name="Талула"]  ...
+[charslot(slot="m",name="avg_npc_2427_1#4$1")]
+[name="Лаврен"]  Прости, мои люди вымотаны, припасы быстро тают. Не знаю, сколько ещё смогу помочь.
+[charslot(slot="m",name="avg_4247_oxi_1#1$1")]
+[name="Талула"]  Не говори таких слов, от которых мне становится стыдно, Лаврен.
+[name="Талула"]  Реюнион будет сражаться вместе с вами.
+[charslot(slot="m",name="avg_4247_oxi_1#13$1")]
+[name="Талула"]  До самого конца...
+[Dialog]
+[charslot]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+Она поддержала шатающегося Лаврена и посмотрела вдаль. В нескольких километрах от них медленно приближался железный поток.
+Первая армейская группа Урсуса, былая слава империи... Их чёрные орудия были направлены на неё.
+[stopmusic(fadetime=2)]
+[musicvolume(volume=0.3, fadetime=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[StopSound(channel="a", fadetime=2)]
+[Background(image="79_g5_smeltingfac",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[musicvolume(volume=0.6, fadetime=1)]
+[dialog]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_heavy", pos = "-400,-200", block = false)]  <p=1>Западный район Сент-Стидбурга, третий завод по очистке ориджиниума</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2227_1#2$1")]
+[name="Энергичный рабочий"]  Эй—
+[name="Энергичный рабочий"]  Готово, всё готово. Иди в эту дверь, дальше будет склад.
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  Спасибо, брат.
+[name="Боец Реюниона"]  Если данные профсоюза верны, здешнего ориджиниума хватит, чтобы пополнить наши запасы топлива на неделю.
+[charslot(slot="m",name="avg_npc_2227_1#6$1")]
+[name="Энергичный рабочий"]  *урсусское ругательство* Обычно эти господа запирали всё так, будто это какое-то невиданное сокровище...
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  Ха-ха, зато теперь всё это наше!
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  ...
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  Что случилось, Рэд? Опять о чём-то задумался?
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  Слишком тихо.
+[stopmusic(fadetime=2)]
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  А?
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  «Турин» до сих пор не вышел с нами на связь.
+[name="Рэд"]  Если их переговоры прошли успешно, они уже должны были разобраться с оставшимися солдатами, и на улицах было бы слышно бой. Но сейчас... ни единого звука.
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_drawsword", volume=0.3)]
+Он медленно сдвинул рукоять на пол-пяди, и в щели между ножнами мелькнул тусклый тёмно-красный свет.
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  Опустите ключи и ящики. Все берите оружие—
+[Dialog]
+[charslot]
+[PlayMusic(intro="$shatterpoint_intro", key="$shatterpoint_loop", volume=0.6)]
+[PlaySound(key="$d_avg_gateopen", volume=1)]
+[Delay(time=0.8)]
+[PlaySound(key="$d_gen_soldiersrun", volume=1)]
+[charslot(slot = "l", name = "avg_npc_2442_1#1$1",posfrom="-150,0",posto="-150,0",duration=1.5)]
+[charslot(slot = "r", name = "avg_npc_2442_1#1$1",posfrom="150,0",posto="150,0", duration=1.5)]
+[charslot(slot = "m", name = "avg_npc_2442_1#1$1", duration=1.5)]
+[Delay(time=1.8)]
+[charslot]
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  ...Первая армейская группа!
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2456_1#1$1",duration=1)]
+[Delay(time=1)]
+[name="Офицер Первой армейской группы"]  Всем Заражённым на месте: сложите оружие, выдайте укрытые припасы и приготовьтесь к досмотру.
+[name="Офицер Первой армейской группы"]  Ваш лидер уже решил принять переформирование в армейскую группу. Не сопротивляйтесь.
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  (тихо) Чушь...
+[Dialog]
+[charslot]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[bgeffect(name="$eb_smoke_l",layer=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[PlaySound(key="$d_avg_explosion", volume=1)]
+[CameraShake(duration=1.2, xstrength=30, ystrength=24, vibrato=40, randomness=90, fadeout=true, block=false)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  Угх—
+[Dialog]
+[charslot]
+Фосфорные снаряды и гранаты полетели в них; растекающееся пламя и дым заполнили весь цех.
+[charslot(slot="m",name="avg_npc_2456_1#1$1")]
+[name="Офицер Первой армейской группы"]  ...Я не стану ждать вашего ответа, Заражённые.
+[name="Офицер Первой армейской группы"]  Последний шанс — сложите оружие!
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  *отборное урсусское ругательство*...
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  Дерёмся, Рэд!
+[name="Боец Реюниона"]  Милана не могла согласиться на переформирование... Значит, эти проклятые ублюдки предали Реюнион... Теперь они просто хотят заманить нас и перебить!
+[charslot(slot="m",name="avg_npc_2227_1#5$1")]
+[name="Энергичный рабочий"]  Да... дерёмся!
+[PlaySound(key="$d_avg_clothmovement", volume=0.6)]
+[Dialog]
+[charslot]
+[name="Энергичный рабочий"]  ...А? Рэд?
+[Dialog]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+Рэд схватил его за ворот и с силой швырнул к ремонтному люку сточной канализации в глубине цеха.
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  Сточные трубы. Краунслейер говорила, что канализационные трубы заводского района ведут прямо во внешний коллектор, но за раз через них может пролезть только один человек. Запасной план.
+[name="Рэд"]  Ты старый рабочий Сент-Стидбурга, должен знать подземные конструкции лучше нас. Сейчас все рабочие уходят с ним и возвращаются оборонять баррикады...
+[name="Рэд"]  Бойцы отряда Рэда, остаются.
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  ...Хорошо!
+[charslot(slot="m",name="avg_npc_2227_1#5$1")]
+[name="Энергичный рабочий"]  Ты не можешь лишить меня шанса отомстить, проклятый Рэд!
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  Ваши жизни, обменянные на воронки от снарядов армейской группы, — что это за месть?
+[name="Рэд"]  Слушайте: вы должны выбраться живыми и сказать на баррикадах, сказать людям Реюниона, чтобы готовились... А потом вместе разнести это ненасытное место в металлолом.
+[name="Рэд"]  Идите. Запомните этот миг, запомните нас—
+[name="Рэд"]  Отомстите за всех... и за меня!
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_ventilatingduct_climb",volume=0,channel="pa1", loop=true)]
+[SoundVolume(volume=0.8, channel="pa1",fadetime=1)]
+[Delay(time=0.2)]
+[PlaySound(key="$d_avg_ventilatingduct_climb",volume=0,channel="pa2", loop=true)]
+[SoundVolume(volume=0.4, channel="pa2",fadetime=1)]
+Рабочий, упавший у ремонтного люка, всё ещё пытался ползти назад; несколько товарищей схватили его за руки и едва удержали.
+Провожая взглядом всё больше удалявшихся фигур, растворяющихся в темноте, Рэд отвёл взгляд и махнул бойцам отряда.
+[StopSound(channel="pa1", fadetime=2)]
+[StopSound(channel="pa2", fadetime=2)]
+Это был сигнал... без вдохновляющих речей, без отчаянного уныния.
+Воины лишь приподнялись из-за обломков и нажали на спуск, целясь в стальной строй напротив.
+[Dialog]
+[PlaySound(key="$d_avg_arrow_rain",volume=1)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_explosion",volume=0.8)]
+[effect(name="$e_magic_fire_01",layer=1,x=10,xto=-10,y=300,yto=-100,movetime=0.5)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[bgeffect(name="$eb_burn",y=-100,layer=2)]
+[playsound(key="$d_avg_firemagic_hurry",volume=0.8)]
+[Delay(time=2)]
+Однако под тяжёлой артиллерией любой ответный огонь был лишь камнем, брошенным в бездну...
+Люди начали падать, но никто не повернул назад.
+[StopSound(channel="huan", fadetime=2)]
+Когда последний рабочий вошёл в зону спасения, Рэд рванул тяжёлый гидравлический тормозной рычаг, и многотонные ворота с пронзительным скрежетом пошли вниз.
+[Dialog]
+[PlaySound(key="$d_avg_scratchmetalwall", volume=0.8)]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_gatecloz", volume=1)]
+[CameraShake(duration=0.8, xstrength=14, ystrength=12, vibrato=25, randomness=70, fadeout=true, block=false)]
+[Delay(time=1)]
+[charslot]
+[PlaySound(key="$d_avg_swordexsheath", volume=1)]
+В последний миг, когда железные ворота закрывались, Рэд не обернулся, лишь ещё на пол-пяди вытащил длинный меч.
+[charslot(slot="m",name="avg_npc_2456_1#1$1")]
+[name="Офицер Первой армейской группы"]  Интересный выбор... Даже без тяжёлого оружия вы не потеряли смелости. Хорошо—
+[name="Офицер Первой армейской группы"]  Весь спецотряд: уничтожить всех предателей на третьем заводе по очистке ориджиниума!
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_axeimp", volume=1)]
+[PlaySound(key="$d_avg_axeimp",channel="a", volume=0.7,delay=0.04)]
+[PlaySound(key="$d_avg_axeimp",channel="b", volume=0.9,delay=0.08)]
+Тяжёлые щиты десятка щитоносцев с пронзительным визгом заскребли по земле.
+[Dialog]
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  Если это последний бой, то...
+[charslot(slot="m",name="avg_npc_2456_1#1$1")]
+[name="Офицер Первой армейской группы"]  Отряд арбалетчиков, развернуться.
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_string_force", volume=1)]
+[PlaySound(key="$d_avg_gunequip",channel="a", volume=0.7,delay=0.04)]
+[PlaySound(key="$d_avg_gunequip",channel="b", volume=0.9,delay=0.05)]
+[Delay(time=0.6)]
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  Урсусская империя, я покажу тебе—
+[charslot(slot="m",name="avg_npc_2456_1#1$1")]
+[name="Офицер Первой армейской группы"]  Приготовиться — огонь!
+[charslot(slot="m",name="avg_npc_334")]
+[name="Рэд"]  Настоящего «мстителя»!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[bgeffect]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlaySound(key="$firestorm", volume=1)]
+[PlaySound(key="$burningloop1", volume=0.6, loop=true, channel="a")]
+[SoundVolume(volume=1, channel="a",fadetime=1.5)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_burnsword", volume=1)]
+Багровое пламя охватило окружающий воздух.
+[dialog]
+[PlaySound(key="$d_avg_arrow_rain",volume=1)]
+[delay(time=0.5)]
+[Effect(name="$e_spark_01_large", layer=1,x=-50,y=100)]
+[PlaySound(key="$swordtsing1", volume=1)]
+[delay(time=0.1)]
+[Effect(name="$e_spark_01_mid", layer=2,x=0,y=0)]
+[PlaySound(key="$swordtsing2", volume=1)]
+[delay(time=0.15)]
+[Effect(name="$e_spark_02_large", layer=3,x=50,y=100)]
+[PlaySound(key="$swordtsing1", volume=1)]
+[delay(time=0.2)]
+[Effect(name="$e_spark_02_mid", layer=4,x=-100,y=50)]
+[PlaySound(key="$swordtsing2", volume=1)]
+[delay(time=0.2)]
+[Effect(name="$e_spark_01_large", layer=5,x=100,y=-50)]
+[PlaySound(key="$swordtsing2", volume=1)]
+[delay(time=0.15)]
+[PlaySound(key="$d_avg_snowstormflp", volume=0.5, loop=true, channel="snow")]
+[SoundVolume(volume=1, channel="snow",fadetime=1.5)]
+[Effect(name="$e_spark_01_large", layer=6,x=100,y=-50)]
+[PlaySound(key="$swordtsing6", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=0.5, block=true)]
+[Image(image="79_i25", screenadapt="coverall",xScale=1, yScale=1, fadetime=0)]
+[cgitem(image="cgitem_79_i25", style="cg",layer = 1)]
+[Blocker(a=0.5, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=0.5, block=true)]
+[delay(time=1)]
+Длинный меч описал в воздухе полукруг, разрубив летевшие болты.
+[Dialog]
+[Blocker(a=0.3, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+Пыль с искрами рассыпалась в воздухе.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=0.5, block=true)]
+[Effect(name="$e_redeye_shining",x=-45,y=127,layer =2)]
+[cgitem(image="cgitem_79_i25", style="cg", afrom=1, ato=0, aduration=1, layer = 1)]
+[Delay(time=1)]
+Сильный ветер сорвал с него шапку, открыв ещё молодое лицо.
+[dialog]
+[delay(time=1.5)]
+[name="Рэд"]  Ха!
+[dialog]
+[musicvolume(volume=0.3, fadetime=1)]
+[delay(time=0.5)]
+[PlaySound(key="$d_gen_heartbeat", volume=1, loop=true, channel="HB")]
+[StopSound(channel="HB", fadetime=1)]
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[PlaySound(key="$d_avg_dullthunderclap")]
+[Image(image="79_i25", screenadapt="coverall",xScale=1.1, yScale=1.1, fadetime=0.5)]
+[ImageTween(xScaleTo=1.2, yScaleTo=1.2,y=0,yTo=-30, duration=25, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[name="Офицер Первой армейской группы"]  Продолжайте стрелять, не дайте ему приблизиться к строю щитоносцев!
+[dialog]
+[musicvolume(volume=0.6, fadetime=0.5)]
+[delay(time=1)]
+Пока они перезаряжались, пламя уже поглотило щиты, а острие клинка, используя инерцию рывка, вошло в щель доспеха.
+[PlaySound(key="$d_avg_burnpaper", volume=1)]
+Кровь брызнула на раскалённое лезвие, превращаясь в шипящий пар.
+Почти одновременно боевой молот ударил его в плечо. Он лишь стиснул зубы, взмахнул длинным мечом правой рукой и, развернувшись, рассёк нагрудник врага слева; клинок нёс с собой обжигающее пламя.
+Затем новые враги снова окружили его... К концу Рэд уже не мог сосчитать, сколько раз взмахнул мечом.
+Но он помнил каждую рану, каждый пронзительный миг — пробивающий штык, ожог взрывчатки, момент, когда тупое оружие дробило кости, муки обострения орипатии...
+Каждый поток крови, каждая близость смерти заставляли его всё крепче сжимать рукоять меча.
+Пока он не увидел страх в глазах врагов. И в этом страхе он утвердил себя.
+[Dialog]
+[Delay(time=0.5)]
+[PlaySound(key="$d_avg_burnsword",volume=0.8)]
+[ImageTween(xScaleTo=1.3, yScaleTo=1.3, duration=0.5,ease="6", block=false)]
+[Delay(time=0.2)]
+[Effect(name="$e_079cg_red",layer = 1)]
+[PlaySound(key="$firestorm", volume=1)]
+[PlaySound(key="$d_avg_dullthunderclap")]
+[Delay(time=0.5)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1.5, block=true)]
+[delay(time=1.5)]
+[Image(image="79_i25_1", screenadapt="coverall",xScale=1, yScale=1,fadetime=0)]
+[Blocker(a=0.3, r=1, g=1, b=1, fadetime=3, block=true)]
+Урсусский «красный клинок», имперский... «мститель».
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[delay(time=1.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Image]
+[hidecgitem]
+[effect]
+[Background]
+[StopSound(channel="a", fadetime=2)]
+[stopSound(channel="snow", fadetime=1.5)]
+[Delay(time=1)]
+...
+[name="Голос военного армейской группы"]  Он... мёртв?
+Тёплое острие коснулось плеча Рэда. Там, где должна была быть боль, боли больше не было.
+При этой мысли места с кристаллами словно стали легче, и уголки его губ невольно сложились в улыбку.
+[name="Голос военного армейской группы"]  Отойдите от него!
+[name="Рэд"]  Тц, трусы.
+Это считается... мститель?
+Он уже не узнает.
+Как не узнает и того, осталось ли на этой земле место для него, есть ли ещё те, кто тоскует и помнит о нём.
+Но однажды об этом узнают все урсусцы.
+Он стоял между выжженной землёй и завтрашним днём и не отступил ни на шаг.
+[stopmusic(fadetime=2)]
+[Dialog]
+[charslot]
+[Background(image="79_g12_sjbbattlefield_d",screenadapt="coverall")]
+[Delay(time=3)]
+[bgeffect(name="$eb_smoke_01",layer=1)]
+[PlaySound(key="$d_avg_warfireamb_loop",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=2)]
+[PlaySound(key="$d_avg_explosion", volume=1)]
+[CameraShake(duration=1, xstrength=24, ystrength=20, vibrato=35, randomness=85, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$shatterpoint_02_intro",key="$shatterpoint_02_loop", volume=0.6)]
+В углу поля боя неясная фигура мелькнула у погрузочного выхода передвижного города и тут же скрылась в дыму.
+[Dialog]
+[charslot(slot="m",name="avg_1502_crosly_1#7$1",duration=0.8)]
+[Delay(time=1)]
+[name="Краунслейер"]  (Талула...)
+[name="Краунслейер"]  (Лучше бы тебе быть живой!)
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_battlefield_environment",volume=0, channel="j", loop=true)]
+[SoundVolume(volume=1, channel="j",fadetime=2)]
+Под непрерывным неизбирательным обстрелом разрозненные бойцы Реюниона искали укрытия от бомбардировки и одновременно вступали в ближний бой с пехотой Первой армейской группы.
+Один боец Реюниона был ранен арбалетным болтом и, отступая, уже готов был упасть—
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot="m",name="avg_1502_crosly_1#8$1")]
+[name="Краунслейер"]  Пригнись, голову!
+[Dialog]
+[charslot]
+[PlaySound(key="$swordtsing6", volume=0.7)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.15, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]
+[PlaySound(key="$swordtsing5", volume=1)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+Дым поднялся столбом. Краунслейер метнулась мимо, отбила подобранным с земли клинком летевшие болты и заодно утащила человека с опасного места.
+[Dialog]
+[Delay(time=0.4)]
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  Ты, ты—
+[charslot(slot="m",name="avg_1502_crosly_1#3$1")]
+[name="Краунслейер"]  Ты из Реюниона. Скажи, где сейчас Талула, на каком участке, в какую сторону?
+[StopSound(channel="j", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, style="slider", fadetime=1.5, block=true)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, style="slider", fadetime=1.5, block=true)]
+[charslot(slot="l",name="avg_4247_oxi_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2427_1#2$1",focus="r")]
+[name="Лаврен"]  Они собираются быстрее, чем я ожидал. Не зря это Первая армейская группа...
+[charslot(slot="l",name="avg_4247_oxi_1#1$1",focus="l")]
+[name="Талула"]  Лаврен, сколько у вас ещё боеприпасов и стрел?
+[charslot(slot="r",name="avg_npc_2427_1#6$1",focus="r")]
+[name="Лаврен"]  Не точные данные интенданта, а по опыту: самое большее — на полдня эффективного ответного огня.
+[charslot(slot="l",name="avg_4247_oxi_1#2$1",focus="l")]
+[name="Талула"]  Мы уничтожили военных заклинателей и выиграли немного времени; к тому же под прикрытием готовых укреплений их дальний обстрел не будет слишком точным.
+[charslot(slot="l",name="avg_4247_oxi_1#6$1",focus="l")]
+[name="Талула"]  Но прежде чем пехотные батальоны Первой армейской группы вместе с закалённым авангардом снова развернутся по всему полю, мы должны как можно скорее продвинуться ко входу в передвижной город—
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_explosion", volume=1)]
+[CameraShake(duration=1.2, xstrength=30, ystrength=24, vibrato=40, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.8)]
+[charslot(slot="m",name="avg_1502_crosly_1#8$1")]
+[name="Краунслейер"]  — Ложись!
+[Dialog]
+[charslot]
+[bgeffect(name="$eb_smoke_01",layer=1)]
+[Delay(time=0.8)]
+[charslot(slot="m",name="avg_4247_oxi_1#7$1")]
+[name="Талула"]  Кха — кха-кха!
+[charslot(slot="m",name="avg_1502_crosly_1#9$1")]
+[name="Краунслейер"]  Хорошо, ты не умер.
+[charslot(slot="m",name="avg_4247_oxi_1#11$1")]
+[name="Талула"]  Людмила?
+[charslot(slot="m",name="avg_4247_oxi_1#10$1")]
+[name="Талула"]  Почему ты здесь? Первая армейская группа показала истинное лицо. Мне нужно знать, что творится в Сент-Стидбурге. Я видела знак Найн—
+[charslot(slot="m",name="avg_1502_crosly_1#7$1")]
+[name="Краунслейер"]  Именно это я и пришла тебе сказать. Талула, выслушай меня.
+[name="Краунслейер"]  Первая армейская группа арестовала Милану. Судьба Найн после боя у опорного пункта неизвестна. Когда я уходила из Сент-Стидбурга, Рэд и остальные всё ещё держали завод вместе с рабочими.
+[charslot(slot="m",name="avg_4247_oxi_1#12$1")]
+[name="Талула"]  Что?
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="Краунслейер"]  Не делай такое лицо, Талула. Я вынесла весть, чтобы ты знала: мы ещё не проиграли.
+[charslot(slot="m",name="avg_1502_crosly_1#7$1")]
+[name="Краунслейер"]  По дороге к тебе я уже примерно разобралась в здешней обстановке.
+[name="Краунслейер"]  Теперь я могу помочь тебе задержать Первую армейскую группу. Талула, тебе нужно попасть в город, спасти Милану и найти Найн—
+[stopmusic(fadetime=2)]
+[Dialog]
+[charslot]
+Вдали дрожала гладь озера Нева.
+[PlaySound(key="$d_avg_grounddivide_rumble2",volume=0, channel="d", loop=true)]
+[SoundVolume(volume=0.5, channel="d",fadetime=2)]
+[PlaySound(key="$d_avg_sea",volume=1, channel="sea", loop=true)]
+[SoundVolume(volume=1, channel="sea",fadetime=2)]
+Сначала по центру озера пошли не ко времени расходившиеся круги, а затем из ещё более далёких мест донёсся глухой грохот, будто гигант шёл под водой в сторону Сент-Стидбурга.
+Дрожь передавалась прямо в землю под ногами людей. Артиллерия армейской группы всё продолжала бить через берег по позициям Талулы и остальных.
+[playMusic(intro="$kaltsitteam_intro",key="$kaltsitteam_loop", volume=0.6)]
+Снаряды взрывались, вздымая землю и камни, а пламя связывалось воедино среди давно обгоревших деревьев—
+Но всё это не могло заглушить звук приближения огромной громадины, которая двигалась неудержимо.
+[charslot(slot="m",name="avg_npc_2427_1#5$1")]
+[name="Лаврен"]  ...Это...
+[name="Лаврен"]  Передвижной город?
+[charslot(slot="m",name="avg_1502_crosly_1#4$1")]
+[name="Краунслейер"]  Что?
+[charslot(slot="m",name="avg_4247_oxi_1#10$1")]
+[name="Талула"]  Разве передвижной город может идти по воде? Это же сторона озера Нева!
+[charslot(slot="m",name="avg_4247_oxi_1#11$1")]
+[name="Талула"]  Он прорвал часть обороны между нами и Первой армейской группой — он идёт прямо на поле боя!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[bgeffect]
+[Background]
+[Image(image="79_i09", screenadapt="coverall",xScale=1, yScale=1, fadetime=0)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[ImageTween(xScaleTo=1.05, yScaleTo=1.05, duration=0.5, block=false)]
+[Image(image="79_i09", screenadapt="coverall", xScale=1.03, yScale=1.03,fadetime=0.5)]
+[Delay(time=1)]
+Да. То, что остановило огонь Первой армейской группы, было целым передвижным городом, разрезавшим гладь озера.
+Огромная стальная конструкция вырвалась из воды, разбивая ранний весенний лёд озера Нева и высокие волны в его центре.
+[Dialog]
+[ImageTween(xScaleTo=1.1, yScaleTo=1.1, duration=0.5, block=false)]
+[Image(image="79_i09", screenadapt="coverall", xScale=1.07, yScale=1.07,fadetime=0.5)]
+Старинные башни, купола, дымовые трубы и батареи слой за слоем поднимались из водяной пыли и огня; пёстрые внешние стены освещало солнце, а флаги без гербов громко хлопали на ветру.
+Именно этот передвижной город со старомодным обликом без всякого предупреждения почти по прямой врезался в поле боя.
+[Dialog]
+[ImageTween(xScaleTo=1.15, yScaleTo=1.15, duration=0.5, block=false)]
+[Image(image="79_i09", screenadapt="coverall", xScale=1.12, yScale=1.12,fadetime=0.5)]
+Он мчался к Сент-Стидбургу, и не было видно ни малейшего признака, что он собирается сбавлять ход, пока—
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Image]
+Бум—!
+[StopSound(channel="d", fadetime=2)]
+[StopSound(channel="sea", fadetime=2)]
+Огромный корпус передвижного города наконец начал замедляться перед оборонительными укреплениями на отмели.
+[stopmusic(fadetime=2)]
+[Dialog]
+[Delay(time=3)]
+[bgeffect(name="$eb_leavesfalling",layer=1)]
+[Background(image="79_g15_mskoutside",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$hope_g2_intro",key="$hope_g2_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4226_veen_1#5$1")]
+[name="Стёпа"]  Олег, ты сказал, что покажешь мне кое-что, а в итоге— откуда вы вообще достали такую—
+[charslot(slot="m",name="avg_npc_2241_1#2$1")]
+[name="Олег"]  Город, который умеет плавать, даже ты никогда не видел, верно?
+[charslot(slot="m",name="avg_4226_veen_1#5$1")]
+[name="Стёпа"]  ...Хотел бы я, чтобы Сирка и остальные тоже это увидели.
+[name="Стёпа"]  Серьёзно, откуда вы это взяли?
+[charslot(slot="m",name="avg_npc_2241_1#3$1")]
+[name="Олег"]  Он сам поднялся из воды.
+[charslot(slot="m",name="avg_4226_veen_1#2$1")]
+[name="Стёпа"]  Где? Я подожду ещё несколько, соберём флот и вернёмся убить этого старого хрыча Евгения.
+[charslot(slot="m",name="avg_npc_2241_1#1$1")]
+[name="Олег"]  Я серьёзно, не шучу. Он сам всплыл из озера Ангара.
+[name="Олег"]  Поначалу там было полно мёртвых, никто не смел подойти. Когда мы пришли, мы похоронили тела, разобрали и собрали, и постепенно превратили этот металлолом в то, что видишь.
+[charslot(slot="m",name="avg_npc_2241_1#2$1")]
+[name="Олег"]  Конечно, главное было почти целым, а ещё нам помогали. Иначе мы бы так быстро не справились.
+[charslot(slot="m",name="avg_4226_veen_1#1$1")]
+[name="Стёпа"]  Отремонтировать передвижной город такого размера за такое короткое время — тут не обойтись одной лишь чужой помощью.
+[charslot(slot="m",name="avg_npc_2241_1#3$1")]
+[name="Олег"]  Ладно, ладно! Нам помогали многие. Ты же видишь: теперь это по-настоящему живой передвижной город.
+[Dialog]
+[charslot]
+В самой нижней части корабельной конструкции города виднелись ряды огромных колёсных отсеков и движителей; даже когда город уже пристал к берегу, вода всё ещё бурлила в щелях.
+А среди смешанных стальных и деревянных конструкций можно было разглядеть развешанную одежду, деревянные ящики с цветами и людей, стоявших на «палубе» и махавших берегу.
+[Dialog]
+[charslot]
+[name="Раздражённый свободный человек"]  — Эй, отойди! Вода окатит тебя с головой!
+[charslot(slot="m",name="avg_npc_2445_1#1$1")]
+[name="Весёлый свободный человек"]  Пусть окатит с головой!
+[name="Весёлый свободный человек"]  Чем больше волны, тем сильнее двигатель—
+[Dialog]
+[charslot]
+[name="Раздражённый свободный человек"]  Ересь!
+[charslot(slot="m",name="avg_npc_2446_1#1$1")]
+[name="Приветливый свободный человек"]  Еда готова, не стойте там как истуканы!
+[name="Приветливый свободный человек"]  После еды ещё поднимемся проверить дренажную систему.
+[charslot(slot="m",name="avg_npc_2445_1#1$1")]
+[name="Весёлый свободный человек"]  О, хорошо!
+[Dialog]
+[charslot(duration=0.8)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4226_veen_1#5$1")]
+[name="Стёпа"]  ...Так это...
+[name="Стёпа"]  (тихо) «Земля»?
+[charslot(slot="m",name="avg_npc_2241_1#7$1")]
+[name="Олег"]  Что?
+[charslot(slot="m",name="avg_4226_veen_1#8$1")]
+[name="Стёпа"]  Это наша Земля.
+[charslot(slot="m",name="avg_npc_2241_1#2$1")]
+[name="Олег"]  А, ты об этом. Если так сказать, тоже верно, но я слышал от партизан, что этот передвижной город называется «Семенко».
+[name="Олег"]  Красиво, правда?
+[charslot(slot="m",name="avg_4226_veen_1#12$1")]
+[name="Стёпа"]  Неплохо... Но ты сказал партизаны?
+[charslot(slot="m",name="avg_npc_2241_1#1$1")]
+[name="Олег"]  Да. Кроме того, что я хотел показать тебе наш передвижной город, я хочу познакомить тебя кое с кем.
+[name="Олег"]  Думаю, в твоём плане они точно пригодятся. Конечно, если они всё ещё готовы сражаться.
+[charslot(slot="m",name="avg_npc_2241_1#2$1")]
+[name="Олег"]  Но я думаю, с этим проблем не будет.
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Background(image="79_g12_sjbbattlefield_d",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$gorgeousdebut_intro",key="$gorgeousdebut_loop", volume=0.6)]
+Передвижной город не остановился.
+[PlaySound(key="$d_avg_grounddivide_rumble1",channel="1", volume=1)]
+Водные движители постепенно затихали, но огромные гусеницы и колёсные отсеки вцепились в землю, и город, мокрый и грязный, продолжал двигаться вперёд.
+[PlaySound(key="$d_avg_throwrope",channel="2",  volume=1)]
+А по обеим сторонам городской стены вдруг упали ряды толстых канатов. Верёвочные лестницы, доски и наспех сколоченные подвесные мостки тоже полетели на землю.
+[PlaySound(key="$d_gen_soldiersrun",channel="3",  volume=1)]
+Первые бойцы свободных людей перебрались через стену, ловко приземлились, затем вторая группа, третья...
+[charslot(slot="m",name="avg_npc_2427_1#8$1")]
+[name="Лаврен"]  ...Хм.
+[name="Лаврен"]  Он всё-таки успел.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style="slider", fadetime=1.5, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style="slider", fadetime=1.5, block=true)]
+[charslot(slot="m",name="avg_npc_2241_1#1$1")]
+[name="Олег"]  По одному!
+[charslot(slot="m",name="avg_npc_2239_1#1$1")]
+[name="Нетерпеливый боец-свободный человек"]  Это не я упал задницей в грязь!
+[charslot(slot="m",name="avg_npc_2241_1#6$1")]
+[name="Олег"]  Зато если бы ты спрыгнул, то мог бы сразу прибить его! Не спорь!
+[charslot(slot="m",name="avg_npc_2241_1#1$1")]
+[name="Олег"]  Все позади, слушайте!
+[name="Олег"]  По приказу Вия артиллеристы остаются, все остальные спускаются!
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_armycrowd", volume=1)]
+Из внезапно ворвавшегося на поле боя передвижного города хлынуло ещё больше свободных людей; они быстро рассыпались вдоль его головной части и правого борта.
+Они не сразу построились в ровные ряды, и ни один командир не выкрикивал лозунги, чтобы перестроить их.
+Они лишь, оценив обстановку, сами закрывали бреши, образовавшиеся после потерь Реюниона, или сразу бросались на пехотные позиции Первой армейской группы с другой стороны.
+Некоторые останавливались и уносили раненых с поля боя.
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  Угх—
+[charslot(slot="m",name="avg_4247_oxi_1#1$1")]
+[name="Талула"]  Не паникуй. Лаврен сказал, они пришли помочь.
+[charslot(slot="m",name="avg_npc_2447_1#2$1")]
+[name="Боец Реюниона"]  Хо-хорошо!
+[Dialog]
+[charslot]
+Талула подняла голову и снова посмотрела в сторону, откуда пришли эти «незваные гости».
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_058", duration=1.5)]
+[charslot(slot = "r", name = "avg_npc_058", duration=1.5)]
+[Delay(time=1.8)]
+[charslot(slot="m",focus="n")]
+Рядом с ними несколько чёрных, отчасти знакомых фигур стояли на небольшой возвышенности за отмелью.
+Все они носили доспехи урсусских щитоносцев, но с их оружия давно были стёрты урсусские эмблемы.
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_4247_oxi_1#13$1")]
+[name="Талула"]  ...
+[Dialog]
+[charslot]
+Это щитоносцы партизан Патриота.
+[charslot(slot="m",name="avg_npc_2240_1#1$1")]
+[name="Проницательный боец-свободный человек"]  — Они снова собираются стрелять!
+[name="Проницательный боец-свободный человек"]  Командир, теперь можно отвечать?!
+[Dialog]
+[charslot]
+[name="Стёпа"]  Подождите—
+[name="Стёпа"]  Сначала объявление!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[Background]
+[bgeffect(name="$eb_sunshine_upperedge",layer=1, x=400,y=100)]
+[Delay(time=1)]
+[Image(image="79_i11", screenadapt="coverall",xScale=1.5, yScale=1.5,y=20,fadetime=0)]
+[ImageTween(yTo=-50,duration=10, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[name="Стёпа"]  Эй — враги там, слышите меня?
+[name="Олег"]  На таком расстоянии, если специально не использовать искусство, услышать невозможно.
+[name="Стёпа"]  Слышно или нет — неважно! Важен ритуал.
+[name="Стёпа"]  Передайте своему главарю Евгению: теперь он может прийти ко мне, Стёпе Разину, и отомстить за три фрегата и один штурмовой корабль, которые я взорвал больше месяца назад!
+[name="Олег"]  Я вижу, их знамя — Первая армейская группа, а не Четвёртая.
+[name="Стёпа"]  ...Тогда тоже неважно, все одинаковые!
+[name="Стёпа"]  Слушайте хорошенько: Первая вы армейская группа или Четвёртая, всё равно — ваш дедушка вернулся с людьми драться!
+[Dialog]
+[Image(image="79_i11", screenadapt="coverall",xScale=1.05, yScale=1.05, fadetime=1)]
+[ImageTween(xScaleTo=1, yScaleTo=1, duration=12, block=false)]
+[Delay(time=2)]
+[name="Олег"]  Эх.
+[name="Щитоносец партизан"]  ...
+[name="Щитоносец партизан"]  На поле боя не стоит всё время ухмыляться и говорить таким легкомысленным тоном.
+[name="Щитоносец партизан"]  Вражеские артиллерийские позиции уже заново пристреляны.
+[name="Щитоносец партизан"]  Сейчас большинство орудий, вероятно, нацелено на нас.
+[name="Стёпа"]  Тогда действуем по первоначальному плану!
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[bgeffect]
+[Background(image="79_g4_interrogate",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$faceoff_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2428_1#2$1")]
+[name="Родион"]  ...О плане Реюниона она что-нибудь сказала?
+[charslot(slot="m",name="avg_npc_2437_1#1$1")]
+[name="Агент Главного управления"]  Нет.
+[charslot(slot="m",name="avg_npc_2428_1#9$1")]
+[name="Родион"]  Способ пробовали?
+[charslot(slot="m",name="avg_npc_2437_1#1$1")]
+[name="Агент Главного управления"]  Пробовали, можете посмотреть сами.
+[Dialog]
+[charslot]
+Родион обернулся и увидел женщину с опущенной головой, казавшуюся безжизненной. Он принюхался, и в нос ударил запах крови.
+[charslot(slot="m",name="avg_npc_2437_1#1$1")]
+[name="Агент Главного управления"]  Ещё какие-нибудь приказания?
+[charslot(slot="m",name="avg_npc_2428_1#2$1")]
+[name="Родион"]  ...Мне ещё нужно проверить баррикады. Здесь всё на вас.
+[name="Родион"]  Осторожнее. Светлана ещё не закончила с ней.
+[charslot(slot="m",name="avg_npc_2437_1#1$1")]
+[name="Агент Главного управления"]  Да.
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot="m",name="avg_npc_2428_1#2$1",posfrom="0,0",posto="150,0",afrom=1,ato=0,duration=1)]
+[Delay(time=1.5)]
+[Blocker(a=1, r=0, g=0, b=0, style="slider", fadetime=1.5, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style="slider", fadetime=1.5, block=true)]
+[PlaySound(key="$d_avg_explosion", volume=1)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[bgeffect(name="$eb_dust_01",layer=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[CameraShake(duration=1.2, xstrength=28, ystrength=22, vibrato=40, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",name="avg_npc_2437_1#1$1")]
+[name="Агент Главного управления"]  Что—
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_armycrowd", volume=1)]
+Взрыв сорвал восточную стену подвала, пыль хлынула в коридор. Агент не успел выкрикнуть второе слово, как ворвавшиеся люди сбили его с ног.
+[PlaySound(key="$d_avg_fight_amb_loop",channel="f", volume=0)]
+[SoundVolume(volume=1, channel="f",fadetime=2)]
+Эти незваные гости были в рабочих куртках и с самодельным оружием, хрипло выкрикивая что-то. Они непрерывным потоком вливались в коридор, толкаясь и шумя.
+[charslot(slot="m",name="avg_npc_2437_1#1$1")]
+[name="Агент Главного управления"]  Сброд! Стойте—
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_armycrowd", volume=1)]
+Грубые руки схватили его за горло. Кто-то рядом уже рылся в шкафу с уликами, торопливо запихивал документы за пазуху и смеялся.
+[StopSound(channel="f", fadetime=2)]
+Но ещё больше шагов остановилось у двери камеры.
+[charslot(slot="m",name="avg_npc_2227_1#1$1")]
+[name="Фанатичный рабочий"]  Турин... Иван Турин...
+[name="Фанатичный рабочий"]  Этот пожар ждал вас слишком долго.
+[Dialog]
+[charslot]
+Милана с трудом открыла глаза. Она встретилась взглядом с пришедшими, но в глубине их чёрных зрачков было что-то ещё, что смотрело на неё их глазами.
+[charslot(slot="m",name="avg_npc_2172_1#1$1",bstart=0.2,bend=0.7)]
+[charslot(slot = "m", action="zoom", poszoom = "0.5,0.5", scale=0.95, duration = 0, isblock=true)]
+[name="Сдержанный аристократ"]  Не нужно её принуждать.
+[Dialog]
+[stopmusic(fadetime=2)]
+[bgeffect(name="$eb_dim_openeye",layer=1)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.8, block=true)]
+[charslot(slot="m",name="avg_npc_2172_1#1$1",bstart=0.2,bend=0.7)]
+[charslot(slot = "m", action="zoom", poszoom = "0.5,0.5", scale=0.95, duration = 0, isblock=true)]
+[delay(time=0.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.8, block=true)]
+[bgeffect]
+[delay(time=0.5)]
+[charslot(slot = "m", action="zoom", poszoom = "0.5,0.5", scale=1, duration =2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+Взгляд расплывался... Вперёд вышла статная женщина. Её кожа была как давно облупившаяся стена: трещины углублялись, кусочки беззвучно опадали, рассыпались в пыль и исчезали в тени—
+[Dialog]
+[PlaySound(key="$d_avg_blacksnakecrawl", volume=0.3)]
+[PlayMusic(intro="$m_avg_dreamrite_intro", key="$m_avg_dreamrite_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_415_1#1$1", bstart=0.2,bend=0.7,duration=1.5)]
+[Delay(time=1.5)]
+Когда Милана снова смогла разглядеть, перед ней уже было новое лицо.
+[Dialog]
+[PlaySound(key="$d_avg_higheldshosfts", volume=1)]
+[charslot(slot = "m", name = "avg_npc_415_1#1$1",bstart=0,bend=0,duration=2.5)]
+[Delay(time=3.5)]
+А люди, пришедшие с ней, словно вовсе не замечали того, что «произошло» с ней, и по-прежнему стояли с опущенными головами.
+[charslot(slot="m",name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Когда... это...
+[charslot(slot="m",name="avg_npc_415_1#1$1")]
+[name="Кошельна"]  Зовите меня Кошельна. Возможно, вы слышите это имя впервые, но вы уже давно всей душой преданы нашему общему пути.
+[name="Кошельна"]  Потому я никогда не покидала вас.
+[charslot(slot="m",name="avg_npc_2225_1#4$1")]
+[name="Милана"]  Кадель...
+[charslot(slot="m",name="avg_npc_415_1#1$1")]
+[name="Кошельна"]  Храбрый человек, жалкий и слабый. Угнетение породило в нём ненависть, но она так и не стала настоящей решимостью.
+[name="Кошельна"]  Он хотел подавить эту яростную ненависть, но миссия вести за собой зверей пала именно на него. Он так и не понял, откуда берётся сила.
+[name="Кошельна"]  А вы понимаете. Вы зашли дальше него.
+[name="Кошельна"]  Потому что вы прекрасно знаете: люди Реюниона так поверили вам меньше чем за три месяца вовсе не потому, что вы умели говорить правильные вещи.
+[name="Кошельна"]  Правильные слова — для грамотных, а грамотные никогда не были большинством. Большинство идёт за гневом, за пламенем, за голосом, который осмелился сказать: «С нас довольно».
+[name="Кошельна"]  (тихо) Да, вы это знаете, Турин это тоже знает...
+[charslot(slot="m",name="avg_npc_2225_1#1$1")]
+[name="Милана"]  ...
+[charslot(slot="m",name="avg_npc_415_1#5$1")]
+[name="Кошельна"]  Я видела многих разных мятежников. Некоторые умели злиться, как вы, некоторые — терпеть, как вы.
+[name="Кошельна"]  Но делать и то и другое одновременно могли только вы.
+[name="Кошельна"]  Вы вели переговоры с императором, с маршалом, с теми, кто заставил бы вас стоять на коленях, и с теми, кого вы сами могли бы поставить на колени, — на равных, терпеливо, вежливо.
+[name="Кошельна"]  Но при этом вы смотрели на Фёдора и представляли, какая рука подписала приказ, отправивший шахтёров в ад, и какая рука отняла жизнь Ивана Турина.
+[charslot(slot="m",name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Я...
+[charslot(slot="m",name="avg_npc_2227_1#6$1")]
+[name="Фанатичный рабочий"]  Турин, у нас мало времени. Нужно уйти отсюда, пока Первая армейская группа не опомнилась.
+[charslot(slot="m",name="avg_npc_415_1#8$1")]
+[name="Кошельна"]  (тихо) Пришло время, «Турин». Заражённым Урсуса нужен твой гнев.
+[name="Кошельна"]  (тихо) Они — лучший хворост, но сами себя они не подожгут... Ты знаешь, как это использовать.
+[charslot(slot="m",name="avg_npc_2225_1#8$1")]
+[name="Милана"]  ...
+[charslot(slot="m",name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Вы пришли... позже, чем я ожидала.
+[name="Милана"]  Но... ещё не слишком поздно.
+[Dialog]
+[charslot]
+Она оперлась о стену и выпрямилась.
+[charslot(slot="m",name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Идём вместе. Пойдём и скажем всем: Иван Турин вернулся.
+[charslot(slot="m",name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Он хотел... чтобы вы запомнили гнев, запомнили единственное имущество бедняков, которое у них не отнимают...
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_recorderglitch", volume=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+Она шагнула вперёд, и свет в коридоре мигнул.
+[charslot(slot="m",name="avg_npc_2225_1#6$1")]
+[name="Милана"]  А затем пусть огонь идёт на Янтарный дворец, на армейские группы, на всё, что давило на нас целую тысячу лет.
+[Dialog]
+[charslot(slot="m",name="avg_npc_415_1#1$1")]
+[name="Кошельна"]  Итак — пусть они услышат твой голос, голос народа...
+[name="Кошельна"]  ...наш голос.
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="79_g7_blockroad_d",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[PlaySound(key="$rungeneral", volume=1)]
+[charslot(slot="m",name="avg_npc_2227_1#4$1",posfrom="-160,0",posto="0,0",duration=0.6)]
+[Delay(time=0.7)]
+[name="Растерянный рабочий"]  Антоша, есть вести о Турине!
+[charslot(slot="m",name="avg_npc_2157_1#6$1")]
+[name="Антоша"]  Какие?
+[charslot(slot="m",name="avg_npc_2227_1#4$1")]
+[name="Растерянный рабочий"]  Его спасли рабочие, потом он собрал остатки Реюниона в городе, занял завод и призвал всех идти туда и противостоять Первой армейской группе и Главному управлению.
+[name="Растерянный рабочий"]  Многие в городе пошли за ним.
+[charslot(slot="m",name="avg_npc_2157_1#5$1")]
+[name="Антоша"]  Он что-нибудь сказал?
+[charslot(slot="m",name="avg_npc_2227_1#3$1")]
+[name="Растерянный рабочий"]  Он... велел нам сохранять гнев. Дряхлая империя обречена быть уничтоженной тем, что сильнее.
+[charslot(slot="m",name="avg_npc_2228_1#7$1")]
+[name="Нерешительный рабочий"]  Антоша, может, нам сначала найти Турина?
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="Антоша"]  ...Погоди.
+[charslot(slot="m",name="avg_npc_2228_1#7$1")]
+[name="Нерешительный рабочий"]  Что? Если с Туриным снова что-то случится, это подорвёт наш дух.
+[charslot(slot="m",name="avg_npc_2157_1#7$1")]
+[name="Антоша"]  В книгах Турина никогда не было таких слов.
+[name="Антоша"]  Он говорил, что империя рухнет под тяжестью собственной структуры, что аристократы своими руками сплели себе петлю. Он никогда не учил людей тому, что есть некая «сила сильнее».
+[name="Антоша"]  Скажем всем не делать лишних движений и продолжать держать баррикады. Мы стоим здесь не для того, чтобы слепо следовать за каким-то именем—
+[charslot(slot="m",name="avg_npc_2157_1#1$1")]
+[name="Антоша"]  А ради истин, которые остаются незыблемыми даже без Турина.
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

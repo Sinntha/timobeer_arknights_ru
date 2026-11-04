@@ -1,0 +1,86 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 6 (после боя)
+[Background(image="bg_infirmary", fadetime=1)]
+[Delay(time=1)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8, crossfade=1.5)]
+[Delay(time=1)]
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Стоять, Кальцит.
+[Character]
+[Dialog]
+[Character(name="char_003_kalts_1",fadetime=1)]
+[Delay(time=2)]
+[name="Кальцит"]  Ты вернулась.
+[name="Кальцит"]  Итак, ты всё обдумала или...?
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=1)]
+[name="Скади"]  Ты же этого хотела, верно? Забирай.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[name="Кальцит"]  Ты действовала самовольно, без разрешения.
+[name="Кальцит"]  Я не вмешиваюсь в личные дела наших оперативников и не спрашиваю, чем они занимались в свободное время, — пока они не пятнают репутацию Родос Айленда.
+[name="Кальцит"]  Надеюсь, что бы ты ни натворила, это не будет стоить тебе места на Родос Айленде, Скади.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=1)]
+[name="Скади"]  Я пришла не за твоими колкостями. Я прекрасно знаю правила. Тебе было от меня кое-что нужно, и мне кое-что нужно от тебя.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[name="Кальцит"]  И что же тебе от меня нужно?
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=1)]
+[name="Скади"]  Информация.
+[Image(image="ac1_ex6",x=-100, y=0, xScale=1.2, yScale=1.2, fadetime=1)]
+[ImageTween(xFrom=-100, yFrom=0, xTo=0, yTo=0, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1.2, yScaleTo=1.2, duration=10, block=false)]
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[name="Кальцит"]  Считаешь, информация, которой я владею, стоит не больше этого ключа?
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=1)]
+[name="Скади"]  Я могу раздавить этот камень в ладони в один миг. Уверена, ты этого не хочешь.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[name="Кальцит"]  Что мне известно, так это то, что ты отправилась в Дьювилль в Казимеже под предлогом задания и даже вступила в конфликт с другой оперативницей.
+[name="Кальцит"]  Она промолчала о случившемся и там, и на Родос Айленде ради тебя. Но на самом деле никакого такого задания я тебе не давала.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[name="Кальцит"]  Хм? Ядро уже наполнено кровью. Это не твоя кровь. Ты бы не посмела пролить собственную кровь на эту землю.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=1)]
+[name="Скади"]  Это кровь Грани.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[name="Кальцит"]  Ты уже проделывала такое...
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=1)]
+[name="Скади"]  Я верну ей долг. Можешь не напоминать.
+[name="Скади"]  Я знаю, что это то, что тебе нужно. Ключ, ядро, блок памяти... что бы это ни было. Мне нужно просто его добыть.
+[name="Скади"]  «Череп», «Огненное Лёгкое», «Жёлтый Смог»... Я разобралась со всеми.
+[name="Скади"]  Иначе они наверняка заполучили бы этот предмет. Ты не смогла бы с ними торговаться, ведь у тебя нет того, чего они хотят.
+[name="Скади"]  Тебе нужен этот «камень», а мне — информация, которой владеешь ты.
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Image(fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=false)]
+[Delay(time=1)]
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[name="Кальцит"]  Что за фарс. Мне не нужны эти... составляющие... чтобы видеть картину целиком.
+[name="Кальцит"]  Ты связана с Родос Айлендом контрактом, и точно так же ты связана со мной.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=1)]
+[name="Скади"]  Ты даёшь мне то, что нужно мне, а я даю тебе то, что нужно тебе.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[name="Кальцит"]  Я редко вижу тебя такой напористой. Где твои обычные лень и язвительность?
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Ты хочешь узнать, откуда взялся ориджиниевый нейротоксин Спектера.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  ...Откуда ты узнала?
+[Character(name="char_003_kalts_1")]
+[Delay(time=0.3)]
+[Character]
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[name="Кальцит"]  (эгирский) «Охотников Бездны связывает кровь».
+[Background(fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=false)]
+[name="Кальцит"]  Нет ничего, чего бы я не знала.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  ...Давай информацию.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=2)]
+[Background(image="bg_infirmary", fadetime=1)]
+[name="Кальцит"]  Хорошо. Если будешь выполнять каждый мой приказ, я, возможно, даже решу тебе помочь. Условие — выполнять каждый мой приказ.
+[Character(name="char_263_skadi#2",name2="char_003_kalts_1",focus=1)]
+[name="Скади"]  Я подчиняюсь только тем, кто заслуживает доверия.
+[Character(name="char_003_kalts_1")]
+[name="Кальцит"]  Я никогда не отказываюсь от своих слов.
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(fadetime=3,block=true)]
+[Image]
+

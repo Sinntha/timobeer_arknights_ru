@@ -1,0 +1,1116 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[UseWhiteLoadingMaskOnFinish]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[playMusic(intro="$wallemdtown_intro",key="$wallemdtown_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[Sticker(id="st1", text="Хуэйцзе:", x=200,y=170, alignment="left", size=24, delay=0.04, width=700)]
+[Sticker(id="st2", text="Я долго думал, как рассказать тебе конец этой истории, и лишь когда совсем застрял перед чистым листом, понял: эта история ещё далеко не окончена.", multi = true, x=200,y=280, alignment="left", size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="\nПоэтому, желая рассказать тебе о том, что я пережил на этом пути, нам придётся вернуться к началу истории.", x=300,y=320, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", duration=1)]
+[Sticker(id="st1", duration=1)]
+[Delay(time=1)]
+[Sticker(id="st2", text="В последнее время я часто вспоминаю наше общее детство. Хотя те дни были омрачены, в них есть и то, по чему я тоскую.", multi = true, x=200,y=260, alignment="left", size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="\nНапример, когда я заслонял тебя от тех хулиганов, я действительно верил, что смогу легко стать великим воином.", x=300,y=300, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="\nВозможно, именно тогда в моём сердце проросло то маленькое «чувство справедливости».", x=300,y=340, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", duration=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+Я непрестанно спрашиваю себя — что же мы принесли этой земле?
+Хуэйцзе, мне приснился сон.
+[dialog]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.18, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.18, fadetime=0.1)]
+[Image(image="79_i23", screenadapt="coverall", xScale=1.2, yScale=1.2,x=50,y=-60,fadetime=0)]
+[ImageTween(xTo=-50,duration=20, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot]
+Мне снилось, что мы стоим вместе со множеством людей, и люди зовут наши имена, словно так было всегда.
+Зажечь пожар, поднять знамя... всё это, конечно, радует, но не годится в качестве точки в конце.
+Слишком легко заставить людей поверить, что победа была такой же естественной, и упустить из виду все извилины, уродства и жестокие жертвы нашего пути.
+...А затем забыть, что мы пережили долгую революцию, шедшую изнутри наружу.
+Трудность победы заставляла меня не раз сомневаться, не была ли она просто случайностью, не станет ли «удача» последней сноской этой истории.
+Сейчас я не могу дать ответ. Мне нужно больше времени — пусть люди через тысячу лет скажут мне.
+Оказывается, в Сент-Стидбурге мы зажгли не только огонь из моего сердца.
+Под этой мёрзлой землёй есть пламя, которое нельзя погасить, и оно навсегда принадлежит каждому на этой земле.
+Мы пережили самую холодную зиму, и теперь пора вернуть себе смелость открыть окно.
+[Dialog]
+[curtain(direction = 0,fillfrom = 0.18,fillto = 0.01, fadetime=2)]
+[curtain(direction = 4,fillfrom = 0.18,fillto = 0.01, fadetime=2)]
+[Image(image="79_i23", screenadapt="coverall", fadetime=2)]
+[Delay(time=3)]
+[curtain]
+Открой окно и посмотри.
+Весна уже пришла.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Image]
+[Delay(time=2)]
+[name="Милана"]  ...Наше правительство обещает посвятить себя решению нынешнего кризиса ориджиниума...
+[name="Милана"]  ...Новый закон даст каждому урсусцу возможность...
+[Dialog]
+[Delay(time=2)]
+[Background(image="73_g14_prolocutoroffice",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Время почти подошло. Ты ещё не готова?
+[charslot(slot="m", name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Госпожа Людмила, спасибо, что помогли с речью, но теперь мне нужна ещё одна услуга...
+[charslot(slot="m", name="avg_npc_2225_1#4$1")]
+[name="Милана"]  В последнее время зрение у меня будто становится всё хуже... Может, в этой комнате найдётся подходящие очки?
+[charslot(slot="m", name="avg_1502_crosly_1#9$1")]
+[name="Людмила"]  В такой момент — и вдруг потеряла уверенность...
+[name="Людмила"]  Ты представляешь, кто будет сидеть в зале?
+[charslot(slot="m", name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Представители горожан из разных районов Сент-Стидбурга, лидеры разных профессий.
+[charslot(slot="m", name="avg_1502_crosly_1#9$1")]
+[name="Людмила"]  А ещё старые упрямцы, не желающие выпускать из рук свои интересы, и ретрограды, ждущие, когда Иван Турин опозорится.
+[charslot(slot="m", name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Общее у них одно: все они — люди, которым мы должны дать уверенность.
+[charslot(slot="m", name="avg_1502_crosly_1#5$1")]
+[name="Людмила"]  Меня больше волнует... ты уверена, что не хочешь переодеться?
+[charslot(slot="m", name="avg_npc_2225_1#7$1")]
+[name="Милана"]  Нет... не нужно.
+[name="Милана"]  Пора напомнить людям, что не только те, кто одевается богато и красиво, имеют право представлять эту страну.
+[charslot(slot="m", name="avg_1502_crosly_1#9$1")]
+[name="Людмила"]  ...Ну, хорошо.
+[name="Людмила"]  Держись бодрее. Ты представитель Реюниона, герой, свергнувший старую империю. Незачем нервничать.
+[charslot(slot="m", name="avg_npc_2225_1#8$1")]
+[name="Милана"]  Ты... права...
+[name="Милана"]  (глубокий вдох)
+[charslot(slot="m", name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Я пойду...
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  ...Милана.
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Что?
+[charslot(slot="m", name="avg_1502_crosly_1#6$1")]
+[name="Людмила"]  Только одно, последнее...
+[name="Людмила"]  После того как я выйду за эту дверь, имени «Милана» больше не будет.
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Так и должно быть.
+[charslot(slot="m", name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Это обещание, которое я когда-то дала.
+[name="Милана"]  ...Ради нашего общего друга.
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  ...
+[charslot(slot="m", name="avg_1502_crosly_1#10$1")]
+[name="Людмила"]  Здравствуй, «Иван Турин».
+[charslot(slot="m", name="avg_npc_2225_1#3$1")]
+[name="Иван Турин"]  Здравствуй. Мой единомышленник.
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$hope_g2_intro", key="$hope_g2_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Sticker(id="st1",multi=true, text="\n\nСегодня я стою здесь и объявляю всем о создании нового правительства, принадлежащего каждому урсусцу.",x=240, y=150,alignment="left",delay=0.04,width=750,isblock=true)]
+[Sticker(id="st2",multi=true, text="\n\nВозрождение этой страны происходит на фоне огромного кризиса, и мы сталкиваемся с невиданными вызовами.",x=240, y=260,delay=0.04,alignment="left",width=750,isblock=true)]
+[Sticker(id="st3",multi=true, text="\n\nМы не обещаем, что такой кризис удастся легко разрешить. Прежде всего нужно сказать, с каким настроем мы встретим эту угрозу.",x=240, y=370, alignment="left",delay=0.04,width=750,isblock=true)]
+[Sticker(id="st1", duration=2, block=false)]
+[Sticker(id="st2", duration=2, block=false)]
+[Sticker(id="st3", duration=2, block=false)]
+[delay(time=2)]
+[Sticker(id="st1",multi=true, text="\n\nПервая незыблемая заповедь: это страна, принадлежащая всем.",x=240, y=130,alignment="left",delay=0.04,width=750,isblock=true)]
+[Sticker(id="st2",multi=true, text="\n\nНикто не получит больше прав, чем другой, из-за своего происхождения.",x=240, y=230,delay=0.04,alignment="left",width=750,isblock=true)]
+[Sticker(id="st3",multi=true, text="\n\nЗакон Урсуса больше не будет по-разному относиться к Заражённым и обычным людям. Труд, который мы вместе вложили в строительство Урсуса, дал нам одно имя.",x=240, y=330, alignment="left",delay=0.04,width=750,isblock=true)]
+[Sticker(id="st4",multi=true, text="\n\nЕсли на наших собратьев обрушится несчастье, это ни в коем случае не сделает их личности низкими. Это первое, о чём мы должны договориться.",x=240, y=430, alignment="left",delay=0.04,width=750,isblock=true)]
+[Sticker(id="st1", duration=2, block=false)]
+[Sticker(id="st2", duration=2, block=false)]
+[Sticker(id="st3", duration=2, block=false)]
+[Sticker(id="st4", duration=2, block=false)]
+[delay(time=2)]
+[Sticker(id="st1",multi=true, text="\n\nНапротив, мы должны активно помогать страдающим от болезни собратьям и искать лекарство от недуга, наиболее распространённого на этой земле.",x=240, y=150,alignment="left",delay=0.04,width=750,isblock=true)]
+[Sticker(id="st2",multi=true, text="\n\nНовый Урсус будет активно искать сотрудничества внутри и вовне, чтобы вместе противостоять беспрецедентной угрозе истощения ориджиниумных жил.",x=240, y=260,delay=0.04,alignment="left",width=750,isblock=true)]
+[Sticker(id="st3",multi=true, text="\n\nПока мы не найдём средство решить проблему и пока «равенство» не перестанет быть пустым понятием и не укоренится глубоко в каждом уголке этой земли.",x=240, y=370, alignment="left",delay=0.04,width=750,isblock=true)]
+[Sticker(id="st1", duration=2, block=false)]
+[Sticker(id="st2", duration=2, block=false)]
+[Sticker(id="st3", duration=2, block=false)]
+[delay(time=1)]
+[stopmusic(fadetime=2)]
+[delay(time=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="31_g3_mini12_farmland",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$newhope01_intro",key="$newhope01_loop", volume=0.6)]
+[charslot(slot="l", name="avg_1019_siege2_1#1$1",focus="r")]
+[charslot(slot="r", name="avg_npc_210_1#1",focus="r")]
+[name="Иолетта Рассел"]  Признаюсь, когда я впервые услышал приглашение на такие переговоры, то счёл его нелепой шуткой.
+[charslot(slot="r", name="avg_npc_210_1#6",focus="r")]
+[name="Иолетта Рассел"]  Рада вас видеть, уважаемый председатель Вина.
+[charslot(slot="l", name="avg_1019_siege2_1#8$1",focus="l")]
+[name="Вина"]  Наслышан о вас, госпожа Рассел.
+[name="Вина"]  Несколько лет назад парламент получил ваше поздравительное письмо. Благодарю за поддержку; народ Виктории дорожит дружбой с вами.
+[charslot(slot="r", name="avg_npc_210_1#1",focus="r")]
+[name="Иолетта Рассел"]  При возможности мне очень хотелось бы лично посетить вашу страну.
+[charslot(slot="r", name="avg_npc_210_1#3",focus="r")]
+[name="Иолетта Рассел"]  Мне тоже любопытно, какова погода в Лондиниуме ранней весной?
+[charslot(slot="l", name="avg_1019_siege2_1#8$1",focus="l")]
+[name="Вина"]  В целом неплохая. Только весенние дожди, которые льют не переставая, изрядно раздражают.
+[charslot(slot="l", name="avg_1019_siege2_1#7$1",focus="l")]
+[name="Вина"]  Климат становится всё влажнее. Скоро очередная партия мелких деталей на складах покроется ржавчиной.
+[charslot(slot="r", name="avg_npc_210_1#2",focus="r")]
+[name="Иолетта Рассел"]  Но если эти дожди не напоят пшеничные поля, казимирское зерно, боюсь, торговцы взвинтят до небесных цен.
+[charslot(slot="r", name="avg_npc_210_1#4",focus="r")]
+[name="Иолетта Рассел"]  Разные страны по-разному требуют от этой земли, но ко всем, кто на ней живёт, она одинаково жестока.
+[name="Иолетта Рассел"]  Поэтому мне ещё любопытнее: как наш уважаемый друг собирается добиться успеха этих переговоров?
+[dialog]
+[charslot]
+[Decision(options="Как вы и сказали—;эта земля сурова к каждому.", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="Достигнув этого согласия...;полагаю, наш разговор не будет слишком трудным.", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="Снова встретились, Вина.;Давно не виделись, госпожа Великий рыцарь.", values="1;2")]
+[Predicate(references="1;2")]
+[PlaySound(key="$d_avg_armyboots_walk", volume=1)]
+[charslot(slot="m", name="avg_188_helage_1#2$1",duration=1)]
+[Delay(time=2)]
+[charslot(slot="m", name="avg_1019_siege2_1#8$1")]
+[name="Вина"]  Господин Хеллагур, так вы представитель Урсуса.
+[charslot(slot="m", name="avg_188_helage_1#2$1")]
+[name="Хеллагур"]  Нет... Я лишь телохранитель доктора {@nickname}.
+[name="Хеллагур"]  Наш лидер пока не может вырваться из бесконечных дел, поэтому полностью доверил переговоры Доктору.
+[dialog]
+[charslot]
+[Decision(options="Я польщён.;Поэтому от всего сердца надеюсь, что сегодняшние переговоры принесут результат.", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m", name="avg_npc_210_1#5")]
+[name="Иолетта Рассел"]  Любопытно. Вы выбрали это место для переговоров наверняка не случайно?
+[name="Иолетта Рассел"]  Сотни лет Казимир и Урсус яростно борются за эту землю. Каждая травинка здесь полита кровью воинов обеих сторон.
+[charslot(slot="m", name="avg_npc_210_1#4")]
+[name="Иолетта Рассел"]  Урсусский генерал, должно быть, чувствует это особенно остро?
+[charslot(slot="m", name="avg_188_helage_1#9$1")]
+[name="Хеллагур"]  Конечно...
+[name="Хеллагур"]  Но я хочу, чтобы вы знали: этой зимой народ Урсуса победил силу, существовавшую более тысячи лет.
+[name="Хеллагур"]  Мы готовы верить, что совместными усилиями двух стран мы сможем преодолеть и эту вековую ненависть.
+[charslot(slot="m", name="avg_188_helage_1#1$1")]
+[name="Хеллагур"]  Ради нашего общего, более далёкого будущего.
+[dialog]
+[charslot]
+[Decision(options="Истощение главной жилы Короса окажет огромное влияние на всю Терру.;Ни одна страна не справится с этой проблемой в одиночку.", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="Поэтому мы надеемся...", values="1")]
+[Predicate(references="1")]
+[Decision(options="В масштабах всей Терры—;создать механизм сотрудничества в распределении ресурсов ориджиниума.", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m", name="avg_1019_siege2_1#4$1")]
+[name="Вина"]  Доктор, вы имеете в виду всю Терру?
+[charslot(slot="m", name="avg_npc_210_1#4")]
+[name="Иолетта Рассел"]  Друг Родос Айленда, вы должны понимать вес этих слов.
+[dialog]
+[charslot]
+[Decision(options="Мы хорошо понимаем трудность этого плана.;Поэтому вы двое — первые, кого мы сочли возможными партнёрами.", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m", name="avg_npc_210_1#1")]
+[name="Иолетта Рассел"]  Доктор {@nickname}, при последней встрече вы произвели на меня впечатление политически мыслящего торговца.
+[charslot(slot="m", name="avg_npc_210_1#2")]
+[name="Иолетта Рассел"]  Вы должны знать: когда некогда сильная страна слабеет, «мир» нельзя получить, просто попросив.
+[dialog]
+[charslot]
+[Decision(options="Мы приносим приглашение к равному сотрудничеству.;А «мир» станет результатом этого сотрудничества.", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m", name="avg_npc_210_1#1")]
+[name="Иолетта Рассел"]  Вы уверены, что сможете добиться такого сотрудничества?
+[dialog]
+[charslot]
+[Decision(options="Конечно.", values="1")]
+[Predicate(references="1")]
+[dialog]
+[charslot]
+[Decision(options="Родос Айленд всегда верил—;в инстинкт, глубоко запечатлённый в нашей цивилизации.", values="1;2")]
+[Predicate(references="1;2")]
+[dialog]
+[charslot]
+[Decision(options="Мы всегда способны преодолеть близорукость, эгоизм и подлость.;И выбрать трудный, но правильный путь.", values="1;2")]
+[Predicate(references="1;2")]
+[dialog]
+[charslot]
+[Decision(options="Просто мы видели слишком много таких примеров.", values="1")]
+[Predicate(references="1")]
+[dialog]
+[charslot]
+[Decision(options="Будь то сияние, пронзившее мрак над Лондиниумом.;Или пожар, вспыхнувший этой зимой в Сент-Стидбурге...", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m", name="avg_188_helage_1#2$1")]
+[name="Хеллагур"]  ...
+[charslot(slot="m", name="avg_1019_siege2_1#8$1")]
+[name="Вина"]  Мы тоже верим.
+[dialog]
+[charslot]
+[Decision(options="Конечно, помимо этих основных убеждений.", values="1")]
+[Predicate(references="1")]
+[dialog]
+[charslot]
+[Decision(options="Родос Айленд готов вместе с новым правительством Урсуса проявить искренность в сотрудничестве.", values="1")]
+[Predicate(references="1")]
+[dialog]
+[charslot]
+[Decision(options="Урсус поделится с другими странами технологией «Саркофага».", values="1")]
+[Predicate(references="1")]
+[dialog]
+[charslot]
+[Decision(options="А Родос Айленд... поделится с другими странами знаниями об ориджиниуме.", values="1")]
+[Predicate(references="1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="79_g5_smeltingfac",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="Молодой рабочий"]  Неужели эти ориджиниумные руды правда подарили нам казимирцы? Разве мы не смертельные враги?
+[name="Пожилой рабочий"]  Разве можно просто взять и подарить? Мы тоже отдаём им зерно и чистое золото в обмен.
+[name="Пожилой рабочий"]  В будущем мы ещё будем торговать с Рим-Биллитоном и Янем... Вот уж действительно, живёшь долго — всякое увидишь. Оказывается, и урсусцы умеют так торговать.
+[charslot]
+[name="Молодой рабочий"]  Если уж о чудесах — то... Эх, я раньше и представить не мог, что мы будем работать вместе с Заражёнными.
+[name="Заражённый рабочий"]  Ты против? Заражённые и обычные люди получают одинаковую плату за одинаковый труд — так сказал Турин.
+[charslot(slot="m", name="avg_4207_branch_1#1$1")]
+[name="Веточки"]  Брат, брат... дяденьки, не ссорьтесь.
+[charslot(slot="m", name="avg_4207_branch_1#2$1")]
+[name="Веточки"]  Все... мы... товарищи... партнёры.
+[charslot]
+[name="Молодой рабочий"]  Не поймите неправильно! Я не хотел ссориться.
+[name="Молодой рабочий"]  Я просто беспокоюсь, вы же больны, хватит ли вам сил?
+[name="Заражённый рабочий"]  Не беспокойся, мы только живём и едим отдельно, а работаем так же усердно.
+[name="Молодой рабочий"]  Верно... Турин сказал, что некоторая изоляция необходима.
+[name="Молодой рабочий"]  Но это не значит, что мы не можем пожать друг другу руку.
+Две руки крепко сжались.
+Двое рабочих были в одинаковой форме, единственное отличие — у одного на левом плече был маленький красный узел в форме креста.
+[name="Пожилой рабочий"]  Слушайте, кто-нибудь починит вывеску у входа на наш завод? Сколько дней прошло с конца войны, а она всё сломана.
+[charslot]
+[name="Молодой рабочий"]  «Императорский завод по очистке ориджиниума Сент-Стидбурга»... Но теперь императора нет. Может, и заводу пора сменить название?
+Веточки вспомнила тех, кто исчез на войне, вспомнила лица — одни чёрные, другие чистые, но все когда-то живые.
+Наконец, когда мысли на миг уплыли, её взгляд остановился на небольшом расстоянии за спинами людей.
+Там молча стояла чёрная фигура.
+[charslot(slot="m", name="avg_4207_branch_1#1$1")]
+[name="Веточки"]  У меня... у меня есть предложение.
+[name="Веточки"]  Это... первый завод, открывшийся в новом Урсусе.
+[charslot(slot="m", name="avg_4207_branch_1#4$1")]
+[name="Веточки"]  Название завода может быть...
+[charslot(slot="m", name="avg_4207_branch_1#2$1")]
+[name="Веточки"]  «Релькин»?
+[stopmusic(fadetime=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="79_g17_road_d",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$warm_intro", key="$warm_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_2157_1#4$1")]
+[name="Антоша"]  ...Ты всё-таки пришла.
+[charslot]
+[Dialog]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot="m", name="avg_4245_alga_1#1$1",duration=1.2)]
+[Delay(time=1.5)]
+[name="Ольга"]  Да... Если это твой последний день в Сент-Стидбурге, я не нахожу причины не прийти проводить тебя.
+[charslot(slot="m", name="avg_npc_2157_1#4$1")]
+[name="Антоша"]  Не волнуйся, просто я не знаю, сколько пробуду на юге. Многие друзья согласились уехать со мной, и я этим вполне доволен.
+[name="Антоша"]  Я слышал, Турин дал тебе должность, Ольга.
+[charslot(slot="m", name="avg_4245_alga_1#3$1")]
+[name="Ольга"]  Работа во вновь созданном министерстве иностранных дел. Турину нужны языковые знания и кругозор старой аристократки.
+[charslot(slot="m", name="avg_npc_2157_1#4$1")]
+[name="Антоша"]  ...Уверен, ты справишься прекрасно.
+[charslot(slot="m", name="avg_npc_2157_1#9$1")]
+[name="Антоша"]  Судя по тому, что ты смогла удержаться и не свернуть шею такой, как Елизавета... я понял, что ты прирождённый дипломат.
+[charslot(slot="m", name="avg_4245_alga_1#1$1")]
+[name="Ольга"]  Антоша...
+[name="Ольга"]  Сегодня я подписала соглашение о передаче семейного поместья и земель. Турин сказала, что собирается перестроить его в новый университет.
+[name="Ольга"]  Я выдвинула лишь одно требование: чтобы новый университетский корпус назывался «Петрашевский».
+[name="Ольга"]  А у входа в кампус поставят памятник.
+[charslot(slot="m", name="avg_npc_2157_1#5$1")]
+[name="Антоша"]  ...Вот зачем ты несколько дней назад брала мои записи?
+[charslot(slot="m", name="avg_4245_alga_1#1$1")]
+[name="Ольга"]  Да.
+[charslot(slot="m", name="avg_4245_alga_1#14$1")]
+[name="Ольга"]  Когда будущие студенты войдут в этот кампус, они увидят все имена тех, кто когда-то сражался вместе с тобой.
+[charslot(slot="m", name="avg_npc_2157_1#6$1")]
+[name="Антоша"]  ...
+[charslot(slot="m", name="avg_npc_2157_1#4$1")]
+[name="Антоша"]  Это замечательно... Я очень благодарен...
+[charslot(slot="m", name="avg_4245_alga_1#12$1")]
+[name="Ольга"]  Я лишь предложила. Турин сказала, что очень хочет, чтобы люди помнили настоящих героев.
+[charslot(slot="m", name="avg_npc_2157_1#2$1")]
+[name="Антоша"]  Турин...
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[charslot]
+[Background(image="72_g11_schoolway",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_2157_1#2$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_2225_1#4$1",focus="r")]
+[name="Милана"]  ...Можешь ещё раз подумать, Антоша?
+[name="Милана"]  Я хотела, чтобы ты и дальше возглавлял профсоюз. Рабочие Сент-Стидбурга доверяют тебе, ты можешь сделать для новой страны больше.
+[charslot(slot="l", name="avg_npc_2157_1#2$1",focus="l")]
+[name="Антоша"]  Спасибо за доверие, Турин, но я не готов.
+[charslot(slot="l", name="avg_npc_2157_1#5$1",focus="l")]
+[name="Антоша"]  Недавно моя поспешность обошлась дорого... слишком дорого.
+[name="Антоша"]  Твои способности и опыт больше подходят, чтобы вести профсоюз, а я хочу как можно скорее вернуться к производству.
+[charslot(slot="l", name="avg_npc_2157_1#4$1",focus="l")]
+[name="Антоша"]  Поэтому прошу тебя позволить мне взять нескольких друзей и отправиться на юг осваивать землю.
+[charslot(slot = "r", name = "avg_npc_2225_1#1$1",focus="r")]
+[name="Милана"]  ...Просьбу героя революции мне трудно отклонить.
+[name="Милана"]  В таком случае, возможно, ты и не захочешь вступать в партию, которую мы сейчас создаём.
+[charslot(slot="l", name="avg_npc_2157_1#3$1",focus="l")]
+[name="Антоша"]  Прости мою дерзость, Турин...
+[name="Антоша"]  У меня всегда был вопрос, на который я не нашёл ответа ни в одной книге.
+[charslot(slot = "r", name = "avg_npc_2225_1#3$1",focus="r")]
+[name="Милана"]  Спрашивай.
+[charslot(slot="l", name="avg_npc_2157_1#5$1",focus="l")]
+[name="Антоша"]  Мой дед был арендатором, он убил помещика, угнетавшего его, а потом получил титул графа.
+[name="Антоша"]  С детства я видел, как угнетённый человек, поднявшись, тут же принимается губить других угнетённых, да ещё и с большей жестокостью.
+[charslot(slot="l", name="avg_npc_2157_1#1$1",focus="l")]
+[name="Антоша"]  А что Реюнион? Что Заражённые? Когда они получат меч и закон, как они будут обходиться с новыми угнетёнными?
+[charslot(slot = "r", name = "avg_npc_2225_1#1$1",focus="r")]
+[name="Милана"]  ...
+[charslot(slot="l", name="avg_npc_2157_1#2$1",focus="l")]
+[name="Антоша"]  Если мы примем имперскую машину, управлявшую Урсусом, и лишь покрасим её в красный цвет — ради чего тогда все эти жертвы?
+[charslot(slot = "r", name = "avg_npc_2225_1#3$1",focus="r")]
+[name="Милана"]  ...Друг, я могу нарисовать тебе мечту.
+[name="Милана"]  Однажды каждый сможет вносить по способностям и получать по потребностям, и новых угнетённых больше не будет.
+[charslot(slot = "r", name = "avg_npc_2225_1#1$1",focus="r")]
+[name="Милана"]  Но я также должна рассказать тебе факт. Сейчас эта машина нужна нам, чтобы смести упорствующих аристократов и защитить угнетённых.
+[name="Милана"]  Поэтому ты нужен мне, ты нужен Реюниону.
+[name="Милана"]  Потому что вы — каждый урсусец — единственный ответ, благодаря которому Реюнион продержался до сих пор.
+[charslot(slot="l", name="avg_npc_2157_1#2$1",focus="l")]
+[name="Антоша"]  ...Я хочу верить тебе, Турин, но будущее?
+[charslot(slot = "r", name = "avg_npc_2225_1#3$1",focus="r")]
+[name="Милана"]  Антоша, мой юный друг, разве ты забыл...
+[name="Милана"]  Ты и есть человек будущего. Я знаю, ты не позволишь тем, кто придёт после, забыть наши идеалы.
+[name="Милана"]  Я тоже в тебя верю.
+[charslot(slot="l", name="avg_npc_2157_1#4$1",focus="l")]
+[name="Антоша"]  ...
+[stopmusic(fadetime=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Background(image="79_g17_road_d",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[name="???"]  Эй—
+[charslot(slot="m", name="avg_npc_2157_1#1$1")]
+[name="Антоша"]  ...Кто там?
+[Dialog]
+[playMusic(intro="$tech_intro", key="$tech_loop", volume=0.6)]
+[charslot(slot = "m",posfrom = "0,0", posto = "-200,0",duration = 1)]
+[delay(time=0.5)]
+[charslot(slot="r",name="avg_4224_turdus_1#2$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m", name="avg_npc_2157_1#4$1",focus="m")]
+[name="Антоша"]  Уксик?! Я же говорил, не пугай так—
+[charslot(slot="r",name="avg_4224_turdus_1#2$1",focus="r")]
+[name="Уксик"]  А что, мне скучно. У всех куча вещей, которые надо собрать, без шума совсем неинтересно.
+[charslot(slot="m", name="avg_npc_2157_1#5$1",focus="m")]
+[name="Антоша"]  ...Я отправлю тебя обратно на Родос Айленд.
+[charslot(slot="r",name="avg_4224_turdus_1#3$1",focus="r")]
+[name="Уксик"]  Мы снова встретились всего несколько дней назад, и ты уже от меня отказываешься...?
+[charslot(slot="m", name="avg_npc_2157_1#3$1",focus="m")]
+[name="Антоша"]  Нет— эх...
+[Dialog]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot="m", name="avg_npc_2157_1#3$1",posfrom="-200,0",posto="-150,0",afrom=1,ato=0,duration=0.5)]
+[charslot(duration=0.5)]
+[delay(time=1.2)]
+[PlaySound(key="$d_avg_clothmovementsp", volume=1)]
+Он шагнул вперёд и обнял худенькую девочку, и девочка затихла, её рука легла на спину Антоши.
+[name="Антоша"]  Родос Айленд... они хорошо к тебе относятся?
+[name="Уксик"]  ...Очень хорошо. Мне там нравится, каждый день я знакомлюсь с новыми друзьями.
+[name="Уксик"]  Доктор и все остальные заботятся обо мне.
+[Dialog]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",name="avg_npc_2157_1#4$1",duration=0.5,posfrom = "0,-50", posto = "0,0")]
+[Delay(time=0.5)]
+[name="Антоша"]  Вот и хорошо...
+[name="Антоша"]  Обещай мне, что всегда будешь здоровенькой, а когда немного поправишься, приедешь ко мне в Спивайполь, хорошо?
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="Уксик"]  Ага...
+[charslot(slot="m", name="avg_npc_2157_1#2$1")]
+[name="Антоша"]  Кстати, а госпожа Душевин? Ты же должна была за ней присматривать.
+[charslot(slot="m",name="avg_4224_turdus_1#1$1")]
+[name="Уксик"]  Она в отряде, я пойду её проведаю.
+[charslot(slot="m", name="avg_npc_2157_1#4$1")]
+[name="Антоша"]  Хорошо, я тоже скоро приду.
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot="m",name="avg_4224_turdus_1#1$1",posfrom="0,0",posto="200,0",afrom=1,ato=0,duration=1.2)]
+[Delay(time=1.5)]
+[charslot]
+[charslot(slot="m", name="avg_4245_alga_1#5$1")]
+[name="Ольга"]  Госпожа Душевин? Эта фамилия...
+[charslot(slot="m", name="avg_npc_2157_1#11$1")]
+[name="Антоша"]  Да... Матвей Душевин, его мать.
+[charslot(slot="m", name="avg_4245_alga_1#6$1")]
+[name="Ольга"]  Антоша, я... прости...
+[charslot(slot="m", name="avg_npc_2157_1#10$1")]
+[name="Антоша"]  Не извиняйся. Ни район Катога, ни группа Петрашевского — не твоя вина...
+[charslot(slot="m", name="avg_npc_2157_1#11$1")]
+[name="Антоша"]  Госпожа Душевин — самый сильный человек, кого я видел, и её сын унаследовал от неё всё.
+[name="Антоша"]  В молодости её мужа убили грабители, а в старости она потеряла единственного ребёнка...
+[charslot(slot="m", name="avg_npc_2157_1#2$1")]
+[name="Антоша"]  Заботиться о ней — моё самое большое желание... Поэтому несколько дней назад я много с ней говорил.
+[name="Антоша"]  В конце я попытался спросить госпожу: «Если вы позволите, я хотел бы называть вас в дальнейшем „матерью“».
+[charslot(slot="m", name="avg_npc_2157_1#4$1")]
+[name="Антоша"]  Она согласилась.
+[charslot(slot="m", name="avg_4245_alga_1#5$1")]
+[name="Ольга"]  ...Антоша, я провожу тебя немного, мне тоже нужно поговорить с госпожой.
+[charslot(slot="m", name="avg_npc_2157_1#2$1")]
+[name="Антоша"]  Да, пойдём.
+[charslot]
+Он поставил последний багаж на повозку вьючного зверя и кивнул Ольге.
+[stopmusic(fadetime=1)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$newhope01_intro", key="$newhope01_loop", volume=0.6)]
+[Dialog]
+[Delay(time=1)]
+[Sticker(id="st1", text="Дорогой Никто:", x=200,y=170, alignment="left", size=24, delay=0.04, width=700)]
+[Sticker(id="st2", text="Я решил уехать из Сент-Стидбурга. Иван Турин рекомендовал мне отправиться на юг и основать там новую коммуну.", multi = true, x=200,y=260, alignment="left", size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="\nВсе эти дни я расспрашивал о тебе, хотел узнать, не согласишься ли ты отправиться со мной осваивать землю.", x=300,y=300, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="\n\nДо самого дня отъезда я так и не смог найтиТы...Говорят, ты уже умер.", x=300,y=340, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="\nНо я не верю. Мне больше хочется верить, что у тебя есть свои причины не желать встречи со мной.", multi = true,x=300,y=340, alignment="left", size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st1", duration=1)]
+[Sticker(id="st2", duration=1)]
+[Delay(time=1)]
+[Sticker(id="st2", text="Что бы ты сейчас ни исповедовал и под каким бы именем ни жил — я хочу, чтобы ты с гордостью жил в этой новой стране. Это будущее, о котором мы говорили и которого ждали.", x=200,y=200, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="\n\nЕсли однажды передумаешь, приезжай в Спивайполь — я всегда оставлю для тебя место.", x=200,y=200, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="\nПисьмо оставил в твоём прежнем жилище. Пусть его увидит тот, кому нужно.", x=200,y=200, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st3", text="Твой друг,", x=200,y=500, alignment="right", size=24, delay=0.04, width=900, multi = true,block = true)]
+[Sticker(id="st3", text="\nАнтоша", x=200,y=510, alignment="right", size=24, delay=0.04, width=900, multi = true,block = true)]
+[Sticker(id="st3", duration=1)]
+[Sticker(id="st2", duration=1)]
+[Delay(time=1)]
+[stopmusic(fadetime=1)]
+[Background(image="79_g17_road_d",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[PlaySound(key="$d_avg_crwddiscuss_outside", volume=0.5, loop=true, channel="crowd")]
+[charslot(slot="m", name="avg_npc_2425_1#2$1")]
+[name="Алоиза"]  ...
+[Dialog]
+[StopSound(channel="crowd", fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="79_g4_interrogate",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m", name="avg_npc_1966_1#2$1")]
+[name="Алоиза"]  Слушайте, я знала, что этот день придёт. Но прежде чем вы вынесете мне приговор, я хочу знать: вы нашли императора?
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Нет, мы не нашли следов Фёдора, но не нашли и его тела.
+[charslot(slot="m", name="avg_npc_1966_1#3$1")]
+[name="Алоиза"]  А Елизавета? Неужели она всё ещё отказывается говорить? То, что она сказала мне в последний раз во дворце, разве это не было намёком?
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Она многое рассказала, но об этом не говорит ни слова. Конкретное решение по ней будет принято по судебной процедуре после того, как мы уточним у тебя детали.
+[charslot(slot="m", name="avg_npc_1966_1#3$1")]
+[name="Алоиза"]  Честно говоря, не знаю, чем ещё могу помочь. Всё, что я смогла найти, уже передала Милане, я лишь хотела доказать, что не все аристократы этой страны заслуживают смерти—
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Да, это значит, что нам придётся потратить много времени, чтобы разобраться с ними и решить их судьбу. Помимо материалов, которые ты передала Милане, доказательства, оставленные тобой в Главном управлении, очень нам помогли.
+[charslot(slot="m", name="avg_npc_1966_1#11$1")]
+[name="Алоиза"]  Главное управление? Не уверена, что вы имеете в виду—
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Те доказательства с печатью Императорской гвардии позволяют арестовать и осудить многих, включая великую княгиню и твоего отца.
+[charslot(slot="m", name="avg_npc_1966_1#11$1")]
+[name="Алоиза"]  ...Что?
+[charslot(slot="m", name="avg_1502_crosly_1#3$1")]
+[name="Людмила"]  Улики против тех аристократов и спекулянтов — разве не ты собрала их специально для нас? На них стоит твоя гвардейская печать.
+[charslot(slot="m", name="avg_npc_1966_1#5$1")]
+[name="Алоиза"]  О чём вы говорите, я не знаю—
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Алоиза, происхождение не выбирают... Ты не обязана намеренно погибать вместе с прогнившей империей.
+[name="Людмила"]  Что же до убийства тех аристократов без суда во время смуты в Сент-Стидбурге — мы все склоняемся к тому, чтобы предоставить тебе особое исключение.
+[name="Людмила"]  При условии, что ты будешь сотрудничать с нами в расследовании дел других людей в ближайшее время.
+[charslot(slot="m", name="avg_npc_1966_1#20$1")]
+[name="Алоиза"]  ...Ха, вот как.
+[charslot(slot="m", name="avg_1502_crosly_1#9$1")]
+[name="Людмила"]  Я знаю, ты всё время помогала нам. Теперь мы хотим помочь тебе.
+[name="Людмила"]  Не упусти этот шанс.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, amount=0, block=true)]
+[Background(image="79_g17_road_d",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m", name="avg_npc_2443_1#1$1")]
+[name="Заражённый рабочий"]  Елизавета! Она идёт!
+[name="Заражённый рабочий"]  Я так и знал, они поведут тебя на казнь этой дорогой!
+[charslot]
+[name="Возмущённые люди"]  Сдохни! Елизавета!!
+[charslot(slot="m", name="avg_npc_2228_1#6$1")]
+[name="Спокойный рабочий"]  Все, успокойтесь, ей уже вынесли приговор—
+[charslot(slot="m", name="avg_npc_1962_1#1$1")]
+[name="Елизавета"]  ...
+[Dialog]
+[charslot]
+[charslot(slot="r", name="avg_npc_2228_1#6$1",focus="l")]
+[charslot(slot="l", name="avg_npc_2443_1#1$1",focus="l")]
+[name="Заражённый рабочий"]  Проклятая тварь! Ты думала, что и твой день придёт? Думала, когда убивала наших собратьев?!
+[name="Заражённый рабочий"]  По-моему, повесить тебя слишком легко. Если бы решал я, я бы разрубил тебя на куски и скормил разломным зверям.
+[charslot(slot="r", name="avg_npc_2228_1#6$1",focus="r")]
+[name="Спокойный рабочий"]  Не надо. Турин сказал, мы уже победили врага, не нужно их унижать.
+[charslot(slot="l", name="avg_npc_2443_1#1$1",focus="l")]
+[name="Заражённый рабочий"]  Хм, повезло этой твари...
+[Dialog]
+[charslot]
+[charslot(slot="m", name="avg_npc_1962_1#1$1")]
+[name="Елизавета"]  ...Простите.
+[charslot(slot="m", name="avg_npc_2443_1#1$1")]
+[name="Заражённый рабочий"]  Что ты говоришь...?
+[charslot(slot="m", name="avg_npc_1962_1#2$1")]
+[name="Елизавета"]  Когда-то я готовила для вас землю без страданий...
+[name="Елизавета"]  Жаль... в конце концов мне не удалось её вам принести.
+[charslot(slot="m", name="avg_npc_2443_1#1$1")]
+[name="Заражённый рабочий"]  *урсусское ругательство*! Ты, проклятая тварь, перед смертью ещё говоришь такое!
+[Dialog]
+[charslot]
+[PlaySound(key="$fightgeneral", volume=0.8)]
+[CameraShake(duration=0.3, xstrength=15, ystrength=12, vibrato=25, randomness=80, fadeout=true, block=false)]
+[Delay(time=0.8)]
+[charslot(slot="m", name="avg_npc_2228_1#6$1")]
+[name="Спокойный рабочий"]  Достаточно! Немедленно прекратите! Это не часть закона!
+[name="Спокойный рабочий"]  Пусть новый Урсус казнит её!
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="79_g15_mskoutside",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$path_n_loop", volume=0.6)]
+[charslot(slot="l", name="avg_npc_2446_1#1$1",focus="r")]
+[charslot(slot="r", name="avg_npc_2445_1#1$1",focus="r")]
+[name="Сдержанный свободный человек"]  Долго носил военную форму, а в эту одежду переодеваться всё равно непривычно.
+[charslot(slot="l", name="avg_npc_2446_1#1$1",focus="l")]
+[name="Раскованный свободный человек"]  Привыкнешь! Больше не будет столько возможностей бросаться в бой—
+[charslot(slot="r", name="avg_npc_2445_1#1$1",focus="r")]
+[name="Сдержанный свободный человек"]  Ха, ещё бы. Кто вообще хочет жизнью торговать ради господ за несколько монет, которые некуда потратить?
+[name="Сдержанный свободный человек"]  Теперь я хочу наслаждаться жизнью и заодно найти себе пару...
+[charslot(slot="l", name="avg_npc_2446_1#1$1",focus="l")]
+[name="Раскованный свободный человек"]  Неужели в армии не нашёл?
+[charslot(slot="r", name="avg_npc_2445_1#1$1",focus="r")]
+[name="Сдержанный свободный человек"]  Мы же воевали, мог умереть на следующий день. Какие обещания можно было дать?
+[name="Сдержанный свободный человек"]  Или через несколько дней пошли бы ссоры, и расставались бы дольше, чем были вместе.
+[name="Сдержанный свободный человек"]  Я больше не хочу так.
+[Dialog]
+[charslot(slot="l", name="avg_npc_2446_1#1$1",posfrom="0,0",posto="80,0",afrom=1,ato=1,duration=1)]
+[Delay(time=1)]
+[charslot(slot="l", name="avg_npc_2446_1#1$1",focus="l")]
+[name="Раскованный свободный человек"]  Тогда, красавчик, раз уж столько сказал, как я тебе, есть шанс?
+[charslot(slot="r", name="avg_npc_2445_1#1$1",focus="r")]
+[name="Сдержанный свободный человек"]  Ты, ты— я—
+[name="Сдержанный свободный человек"]  Я подумаю!
+[Dialog]
+[PlaySound(key="$d_avg_slip", volume=1)]
+[charslot(slot="r", name="avg_npc_2445_1#1$1",posfrom="0,0",posto="150,0",afrom=1,ato=0,duration=0.5)]
+[Delay(time=0.8)]
+[charslot(slot="l", name="avg_npc_2446_1#1$1",focus="l")]
+[name="Раскованный свободный человек"]  Ха-ха-ха-ха-ха!
+[name="Раскованный свободный человек"]  Вернись, я тебя не съем!
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[Delay(time=1.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[charslot(slot="m", name="avg_npc_2241_1#2$1")]
+[name="Олег"]  ...Великий Вий, скажи мне—
+[name="Олег"]  Куда мы отправимся дальше?
+[charslot(slot="m", name="avg_4226_veen_1#2$1")]
+[name="Стёпа"]  Сейчас войны нет, в свободное время, конечно, останемся здесь развивать производство и помогать другим строить «Семенко» ещё величественнее—
+[charslot(slot="m", name="avg_npc_2241_1#7$1")]
+[name="Олег"]  Говоришь складно. А сам-то выдержишь?
+[charslot(slot="m", name="avg_4226_veen_1#1$1")]
+[name="Стёпа"]  Я? Я не останусь здесь. По крайней мере, сейчас.
+[charslot(slot="m", name="avg_npc_2241_1#1$1")]
+[name="Олег"]  Ты снова бросишь нас и уйдёшь один?
+[charslot(slot="m", name="avg_4226_veen_1#8$1")]
+[name="Стёпа"]  Не говори так, будто я вас когда-то бросал... В прошлый раз были особые обстоятельства!
+[charslot(slot="m", name="avg_4226_veen_1#2$1")]
+[name="Стёпа"]  Серьёзно, Олег, разве тебе не интересно, куда ушли Пахон и Сирка? Теперь никто каждый день не ищет у нас неприятностей — не хочешь собрать всех обратно?
+[name="Стёпа"]  Я слышал, Евгений погиб на своём флагмане от взрыва. Это хорошее начало—
+[charslot(slot="m", name="avg_npc_2241_1#5$1")]
+[name="Олег"]  Какое отношение это имеет к поискам людей? И я слышал, его повесили после военного трибунала.
+[charslot(slot="m", name="avg_4226_veen_1#7$1")]
+[name="Стёпа"]  Нет, он погиб от взрыва. Военного трибунала больше нет, откуда суд?
+[charslot(slot="m", name="avg_npc_2241_1#2$1")]
+[name="Олег"]  Военный трибунал ещё есть. Временный военный трибунал.
+[charslot(slot="m", name="avg_4226_veen_1#2$1")]
+[name="Стёпа"]  Хм, с тобой не договоришься. В общем, я пойду искать Сирку.
+[charslot(slot="m", name="avg_npc_2241_1#3$1")]
+[name="Олег"]  А ещё Пахона, Максима, Флоса... Ты действительно говорил об этом, и я поддерживаю, но хотя бы возьми меня с собой.
+[charslot(slot="m", name="avg_4226_veen_1#2$1")]
+[name="Стёпа"]  Нет, ты должен остаться и вести людей. Тебе я доверяю.
+[name="Стёпа"]  Может, когда я вернусь с остальными, ты уже вытащишь из какого-нибудь озера второй передвижной город?
+[charslot(slot="m", name="avg_npc_2241_1#1$1")]
+[name="Олег"]  Ты ведь не знаешь, где они все, да?
+[name="Олег"]  И не знаешь, когда вернёшься.
+[charslot(slot="m", name="avg_4226_veen_1#3$1")]
+[name="Стёпа"]  ...
+[name="Стёпа"]  Я составил список, по дороге к вам заодно проверил некоторые места. Это не совсем без зацепок.
+[name="Стёпа"]  И мне всё кажется: если император Урсуса может сам подать в отставку, а свободные люди, которых так долго обманывали, могут получить свой город...
+[charslot(slot="m", name="avg_4226_veen_1#8$1")]
+[name="Стёпа"]  Насколько абсолютным может быть то, что кажется невозможным?
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g14_prolocutoroffice",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$calm_loop", volume=0.6)]
+[PlaySound(key="$d_avg_button", volume=1)]
+[Delay(time=0.8)]
+[charslot(slot="m", name="avg_npc_1984_1#1$1")]
+[name="Вит"]  Что ж... теперь у этого документа есть юридическая сила.
+[charslot(slot="m", name="avg_npc_1984_1#7$1")]
+[name="Вит"]  Скажите людям, что Фёдор заранее подготовил отречение ещё при жизни. Пусть он не был императором, способным спасти Урсус, но по крайней мере не был человеком, цеплявшимся за власть.
+[charslot(slot="m", name="avg_npc_2425_1#2$1")]
+[name="Алоиза"]  ...
+[charslot]
+[PlaySound(key="$d_avg_paper1", volume=0.8)]
+Мужчина изо всех сил сдерживал дрожь в руках и передал тонкий лист бумаги юноше.
+[charslot(slot="m", name="avg_npc_2425_1#13$1")]
+[name="Алоиза"]  Господин Вит... я всё ещё не понимаю вашего выбора.
+[name="Алоиза"]  Новое правительство ранее заключило с вами соглашение: они отказываются от дальнейших поисков и суда над императором — в обмен на то, что вы останетесь в Сент-Стидбурге административным советником нового правительства.
+[name="Алоиза"]  Это также включает... отказ от суда над вами.
+[charslot(slot="m", name="avg_npc_2425_1#2$1")]
+[name="Алоиза"]  Но теперь вы настаиваете на отъезде, и я не уверена...
+[charslot(slot="m", name="avg_npc_1984_1#1$1")]
+[name="Вит"]  После разбора всех секретных архивов я подал заявление. Иван Турин согласился отпустить меня из Сент-Стидбурга.
+[name="Вит"]  Потому что сейчас моя жизнь уже не имеет значения... И важнее то, что я не справляюсь с этой должностью.
+[name="Вит"]  Я ошибся в оценке положения и едва не совершил большую ошибку — это моя вина, от которой не уйти.
+[charslot(slot="m", name="avg_npc_1984_1#11$1")]
+[name="Вит"]  Новому Урсусу больше не нужно мнение человека из старой эпохи.
+[charslot(slot="m", name="avg_npc_2425_1#2$1")]
+[name="Алоиза"]  Но перед новым правительством стоит слишком много вызовов.
+[name="Алоиза"]  Иван Турин... они представляют строй, которого никогда не было на этой земле, и намерены с нуля создать государство, не похожее ни на одно в истории.
+[charslot(slot="m", name="avg_npc_2425_1#1$1")]
+[name="Алоиза"]  Сейчас всё нужно отстраивать заново, во всех учреждениях не хватает людей. Ваш политический опыт наверняка поможет новому правительству.
+[charslot(slot="m", name="avg_npc_1984_1#1$1")]
+[name="Вит"]  ...Твой отец, Василий, возможно, был самым умным аристократом этой страны.
+[name="Вит"]  Но за всю жизнь он не мог представить, каких успехов добились люди Реюниона.
+[charslot(slot="m", name="avg_npc_1984_1#2$1")]
+[name="Вит"]  А если эти люди способны победить саму историю, впереди у них точно нет непреодолимых трудностей.
+[charslot(slot="m", name="avg_npc_2425_1#2$1")]
+[name="Алоиза"]  ...Я многому у вас научилась.
+[charslot(slot="m", name="avg_npc_1984_1#1$1")]
+[name="Вит"]  Что же до суда над Фёдором... Это тоже было согласие, которого я достиг с тем лидером Реюниона.
+[name="Вит"]  Новому Урсусу не нужно укреплять дух народа судом над императором, потерявшим всё.
+[charslot(slot="m", name="avg_npc_1984_1#7$1")]
+[name="Вит"]  Пусть люди верят, что Фёдор мёртв, пусть верят, что Талула жива.
+[name="Вит"]  Это и был тот лучший результат, на который мы надеялись...
+[charslot(slot="m", name="avg_npc_1984_1#2$1")]
+[name="Вит"]  Я хочу поблагодарить вас за то, что спасли одного урсусского юношу... Хотя он уже Заражённый, вы спасли ему жизнь.
+[name="Вит"]  Хотя это лишь одно из бесчисленных добрых дел, которые вы совершили...
+[name="Вит"]  Но для меня это... очень важно.
+[Dialog]
+[PlaySound(key="$d_gen_walk_n", volume=0.8)]
+[charslot(duration=1.5)]
+[Delay(time=1.5)]
+[charslot(slot="m", name="avg_npc_2425_1#5$1")]
+[name="Алоиза"]  Господин Вит! Подождите.
+[name="Алоиза"]  Я вызову машину и отвезу вас за город. Сейчас люди на улицах возбуждены, я боюсь—
+[charslot]
+[name="Вит"]  ...
+[name="Вит"]  ...Нет, не нужно.
+[name="Вит"]  Я однажды предал Турин. Даже если она позволит мне покинуть город, это будет лишь переходом в более просторную тюрьму; за мной будут следить многие... Я заслуживаю такой участи.
+[name="Вит"]  А если я не смогу выйти из Сент-Стидбурга... значит, это будет последний приговор, который вынесет мне Урсус.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Background(image="bg_iceforest_2",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_arrowshot", volume=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=1)]
+[charslot(slot="m", name="avg_npc_006")]
+[name="Старый охотник"]  Ты снова промахнулся.
+[charslot(slot="m", name="avg_4244_tocka_1#1$2")]
+[name="Фёдор"]  Я специально.
+[charslot(slot="m", name="avg_4244_tocka_1#3$2")]
+[name="Фёдор"]  Та рогатая прыгунья беременна, я должен дать ей шанс выжить.
+[charslot(slot="m", name="avg_npc_006")]
+[name="Старый охотник"]  Что за безумие ты говоришь, сейчас только начало весны.
+[charslot(slot="m", name="avg_4244_tocka_1#17$2")]
+[name="Фёдор"]  Вот как?
+[name="Фёдор"]  Возможно, пока я смотрел на неё, я уже видел, как она, став матерью, ведёт двух своих детей пить воду из ручья.
+[charslot(slot="m", name="avg_4244_tocka_1#19$2")]
+[name="Фёдор"]  Может, именно в тот миг моё желание увидеть следы их копыт на влажной земле оказалось сильнее желания отведать мяса.
+[charslot(slot="m", name="avg_npc_006")]
+[name="Старый охотник"]  Ты собираешься учиться у меня охоте или стать графоманом?
+[charslot(slot="m", name="avg_4244_tocka_1#15$2")]
+[name="Фёдор"]  Почему бы не совместить?
+[charslot(slot="m", name="avg_npc_006")]
+[name="Старый охотник"]  Ты умрёшь с голоду.
+[charslot(slot="m", name="avg_4244_tocka_1#18$2")]
+[name="Фёдор"]  Я могу продавать свои стихи в газету.
+[charslot(slot="m", name="avg_npc_006")]
+[name="Старый охотник"]  Судя по всему, что у тебя есть, продать можно только эту накидку да лук.
+[name="Старый охотник"]  Выглядит он совсем не обычным. Откуда он у тебя?
+[charslot(slot="m", name="avg_4244_tocka_1#17$2")]
+[name="Фёдор"]  Этот? Прости, он не продаётся.
+[name="Фёдор"]  Знаешь, это самый древний по форме лук, изобретённый урсусцами.
+[name="Фёдор"]  Тысячу лет назад урсусцы этим луком добывали дичь и кормили род, противостояли найтзморам и свергли гиппогрифов.
+[charslot(slot="m", name="avg_4244_tocka_1#19$2")]
+[name="Фёдор"]  Когда я держу этот лук, я чувствую в груди огонь, который никогда не гаснет.
+[name="Фёдор"]  Смотри: тысяча лет, знамёна Сент-Стидбурга менялись вновь, бесчисленные города поднимались и падали, но некоторые великие качества, вписанные нам в кости, бессмертны.
+[name="Фёдор"]  Они победят королевскую власть, победят клинки, и до дня конца мы завершим поэму, вырезанную душами на времени.
+[charslot(slot="m", name="avg_4244_tocka_1#17$2")]
+[name="Фёдор"]  Поэтому я всегда буду хранить его — чтобы напоминать себе быть настоящим урсусцем.
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_grass", volume=0.8)]
+[PlaySound(key="$blizzard",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=2)]
+Наивная прыгунья покружила и снова вернулась к двум людям, склонив голову, посмотрела на двух чудаков, лежавших в кустах.
+[charslot(slot="m", name="avg_npc_006")]
+[name="Старый охотник"]  Эй, настоящий урсусец, на этот раз...
+[charslot(slot="m", name="avg_4244_tocka_1#18$2")]
+[name="Фёдор"]  Эй— иди!
+[name="Фёдор"]  Ты можешь идти—
+[name="Фёдор"]  Я отпускаю тебя на свободу—
+[charslot]
+[PlaySound(key="$d_avg_grass", volume=0.4)]
+Крик окончательно спугнул ничего не понимающего зверька, и она, подпрыгивая, скрылась из виду.
+Юноша звонко рассмеялся, но вдруг, будто хлебнув холодного ветра, сильно закашлялся.
+Он кашлял, сгибаясь всем телом, но всё равно не мог перестать смеяться.
+[charslot(slot="m", name="avg_npc_006")]
+[name="Старый охотник"]  Ну вот, теперь в радиусе километра нет никакой дичи.
+[charslot(slot="m", name="avg_4244_tocka_1#17$2")]
+[name="Фёдор"]  Какая разница, эта земля огромна!
+[name="Фёдор"]  Пойдём дальше.
+[StopSound(channel="f", fadetime=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_snow_2",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m", name="avg_npc_2246_1#1$1")]
+[name="Хильда"]  ...
+[Dialog]
+[charslot]
+[charslot(slot="m", name="avg_npc_1964_1#1$1", duration=0.8)]
+[Delay(time=1.2)]
+[name="Святая ■тасья"]  У■с... ■Я, моя, Федя...
+[Dialog]
+[PlaySound(key="$d_avg_recorderglitch", volume=1)]
+[bgeffect(name="$eb_signalInterference", layer=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot(slot="m", name="avg_npc_2230_1#3$1", duration=0.5,block=false)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[name="■■■■"]  Прими... жизнь, ■■■■■, смерть—
+[Dialog]
+[PlaySound(key="$d_avg_recorderglitch", volume=1)]
+[bgeffect(name="$eb_signalInterference", layer=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot(slot="m", name="avg_npc_1965_1#2$1", duration=0.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=1)]
+[name="???"]  Только... терпение... больше терпения...
+[charslot(slot="m", name="avg_npc_1965_1#1$1")]
+[name="Святая Юродивая"]  Тогда спасёшься.
+[charslot(slot="m", name="avg_npc_2246_1#2$1")]
+[name="Хильда"]  Нет...
+[name="Хильда"]  Достаточно.
+[charslot(slot="m", name="avg_npc_1965_1#1$1")]
+[name="Святая Юродивая"]  Ты...?
+[charslot(slot="m", name="avg_npc_2246_1#5$1")]
+[name="Хильда"]  Одно лишь терпение не спасёт нас. Спасение придёт, только если мы увидим, где наше будущее.
+[charslot(slot="m", name="avg_npc_2246_1#1$1")]
+[name="Хильда"]  Тебе больше не нужно страдать.
+[name="Хильда"]  Я приведу всех—
+[name="Хильда"]  В рай.
+[charslot(slot="m", name="avg_npc_1965_1#1$1")]
+[name="Святая Юродивая"]  А...
+[Dialog]
+[charslot]
+[CameraShake(duration=0.5, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_glassbroken", volume=0.8)]
+[Delay(time=1)]
+[charslot(slot="m", name="avg_npc_2246_1#9$1")]
+[name="Хильда"]  ...Пусть ты обретёшь вечный покой на другом берегу.
+[charslot(slot="m", name="avg_npc_2260_1#1$1")]
+[name="Благочестивый товарищ"]  Хильда, кто это?
+[charslot(slot="m", name="avg_npc_2246_1#9$1")]
+[name="Хильда"]  Это всего лишь... ещё один страдающий человек.
+[stopmusic(fadetime=2)]
+[Dialog]
+[Delay(time=1)]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[image]
+[bgeffect]
+[charslot]
+[Background(image="bg_churchmeadow",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$storyendjp_intro", key="$storyendjp_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_2424_1#1$1")]
+[name="Кальцит"]  ...
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Как ты нашла это святилище?
+[charslot(slot="m", name="avg_npc_2424_1#1$1")]
+[name="Кальцит"]  Много лет назад сюда приходил один латеранский монах. Он был добрым человеком.
+[name="Кальцит"]  Хотя его вера была чужда этой земле и верующих было мало, он тоже недоумевал, почему здешние люди не хотят верить в реально существующую землю спасения.
+[name="Кальцит"]  Но он всё равно продолжал содержать это святилище. До самой смерти здесь помогли бесчисленному множеству нуждавшихся.
+[charslot(slot="m", name="avg_npc_2424_1#4$1")]
+[name="Кальцит"]  ...Теперь здесь хранятся имена каждого, кто погиб в институте.
+[name="Кальцит"]  Среди них, конечно, есть и имя твоего отца.
+[charslot(slot="m", name="avg_1502_crosly_1#6$1")]
+[name="Людмила"]  Жаль, он не смог увидеть этот день.
+[charslot(slot="m", name="avg_npc_2424_1#2$1")]
+[name="Кальцит"]  Вообще-то он всегда был очень оптимистичным человеком.
+[name="Кальцит"]  Как бы цинично он ни выглядел в обычной жизни, он никогда не сомневался в своём идеале и верил, что эта страна изменится.
+[name="Кальцит"]  В конце концов, человек, по-настоящему разочарованный в мире, не стал бы со страстью отдаваться трудному делу.
+[charslot(slot="m", name="avg_npc_2424_1#8$1")]
+[name="Кальцит"]  И жизнь доказала, что он был прав.
+[name="Кальцит"]  Разумеется, они не единственные, кто пожертвовал собой на этой земле ради идеала — они отражение целой эпохи и символ великого духа.
+[name="Кальцит"]  Я верю, что нынешний перелом в Урсусе — эхо прошлого.
+[charslot(slot="m", name="avg_1502_crosly_1#3$1")]
+[name="Людмила"]  Кальтсит... учитель.
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Как ты думаешь... мы действительно победили?
+[charslot(slot="m", name="avg_npc_2424_1#1$1")]
+[name="Кальцит"]  Ты сама в это не веришь?
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Я просто не могу представить, что нынешняя победа будет длиться вечно.
+[name="Людмила"]  Реюнион победил прежний Урсус, Заражённые хотя бы юридически получили равные права...
+[name="Людмила"]  Но что дальше?
+[charslot(slot="m", name="avg_1502_crosly_1#2$1")]
+[name="Людмила"]  Кризис ориджиниума так и не решён полностью, слишком много заводов разрушено, и неизвестно, сколько времени понадобится, чтобы восстановить порядок в стране.
+[name="Людмила"]  Ведь слишком многие на этой земле просто не могут понять «страну без императора».
+[name="Людмила"]  Я верю, что Реюнион, свергнувший старую династию, велик — как, возможно, был велик и Урсус, свергнувший гиппогрифов.
+[charslot(slot="m", name="avg_1502_crosly_1#3$1")]
+[name="Людмила"]  Но я не знаю, в какой позе Реюнион возьмётся решать эти трудные задачи... и каким станет «Реюнион» через тысячу лет.
+[charslot(slot="m", name="avg_npc_2424_1#1$1")]
+[name="Кальцит"]  Одна истина не совсем интуитивна: значения «величие» и «вечность» почти противоположны.
+[name="Кальцит"]  Статуи выветриваются, книги выцветают... в масштабе времени ни одно великое дело нельзя назвать «вечным».
+[name="Кальцит"]  И только «существование» вечно.
+[charslot(slot="m", name="avg_npc_2424_1#3$1")]
+[name="Кальцит"]  Мы стали свидетелями великого мгновения. Как бы ни говорили о нём потомки, забывали, отрицали или очерняли его — никто не сможет стереть следы его существования.
+[name="Кальцит"]  Тот пожар действительно изменил историю, и люди после него непременно пойдут вперёд под его влиянием.
+[name="Кальцит"]  В этом смысл существования цивилизации и источник, из которого мы говорим о «надежде».
+[charslot(slot="m", name="avg_1502_crosly_1#9$1")]
+[name="Людмила"]  ...
+[name="Людмила"]  Я так и не люблю твои рассуждения... Сегодня я собиралась просто принести цветы.
+[charslot(slot="m", name="avg_npc_2424_1#2$1")]
+[name="Кальцит"]  Людмила.
+[name="Кальцит"]  Ты всё время ищешь след Талулы... но после того пожара её больше никто не видел.
+[name="Кальцит"]  Она сейчас...
+[charslot(slot="m", name="avg_1502_crosly_1#7$1")]
+[name="Людмила"]  Врач Кальтсит тоже злопамятна? Всё ещё не собирается её отпускать?
+[charslot(slot="m", name="avg_npc_2424_1#2$1")]
+[name="Кальцит"]  ...
+[charslot(slot="m", name="avg_npc_2424_1#9$1")]
+[name="Кальцит"]  Я верю, что она не остановится на этом. В других местах ей, возможно, понадобится помощь.
+[charslot(slot="m", name="avg_1502_crosly_1#1$1")]
+[name="Людмила"]  Оставь... Мне больше нет необходимости идти за ней.
+[name="Людмила"]  Она уже не тиран и даже не лидер.
+[charslot(slot="m", name="avg_1502_crosly_1#9$1")]
+[name="Людмила"]  Поэтому я решила сохранить за неё одну тайну.
+[name="Людмила"]  Пока она действительно не закончит своё дело, я не позволю её найти.
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_snowbootwalk",volume=0.5, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=2)]
+[Delay(time=3)]
+[StopSound(channel="f", fadetime=0.2)]
+[PlaySound(key="$d_avg_snowbodyfall")]
+[Delay(time=2)]
+[Subtitle(text="Ты в порядке...?",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle]
+[Delay(time=1)]
+Просто упала.
+[Dialog]
+[Delay(time=0.5)]
+[Subtitle(text="Всё ещё не привык к нынешнему виду?",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle]
+[Delay(time=1)]
+...Со временем привыкну.
+[Dialog]
+[bgeffect(name="$eb_lightsnow",layer=1)]
+[Image(image="cg_sunsnow", screenadapt="coverall", xScale=1.6, yScale=1.6,x=-220,y=-60, fadetime=0)]
+[ImageTween(yTo=-150, duration=18, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$M03jojo_loop", volume=0)]
+[MusicVolume(volume=0.6, fadetime=3)]
+[PlaySound(key="$d_avg_branchrupture", volume=0.3)]
+Упавшая медленно поднялась из снега, под ногой хрустнула ветка.
+Ранняя весна уже пришла, ветер над тундрой стал мягче. Снег, копившийся всю зиму, постепенно таял, обнажая прежний облик земли.
+[Dialog]
+[name="Талула"]  ...
+[charslot(slot = "m", focus="n")]
+Воин осмотрелась, пытаясь сравнить увиденное с тем, что помнила.
+К счастью, за эти годы катастрофа не затронула эту глухую рощу, и молчаливые берёзы должны были сохранить свой неизменный за десятки лет облик.
+В такую неспокойную зиму она так дорожила тем, что не изменилось.
+[name="Талула"]  ...Должно быть, уже скоро.
+[Dialog]
+[PlaySound(key="$d_avg_snowbootwalk")]
+[Delay(time=1)]
+[Image(image="cg_sunsnow", screenadapt="coverall", xScale=1.6, yScale=1.6,x=-220,y=-150, fadetime=2)]
+[ImageTween(xTo=200, duration=60, block=false)]
+[PlaySound(key="$d_avg_reedmarshes",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Ты всё-таки идёшь туда?",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[StopSound(channel="f", fadetime=2)]
+[PlaySound(key="$d_avg_snowbootwalk")]
+[name="Талула"]  ...Нужно идти.
+[name="Талула"]  Прошло много лет, и на тех надгробиях, должно быть, появилось ещё несколько имён.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Но ты всё ещё не знаешь, для кого оставлена эта ничтожная память.",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Талула"]  Кто-нибудь всегда будет их помнить... даже без этих надгробий.
+[name="Талула"]  Они кровью и огнём высекли этот отрезок истории на этой земле; даже через тысячу лет кто-нибудь будет помнить, что они были здесь.
+[name="Талула"]  Просто из личного желания я хочу помнить их имена.
+[Dialog]
+[PlaySound(key="$d_avg_reedmarshes",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Значит, мы действительно победили?",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_snowbootwalk",volume=0, channel="w", loop=true)]
+[SoundVolume(volume=1, channel="w",fadetime=2)]
+[name="Талула"]  ...Да, я ничуть не сомневаюсь.
+[name="Талула"]  Мы свергли прогнившую империю, мы создали новое государство. И главное — мы обратились ко всей Терре с одним голосом.
+[name="Талула"]  Мы можем законом утвердить равенство, можем разумом победить инстинкт... мы можем сознательно выбрать надежду.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Говорят, ты грешник?",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Талула"]  Я никогда не стану отрицать совершённые ошибки и не могу установить себе условие, при котором искуплю вину.
+[name="Талула"]  Пока огонь не погас... мой путь всегда впереди.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Ещё говорят, ты боец.",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Талула"]  Я почту за честь, что участвовала в великой войне и сделала всё, что могла, сражаясь до конца.
+[name="Талула"]  Но в тот страшный час я сделала не больше тех храбрых людей.
+[StopSound(channel="w", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Должно быть, у тебя не осталось сожалений...",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[name="Талула"]  Возможно... я ещё хочу увидеть более далёкое будущее, хочу увидеть, как наш огонь согреет больше людей и более далёкие места.
+[name="Талула"]  Я не жалею о том, что потеряла...
+[name="Талула"]  ...Я действительно надеялась разделить с ними всё это...
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="Я так рад за тебя...",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="Талула—",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[StopSound(channel="f", fadetime=1)]
+[delay(time=1)]
+[name="Талула"]  ...?
+[Dialog]
+[Image(image="cg_sunsnow", screenadapt="coverall", xScale=1.05, yScale=1.05,x=0,y=0, fadetime=2)]
+[ImageTween(xScaleFrom=1.05,yScaleFrom=1.05,xScaleTo=1,yScaleTo=1,duration=8, block=false)]
+[delay(time=2)]
+Будто послышался зов из более далёкого времени и пространства — далёкий и в то же время звучащий у самого уха.
+Когда она обернулась, то увидела лишь одинокую цепочку следов на снегу, словно одинокие строки на титульном листе только что раскрытой книги.
+[PlaySound(key="$d_avg_snowbootwalk",volume=0, channel="w", loop=true)]
+[SoundVolume(volume=1, channel="w",fadetime=2)]
+Воин стряхнула снег с платья и пошла дальше.
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]
+[StopSound(channel="w", fadetime=2)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[Background]
+[Image]
+[delay(time=3.5)]
+[skipnode(mode="nofirstskip")]
+[stickerclear]
+[animtextclean]
+[Dialog(fadetime=0)]
+[charslot(duration=0)]
+[stopmusic(fadetime=0)]
+[image(fadetime=0)]
+[bgeffect(fadetime=0)]
+[subtitle(fadetime=0)]
+[spellstickerclear(block=false)]
+[theater(mode=true)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Video(res="video/act55side/TL02.mp4",fadeoutdelay=0.5)]
+[Background(image="bg_white", screenadapt="coverall")]
+[theater(mode=false)]
+[skipnode(mode="skip")]

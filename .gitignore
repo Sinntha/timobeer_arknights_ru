@@ -1,0 +1,18 @@
+# В git публикуется только docs/ (GitHub Pages).
+# Локальные инструменты, рабочие файлы и кэш не коммитятся.
+/work/
+/proxy/
+/overrides/
+/translations/
+/userscript/
+/tools/
+/ИНСТРУКЦИЯ.md
+/ГЛОССАРИЙ.md
+
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+Thumbs.db
+.DS_Store

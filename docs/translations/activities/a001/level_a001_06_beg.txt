@@ -1,0 +1,190 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]  Этап 6 (после боя)
+[Background(image="bg_cave_2", fadetime=1)]
+[PlayMusic(intro="$mist_intro", key="$mist_loop", volume=0.6, crossfade=1.5)]
+[Delay(time=1)]
+[Character(name="avg_npc_010#2",fadetime=1)]
+[Delay(time=1)]
+[name="Большой Боб"]  Несколько лет назад мы стали Заражёнными.
+[name="Большой Боб"]  Нас вынудили жить в тени. В один миг покой стал для нас роскошью.
+[name="Большой Боб"]  Поначалу мы думали, что Движение «Реюнион» сможет изменить нашу жизнь, но...
+[name="Большой Боб"]  Нам по-прежнему никто не продавал хлеб и не давал крова. Ничего не изменилось.
+[name="Большой Боб"]  Мы с братьями ушли и скитались с места на место, пока не услышали о сокровищах. Так я здесь и оказался.
+[name="Большой Боб"]  Если на этот раз нам удастся заполучить сокровища...
+[name="Большой Боб"]  Мы смогли бы уехать в Колумбию — далеко-далеко отсюда. Там Заражённые могут создавать общины и даже владеть землёй.
+[name="Большой Боб"]  Поэтому... Грани, ради моих братьев мне нужны эти сокровища.
+[name="Большой Боб"]  Они недалеко... Я это чувствую. Ты хорошо постаралась, но жаль...
+[Character]
+[name="Боец Реюниона"]  Эй, дамочка! Ты...!
+[name="Скади"]  Прочь с дороги.
+[Character]
+[Dialog]
+[PlaySound(key="$e_skill_skulsrsword",volume=0.5,block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+[name="Боец Реюниона"]  О-о-ой!!
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  ...
+[Dialog]
+[Character]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[Character(name="char_263_skadi#2",fadetime=1)]
+[Delay(time=2)]
+[name="Скади"]  Мне всё равно, кто ты и что задумал.
+[name="Скади"]  Но ты исчезнешь с моих глаз.
+[Character]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, block=true)]
+[Background]
+[Blocker(a=0, r=0, g=0, b=0, block=true)]
+[Image(image="ac1_6",x=-100, y=0, xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[ImageTween(xFrom=-100, yFrom=0, xTo=0, yTo=0, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1.2, yScaleTo=1.2, duration=40, block=false)]
+[name="Большой Боб"]  Если другого пути и правда нет, Скади... я буду сражаться с тобой до конца.
+[name="Скади"]  Значит, вот с кем ты решила заключить союз?
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Что станет с Дьювиллем, когда вы заберёте сокровища?
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Что бы ни случилось, они выживут. О нас такого не скажешь.
+[name="Большой Боб"]  Хоть мы знакомы недолго, я вижу, что ты за человек.
+[name="Большой Боб"]  Ты не питаешь предубеждений к Заражённым — в отличие от этого чудовища рядом с тобой.
+[Character]
+[name="Грани"]  (Скади, наверное, тоже не имеет предубеждений... Просто ей нужно, чтобы ты не стоял у неё на пути, Заражённый ты или нет...)
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Грани, скажи, где Кэрол!
+[name="Большой Боб"]  Ты знаешь, как много для нас значат эти сокровища!
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Прости, Большой Боб, но это не входит в моё задание.
+[name="Грани"]  Моё единственное задание — помочь Кэрол найти сокровища и вернуть её деревне покой.
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Меня это не волнует. Просто отдай мне Кэрол.
+[Character(name="avg_npc_010#2",name2="char_263_skadi#2",focus=1)]
+[name="Большой Боб"]  Зачем тебе вообще эта девочка, чудовище?
+[name="Большой Боб"]  Собираешься содрать с неё кожу заживо? Выпить её кровь?
+[name="Большой Боб"]  Ты слышала этого парня. Она ни за что не отдаст тебе старосту!
+[name="Большой Боб"]  А мне нужны лишь сокровища. Я девочку и пальцем не трону!
+[Character]
+[Dialog]
+[Background(image="bg_cave_2", fadetime=1)]
+[image(fadetime=1,block=true)]
+[Character(name="char_263_skadi#2")]
+[Delay(time=0.5)]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[name="Скади"]  С меня хватит... Грани, скажи, где Кэрол.
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Кэрол хочет лишь защитить свою деревню. Сами сокровища её даже не интересуют.
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Тогда пусть сокровища достанутся мне!
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  Между Реюнионом и охотниками за головами мало разницы.
+[Character(name="avg_npc_010#2",name2="char_263_skadi#2",focus=1)]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[name="Большой Боб"]  Я не такой, как вы, одержимые жадностью!
+[name="Большой Боб"]  Когда-то я был таким же никчёмным, как вы, но я увидел мир таким, какой он есть.
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  Сейчас статус и богатство не стоят и ломаного гроша.
+[name="Большой Боб"]  Мы хотим лишь выжить, и сокровища помогут нам в этом!
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Повторю ещё раз. Отдай мне Кэрол.
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Я не отдам ни Кэрол, ни сокровища.
+[name="Грани"]  Это моё задание.
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Грани! У тебя ещё есть выбор! Я не хочу сражаться с тобой, если это не принесёт пользы никому из нас!
+[name="Большой Боб"]  Просто отдай мне сокровища — и все разойдутся довольными!
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Мы же уже договорились, что отдадим тебе долю сокровищ, Большой Боб!
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Но подумай о моих братьях! Дай хотя бы сначала взглянуть, сколько там сокровищ!
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Если дело дойдёт до насилия, вы оба знаете, что не ровня мне.
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Пусть я не уверена в своих силах, но если придётся сражаться с вами обоими — так тому и быть!
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Мы-то с тобой можем всё обсудить, Грани!
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Нет.
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Тогда давай объединимся и сначала одолеем её!
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  Вы закончили болтать?
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=2)]
+[name="Грани"]  Если мы начнём драться здесь, пути назад уже не будет!
+[Character(name="avg_npc_010#2",name2="char_220_grani#5",focus=1)]
+[name="Большой Боб"]  Мы...
+[stopmusic(fadetime=2)]
+[Character]
+[Dialog]
+[name="???"]  Грани!
+[name="???"]  Смотри, я нашла! Я нашла сокровища!
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  Было очень трудно дотащить всё это сюда...
+[name="Кэрол"]  Господин Боб!
+[name="Кэрол"]  Я рада, что вы в порядке—
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Назад!
+[Character(name="avg_npc_003")]
+[name="Кэрол"]  А?!
+[Dialog]
+[Character(name="char_263_skadi#2")]
+[name="Скади"]  ...Ц-ц!
+[Dialog]
+[Character(name="avg_npc_010#2")]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[Character]
+[Dialog]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[CameraShake(duration=2, xstrength=10, ystrength=12, vibrato=30, randomness=30, fadeout=true, block=true)]
+[Dialog]
+[Blocker(a=0.3, r=0.95, g=0.95, b=0.95, fadetime=2)]
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  *пыхтит*... *пыхтит*...
+[name="Большой Боб"]  Для нас... никогда и не было пути назад!
+[Character(name="char_220_grani#5")]
+[name="Грани"]  А? Кэрол!
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=0.6, crossfade=1.5)]
+[Character]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=1, block=true)]
+[Character(name="char_263_skadi#2",name2="avg_npc_003",focus=1,fadetime=2)]
+[Delay(time=3)]
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Скади!
+[Character(name="char_263_skadi#2",name2="char_220_grani#5",focus=1)]
+[name="Скади"]  Почему ты использовал нелетальную взрывчатку?
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  Я в долгу перед этими девочками.
+[name="Большой Боб"]  Но в следующий раз будут настоящие.
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Скади...
+[name="Грани"]  Тебе нет дела до сокровищ. И ты не хочешь причинить вред госпоже Кэрол.
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=1)]
+[name="Скади"]  ...
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Поэтому ты заслонила её собой, вместо того чтобы схватить сокровища и сбежать.
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=1)]
+[name="Скади"]  Я не охочусь за сокровищами. Мне нужен ответ, которым владеет Кэрол.
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Почему ты сразу не сказала?!
+[name="Грани"]  И зачем вообще было изображать злодейку? Быть чуть откровеннее тебя бы не убило.
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=1)]
+[name="Скади"]  Я не хочу... чтобы другие впутывались в моё задание.
+[name="Скади"]  Но цель задания на этот раз... очень важна для меня.
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Конечно, я понимаю. Хоть задания у нас разные, мы же стремимся к одному, верно?
+[name="Грани"]  Вместо этого нам стоит помогать друг другу!
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=1)]
+[name="Скади"]  Ч-ч.
+[Character(name="char_263_skadi#2",name2="char_220_grani#3",focus=2)]
+[name="Грани"]  Похоже, за сокровища всё же придётся сражаться.
+[name="Грани"]  Скади, смотри не покалечь его слишком сильно!
+[Character(name="avg_npc_010#2")]
+[name="Большой Боб"]  Гра...ни...!
+[Character(name="char_220_grani#5")]
+[name="Грани"]  Прости, Большой Боб, но, возможно, будет немного больно!
+[Dialog]
+[Blocker(block=true)]
+[Image]
+

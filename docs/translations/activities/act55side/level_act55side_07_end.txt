@@ -1,0 +1,1272 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[charslot]
+[Background(image="bg_fogwoods", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[playMusic(intro="$normalbattle_intro", key="$normalbattle_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_2432_1#1$1", duration=0.5)]
+[Delay(time=1)]
+[name="Боец Реюниона"]  Милана— командир, Замолес внезапно завёлся!
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Что происходит?
+[charslot]
+Она встала, опершись рукой о край вырытого окопа. Бойцы Реюниона, ещё остававшиеся на позициях за городом, один за другим подняли головы и растерянно смотрели на гудящий город.
+В сумрачном свете силуэт Замолеса медленно смещался, и поднятая его днищем пыль ползла через пустошь прямо на них.
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Слышишь? Талула! Скажи, что у тебя происходит!
+[PlaySound(key="$transmission")]
+[charslot(slot="m", focus="n")]
+Передатчик лишь с перебоями выдавал обрывки помех.
+[Dialog]
+[PlaySound(key="$d_gen_transmissionget")]
+[interlude(maskid = "group_interclude_square_common", char = "Nine", switch = true, style = 1, offset = "350,125", channel = 3)]
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "350,-50", pto="350,-50", name = "avg_npc_1983_1#1$1", duration = 0)]
+[delay(time=1)]
+[charslot(slot = "m", focus = "n")]
+[name="Найн"]  Что происходит, Милана? Мы не можем связаться с Талулой.
+[interlude(channel = 3, type = 3, slot = "m", switch = true)]
+[charslot(slot = "m", focus = "n")]
+[name="Найн"]  Бойцы спрашивают, почему Замолес двинулся, почему всё пошло не по плану?
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Мы тоже не можем связаться с Талулой и не знаем, что случилось.
+[interlude(channel = 3, type = 3, slot = "m", switch = true, name = "avg_npc_1983_1#3$1", pfrom = "350,-50", pto="350,-50")]
+[charslot(slot = "m", focus = "n")]
+[name="Найн"]  Это—
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Найн, обязательно успокой людей. Если начнётся паника, в открытом поле нам не справиться с армейской группой.
+[name="Милана"]  Что бы Талула ни задумала и что бы с ней ни случилось, сейчас остаётся только верить ей.
+[name="Милана"]  Мне нужно, чтобы ты продолжала командовать на передовой и удержала строй!
+[interlude(channel = 3, type = 3, slot = "m", switch = true, name = "avg_npc_1983_1#7$1", pfrom = "350,-50", pto="350,-50")]
+[charslot(slot = "m", focus = "n")]
+[name="Найн"]  Проклятье... постараюсь!
+[interlude(channel = 3, clear = true)]
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Если город не остановить, куда он пойдёт?
+[charslot(slot="m", name="avg_npc_2225_1#4$1")]
+[name="Милана"]  Это северо-западное направление, впереди Ксениябург... там крепость, где стоит Четвёртая армейская группа.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect(name="$eb_smoke_01",layer=1)]
+[charslot(slot="m", name="avg_4247_oxi_1#6$3")]
+[Background(image="bg_topburning", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="Талула"]  Что ты сделал?!
+[charslot(slot="m", focus="n")]
+Когда Талула поняла, что произошло, было уже поздно. Виновник не ответил на её ярость, лишь оставил презрительную улыбку и шагнул в огонь.
+[dialog]
+[CameraShake(duration=0.2, xstrength=5, ystrength=15, vibrato=20, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_clothmovementsp", volume=1)]
+[delay(time=1)]
+[charslot(slot="m", name="avg_4247_oxi_1#8$3")]
+[name="Талула"]  Стой—
+[charslot(slot="m", name="avg_4247_oxi_1#6$3")]
+[name="Талула"]  Проклятье!!
+[charslot(slot="m", name="avg_npc_2431_1#1$1")]
+[name="Нетерпеливый воин"]  Талула! Передвижной город уже движется!
+[name="Нетерпеливый воин"]  Что сделал этот безумец? Курс, который он задал, ведёт прямо к базе Четвёртой армейской группы! Мы столкнёмся с ними лицом к лицу!
+[charslot(slot="m", name="avg_4247_oxi_1#11$3")]
+[name="Талула"]  ...!
+[charslot(slot = "m",posfrom = "0,0", posto = "150,0",duration = 0.8,afrom=1,ato=0)]
+Талула пробежала по горящему полу, обогнула рухнувшие опоры и присела у обломков пульта, голыми руками разгребая спёкшийся металл.
+[dialog]
+[charslot]
+[charslot(slot="m", name="avg_4247_oxi_1#1$3",duration=0.5)]
+[delay(time=1)]
+[name="Талула"]  ...Ключ и код. Без них не запустить тормозную систему.
+[name="Талула"]  Запасных здесь тоже нет, даже слот для ключа расплавился.
+[dialog]
+[PlaySound(key="$d_avg_swordinsertconsole", volume=1)]
+[CameraShake(duration=1, xstrength=3, ystrength=15, vibrato=30, randomness=90, fadeout=true)]
+[charslot(slot="m", name="avg_4247_oxi_1#8$3")]
+[name="Талула"]  Эх—!!
+[charslot(slot="m", focus="n")]
+Талула вонзила огромный длинный меч в пульт, но стального гиганта это ничуть не остановило.
+[charslot(slot="m", name="avg_npc_2431_1#1$1")]
+[name="Нетерпеливый воин"]  Талула! Это бесполезно!
+[name="Нетерпеливый воин"]  Есть другой способ? Может, связаться с Найн? Я слышала, если взорвать гусеницы передвижного города, он остановится!
+[charslot(slot="m", name="avg_4247_oxi_1#6$3")]
+[name="Талула"]  Не говоря уже о том, что у нас нет такой огневой мощи... последствием будет то, что все в городе погибнут вместе с ним.
+[charslot(slot="m", name="avg_npc_2431_1#1$1")]
+[name="Нетерпеливый воин"]  Тогда что делать!
+[charslot(slot="m", name="avg_4247_oxi_1#6$3")]
+[name="Талула"]  Этот пульт напрямую связан с силовой установкой передвижного города.
+[name="Талула"]  Если принудительно отключить силовую установку, возможно...
+[charslot(slot="m", name="avg_npc_2431_1#1$1")]
+[name="Нетерпеливый воин"]  Талула?! Ты собираешься прожечь его насквозь? Это же устройство, которое приводит в движение весь город!
+[charslot(slot="m", name="avg_4247_oxi_1#6$3")]
+[name="Талула"]  Не попробовав... откуда знать...?
+[name="Талула"]  Хватит, здесь скоро станет невозможно находиться. Уходите, пока можете.
+[charslot(slot="m", name="avg_npc_2431_1#1$1")]
+[name="Нетерпеливый воин"]  Талула—
+[charslot(slot="m", name="avg_4247_oxi_1#8$3")]
+[name="Талула"]  Быстрее!
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+Талула изо всех сил выравнивала дыхание и положила правую руку на главный пульт передвижного города.
+[dialog]
+[PlaySound(key="$d_avg_OriginiumArts_fire_long")]
+[bgeffect(name="$eb_distorsion",layer=2)]
+[playsound(key="$d_avg_churchfire", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=1.5)]
+[delay(time=1.5)]
+Воздух начал нагреваться от её ладони. Талула чувствовала, как жар течёт от руки к сердцу передвижного города, и чувствовала острую боль от ориджиниевых кристаллов на руке.
+[PlaySound(key="$d_avg_steamburst")]
+[bgeffect(name="$eb_smoke",layer=3)]
+Время шло, окружающие стальные конструкции непрерывно превращались в расплавленный металл, и платформа уже стала похожа на преисподнюю.
+—Преисподнюю, принадлежавшую одной Талуле.
+Пока сюда не пожаловал незваный гость.
+[dialog]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$d_avg_arrowshot", channel="arrow")]
+[CameraShake(duration=0.2, xstrength=12, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]
+[PlaySound(key="$d_avg_swordwhoosh_heavy", volume=1, channel="sword")]
+[Effect(name="$e_slash_02_l", rox=30, roy=80, roz=55, layer=1)]
+[Effect(name="$e_spark_01_mid", layer=2)]
+[PlaySound(key="$swordtsing4", volume=0.8, channel="clang", delay=0.05)]
+[CameraShake(duration=0.25, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_metalpipe", volume=0.6, channel="drop", delay=0.2)]
+[delay(time=0.8)]
+[charslot(slot="m", name="avg_4247_oxi_1#6$3")]
+[name="Талула"]  —!
+[charslot(slot="m", name="avg_npc_2449_1#1$1")]
+[name="Отборный боец Четвёртой армейской группы"]  Обнаружена вражеская цель высокой угрозы.
+[name="Отборный боец Четвёртой армейской группы"]  Приготовиться к уничтожению.
+[Dialog]
+[StopSound(channel="bgs", fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[bgeffect(name="$eb_smoke_l",layer=1)]
+[Background(image="bg_fogwoods", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_battlefield_environment", volume=0.8, channel="b")]
+[charslot(slot="m", name="avg_npc_2432_1#1$1", duration=0.5)]
+[Delay(time=1)]
+[name="Боец Реюниона"]  Контратака врага всё сильнее!
+[name="Боец Реюниона"]  Милана! Огонь армейской группы слишком плотный, нам пора отступать!
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Нет...
+[name="Милана"]  Мы обещали удержать это место, какой бы ценой это ни было.
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Неужели мы правда погибнем, спасая солдат армейской группы?
+[charslot]
+[dialog]
+[PlaySound(key="$d_avg_walkmeadow")]
+[charslot(slot="m", name="avg_npc_2155_1#1$1", duration=1)]
+[Delay(time=1.5)]
+[name="Фёдор"]  Он прав, вам действительно следует отступить. Это уже слишком далеко от вашего плана.
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Вы не воин, господин. Сейчас вам не следует быть здесь, вернитесь в тыл.
+[name="Милана"]  И мы не погибаем ради чужого спасения. За нашей спиной — путь к жизни для товарищей и будущее каждого заражённого.
+[charslot(slot="m", name="avg_npc_2155_1#8$1")]
+[name="Фёдор"]  ...
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Поэтому я буду стоять здесь до последнего. А мои товарищи — бойцы Реюниона... Я тоже хочу пригласить вас стоять вместе со мной.
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Эх...!
+[charslot(slot="m", name="avg_npc_2155_1#2$1")]
+[name="Фёдор"]  Тогда дайте мне лук и стрелы или любое запасное оружие, что угодно.
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  ...Что ты сказал?
+[charslot(slot="m", name="avg_npc_2155_1#1$1")]
+[name="Фёдор"]  Хотя я не воин... я тоже не могу всё время ждать, пока кто-нибудь придёт на помощь.
+[charslot(slot="m", name="avg_npc_2155_1#7$1")]
+[name="Фёдор"]  Я вместе с остальными буду защищать тыл пути отхода.
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Как ты смеешь—
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Дайте ему оружие, которое он просит. Нашей дальнобойной поддержки действительно не хватает, нужно использовать все карты, что у нас есть.
+[name="Милана"]  А что касается угрозы от того, что мы дадим ему оружие... по крайней мере сейчас нет угрозы больше, чем регулярные войска перед нами.
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2,block=true)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m", name="avg_npc_2432_1#1$1",duration=0.5)]
+[delay(time=0.5)]
+[name="Боец Реюниона"]  Не отступать!
+[name="Боец Реюниона"]  Даже если не за что другое, то за месть товарищам мы должны перебить этих ублюдков—
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_tankbiggun")]
+[Blocker(a=0.3, r=0.95, g=0.95, b=0.95, fadetime=0.5, block=true)]
+[charslot(slot="m", name="avg_npc_2225_1#6$1")]
+[name="Милана"]  Ложись—
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_explo_n")]
+[CameraShake(duration=0.3, xstrength=18, ystrength=18, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+Снаряд разорвался в пятнадцати метрах перед окопом, и комья земли больно ударили Милану по половине лица.
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Милана!
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Я... в порядке.
+[charslot(slot="m", focus="n")]
+Она стёрла с лица грязь и кровь, затем подняла бинокль.
+Подкрепление Четвёртой армейской группы прибыло ещё полчаса назад. Они без стеснения разворачивались на южном склоне: не меньше четырёхсот-пятисот человек, а ещё бесчисленные боевые машины и подвижная артиллерия.
+Она своими глазами видела, как серая линия на склоне становилась всё шире и плотнее... пока не заполнила весь обзор.
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  ...Достать все наши ориджиниевые орудия, нацелить на левый дуговой участок, не останавливаться!
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Есть!
+[dialog]
+[charslot]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_explosion_stone", channel="3")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+Огромный взрыв грянул внезапно, заложив уши Милане и остальным. Лишь после грохота издалека пришли крики и рыдания.
+[dialog]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[bgeffect]
+[curtain(direction = 0,fillfrom = 0.2,fillto = 0.25,block=false)]
+[curtain(direction = 4,fillfrom = 0.2,fillto = 0.25,block=true)]
+[gridbg(imagegroup="47_g14_skyovercast_L1/47_g14_skyovercast_R1/47_g14_skyovercast_L2/47_g14_skyovercast_R2", solidwidth="1280/1280/1280/1280", solidheight="720/720/720/720")]
+[largebgtween(duration = 30,yFrom = 200, yTo = 360,block = false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+Она с трудом разлепила веки в поднятой пылевой буре, и серо-жёлтые частицы выжали слёзы из глаз.
+А в бинокле появилась картина: Вторая высота, сровненная артиллерией, последнее целое укрытие исчезло.
+Милана часто дышала и, ведя по траектории огня, медленно, дюйм за дюймом, поворачивала бинокль — и тогда увидела.
+[PlaySound(key="$d_avg_shipwhistle")]
+Она увидела огромную стальную махину, орудийные жерла под нижним краем палубы опущены, а чёрные отверстия похожи на раскрытые глаза.
+[name="Милана"]  ...Быстроходный линкор.
+Так в линии обороны открылась брешь, и щитоносцы армейской группы хлынули в неё. Крики слились в мутную волну и устремились к позиции Миланы.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[gridbg]
+[curtain]
+[delay(time=0.25)]
+[bgeffect(name="$eb_smoke_l",layer=1)]
+[Background(image="bg_fogwoods", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[PlaySound(key="$d_avg_arrowshot")]
+Милана перехватила боевой арбалет за спиной и, опустившись на одно колено, выстрелила в ответ. Но все атаки оставляли лишь неглубокие царапины на превосходных щитах.
+[playsound(key="$d_avg_bowstring_tightened", loop=true, channel="a",volume=1)]
+[StopSound(channel="a", fadetime=2)]
+Она стиснула зубы и механически повторяла заряжание: стрела, ещё стрела, и каждый выстрел словно канул в бездну.
+[Dialog]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0.7, r=1, g=1, b=1, fadetime=0.05, block=true)]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[charslot(slot ="m", action="shake", power=5, times=50, duration=0.5)]
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Эх—
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Милана— проклятье...
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  ...Я, я в порядке...
+[name="Милана"]  Попробуй ещё связаться с Талулой, мы сделали всё, что могли...
+[charslot(slot="m", focus="n")]
+Говоря это, она увидела, что орудие быстроходного линкора направлено на неё.
+Щека Миланы слегка дрогнула, она глубоко выдохнула, и в голове стремительно пронеслись слова, которые, возможно, станут последними в её жизни.
+А ещё — древние слоги из родных мест, наставления старых друзей, нечто, что можно назвать молитвой—
+Она увидела, как в жерле орудия будто вспыхнула белая точка.
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Я...
+[stopmusic(fadetime=2)]
+[StopSound(channel="b", fadetime=2)]
+[Dialog]
+[PlaySound(key="$d_avg_tankbiggun")]
+[CameraShake(duration=1.5, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1.5, block=true)]
+[charslot]
+[name="???"]  ...
+[name="???"]  ...Милана! Милана!
+[Dialog]
+[bgeffect(name="$eb_scorchedearth",layer=1)]
+[charslot(slot="m", name="avg_npc_2225_1#8$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  ...
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Милана!
+[name="Боец Реюниона"]  Ты в порядке? Смотри!
+[charslot]
+[playMusic(intro="$fightback_intro", key="$fightback_loop", volume=0.6)]
+На глазах у всех огромный корабль уже полыхал, и в его борту оказалась пробита брешь.
+Неподалёку из пыли и дыма медленно приближался другой быстроходный линкор. Щитоносцы армейской группы перед позицией тихо переговаривались, затем решительно развернулись и отошли в противоположную сторону.
+[charslot(slot="m", name="avg_npc_2225_1#10$1")]
+[name="Милана"]  ...Нам помогает линкор?
+[charslot(slot="m", name="avg_npc_2432_1#1$1")]
+[name="Боец Реюниона"]  Похоже, так.
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Обозначение на нём—
+[name="Милана"]  ...Пятая армейская группа.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[bgeffect]
+[Background(image="50_g13_warshipcommandroom", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m", name="avg_npc_2427_1#2$1", duration=1)]
+[Delay(time=1.5)]
+[name="Лаврен"]  Замолес... движется к базе Четвёртой армейской группы? Что это значит? Девятая дивизия доведена до отчаяния и собирается погибнуть вместе с ними?
+[charslot(slot="m", name="avg_npc_2452_1#1$1")]
+[name="Адъютант"]  По нашим наблюдениям, состояние корпуса Замолеса очень плохое. Боюсь, он развалится, не дойдя до Ксениябурга.
+[name="Адъютант"]  Четвёртая армейская группа уже направила подкрепление, чтобы атаковать город с внешнего периметра.
+[charslot(slot="m", name="avg_npc_2427_1#1$1")]
+[name="Лаврен"]  Сколько сил пришло?
+[charslot(slot="m", name="avg_npc_2452_1#1$1")]
+[name="Адъютант"]  Три быстроходных линкора.
+[charslot(slot="m", name="avg_npc_2427_1#8$1")]
+[name="Лаврен"]  Только столько? Хе, у Евгения тоже почти иссякли запасы?
+[charslot(slot="m", name="avg_npc_2427_1#6$1")]
+[name="Лаврен"]  Подготовить корабельные орудия, пустим Евгению ещё кровь.
+[charslot(slot="m", name="avg_npc_2452_1#1$1")]
+[name="Адъютант"]  Есть!
+[charslot(slot="m", name="avg_npc_2427_1#1$1")]
+[name="Лаврен"]  Это то, чего ты хотел, генерал?
+[charslot]
+[Dialog]
+[charslot(slot="m", name="avg_npc_2426_1#1$2", duration=1)]
+[Delay(time=2)]
+[name="Хеллагур"]  Да...
+[name="Хеллагур"]  У нас ещё есть шанс вести справедливую войну... Я всегда в это верил.
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[bgeffect(name="$eb_062cg_phantom_front", layer=1)]
+[PlaySound(key="$d_avg_woodcracle",volume=0, channel="w", loop=true)]
+[SoundVolume(volume=0.5, fadetime=3,channel="w")]
+[Background(image="bg_ruins_2", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$drift_intro", key="$drift_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_2459_1#1$1", duration=0.5)]
+[Delay(time=1)]
+[name="Офицер Центральной армейской группы"]  Спокойно, поддерживайте порядок! Помогайте тушить!
+[name="Офицер Центральной армейской группы"]  Опустите оружие! Не направляйте его на тех, кто рядом!
+[charslot(slot="m", name="avg_npc_2249_1#5$1")]
+[name="Сирка"]  Проклятье—
+[charslot]
+[PlaySound(key="$fireburst")]
+[SoundVolume(volume=1, fadetime=3,channel="w")]
+[bgeffect(name="$eb_burn",layer=1,fade = true, fadetime = 3)]
+Огонь вспыхнул в одно мгновение.
+Сирка знала эти сильнодействующие бутылки с зажигательной смесью — оружие, которое шахтёры отряда сделали из последних материалов.
+Его должны были применять против сильных врагов, но теперь бросили в колонну раненых, лишённых всякой защиты.
+Пламя быстро охватило безымянного солдата армейской группы. Он кричал, бился... а огонь безжалостно поджигал тонкие ватные куртки всё новых людей.
+Сирка попыталась найти источник нападения, но это уже не имело смысла.
+Она понимала, почему произошло это нападение, просто не успела его предотвратить.
+Ещё несколько секунд назад упорядоченная колонна превратилась в хаос, и перепуганные люди начали наводить оружие друг на друга.
+[charslot(slot="m", name="avg_npc_2249_1#8$1")]
+[name="Сирка"]  Всем стоять! Если не уйдём, мы все погибнем!
+[name="Сирка"]  Наш враг не здесь—
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_rampartclose", volume=1, loop=true, channel="a")]
+[CameraShake(duration=2.5, xstrength=10, ystrength=8, vibrato=40, randomness=50, fadeout=true, block=false)]
+[delay(time=2)]
+[StopSound(channel="a", fadetime=1.5)]
+Только тогда Сирка осознала ещё более отчаянную правду.
+[charslot(slot="m", name="avg_npc_2249_1#8$1")]
+[name="Сирка"]  Что... происходит? Почему передвижной город двинулся? Так из него вообще не выбраться—
+[charslot(slot="m", name="avg_npc_2249_1#5$1")]
+[name="Сирка"]  Талула? Ты слышишь!
+[name="Сирка"]  При отходе произошло ЧП, что у тебя происходит?!
+[charslot]
+[PlaySound(key="$transmission")]
+Ответа не было. Даже белый шум в передатчике утонул в оглушительных криках вокруг.
+Она слышала бесчисленные голоса: плач Дальнего Севера, стон со дна шахт, ярость тысячелетней давности.
+Голоса становились всё громче, но сквозь этот шум Сирка ясно различала слова.
+[Dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="Они носят одну и ту же одежду, у них одно и то же имя.", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.7, r=0, g=0, b=0, fadetime=1)]
+[Subtitle(text="Все они одинаковые убийцы, на их руках кровь наших братьев и сестёр.", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1)]
+[Subtitle(text="Наши жизни ничего не значат, в нашей жизни нет пути вперёд.", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.9, r=0, g=0, b=0, fadetime=1)]
+[Subtitle(text="Это они сделали нас такими.", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1)]
+[Subtitle(text="Значит, они тоже должны умереть.", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[Background(image="bg_black",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m", name="avg_npc_2249_1#13$1")]
+[name="Сирка"]  Нет... не так...
+[name="Сирка"]  Всем стоять—
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[stopsound(channel="w", fadetime=2)]
+[bgeffect(name="$eb_066cg_mantracloseup",layer=1,y=100)]
+[charslot]
+[playMusic(intro="$m_sys_act16main_intro", key="$m_sys_act16main_loop", volume=0.6)]
+[playsound(key="$d_avg_OriginiumArts_heart_1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[delay(time=2)]
+[Sticker(id="st1", text="«Стойте.»", x=300,y=340,alignment="center", size=26, delay=0.001, width=700,block = true,duration=1)]
+[Sticker(id="st1",duration=1)]
+[delay(time=2)]
+[name="Сирка"]  ...Что это?
+Это был отчётливый голос. Его услышала не только Сирка — он одновременно появился в голове каждого здесь.
+Этот ясный приказ заставил хаотичную толпу на время замолчать.
+Словно божественное откровение.
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_helicopterpropeller_loop", loop=true, channel="a",volume=0.5)]
+[delay(time=1)]
+[name="Мантра"]  Говорит Мантра.
+[name="Мантра"]  Сведения от Хеллагура точны, мы обнаружили колонну, готовящуюся уйти из города.
+[name="Мантра"]  Толпа успокоилась. Амия, это искусство очень опасно, я могу помочь тебе лишь один раз.
+[name="Мантра"]  Принято. Наземных угроз воздуху не подтверждено, «Плохишу» разрешена посадка.
+[StopSound(channel="a", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[bgeffect]
+[Background(image="bg_ruins_2", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m", name="avg_npc_088",duration=0.5)]
+[delay(time=1)]
+[name="Медик-оперативник"]  Командир, впереди колонна отходящих.
+[name="Медик-оперативник"]  Но мне не мерещится? Почему Реюнион действует вместе с урсусской армейской группой?
+[Dialog]
+[charslot]
+[charslot(slot="m", name="avg_4204_mantra_1#1$1",duration=1)]
+[delay(time=1.5)]
+[name="Мантра"]  Наверняка кто-то принял смелое решение.
+[name="Мантра"]  Не подведём этих людей.
+[name="Мантра"]  Начинаем спасательную операцию.
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[bgeffect(name="$eb_smoke_01",layer=1)]
+[Background(image="bg_topburning", screenadapt="coverall")]
+[playsound(key="$d_avg_churchfire", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=1.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(intro="$rebirth1_intro", key="$rebirth1_loop", volume=0.6)]
+[Blocker(a=0.45, r=1, g=1, b=1, fadetime=0.15, block=true)]
+[PlaySound(key="$d_avg_arrowshot", volume=0.6, channel="bat1")]
+[PlaySound(key="$d_avg_firemagic", volume=0.5, channel="bat2", delay=0.2)]
+[PlaySound(key="$d_avg_explosion_stone", volume=0.4, channel="bat3")]
+[CameraShake(duration=0.4, xstrength=20, ystrength=22, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m", name="avg_4247_oxi_1#7$4", duration=1)]
+[Delay(time=1.5)]
+[name="Талула"]  Фух... ха...
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_firemagic", volume=1, channel="m1")]
+[delay(time=1)]
+[PlaySound(key="$d_avg_mechadown", volume=0.5, channel="m2")]
+[CameraShake(duration=0.35, xstrength=12, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+Когда очередное тело щитоносца расплавилось в бушующем жаре, армейская группа наконец перестала наступать.
+[charslot(slot="m", name="avg_npc_2449_1#1$1")]
+[name="Отборный боец Четвёртой армейской группы A"]  Не подходите к ней! Держите дистанцию, расстреляйте её из арбалетов!
+[name="Отборный боец Четвёртой армейской группы A"]  Даже если она растопит все стрелы, для неё это будет расход сил. Мы можем измотать её!
+[name="Отборный боец Четвёртой армейской группы A"]  Подавите её, не дайте ей освободить руки!
+[Dialog]
+[charslot]
+[PlaySound(key="$e_atk_arrow_h", volume=1, channel="ar1")]
+[PlaySound(key="$d_avg_arrow_rain", volume=0.8, channel="ar2")]
+[CameraShake(duration=0.5, xstrength=15, ystrength=12, vibrato=30, randomness=90, fadeout=false, block=false)]
+[effect(name="$e_shot_01",layer=1,x=0,y=300,yto=-500,xto=-500,movetime = 0.3)]
+[delay(time=0.1)]
+[effect(name="$e_shot_01",layer=2,x=100,y=300,yto=-500,xto=100,movetime = 0.3)]
+[delay(time=0.1)]
+[effect(name="$e_shot_01",layer=3,x=-300,y=300,yto=-500,xto=300,movetime = 0.3)]
+[delay(time=0.1)]
+[effect(name="$e_shot_01",layer=4,x=-500,y=300,yto=-500,xto=700,movetime = 0.3)]
+[delay(time=0.4)]
+[PlaySound(key="$d_avg_firemagic", volume=0.9, channel="ar3")]
+[PlaySound(key="$d_avg_metalpipe", volume=0.65, channel="ar4", delay=0.1)]
+[delay(time=0.5)]
+Плотный поток арбалетных болтов рассёк воздух. Талула не обернулась и даже не отступила в сторону. Стрелы в трёх чи от её спины вдруг раскалились докрасна, наконечники расплавились, согнулись и с звяканьем посыпались на землю.
+Но всё же несколько стрел, которые она не успела остановить, глубоко вонзились ей в спину.
+[Dialog]
+[Blocker(a=0.32, r=1, g=0, b=0, fadetime=0.04, block=true)]
+[PlaySound(key="$d_avg_crossbow_hit", volume=0.7, channel="hit")]
+[PlaySound(key="$d_avg_bulletthrough", channel="hit1")]
+[CameraShake(duration=0.3, xstrength=28, ystrength=28, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot(slot="m", name="avg_4247_oxi_1#4$4")]
+[name="Талула"]  Эх—
+[charslot(slot="m", name="avg_npc_2449_1#1$1")]
+[name="Отборный боец Четвёртой армейской группы A"]  Ориджиниевые болты, заряжай—
+[Dialog]
+[PlaySound(key="$d_avg_bowstring_tightened", channel="bow")]
+[delay(time=1.5)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Отборный боец Четвёртой армейской группы A"]  Продолжать стрельбу!
+[charslot(slot="m", name="avg_4247_oxi_1#9$4")]
+[name="Талула"]  Дай мне— дорогу!!
+[charslot]
+[Dialog]
+[PlaySound(key="$d_avg_swordwhoosh_heavy", volume=1, channel="sw1")]
+[bgeffect(name="$eb_distorsion",layer=2)]
+[PlaySound(key="$fireburst")]
+[Effect(name="$e_magic_fire_01",y=-550,x=300,layer = 2,delay=0.2)]
+[Effect(name="$e_magic_fire_01",y=-550,x=-300,layer = 5,delay=0.2)]
+[Blocker(a=0.3, r=0.4, g=0.1, b=0.1, fadetime=1.5, block=false)]
+[Effect(name="$e_magic_fire_01",y=-550,x=450,layer = 3,delay=0.4)]
+[PlaySound(key="$d_avg_steamburst", volume=0.9, channel="sw3", delay=0.25)]
+[PlaySound(key="$d_avg_mechadown", volume=0.7, channel="sw4", delay=0.35)]
+[PlaySound(key="$bodyfalldown1", volume=0.8, channel="sw5", delay=0.4)]
+[CameraShake(duration=0.8, xstrength=30, ystrength=35, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.35, r=1, g=0.3, b=0, fadetime=0.12, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.35, block=true)]
+[delay(time=0.5)]
+Талула с рёвом подняла меч. Невидимая стремительная волна жара опрокинула солдат первого ряда, доспехи и боевые арбалеты мгновенно превратились в расплавленный металл.
+Передний даже не успел вскрикнуть — крик раздался изо рта стоявшего за ним, потому что расплавленный металл попал ему в лицо.
+[Dialog]
+[PlaySound(key="$d_avg_fallground_metalpipe", channel="2")]
+[CameraShake(duration=1, xstrength=2, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]
+Остальные солдаты могли лишь смотреть, как металлические трубы вокруг одна за другой размягчаются и падают, словно тающие свечи, и, ударяясь о землю, перекрывают проход.
+[charslot(slot="m", name="avg_npc_2448_1#1$1")]
+[name="Отборный боец Четвёртой армейской группы B"]  Что делать, командир?
+[charslot(slot="m", name="avg_npc_2449_1#1$1")]
+[name="Отборный боец Четвёртой армейской группы A"]  ...Она долго не продержится, даже самый сильный заражённый не может так безоглядно применять искусство.
+[name="Отборный боец Четвёртой армейской группы A"]  Дождёмся подкрепления и сегодня обязательно одолеем это чудовище-заражённого!
+[name="Отборный боец Четвёртой армейской группы A"]  Эти предавшие страну заражённые все погибнут сегодня!
+[charslot(slot="m", name="avg_npc_2448_1#1$1")]
+[name="Отборный боец Четвёртой армейской группы B"]  Но смотри! Что это чудовище сделало?!
+[charslot]
+[Dialog]
+[PlaySound(key="$d_avg_steamburst")]
+[CameraShake(duration=3, xstrength=10, ystrength=8, vibrato=40, randomness=50, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_planeshake", volume=1, channel="2",delay=1)]
+[delay(time=2.5)]
+[charslot(slot="m", name="avg_4247_oxi_1#4$4",duration=0.5)]
+[delay(time=1)]
+[name="Талула"]  (задыхаясь) Кхе— кхе-кхе—
+[charslot(slot="m", name="avg_4247_oxi_1#7$4")]
+[name="Талула"]  Я...
+[charslot(slot="m", focus="n")]
+Наконец сложные металлические устройства расплавились под жаром, и в платформе открылась огромная пустота. Под ней был привод передвижного города — тот самый, который она когда-то видела на чертежах.
+Эта металлическая громада походила на отшлифованный горный хребет, тянувшийся до края зрения.
+Здесь она стояла, крошечная, как готовая погаснуть искра.
+[charslot(slot="m", name="avg_4247_oxi_1#7$4")]
+[name="Талула"]  ...Оно... его всё ещё недостаточно...
+[name="Талула"]  Я уничтожала... и более сильные вещи...
+[charslot(slot="m", focus="n")]
+[PlaySound(key="$d_avg_ironmelt_loop",channel="2", loop=true)]
+Её рука потянулась к стальной громаде, тяжёлый металл медленно плавился. Это зрелище напомнило ей, как в партизанском отряде кто-то бросил снег в котёл с супом.
+Сколько уже прошло времени...
+Сколько ещё ждать...
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m", name="avg_4247_oxi_1#9$4")]
+[name="Талула"]  Эх— а—
+[Dialog]
+[stopmusic(fadetime=2)]
+[stopsound(channel="bgs", fadetime=2)]
+[stopsound(channel="2", fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="bg_black", screenadapt="coverall")]
+...
+…………
+...Талула... Талула...
+[name="???"]  Талула.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[stopmusic(fadetime=2)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Background(image="bg_snowconutry_1", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$frostnovadie_intro", key="$frostnovadie_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_078#1", duration=1)]
+[Delay(time=1)]
+[name="Талула"]  ...М?
+[Dialog]
+[charslot]
+[charslot(slot="m", name="char_1505_frstar_1#8", duration=1)]
+[Delay(time=1.5)]
+[name="Фростнова"]  Вставай живо, не притворяйся.
+[charslot(slot="m", name="avg_npc_078#2")]
+[name="Талула"]  Ай— больно, Белая Крольчиха, ты правда меня заморозила!
+[charslot(slot="m", name="char_1505_frstar_1#1")]
+[name="Фростнова"]  Я позвала тебя на боевую тренировку, а не смотреть, как ты ломаешь комедию.
+[name="Фростнова"]  Почему ты сдержалась в последнем ударе?
+[charslot(slot="m", name="avg_npc_078#2")]
+[name="Талула"]  Э? Это так заметно?
+[charslot(slot="m", name="char_1505_frstar_1#1")]
+[name="Фростнова"]  Не считай меня дурой!
+[charslot(slot="m", name="avg_npc_078#6")]
+[name="Талула"]  Пощады, пощады! Я не нарочно тебя дразнила.
+[charslot(slot="m", name="avg_npc_078#2")]
+[name="Талула"]  Ладно, признаю, я просто не смогла отразить твой удар, не потеряв контроль. Так что ты победила.
+[charslot(slot="m", name="char_1505_frstar_1#1")]
+[name="Фростнова"]  Ты всё ещё хвастаешься силой.
+[charslot(slot="m", name="avg_npc_078#1")]
+[name="Талула"]  Огонь — опасная штука.
+[name="Талула"]  Если не контролировать силу, одной искры и ветра под нужным углом хватит, чтобы деревня вмиг стала руинами, а наши полмесяца трудов пропали.
+[charslot(slot="m", name="char_1505_frstar_1#8")]
+[name="Фростнова"]  Только пустые слова.
+[charslot(slot="m", name="avg_npc_078#1")]
+[name="Талула"]  Это правда. В последнее время я стараюсь учиться контролировать эту силу — чтобы поговорить с другой мыслью внутри себя.
+[name="Талула"]  Это опасная сила. Когда она выходит из-под контроля, она приносит уже не тепло, а разрушение.
+[charslot(slot="m", name="char_1505_frstar_1#8")]
+[name="Фростнова"]  Хотелось бы посмотреть, что сожжёт твой огонь на полную силу.
+[charslot(slot="m", name="avg_npc_078#7")]
+[name="Талула"]  Весь Урсус... как?
+[charslot(slot="m", name="char_1505_frstar_1#7")]
+[name="Фростнова"]  Для этого нужен не только твой огонь.
+[charslot(slot="m", name="avg_npc_078#2")]
+[name="Талула"]  Хорошо, что у меня есть вы.
+[charslot(slot="m", name="char_1505_frstar_1#8")]
+[name="Фростнова"]  Я лишь окачу тебя холодной водой, когда ты слишком разойдёшься.
+[charslot(slot="m", name="avg_npc_078#2")]
+[name="Талула"]  И это неплохо.
+[charslot(slot="m", name="char_1505_frstar_1#8")]
+[name="Фростнова"]  Не говори о далёком, сегодняшняя тренировка ещё не закончена.
+[name="Фростнова"]  Бери меч, ещё один бой.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0, block=true)]
+[Background(image="bg_black", screenadapt="coverall")]
+[delay(time=1)]
+[playsound(key="$transmission")]
+[name="Голос из передатчика"]  ...Авангард прибыл на соединение, вся колонна продвигается. Повторяю—
+Механизм всё ещё гудел, огонь всё ещё бушевал.
+Она посмотрела на свою ладонь, покрытую засохшей кровью: кончики пальцев, затем линии ладони, и теперь даже вены светились тёмно-красным.
+Замолес. Это не дом заражённых, это моя могила.
+[name="Талула"]  Теперь пора...?
+Кровь капала с мочки её уха, все звуки становились размытыми, словно из старого патефона, рывками врезаясь в сознание.
+Она услышала голос.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Image(image="79_i21_1", screenadapt="coverall")]
+[bgeffect(name="$eb_oripathy",layer=2,y=-100,x=500)]
+[bgeffect(name="$eb_oripathy",layer=1,y=-100,x=-200)]
+[playsound(key="$d_avg_churchfire", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.2, channel="bgs",fadetime=1.5)]
+[bgeffect(name="$eb_079cg_awaken",layer=3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[delay(time=1)]
+[Sticker(id="st1", text="<color=#171616>Вождь.</color>", x=320,y=300,alignment="center", size=24, delay=0.001, width=700,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=1)]
+[Sticker(id="st1", text="<color=#171616>Ты должна... остановить этот город.</color>", x=320,y=300,alignment="center", size=24, delay=0.001, width=700,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=1)]
+[name="Талула"]  ...Да.
+[Dialog]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>Но город не остановится.</color>", x=320,y=300,alignment="center", size=24, delay=0.001, width=700,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>Армейская группа не остановится.</color>", x=320,y=300,alignment="center", size=24, delay=0.001, width=700,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>Урсус не остановится.</color>", x=320,y=300,alignment="center", size=24, delay=0.001, width=700,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>История не остановится.</color>", x=320,y=300,alignment="center", size=24, delay=0.001, width=700,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>Оно уже прошло по нам. Оно заставляет предателей предавать предателей, а мёртвых — хоронить мёртвых.</color>", x=320,y=300,alignment="center", size=24, delay=0.001, width=700,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=1)]
+[name="Талула"]  Ты всегда был прав, я знаю. Они не остановятся, и оно не остановится.
+[bgeffect(name="$eb_079cg_awaken",layer=3,x=0,xto=0,yto=-300,movetime =20)]
+[stopmusic(fadetime=2)]
+[name="Талула"]  Но, господин Патриот... вы помните?
+[dialog]
+[playMusic(intro="$rebirth2_intro",key="$rebirth2_loop", volume=0)]
+[MusicVolume(volume=0.6, fadetime=3)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=3)]
+[Image(image="79_i21_2", screenadapt="coverall",fadetime=3)]
+[delay(time=5)]
+[name="Талула"]  Я тоже не остановлюсь.
+[dialog]
+[playsound(key="$d_avg_ironmelt_loop", loop=true, channel="bgs3",volume=0)]
+[SoundVolume(volume=1, channel="bgs3",fadetime=2)]
+[SoundVolume(volume=0.5, channel="bgs",fadetime=1)]
+[playsound(key="$d_avg_lavarollp", loop=true, channel="bgs2",volume=0)]
+[SoundVolume(volume=1, channel="bgs2",fadetime=2)]
+[delay(time=2)]
+[StopSound(channel="bgs3", fadetime=2)]
+[name="Голос солдата"]  Нет...
+[name="Голос солдата"]  ...Эта расплавленная сталь... привод Замолеса? Но это же целый передвижной город!
+[name="Голос солдата"]  Словно река... как, как это вообще возможно...
+[playsound(key="$d_avg_crystalshatter_loop",channel="1", loop=true,volume=0.5)]
+Кап-кап.
+Рассыпавшиеся кристаллы падали из свободного рукава, словно холодная густая старая кровь, словно песок, утекающий сквозь пальцы.
+Земля под ногами непрерывно дрожала, словно укрощённый зверь, и с каждым звуком падающих кристаллов становилась всё кротче и тише.
+[StopSound(channel="1", fadetime=2)]
+[name="Талула"]  Я помню... каждого, кто погиб из-за меня.
+[name="Талула"]  Я помню всю слабость, все слёзы.
+[name="Талула"]  Все дни, проведённые в тени, все мгновения, когда я не решалась сделать выбор.
+[name="Талула"]  Я помню каждое слово, которое хотела услышать, но так и не услышала...
+[Dialog]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>……</color>", x=80,y=300,alignment="center", size=24, delay=0.001, width=400,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>Я уважал многих — большей частью не за силу, а за честность.</color>", x=80,y=300,alignment="center", size=24, delay=0.001, width=400,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>Раньше ты была вождём.</color>", x=80,y=300,alignment="center", size=24, delay=0.001, width=400,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>Теперь ты должница.</color>", x=80,y=300,alignment="center", size=24, delay=0.001, width=400,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>И дальше ты будешь отдавать этот долг...</color>", x=80,y=300,alignment="center", size=24, delay=0.001, width=400,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=0.5)]
+[Sticker(id="st1", text="<color=#171616>Но не забывай, кто ты.</color>", x=80,y=300,alignment="center", size=24, delay=0.001, width=400,block = true,duration=1)]
+[Sticker(id="st1",duration=0.5,block = false)]
+[delay(time=1)]
+[Dialog]
+[delay(time=1)]
+[Sticker(id="stA", text="<i>Я...</i>", x=360, y=360, alignment="left", size=28, delay=0.01, width=900, block=false)]
+[stickertween(id="stA", afrom=0, ato=1, aduration=0.5, join=true, isend=false, block=false)]
+[stickertween(id="stA", pfrom="360,360", pto="420,360", pduration=20, join=true, isend=true, block=false)]
+[delay(time=2)]
+[Dialog]
+[SoundVolume(volume=1, channel="bgs",fadetime=1.5)]
+[effect(name="$e_079cg_fireslash_02",layer=4)]
+[playsound(key="$d_avg_OriginiumArts_fire_long")]
+[playsound(key="$d_avg_flag",channel="1")]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[bgeffect(name="$eb_079cg_fireslash_01",layer=4)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=1.5, block=true)]
+[Image(image="79_i21_3", screenadapt="coverall",fadetime=1.5)]
+[stickertween(id="stA", afrom=1, ato=0, aduration=1.5, join=false, isend=true, block=false)]
+[Sticker(id="stB", text="<i>Не забуду.</i>", x=800, y=360, alignment="left", size=28, delay=0.04, width=900, block=false)]
+[stickertween(id="stB", afrom=0, ato=1, aduration=1, join=true, isend=false, block=false)]
+[stickertween(id="stB", pfrom="800,360", pto="860,360", pduration=20, join=true, isend=true, block=false)]
+[delay(time=2)]
+[stickertween(id="stB", afrom=1, ato=0, aduration=3, join=false, isend=true, block=false)]
+[delay(time=4)]
+[stickerclear]
+Она подняла голову.
+Десятки глаз смотрели на неё. Когда-то в них было высокомерие, теперь остались лишь растерянность и страх.
+[Dialog]
+[name="Талула"]  Вы тоже не забудете.
+Пустой рукав развевался в пыли и дыму.
+[name="Талула"]  Давайте, запомните меня, палачи империи.
+[name="Талула"]  Запомните последний свет, который увидели ваши глаза.
+[name="Талула"]  —Я и есть пламя.
+[name="Талула"]  А огонь не унимается, пока не сгорит дотла.
+[dialog]
+[playsound(key="$fireburst")]
+[bgeffect(name="$eb_079cg_fireslash_01",layer=1,x=0,xto=0,yto=300,movetime = 3)]
+[delay(time=1)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=3, block=true)]
+...
+Море огня довершило всё.
+Затем её тело окунулось в холод, растёкшийся по рукам, по груди... она почувствовала небывалую лёгкость.
+Она открыла дверь, которую давно не открывали... посыпалась пыль, за дверью кто-то ждал — давняя подруга, с которой они так долго не виделись.
+[stopmusic(fadetime=4)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[StopSound(channel="bgs", fadetime=2)]
+[StopSound(channel="bgs2", fadetime=2)]
+[bgeffect]
+[delay(time=4)]
+Огонь погас.
+[Dialog]
+[delay(time=2)]
+[charslot]
+[Image]
+[bgeffect(name="$eb_smoke_01",layer=1)]
+[focusout(duration=0, type="char", from=0, to=1)]
+[focusout(duration=0, type="bg", from=0, to=1)]
+[Background(image="bg_topburning", screenadapt="coverall")]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+...
+[name="???"]  Мисс Талула!
+[name="???"]  Держись, я сейчас тебя вынесу!
+[name="Талула"]  ...Тот меч...
+[name="Талула"]  Это ты, Хуэйцзе...
+[name="Талула"]  Ты... пришла...?
+Так холодно... холодно...
+...Снова пошёл снег?
+[dialog]
+[charslot(slot="m", name="avg_1037_amiya3_1#1$4",bstart=0.3,bend=0.6,duration=1)]
+[delay(time=1.5)]
+[name="???"]  ...М? Что ты—
+[name="???"]  Мисс Талула!
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[focusout(duration=0, type="char", from=0, to=0)]
+[focusout(duration=0, type="bg", from=0, to=0)]
+[delay(time=1)]
+[bgeffect(name="$eb_snowpowder",layer=1)]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Background(image="bg_snowconutry_4", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$storyendjp_intro", key="$storyendjp_loop", volume=0.6)]
+[playsound(key="$d_avg_throwmud")]
+[CameraShake(duration=0.2, xstrength=15, ystrength=10, vibrato=15, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m", name="avg_4247_oxi_1#10$1", duration=0.5)]
+[Delay(time=1)]
+[name="Талула"]  Ах...
+[charslot(slot="m", name="avg_npc_079#2")]
+[name="Алина"]  Хе-хе... я звала тебя долго, а ты не отвечала, вот и захотелось подшутить.
+[charslot(slot="m", name="avg_npc_079#1")]
+[name="Алина"]  О чём ты думаешь? Великие мысли снова дерутся в твоей голове?
+[name="Алина"]  Ты не обидишься, что я испачкала твою красивую одежду? Ух, как холодно...
+[charslot(slot="m", name="avg_4247_oxi_1#5$1")]
+[name="Талула"]  Алина...
+[charslot(slot="m", focus="n")]
+Талула опустила голову и застыла на месте, не смея сделать шаг.
+Рыхлый снежок попал на её пальто, оставив лёгкий след, который тут же исчез.
+[charslot(slot="m", name="avg_4247_oxi_1#16$1")]
+[name="Талула"]  Я снова вижу сон...
+[name="Талула"]  Ладно... по крайней мере, я снова тебя вижу.
+[charslot(slot="m", name="avg_npc_079#1")]
+[name="Алина"]  Если бы жизнь шла так, как хочется, люди ведь не любили бы мечтать, верно?
+[charslot(slot="m", name="avg_4247_oxi_1#5$1")]
+[name="Талула"]  Алина...
+[charslot(slot="m", name="avg_npc_079#1")]
+[name="Алина"]  Талула, как же ты изменилась.
+[name="Алина"]  Каждый видит, что тебе пришлось много страдать.
+[charslot(slot="m", name="avg_4247_oxi_1#5$1")]
+[name="Талула"]  Я...?
+[name="Талула"]  ...Но в итоге я так ничего и не смогла.
+[name="Талула"]  Алина, после твоего ухода мы прошли долгий, далёкий путь.
+[name="Талула"]  Мы думали, что в странах за пределами Урсуса найдём выход.
+[charslot(slot="m", name="avg_4247_oxi_1#17$1")]
+[name="Талула"]  Но нет. Страна, только что прошедшая через войну, тоже не смогла найти места для заражённых, которые её защищали.
+[name="Талула"]  Мы надеялись найти землю, до которой никому нет дела, и возделать там свой дом.
+[charslot(slot="m", name="avg_4247_oxi_1#15$1")]
+[name="Талула"]  Но ненависть гналась за нами по пятам, снова и снова. Нам никогда не убежать.
+[name="Талула"]  Мы всё время скитались... Я правда не могу не думать, что в конце мы так и не вышли из той снежной равнины.
+[charslot(slot="m", name="avg_4247_oxi_1#5$1")]
+[name="Талула"]  Алина... иногда я так боюсь, что ты узнаешь.
+[name="Талула"]  Я тебя подвела... Алина.
+[name="Талула"]  Я потерпела неудачу.
+[charslot(slot="m", name="avg_npc_079#1")]
+[name="Алина"]  Ты опять сама с собой разговариваешь.
+[charslot(slot="m", name="avg_4247_oxi_1#5$1")]
+[name="Талула"]  Я просто—
+[charslot(slot="m", name="avg_npc_079#1")]
+[name="Алина"]  Ты замечательная Талула, но ты всего лишь Талула.
+[name="Алина"]  Все требуют, чтобы ты всё делала идеально, надеются, что ты одна одолеешь эти огромные бедствия.
+[name="Алина"]  Разве ты заслуживаешь насмешек только потому, что не сделала того, чего до тебя не делал никто?
+[name="Алина"]  Но все забыли, какой ты хороший человек.
+[name="Алина"]  С самого начала твой идеал был о других, ты всегда сражалась за других. Те, кто смеётся над твоей неудачей, не способны проявить и тысячной доли твоей доброты.
+[charslot(slot="m", name="avg_4247_oxi_1#15$1")]
+[name="Талула"]  Не говори, Алина, не говори...
+[name="Талула"]  Нет... это не то, что я хочу слышать.
+[charslot(slot="m", name="avg_npc_079#4")]
+[name="Алина"]  Всё это ужасно, да?
+[name="Алина"]  Талула, ты всё ещё думаешь, что борешься ради какого-то результата?
+[name="Алина"]  Ты всё ещё считаешь, что с так называемой «судьбой» стоит бороться?
+[charslot(slot="m", name="avg_4247_oxi_1#5$1")]
+[name="Талула"]  ...Да.
+[name="Талула"]  Я должна сказать, что «судьба» сильнее, чем я думала. Если я не могу сжечь её в пепел, значит, сгореть должна я сама.
+[name="Талула"]  Если судьба полена — сгореть дотла и не оставить ничего, я тоже это принимаю.
+[charslot(slot="m", name="avg_npc_079#4")]
+[name="Алина"]  Может, только став такой, как сейчас, я могу говорить о том, какова моя судьба.
+[charslot(slot="m", name="avg_4247_oxi_1#15$1")]
+[name="Талула"]  Не говори так, прошу...
+[charslot(slot="m", name="avg_npc_079#1")]
+[name="Алина"]  Но, Талула, я верю, что у твоей истории будет другой конец.
+[name="Алина"]  Ты сделала больше, чем кто-либо, и должна получить больше. Ты заслуживаешь лучшего конца.
+[charslot(slot="m", name="avg_npc_079#3")]
+[name="Алина"]  Талула, я хочу, чтобы у тебя был—
+[dialog]
+[playsound(key="$d_avg_snowstormlp", loop=true, channel="a",volume=0)]
+[SoundVolume(volume=0.3, channel="a",fadetime=2)]
+[PlaySound(key="$d_avg_wind")]
+[delay(time=1.5)]
+[charslot(slot="m", name="avg_4247_oxi_1#5$1")]
+[name="Талула"]  Алина, что ты сказала? Я не слышу—
+[charslot(slot="m", name="avg_npc_079#2")]
+[name="Алина"]  Я сказала, Талула—
+[SoundVolume(volume=0.7, fadetime=3,channel="a")]
+[dialog]
+[bgeffect(name="$eb_blizzard",layer=1)]
+[delay(time=2)]
+[charslot(slot="m", name="avg_4247_oxi_1#11$1")]
+[name="Талула"]  Алина?!
+[dialog]
+[charslot(slot="m", name="avg_npc_079#2")]
+[delay(time=1.5)]
+Шум ветра и снега заглушил всё, Талула не слышала даже слов человека, стоявшего совсем рядом.
+[dialog]
+[bgeffect(name="$eb_072cg_snowcoverwindow",layer=2,y=10)]
+[charslot(duration=2)]
+[delay(time=2)]
+Алина, казалось, хотела взять её за правую руку, но её силуэт постепенно размывался в метели.
+[charslot]
+[charslot(slot="m", name="avg_4247_oxi_1#16$1")]
+[name="Талула"]  Что я делаю...
+[name="Талула"]  Хе...
+[charslot(slot="m", name="avg_4247_oxi_1#3$1")]
+[name="Талула"]  ...Разбуди меня.
+[Dialog]
+[StopSound(channel="a", fadetime=2)]
+[stopmusic(fadetime=3)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[bgeffect]
+[delay(time=2)]
+[Background(image="34_g10_tent_inside", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(key="$calm_loop", volume=0.6)]
+[charslot(slot="m", name="avg_4247_oxi_1#5$2", duration=1)]
+[Delay(time=2)]
+[name="Талула"]  Я... это...
+[charslot(slot="m", name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Как хорошо, ты наконец проснулась.
+[name="Милана"]  Хотя те очень серьёзные на вид врачи и говорили, что твоей жизни сейчас ничто не угрожает, ты всё равно не давала за себя не волноваться.
+[charslot(slot="m", name="avg_4247_oxi_1#10$2")]
+[name="Талула"]  Милана...
+[name="Талула"]  Замолес... что с нами потом... стало?
+[name="Талула"]  Сирка говорила, что при отходе что-то случилось, что именно—
+[charslot(slot="m", name="avg_npc_2225_1#3$1")]
+[name="Милана"]  Не волнуйся, наш отряд уже вывел людей. Мы оторвались от преследования и сейчас в безопасности.
+[name="Милана"]  Нам повезло, мы получили неожиданную помощь.
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Что до того случая, о котором говорила Сирка... к сожалению, трагедия действительно произошла. Мы стараемся разобраться с последствиями.
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  В общем, сейчас главная проблема — ты—
+[charslot(slot="m", name="avg_4247_oxi_1#5$2")]
+[name="Талула"]  Не волнуйся, я чувствую, что пока не умру.
+[name="Талула"]  Просто... тело кажется немного тяжёлым...
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Талула, ни в коем случае не насилуй себя, сейчас тебе нужно только отдыхать.
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Ты не представляешь, в каком опасном состоянии ты была!
+[charslot(slot="m", name="avg_4247_oxi_1#11$2")]
+[name="Талула"]  Кстати! До того как я потеряла сознание, я, кажется, видела человека.
+[name="Талула"]  Кто нам помог? Они ещё здесь?
+[name="Талула"]  Мне нужно—
+[dialog]
+[charslot(slot="m", name="avg_4247_oxi_1#10$2")]
+[charslot(slot = "m",posfrom = "0,0", posto = "0,-60",duration = 0.5)]
+[delay(time=0.2)]
+[playsound(key="$bodyfalldown2")]
+[charslot(duration=0.3)]
+[CameraShake(duration=0.3, xstrength=10, ystrength=15, vibrato=10, randomness=90, fadeout=true, block=false)]
+[delay(time=0.5)]
+Талула с трудом поднялась с кровати, но тело почему-то показалось ей совсем чужим. В тот миг, когда она встала, она потеряла равновесие и упала.
+[charslot]
+[charslot(slot="m", name="avg_npc_2225_1#5$1")]
+[name="Милана"]  Талула!
+[charslot]
+[name="Талула"]  Странно...?
+Талула наконец заметила странность своего тела: справа, ниже плеча—
+остался лишь пустой рукав.
+[dialog]
+[charslot(slot="m", name="avg_4247_oxi_1#5$2",duration=0.5)]
+[delay(time=1)]
+[name="Талула"]  А...
+[name="Талула"]  Я, это...?
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Они говорят... это стремительная кристаллизация тела из-за чрезмерного использования искусства ориджиниума.
+[name="Милана"]  Я не знаю, что именно произошло на башне передвижного города, но когда тебя принесли сюда, ты была вся в крови, а тело горело, как раскалённый утюг.
+[name="Милана"]  Врачи потратили много сил, чтобы спасти тебе жизнь, но они спасли только жизнь...
+[charslot]
+Талула медленно протянула «обе руки», но только уцелевшая левая ответила её воле и медленно согнулась.
+Она смотрела на свою руку, кажется, лишь с недоумением.
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Прости, я правда не знаю, как утешать в такой ситуации...
+[charslot(slot="m", name="avg_4247_oxi_1#5$2")]
+[name="Талула"]  Я...
+[charslot(slot="m", name="avg_4247_oxi_1#13$2")]
+[name="Талула"]  Хе... хе-хе, ха-ха-ха...!
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Талула?
+[charslot(slot="m", name="avg_4247_oxi_1#13$2")]
+[name="Талула"]  Нет, ничего, не смотри так, ты наверняка думаешь, что я сошла с ума, да?
+[name="Талула"]  Не волнуйся. Я не стану притворяться, что мне всё равно, но уж точно не сломаюсь от такого удара.
+[name="Талула"]  Я жива, разве это не значит, что мне очень повезло? Я дышу, хожу, говорю, думаю — и, конечно, могу сражаться.
+[name="Талула"]  Не хвастаясь, у меня большой талант в фехтовании. Веришь, даже с одной левой рукой Рэд не скажет, что легко меня победит—
+[charslot(slot="m", name="avg_npc_2225_1#9$1")]
+[name="Милана"]  Талула!
+[name="Милана"]  Не надо... не надо так себя принуждать.
+[charslot(slot="m", focus="n")]
+Юноша силой взял левую руку Талулы и крепко прижал к груди.
+Талула медленно опустила голову, и вымученный смех застрял у неё в горле.
+[charslot(slot="m", name="avg_4247_oxi_1#3$2")]
+[name="Талула"]  ...Я редко кому рассказываю, как стала заражённой.
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Это был несчастный случай?
+[charslot(slot="m", name="avg_4247_oxi_1#1$2")]
+[name="Талула"]  Наоборот, я сделала это нарочно.
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Не понимаю...
+[charslot(slot="m", name="avg_4247_oxi_1#1$2")]
+[name="Талула"]  В восемнадцать я вставила себе в руку кристалл ориджиниума, в правую.
+[name="Талула"]  Я сделала это только чтобы вырваться из-под контроля одного злого человека. Только так я могла порвать со всей прежней неправильной жизнью.
+[charslot(slot="m", name="avg_4247_oxi_1#3$2")]
+[name="Талула"]  Статус заражённой действительно стал для меня новым началом.
+[name="Талула"]  Но я ошибалась в своей наивности, думая, что так я встану вместе со всеми заражёнными, со всеми угнетёнными.
+[charslot(slot="m", name="avg_4247_oxi_1#5$2")]
+[name="Талула"]  Я всё слишком упростила... да?
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Я не могу судить, правильно это или нет.
+[name="Милана"]  Но ты решилась заплатить такую цену, чтобы сбежать от прежней жизни... это наверняка было трудное решение.
+[charslot(slot="m", name="avg_4247_oxi_1#6$2")]
+[name="Талула"]  Тот, кто меня вырастил, — самое злое существо на этой земле. Его невозможно описать самыми злыми словами.
+[name="Талула"]  Он не гнушался самыми подлыми средствами, чтобы насильно вложить в меня свою волю...
+[charslot(slot="m", name="avg_4247_oxi_1#3$2")]
+[name="Талула"]  Но одну вещь он сказал верно...
+[charslot(slot="m", name="avg_4247_oxi_1#1$2")]
+[name="Талула"]  ...Я недостаточно знаю эту землю.
+[name="Талула"]  Я думала, что уже получила достаточно знаний, поняла, как устроено общество, и знаю ту грязь, что скрыта за правилами.
+[name="Талула"]  Но я никогда по-настоящему не понимала людей, живущих на этой земле... прежде чем пусто рассуждать, недооцениваю я человеческую природу или переоцениваю, я никогда не знала её достаточно.
+[name="Талула"]  Поэтому я так и не смогла, как надеялась... принести людям надежду.
+[charslot(slot="m", name="avg_4247_oxi_1#5$2")]
+[name="Талула"]  Прости, Милана...
+[name="Талула"]  Мы всё равно потерпели неудачу.
+[charslot(slot="m", name="avg_npc_2225_1#11$1")]
+[name="Милана"]  Почему ты просишь прощения у меня?
+[charslot(slot="m", name="avg_4247_oxi_1#5$2")]
+[name="Талула"]  Я обещала вам, что этой битвой мы получим свой дом.
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Мы действительно не получили свой город, но кто сказал, что мы ничего не приобрели?
+[name="Милана"]  Если ты готова, пойдём прогуляемся, хорошо.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="bg_snowconutry_1", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m", name="avg_npc_088")]
+[name="Медик-оперативник"]  ...Последние несколько тяжелораненых уже вне опасности, операции были действительно трудными.
+[name="Медик-оперативник"]  Но самая большая проблема не решена: ингибиторов едва хватает, лекарств, которые мы привезли, слишком мало.
+[charslot(slot="m", name="avg_1037_amiya3_1#1$1")]
+[name="Амия"]  Перед выступлением никто не думал, что сразу по прибытии столкнёмся с таким жестоким боем.
+[name="Амия"]  Я уже попросила оперативников, знакомых с этим районом, достать лекарства и связаться со штабом. А до тех пор... давайте найдём побольше бинтов и чистого белья.
+[charslot(slot="m", name="avg_1037_amiya3_1#8$1")]
+[name="Амия"]  В общем, все потрудились! Доктор Кальцит просила меня подбодрить всех — в спасательной операции все проявили храбрость!
+[dialog]
+[PlaySound(key="$transmission")]
+[delay(time=1)]
+[charslot(slot="m", name="avg_1037_amiya3_1#7$1")]
+[name="Амия"]  Подожди, доктор Кальцит, я ведь и так собиралась сказать всем то же самое—
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_snowbootwalk")]
+[charslot(slot="m", name="avg_4247_oxi_1#10$2", duration=1)]
+[Delay(time=2)]
+[name="Талула"]  Амия...?
+[charslot(slot="m", name="avg_1037_amiya3_1#5$1")]
+[name="Амия"]  Мисс Талула...
+[charslot(slot="m", name="avg_1037_amiya3_1#15$1")]
+[name="Амия"]  Почему ты вышла? Ты так тяжело ранена, тебе нужно лежать!
+[charslot(slot="m", name="avg_4247_oxi_1#10$2")]
+[name="Талула"]  Это ты меня спасла... тот меч, который я видела перед потерей сознания, — это была ты...
+[name="Талула"]  Почему...
+[name="Талула"]  Родос Айленд, почему вы здесь?
+[dialog]
+[charslot(slot = "m", focus = "n")]
+[Decision(options="Потому что мы получили сигнал от оперативника Родос Айленда.", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m", name="avg_4247_oxi_1#10$2")]
+[name="Талула"]  Доктор {@nickname} с Родос Айленда.
+[name="Талула"]  Я никак не думала... что врач, о котором говорила Милана, — это вы.
+[dialog]
+[charslot(slot="m", focus="n")]
+[Decision(options="Наша прошлая встреча была слишком поспешной.;Возможно, только сейчас нам стоит считаться впервые официально представленными.", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="Считайте, что нам просто особенно повезло со встречей.;Формально ты всё ещё «пленник» Родос Айленда.", values="1;2")]
+[Predicate(references="2")]
+[charslot(slot="m", name="avg_1037_amiya3_1#10$1")]
+[name="Амия"]  (тихо) Доктор, сейчас не время об этом!
+[Predicate(references="1;2")]
+[charslot(slot="m", name="avg_4247_oxi_1#1$2")]
+[name="Талула"]  ...Спасибо, доктор {@nickname}, мне стыдно.
+[charslot(slot="m", name="avg_4247_oxi_1#3$2")]
+[name="Талула"]  ...Я знаю, у меня осталось много недосказанного вам... простите...
+[charslot(slot="m", name="avg_npc_2426_1#1$2")]
+[name="Хеллагур"]  Судьба всегда жалеет времени, чтобы дать нам подготовиться.
+[name="Хеллагур"]  Мисс Талула, положение срочное. Если вы всё ещё лидер Реюниона, я должен сообщить вам сведения с поля боя.
+[charslot(slot="m", name="avg_4247_oxi_1#1$2")]
+[name="Талула"]  Конечно...
+[name="Талула"]  Спасибо, генерал Хеллагур... господин Патриот рассказывал мне о вас.
+[charslot(slot="m", name="avg_npc_2426_1#5$2")]
+[name="Хеллагур"]  ...Я тоже по нему скучаю.
+[charslot(slot="m", name="avg_4247_oxi_1#1$2")]
+[name="Талула"]  Прежде чем мы начнём, дайте мне немного времени.
+[name="Талула"]  Родос Айленд... Я не знаю, как выразить благодарность, и пока не могу ответить на прошлое—
+[charslot(slot="m", name="avg_1037_amiya3_1#16$1")]
+[name="Амия"]  Мисс Талула.
+[charslot(slot="m", name="avg_4247_oxi_1#1$2")]
+[name="Талула"]  Э... говорите.
+[charslot(slot="m", name="avg_1037_amiya3_1#16$1")]
+[name="Амия"]  Я прекрасно понимаю, что вражду между Родос Айлендом и Реюнионом нельзя уладить парой слов. Даже у меня нет права объявить прошлое забытым.
+[charslot(slot="m", name="avg_1037_amiya3_1#6$1")]
+[name="Амия"]  Но идеалы Родос Айленда говорят нам... мы не должны увязать в прежних предрассудках и даже из-за них отказываться от надежды на будущее.
+[name="Амия"]  О прошлых обидах и правоте мы ещё успеем поговорить. По крайней мере сейчас у Родос Айленда и Реюниона одна цель.
+[name="Амия"]  Мы оба хотим спасти больше жизней заражённых, нам нужно сотрудничать.
+[charslot(slot="m", name="avg_4247_oxi_1#1$2")]
+[name="Талула"]  Конечно... это именно то, что нам нужно.
+[name="Талула"]  Спасибо, Амия...
+[charslot(slot="m", name="avg_4247_oxi_1#3$2")]
+[name="Талула"]  Огромное... спасибо.
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(key="$saferoom_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_2155_1#3$1", duration=1)]
+[Delay(time=2)]
+[name="Фёдор"]  ...
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  Парень, здесь люди ходят туда-сюда, почему только ты стоишь посреди дороги?
+[charslot(slot="m", name="avg_npc_2155_1#6$1")]
+[name="Фёдор"]  Что—
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  О, вот так-то лучше. Нельзя всё время хмуриться, на лбу останутся морщины, и в молодости станешь как бабушка!
+[charslot(slot="m", name="avg_npc_2155_1#1$1")]
+[name="Фёдор"]  ...Спасибо за заботу...
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  За что тут благодарить. Иди сюда, садись отдохни. Скажи, как тебя зовут?
+[charslot(slot="m", name="avg_npc_2155_1#2$1")]
+[name="Фёдор"]  Фёдор. Можете звать меня Федя.
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  Хорошо, Федя, возьми эту чашку чая, хоть немного согреешься. Согреешь ладони — и на душе полегчает, а любые заботы покажутся пустяком.
+[charslot(slot="m", name="avg_npc_2155_1#9$1")]
+[name="Фёдор"]  Вы говорите так, будто все беды на этой земле — просто из-за плохой погоды.
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  А то как же? Это вина императора или господина Святого Юродивого?
+[charslot(slot="m", name="avg_npc_2155_1#11$1")]
+[name="Фёдор"]  Даже здесь знают о Святом Юродивом...
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  Не думай, что я старая и говорю глупости. Я не видела ни одного из них своими глазами, но обязана это знать.
+[name="Приветливая старушка"]  «Император даёт нам спокойную жизнь, Святой Юродивый даёт нам мир в душе.»
+[name="Приветливая старушка"]  Так мы и переживаем эти бесконечные плохие дни.
+[charslot(slot="m", name="avg_npc_2155_1#11$1")]
+[name="Фёдор"]  ...Похоже, вы просто привыкли к этому.
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  А что делать, если не привыкнуть? Ты сейчас говоришь, как мой невезучий внук, у которого в голове всегда что-то далёкое, невидимое и недосягаемое, потому и ушёл далеко.
+[charslot(slot="m", name="avg_npc_2155_1#2$1")]
+[name="Фёдор"]  Он не в деревне?
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  В деревне? Ха-ха, его уже нет среди живых.
+[name="Приветливая старушка"]  Как и его родителей. В конце армия прислала только железный жетон и две серебряные монеты. А я хотела внука, которого могла бы обнять.
+[charslot(slot="m", name="avg_npc_2155_1#3$1")]
+[name="Фёдор"]  ...Он был военным? Вы знаете, в какой армейской группе он служил?
+[charslot(slot="m", name="avg_npc_093")]
+[name="Приветливая старушка"]  Эх, не помню, не помню...
+[name="Приветливая старушка"]  Кстати, мне пора идти освобождать место для господ военных, чтобы им было где поспать, когда придут—
+[charslot(slot="m", name="avg_npc_2155_1#1$1")]
+[name="Фёдор"]  Я помогу вам.
+[charslot(slot="m", name="avg_npc_092")]
+[name="Добрый старик"]  Ой, не надо, сиди. Мы работаем до такого возраста и куда ловчее вас, детей из большого города.
+[name="Добрый старик"]  Я так давно не видела таких молодых урсусцев, как ты. Даже военные раньше редко проходили здесь...
+[charslot(slot="m", name="avg_npc_2155_1#11$1")]
+[name="Фёдор"]  Я—
+[charslot]
+[name="Селянин A"]  Сказано сиди, значит, сиди! Врачи, которых вы привели, уже многим помогли: кто-то лечит людей, кто-то вправляет ноги вьючным зверям, а главное — всё бесплатно!
+[name="Селянин B"]  Те молодые люди в масках сначала тоже пугали.
+[name="Селянин B"]  А потом, кто бы мог подумать, работают быстрее всех: в два счёта починили протекавшую крышу, которая почти сезон стояла, не знаю, как их благодарить.
+[name="Селянин A"]  Да, спасибо, что пришли!
+[charslot(slot="m", name="avg_npc_2155_1#9$1")]
+[name="Фёдор"]  ...
+[charslot(slot="m", focus="n")]
+Похоже, искренние чувства в этих словах его тронули, и Фёдор больше не хмурился.
+Хотя в словах людей всё ещё смутно проглядывали неприятности, нерешённые дела и доказательства того, что благо не для всех — сейчас это можно было на время отложить.
+Он почувствовал, что его «приняли», и одновременно принял некое решение. Под болтовню вокруг юноша поднял чашку и выпил горький, чуть тёплый крепкий чай.
+[dialog]
+[charslot]
+[CameraShake(duration=0.5, xstrength=3, ystrength=8, vibrato=10, randomness=90, fadeout=true, block=false)]
+[playsound(key="$d_avg_armywalking")]
+[delay(time=1.5)]
+Когда он обернулся, у входа в деревню колонна плохо снаряжённых войск шагала к нему.
+[charslot(slot="m", name="avg_npc_2155_1#6$1")]
+[name="Фёдор"]  Знамя Центральной армейской группы—
+[charslot(slot="m", name="avg_npc_2155_1#9$1")]
+[name="Фёдор"]  Это Девятая дивизия!
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[stopmusic(fadetime=2)]
+[delay(time=1)]
+[Background(image="bg_iceforest_2", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(key="$formal_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_2426_1#1$2", duration=1)]
+[Delay(time=2)]
+[name="Хеллагур"]  Вот так... После ухода из Сент-Стидбурга я больше не получал вестей из города, мы можем лишь надеяться, что те люди живы.
+[name="Хеллагур"]  Сейчас целая дивизия под командованием генерал-майора Лаврена, посланная командованием разведать обстановку, получила право действовать по своему усмотрению.
+[name="Хеллагур"]  Можно сказать, их нынешняя позиция в какой-то мере отражает позицию всей Пятой армейской группы.
+[charslot(slot="m", name="avg_4247_oxi_1#1$1")]
+[name="Талула"]  ...Вот как, в Сент-Стидбурге всё ещё есть такое сопротивление, и так много смелых людей.
+[name="Талула"]  Мы никак не думали, что получим поддержку Родос Айленда и других армейских групп.
+[charslot(slot="m", name="avg_npc_2426_1#8$2")]
+[name="Хеллагур"]  Елизавета уже решила превратить Урсус в безостановочно работающую военную машину. Тогда её врагами точно будут не только заражённые.
+[charslot(slot="m", name="avg_4247_oxi_1#1$1")]
+[name="Талула"]  Поэтому у нас тоже может быть много потенциальных союзников.
+[dialog]
+[charslot]
+[playsound(key="$d_avg_snowrun", loop=true, channel="a")]
+[charslot(slot="m", name="avg_npc_2447_1#1$1", duration=0.5)]
+[Delay(time=1)]
+[StopSound(channel="a", fadetime=0.5)]
+[name="Боец Реюниона"]  Талула! Беда!
+[name="Боец Реюниона"]  Мы только что обнаружили быстроходный линкор армейской группы, он идёт прямо к нашему укрытию, номер части — Первая армейская группа!
+[charslot(slot="m", name="avg_npc_2426_1#10$2")]
+[name="Хеллагур"]  ...?
+[charslot(slot="m", name="avg_4247_oxi_1#6$1")]
+[name="Талула"]  Сколько их? Далеко?
+[charslot(slot="m", name="avg_npc_2447_1#1$1")]
+[name="Боец Реюниона"]  Пока мы видим только один быстроходный линкор, до нас меньше пяти километров, неизвестно, сколько сил следом!
+[name="Боец Реюниона"]  На этот раз они движутся слишком быстро, будто точно знают наше положение!
+[charslot(slot="m", name="avg_4247_oxi_1#6$1")]
+[name="Талула"]  Сообщите всем: боевые части готовятся к бою, остальные немедленно готовятся к переезду!
+[charslot(slot="m", name="avg_npc_2426_1#1$2")]
+[name="Хеллагур"]  Я помогу подготовить оборону.
+[charslot]
+[name="???"]  Возможно, есть способ проще...
+[dialog]
+[playsound(key="$d_avg_walkingstick_slow")]
+[charslot(slot="m", name="avg_npc_1984_1#1$1", duration=1)]
+[Delay(time=1.5)]
+[name="Вит"]  Я ведь уже говорил тому маршалу не вести линкор так быстро, чтобы не вызвать недоразумение...
+[name="Вит"]  Поверьте, мы пришли не с враждебными намерениями. Можно хотя бы дать мне, безоружному человеку, шанс поговорить?
+[name="Вит"]  И позволите мне увидеться с его величеством?
+[Dialog]
+[Delay(time=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[StopSound(channel="bgs", fadetime=2)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]

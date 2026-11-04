@@ -1,0 +1,449 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="bg_ibchurch",screenadapt="coverall")]
+[playMusic(intro="$tech_intro", key="$tech_loop",fadetime=3, volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Мисс Алти! Ваше «Переосмысленное одержание» было просто великолепно!
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Правда? Удивлена. Я думала, эта дурацкая идейка, придуманная мной в саргонских джунглях, слишком авангардна.
+[name="Алти"]  Но, оказывается, у того доктора под крылом есть кто-то вроде тебя? Я думала, вы все будете такими же занудными, как она.
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Ха-ха... Так где остальные?
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Дэн — натура увлекающаяся, она сразу убежала на пляж. Ая и Фрост вернулись в гостиницу. Довольно обшарпанное место, но интересное.
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Интересное? Правда?
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Так Кальцит тебе что-нибудь о нас рассказала?
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Я уловил лишь пару слов. Похоже, у вас на руках что-то важное?
+[name="Элизиум"]  Я был ошеломлён, когда услышал, что всемирно известная AUS имеет личные связи с доктором Кальцит...
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Честно говоря, я мог бы сказать то же самое.
+[name="Алти"]  Но... Всё равно я рада, что у нас есть фанаты даже здесь. Это придаёт поездке так необходимую остроту.
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=1)]
+[PlaySound(key="$d_avg_paper2",delay=1)]
+[name="Элизиум"]  Но наконец-то встретиться с вами стоило всего этого мучительного месяца. Ах, если это не слишком затруднит, не могли бы вы ещё подписать этот плакат?
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  ...Зачем тебе вообще понадобилось возвращаться в Иберию?
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Это... довольно сложно. И я никак не ожидал, что об этом спросит именно Алти из Alive Until Sunset.
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Тебе нравится название нашей группы?
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Нравится? О нет, я его обожаю.
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Ценю.
+[name="Алти"]  Так где она? Я думала, она будет ждать здесь с таким видом, будто знает всё на свете, а потом скажет кучу слов и не сообщит ничего.
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Всё ещё жду, когда доктор Кальцит свяжется со мной. Она не должна была приехать намного позже вас.
+[StopMusic(fadetime=3)]
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Надеюсь, она поторопится... Скоро прилив.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[Delay(time=0.6)]
+[Background(image="bg_ibindoor",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(intro="$darkness02_intro", key="$darkness02_loop",fadetime=3, volume=0.4)]
+[Character(name="avg_npc_459_1#1$1",name2="char_empty",fadetime=0.5)]
+[Delay(time=0.6)]
+[name="Горожанин"]  ...Чужаки. Сплошные чужаки. Что вдруг случилось? Неужели Инквизиция и правда ослабила хватку?
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_453_1#1$1",fadetime=1.5)]
+[Delay(time=1.5)]
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Да, чужаки, все чужаки. Они очень особенные. Они несут запах океана.
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Горожанин"]  Эгирцы?
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Возможно, возможно нет. Наши братья и сёстры напуганы.
+[name="Странный последователь"]  Надо спешить. Инквизиция редко бывает такой беспечной... Это слишком подозрительно. Даже если эта морская вольница — ловушка, мы должны продолжать неустанную погоню.
+[name="Странный последователь"]  Ради наших братьев и сестёр, ради восстановления связи Вестника с этой землёй мы должны сначала захватить Око Иберии... или уничтожить его!
+[name="Странный последователь"]  Я не хочу без разбора убивать невинных. Когда-то вы все были моей семьёй.
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Горожанин"]  ......
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Идите и приведите больше людей. Теперь у нас есть выбор — ступить на безмерно широкий путь, куда более великий, чем обещала нам Иберия. Величественнее всей этой земли.
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Горожанин"]  Эти люди... Из-за чужаков наши братья забеспокоились?
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Весьма вероятно, но утверждать не могу. Все мы слабы и хрупки. Наши братья слабы и хрупки. Мы не можем действовать опрометчиво, иначе Инквизиция нас уничтожит.
+[name="Странный последователь"]  Нужно быть... осторожными. Иначе на этой земле прольётся слишком много крови, а она не любит кровь. Ни мы, ни наши братья и сёстры не должны погибнуть напрасно.
+[Dialog]
+[MusicVolume(volume=0.1, fadetime=1)]
+[PlaySound(key="$d_avg_chess")]
+[Delay(time=0.6)]
+[name="Странный последователь"]  ...! Кто здесь?!
+[Dialog]
+[Character]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[CameraShake(duration=0.3, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]
+[PlaySound(key="$swordtsing6",delay=0.5)]
+[PlaySound(key="$swordtsing4")]
+[Delay(time=0.6)]
+[CameraShake(duration=0.5, xstrength=58, ystrength=56, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playsound(key="$bodyfalldown2", volume=0.5)]
+[playsound(key="$d_avg_doorbreak", volume=0.5)]
+[Delay(time=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty")]
+[Background(image="bg_ibchurch",screenadapt="coverall")]
+[MusicVolume(volume=0.4, fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Я так и знала. Культисты, Церковь Глубин... Я всего на пару лет покинула Иберию, а теперь их запах повсюду.
+[name="Алти"]  Хм... Но вообще-то мне даже хочется поскорее её увидеть. Её всё ещё нет?
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Да. Доктор Кальцит говорила, что Инквизиция, вероятно, будет пристально за ней следить, так что...
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Странно. Я уверена, она была здесь ещё в начале Золотого века Иберии. По крайней мере, должна получить аудиенцию у их лидеров. Зачем выбирать такой дурацкий способ?
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Ха-ха, очень смешно. Расцвет Иберии был века назад. Даже она не может быть старше...
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Похоже, долгие годы научили её лучше ориентироваться в этом мире... Увы, я слишком молода и красива, чтобы во всём этом разбираться.
+[Character(name="avg_npc_450_1#6$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Ха-ха, вы, наверное, шутите, мисс Алти...
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Так... если с ней действительно что-то случится, вы ей поможете?
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Эм... Если вы готовы за неё просить, может быть.
+[name="Алти"]  Она правда так важна для вашего, э-э... Родос Айленда, да?
+[Character(name="avg_npc_450_1#1$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  ...Честно говоря, я правда не понимаю, зачем она так рискует, только чтобы приехать в Иберию.
+[Character(name="avg_npc_450_1#11$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Но я полностью верю, что она добровольно взяла на себя эту ответственность. И если даже доктор Кальцит готова рискнуть собой ради Иберии, то у меня, как у иберийца, тем более нет оправданий.
+[Character(name="avg_npc_450_1#11$1",name2="npc_2004_Alty",focus=2)]
+[name="Алти"]  Понятно...
+[name="Алти"]  Тогда вам лучше пойти посмотреть. Или продолжайте ждать здесь. Кто знает, может, кто-нибудь ворвётся сюда с криками?
+[Character(name="avg_npc_450_1#11$1",name2="npc_2004_Alty",focus=1)]
+[name="Элизиум"]  Эй, что это значит...
+[Dialog]
+[stopmusic(fadetime=1)]
+[PlaySound(key="$doorclosequite")]
+[PlaySound(key="$dooropenquite",delay=0.2)]
+[Character(name="avg_npc_450_1#5$1",name2="npc_2004_Alty")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.6)]
+[Character(name="avg_npc_460_1#1$1")]
+[name="Паникующий горожанин"]  На площади! Я только что видел одного — монстра! Там монстр! А? Здесь есть кто-нибудь?!
+[playMusic(intro="$jealous_intro", key="$jealous_loop",fadetime=2, volume=0.4)]
+[Character(name="avg_npc_450_1#7$1")]
+[name="Элизиум"]  Подождите здесь, мисс Алти! Я пойду посмотрю, что происходит!
+[Dialog]
+[playsound(key="$rungeneral",loop=true, channel="bgs")]
+[Character(fadetime=0.5)]
+[Delay(time=0.6)]
+[StopSound(channel="bgs", fadetime=0.5)]
+[Delay(time=0.6)]
+[Character(name="npc_2004_Alty",fadetime=1)]
+[Delay(time=0.6)]
+[name="Алти"]  ...Какой ужасный запах.
+[name="Алти"]  Но Дэн была права. Лепестки в море сознания падают водопадом, текущим вспять. Мелодия чешуи, баллада корневищ... всё готово вырваться наружу.
+[name="Алти"]  Может, в этой поездке я всё-таки найду несколько крупиц вдохновения.
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[Delay(time=0.6)]
+[Background(image="27_g18_lighthouse_square",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="Толпа зевак"]  Что... это...?
+[name="Толпа зевак"]  Старый Педри был прав! Мой дед писал о таких в своём дневнике! Это Морской Монстр!
+[name="Толпа зевак"]  О-Оно... Оно мёртвое? Оно же не начнёт двигаться, правда?
+[CameraShake(duration=0.3, xstrength=17, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Character(name="avg_npc_450_1#7$1")]
+[name="Элизиум"]  Простите, извините, пропустите...
+[Character(name="avg_npc_450_1#5$1")]
+[name="Элизиум"]  —
+[Character]
+[Dialog]
+[Character(name="avg_npc_457_1#2$1",fadetime=1.5,focus=3)]
+[Delay(time=1.6)]
+Остатки света пробиваются сквозь облака, частично рассечённые монолитной статуей. Кровь света брызжет по земле, образуя тени.
+Умирающий Морской Ужас тихо лежит в тени монолита, словно старик, прислонившийся к дереву в поисках последнего отдыха.
+[Character(name="avg_npc_457_1#2$1")]
+[name="Умирающий Морской Ужас"]  ......
+[name="Умирающий Морской Ужас"]  .........
+[Character(name="avg_npc_450_1#2$1")]
+[name="Элизиум"]  Оно... уже мёртвое?
+[Character(name="avg_npc_460_1#1$1")]
+[name="Паникующий горожанин"]  Старый Педри не врал! Это действительно монстр! Монстр из моря появился в Гран Фаро!
+[name="Паникующий горожанин"]  Я знаю, как оно называется! Мы уже видели таких!
+[Character(name="avg_npc_450_1#2$1")]
+[name="Элизиум"]  (Так это Морской Ужас?)
+[Character(name="avg_npc_450_1#12$1")]
+[name="Элизиум"]  (Но побережье такое спокойное... И как Инквизиция могла пропустить нечто настолько явное?)
+[Dialog]
+[Character]
+[Character(name="avg_npc_457_1#2$1",focus=3)]
+Его пустые, безжизненные глаза, кажется, всё ещё вращаются, а земля перед ними — огромный безводный океан.
+[Character(name="avg_npc_457_1#1$1",focus=3)]
+Но стоило Элизиуму решить, что оно цепляется за жизнь, как его взгляд вновь словно устремился в глубокую, всеобъемлющую смерть, и движения полностью прекратились.
+[Character(name="avg_npc_450_1#5$1")]
+[name="Элизиум"]  (Оно... смотрит на меня? Или на что-то другое?)
+[Character]
+[CameraShake(duration=0.3, xstrength=17, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Толпа зевак"]  Кто займётся трупом?
+[name="Толпа зевак"]  Только посмотрите! Какая мерзость! Оно бы ело людей, будь оно живым?
+[Character(name="avg_npc_457_1#2$1")]
+[name="Умирающий Морской Ужас"]  ......
+[Character(name="avg_npc_457_1#2$1",focus=3)]
+Морской Ужас не может говорить, но его искажённая оболочка ярко блестит.
+Вокруг него собирается большая толпа. Боится. Подозревает. Но всё же тянется к нему, словно к зажжённому фейерверку.
+И правда фейерверк. Его смерть — как фейерверк. Ни ран, ни следов от ручной пушки.
+Смерть не выбрала его. Скорее, оно выбрало смерть.
+[Character(name="avg_npc_450_1#9$1")]
+[name="Элизиум"]  ...Нет, теперь я просто бормочу сам с собой.
+[Character(name="avg_npc_450_1#2$1")]
+[name="Элизиум"]  Если это один из тех Морских Ужасов из доклада, значит, Церковь Глубин уже ближе, чем мы думали.
+[Character]
+[name="Толпа зевак"]  Мисс Амайя! Скорее, взгляните на это...
+[Dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="avg_npc_449_1#9$1",fadetime=1)]
+[Delay(time=1)]
+[name="Амайя"]  Так-так, успокойтесь...
+[Character(name="avg_npc_460_1#1$1")]
+[name="Паникующий горожанин"]  Неужели это правда... из моря?
+[Character(name="avg_npc_449_1#4$1")]
+[name="Амайя"]  Я не могу скрыть правду от вас. Действительно... это монстр из моря.
+[Character(name="avg_npc_460_1#1$1")]
+[name="Паникующий горожанин"]  Т-Тогда об этом нужно немедленно сообщить Инквизиции! Нужно вызвать Штрафной батальон, чтобы разобраться с этими монстрами... Нет, пусть придут сами инквизиторы!
+[CameraShake(duration=0.3, xstrength=17, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="Паникующий горожанин"]  Иначе нам всем конец!
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="27_g16_lighthouse_street",screenadapt="coverall")]
+[Character(fadetime=0)]
+[Delay(time=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$rungeneral", loop=true, channel="bgs",volume=0.4)]
+[Character(name="avg_npc_460_1#1$1",fadetime=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[characteraction(name="middle", type="move", xpos=400, fadetime=2, block=true)]
+[Delay(time=1)]
+[Character(fadetime=1)]
+[Delay(time=1)]
+[Character(name="avg_npc_461_1#1$1",fadetime=0.5)]
+[characteraction(name="middle", type="move", xpos=-400, fadetime=0, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[characteraction(name="middle", type="move", xpos=400, fadetime=2, block=true)]
+[Delay(time=1)]
+[Character(fadetime=1)]
+[Delay(time=1)]
+[StopSound(channel="bgs", fadetime=1)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_451_1#1$1",focus=1,fadetime=0.5)]
+[name="Джорди"]  Похоже, все бегут к часовне?
+[Dialog]
+[Character(name="char_empty",name2="char_empty")]
+[Character(name="avg_npc_460_1#1$1",name2="avg_npc_451_1#1$1")]
+[characteraction(name="left", type="move", xpos=-200, fadetime=0, block=false)]
+[characteraction(name="left", type="move", xpos=200, fadetime=1, block=true)]
+[characteraction(name="right", type="move", xpos=200, fadetime=0, block=false)]
+[characteraction(name="right", type="move", xpos=-200, fadetime=1, block=true)]
+[Delay(time=1)]
+[Character(name="avg_npc_460_1#1$1",name2="avg_npc_451_1#7$1",focus=2)]
+[name="Тиаго"]  Что происходит? Эй, кто-нибудь, расскажите, что случилось!
+[Character(name="avg_npc_460_1#1$1",name2="avg_npc_451_1#7$1",focus=1)]
+[name="Паникующий горожанин"]  На площади кто-то нашёл труп монстра!
+[Character(name="avg_npc_460_1#1$1",name2="avg_npc_451_1#9$1",focus=2)]
+[name="Тиаго"]  Монстра...? Тех, о которых говорил Старый Педри?
+[Character(name="avg_npc_460_1#1$1",name2="avg_npc_451_1#9$1",focus=1)]
+[name="Паникующий горожанин"]  Точно, все требуют выбрать курьера, чтобы послать за Инквизицией.
+[playsound(key="$rungeneral",delay=1)]
+[Character(name="avg_npc_460_1#1$1",name2="char_empty",fadetime=1)]
+[name="Паникующий горожанин"]  Вы знаете, как он выглядит? Говорят, у него клыки длиной в метр и восемь пар глаз... Эй, куда вы, Тиаго?!
+[Delay(time=1)]
+[Character(name="avg_npc_451_1#5$1")]
+[name="Тиаго"]  Возвращайся домой и жди меня, Джорди. Ни при каких обстоятельствах не выходи на улицу!
+[Character(name="avg_4042_lumen_1#1$1")]
+[name="Джорди"]  Но...
+[Character(name="avg_4042_lumen_1#10$1")]
+[name="Джорди"]  Ладно, понял...
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[Delay(time=0.6)]
+[Background(image="27_g17_lighthouse_alley",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_460_1#1$1",fadetime=0.5)]
+[Delay(time=1)]
+[Character(name="avg_npc_459_1#1$1",name2="avg_npc_460_1#1$1",focus=1)]
+[name="Осторожный горожанин"]  Нам лучше не вмешиваться в эту суматоху. Кто знает, какие мерзкие болезни могут нести эти монстры.
+[Character(name="avg_4042_lumen_1#1$1")]
+[name="Джорди"]  Монстр...
+[Dialog]
+[Character(fadetime=0)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(name="avg_npc_457_1#1$1")]
+[Background(image="bg_ibindoor",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(name="avg_4042_lumen_1#1$1")]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Background(image="27_g17_lighthouse_alley",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#9$1")]
+[name="Джорди"]  Что вообще происходит?
+[Dialog]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(name="avg_4042_lumen_1#6$1")]
+[name="Джорди"]  Кто здесь?!
+[Character(name="avg_npc_453_1#1$1",fadetime=0.3)]
+[name="Странный последователь"]  ......!
+[Dialog]
+[playsound(key="$rungeneral")]
+[characteraction(name="middle", type="move", xpos=300, fadetime=1, block=false)]
+[Character(fadetime=1)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#13$1")]
+[name="Джорди"]  Подождите!
+[Dialog]
+[playsound(key="$rungeneral")]
+[characteraction(name="middle", type="move", xpos=400, fadetime=1.5, block=false)]
+[Character(fadetime=1)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="bg_ibindoor",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(name="avg_npc_453_1#1$1")]
+[name="Странный последователь"]  Проклятый эгирец! Проклятый эгирец! Он действительно пошёл и убил одного из наших!
+[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=30, randomness=30, fadeout=true, block=false)]
+[name="Странный последователь"]  Ух, моя рана...
+[Dialog]
+[Character(name="char_empty",name2="avg_npc_453_1#1$1")]
+[PlaySound(key="$d_gen_walk_n")]
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",fadetime=1)]
+[Delay(time=1.3)]
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Вы...
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Джорди?
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Вы меня знаете? Кто вы?
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Я... Тебе не нужно знать, и ты меня не знаешь. Но я знаю тебя, хотя бы потому, что ты эгирец.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  В-Вы ранены!
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Да, и ты меня перевяжешь? Разве ты не смотритель часовни?
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Я...
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Я могу помочь, но вы должны рассказать мне, как это случилось.
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  ...Хорошо.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Садитесь.
+[Dialog]
+[Character(fadetime=0.5)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_clothmovement",volume=0.5)]
+[Delay(time=1)]
+[PlaySound(key="$bodyfalldown2",volume=0.5)]
+[PlaySound(key="$dooropenquite",volume=0.5)]
+[Delay(time=1)]
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_453_1#1$1",focus=1)]
+[characteraction(name="right", type="move", ypos=-60, fadetime=0, block=true)]
+[name="Джорди"]  Потерпите.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Нннх...
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Не двигайтесь! К счастью, у вас нет переломов и повреждений внутренних органов... Это рваная рана? Под кожей даже застряли опилки. Как это случилось?
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Эгирец убил мою родню. Я был там, но сумел сбежать.
+[Character(name="avg_4042_lumen_1#7$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  У-Убийство?! В таком маленьком городке? Вам нужно немедленно сообщить об этом дяде Тиаго...
+[Character(name="avg_4042_lumen_1#7$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Ха... Ха-ха. Мэр Тиаго не может сладить с эгирцами. Как иронично. Теперь наказать его может только Инквизиция.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Н-Но он убил человека из вашей семьи.
+[Character(name="avg_4042_lumen_1#1$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Нас всегда преследуют. Из-за невежества, страха, гнева... последний остался после той катастрофы. Спасибо, мне уже гораздо лучше.
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Подождите, вы... мистер Хуан?
+[Character(name="avg_4042_lumen_1#8$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Значит, ты всё ещё помнишь моё лицо, Джорди. Ты когда-нибудь хотел... взглянуть в море?
+[Character(name="avg_4042_lumen_1#11$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Взглянуть... в море? Дядя Тиаго водил меня на берег, но...
+[Dialog]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="The sea was dark. The wind tugged at his hair, and the waves roared.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="The meaning of a 'hometown' varies from person to person. It might be the aroma of wheat, the angle of the shadow cast across an alley, or the sound of wheels rolling over mud and snow.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="But at that moment, Jordi knew that his life in Gran Faro had already been paid for in advance, with his hometown.", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(name="avg_4042_lumen_1#11$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  Земля уже забыла истинный облик океана, но рано или поздно мы все вернёмся в море.
+[name="Странный последователь"]  (Искажённый эгирский) Спасибо, Джорди. Спасибо за твою доброту. Пусть однажды бесконечное милосердие заполнит пустоту бытия.
+[name="Странный последователь"]  (Искажённый эгирский) Если ты всё ещё эгирец, Джорди, оставь нас. Поверни назад и вернись к своей жизни. Так будет лучше.
+[name="Странный последователь"]  (Искажённый эгирский) Возможно, ты, как и твои родители до тебя, отправишься на поиски того маяка.
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Джорди"]  Ч-Что вы сказали? Я не расслышал!
+[Character(name="avg_4042_lumen_1#13$1",name2="avg_npc_453_1#1$1",focus=2)]
+[name="Странный последователь"]  (Искажённый эгирский) Мои сородичи-беженцы пришли за мной. Но не волнуйся. Гран Фаро всегда был лишь ступенью. Наша цель — глубокое море.
+[stopmusic(fadetime=1)]
+[Character]
+[Dialog]
+[Delay(time=1)]
+[playMusic(intro="$frontline_intro", key="$frontline_loop",fadetime=3, volume=0.4)]
+[Character(name="avg_npc_457_1#1$1",fadetime=1)]
+[characteraction(name="middle", type="move",ypos=100,fadetime=0,block=true)]
+[characteraction(name="middle", type="zoom",xpos=-1, ypos=-1, scale=0.8,fadetime=0,block=true)]
+[Delay(time=1)]
+[Character(fadetime=0.5)]
+[characteraction(name="middle", type="zoom",xpos=-1, ypos=-1, scale=0.8,fadetime=0,block=true)]
+[Delay(time=1)]
+[Character]
+[Character(name="avg_4042_lumen_1#6$1")]
+[name="Джорди"]  —!
+[Dialog]
+[Character]
+[Character(name="char_empty",name2="avg_npc_453_1#1$1")]
+[characteraction(name="right", type="move", ypos=-60, fadetime=0, block=true)]
+[Delay(time=1)]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_453_1#1$1",fadetime=1)]
+[characteraction(name="left", type="move",ypos=100,fadetime=0,block=true)]
+[characteraction(name="left", type="zoom",xpos=-1, ypos=-1, scale=0.8,fadetime=0,block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_fish_howl",volume=0.3)]
+[Characteraction(name="left", type="move", xpos=70,ypos=-70,fadetime=2, block=false)]
+[characteraction(name="left", type="zoom",scale=0.9,fadetime=3,block=true)]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_fish_howl",volume=0.3)]
+[Characteraction(name="left", type="move", xpos=-70,ypos=-30, fadetime=2, block=false)]
+[characteraction(name="left", type="zoom",scale=1,fadetime=3,block=true)]
+[StopSound(channel="bgs", fadetime=1)]
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_453_1#1$1",focus=1)]
+[name="Ползущий Морской Ужас"]  (Тихое змеиное шуршание)
+[Character(name="avg_npc_457_1#1$1",name2="avg_npc_453_1#1$1",focus=2)]
+[characteraction(name="right", type="move", ypos=60, fadetime=1, block=true)]
+[name="Странный последователь"]  Джорди, Джорди. Эгирец.
+[name="Странный последователь"]  Мы ещё встретимся.
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=3)]
+[Character]
+

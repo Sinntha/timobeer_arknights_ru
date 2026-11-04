@@ -1,0 +1,653 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[charslot]
+[Background(image="50_g13_warshipcommandroom", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[playMusic(intro="$exterminate_intro", key="$exterminate_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_2427_1#1$1", duration=0.5)]
+[Delay(time=1)]
+[name="Лаврен"]  Доложите обстановку, лейтенант.
+[charslot(slot="m", name="avg_npc_2452_1#1$1")]
+[name="Офицер Пятой армейской группы"]  Наша первая атака успешно смяла передовые части врага, нанеся ему тяжёлые потери.
+[name="Офицер Пятой армейской группы"]  Но главные силы врага быстро отошли и восстановили оборону на высотах. Прямой штурм может быть рискован.
+[charslot(slot="m", name="avg_npc_2427_1#1$1")]
+[name="Лаврен"]  М... Евгений не совсем уж пустышка.
+[name="Лаврен"]  Но, судя по всему, до полного разрыва их линии оставался один шаг.
+[Dialog]
+[PlaySound(key="$transmission")]
+[interlude(maskid="group_interclude_square_common", char="Talulah", switch=true, style=1, offset="350,125", channel=3)]
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="310,-50", pto="310,-50", name="avg_4247_oxi_1#1$1", duration=0)]
+[charslot(slot="m", name="avg_npc_2427_1#1$1")]
+[Delay(time=1)]
+[charslot(slot = "m", focus = "n")]
+[name="Талула"]  Почему наша атака остановилась?
+[interlude(channel=3, type=3, slot="m", switch=false)]
+[charslot(slot="m", name="avg_npc_2427_1#5$1")]
+[name="Лаврен"]  Ты почему— неужели Реюнион уже разобрался?
+[charslot(slot="m", name="avg_npc_2427_1#1$1")]
+[name="Лаврен"]  Неужели я всё ещё недооцениваю тебя...
+[charslot(slot = "m", focus = "n")]
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="310,-50", pto="310,-50", name="avg_4247_oxi_1#1$1", duration=0)]
+[name="Талула"]  Ты недооцениваешь не меня, а нас.
+[name="Талула"]  Ты видел, как Реюнион сражается с врагом, и Реюнион уже проходил через бои тяжелее, чем под Замолесом.
+[name="Талула"]  И не забывай, Лаврен.
+[name="Талула"]  Они тоже урсусцы.
+[interlude(channel=3, type=3, slot="m", switch=false)]
+[charslot(slot="m", name="avg_npc_2427_1#8$1")]
+[name="Лаврен"]  *одобрительное урсусское ругательство*.
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="310,-50", pto="310,-50", name="avg_4247_oxi_1#1$1", duration=0)]
+[charslot(slot = "m", focus = "n")]
+[name="Талула"]  Вы только что сказали, что вам нужен прорыв в обороне врага.
+[interlude(channel=3, type=3, slot="m", switch=false)]
+[charslot(slot="m", name="avg_npc_2427_1#1$1")]
+[name="Лаврен"]  Я так не говорил.
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="310,-50", pto="310,-50", name="avg_4247_oxi_1#1$1", duration=0)]
+[charslot(slot = "m", focus = "n")]
+[name="Талула"]  Но звучит именно так.
+[interlude(channel=3, type=3, slot="m", switch=false)]
+[charslot(slot="m", name="avg_npc_2427_1#2$1")]
+[name="Лаврен"]  Тебе не стоит больше рисковать, драконица.
+[name="Лаврен"]  Я слышал, чрезмерное применение искусства только что отняло у тебя руку. Если ты погибнешь здесь, твои сильные друзья, о которых ты говоришь, наверняка меня не пощадят.
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="310,-50", pto="310,-50", name="avg_4247_oxi_1#1$1", duration=0)]
+[charslot(slot = "m", focus = "n")]
+[name="Талула"]  Если ты имеешь в виду, что мы с Реюнионом оставим все заслуги вам, советую поскорее выбросить эту мысль из головы.
+[name="Талула"]  Чтобы окончательно разбить врага перед нами, тебе лучше быть таким же безоглядным, как я.
+[interlude(channel=3, type=3, slot="m", switch=false)]
+[charslot(slot="m", name="avg_npc_2427_1#8$1")]
+[name="Лаврен"]  ...Ты умеешь воодушевить военного, Талула.
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="310,-50", pto="310,-50", name="avg_4247_oxi_1#1$1", duration=0)]
+[charslot(slot = "m", focus = "n")]
+[name="Талула"]  Ты воин, Лаврен.
+[name="Талула"]  Когда придёт победа, мы снова увидимся.
+[Dialog]
+[interlude(channel=3, clear=true, tsfrom="1,1", tsto="0,1", tsduration=0.5)]
+[PlaySound(key="$p_imp_funnel_end_h")]
+[delay(time=1.5)]
+[charslot(slot="m", name="avg_npc_2452_1#1$1")]
+[name="Офицер Пятой армейской группы"]  Она хочет... войти прямо в самое сердце Четвёртой армейской группы? Просто безумие, позади ещё стоят быстроходные линкоры!
+[charslot(slot="m", name="avg_npc_2427_1#1$1")]
+[name="Лаврен"]  Немедленно сообщить флоту, задействовать все корабельные орудия, сковать корабли Евгения.
+[charslot(slot="m", name="avg_npc_2427_1#8$1")]
+[name="Лаврен"]  Пехота тоже за ней, не дадим нашим товарищам-заражённым посмеяться над нами!
+[charslot(slot="m", name="avg_npc_2427_1#5$1")]
+Не успел он договорить, как глаза его расширились.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[CameraShake(duration=-1, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=false, block=false)]
+[PlaySound(key="$d_avg_snowrun",channel="bs", volume=1)]
+[Background(image="79_g20_snowbattlefield", screenadapt="coverall")]
+[backgroundTween(xFrom=0, yFrom=0, xTo=0, yTo=50, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.3, yScaleTo=1.3, duration=15, block=false)]
+[bgeffect(name="$eb_lensSpeedLines_soft", layer=2)]
+[soundVolume(volume=0, channel="bs", fadetime=1.5)]
+[delay(time=0.3)]
+[playsound(key="$d_avg_sandstorm", loop=true, channel="c",volume=0)]
+[PlaySound(key="$d_avg_cloakmovement", volume=1)]
+[delay(time=1)]
+[bgeffect(name="$eb_burn", layer=1)]
+[PlaySound(key="$d_avg_battlefield_environment", loop=true, channel="bgs", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+За десятилетия службы он не видел такой безрассудной — та драконица шла прямо в строй армейской группы.
+Главное орудие боевой машины грохнуло над её головой, она смотрела прямо на него, не уклоняясь.
+[Dialog]
+[Background(image="79_g20_snowbattlefield", screenadapt="coverall")]
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[PlaySound(key="$fireburst")]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]
+[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[PlaySound(key="$d_avg_carcrash_wreck", volume=0.8, channel="tank1")]
+[PlaySound(key="$d_avg_mechadown", volume=0.7, channel="tank2", delay=0.25)]
+[PlaySound(key="$d_avg_explosion_stone", volume=0.6, channel="tank3", delay=0.45)]
+[delay(time=0.5)]
+[Dialog]
+Машина почти прошла над её головой, но вдруг её гусеницы и оси расплавились, огромный корпус завалился набок, вторая и третья машины врезались в него и, перевернувшись, рухнули в снег.
+[Dialog]
+[PlaySound(key="$d_avg_rampartclose", loop=true, channel="tank4")]
+[CameraShake(duration=1.8, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[StopSound(channel="tank4", fadetime=1)]
+[Dialog]
+Металл сдавливал металл с пронзительным стоном, из передатчика прорвались обрывки связи.
+[Dialog]
+[PlaySound(key="$d_avg_radiodisturb_loop", loop=true, channel="comm")]
+[delay(time=0.5)]
+[charslot(slot="m", name="avg_npc_2451_1#1$1")]
+[name="Офицер Четвёртой армейской группы"]  Пусть, пусть задние машины обойдут с фланга, не идите в лоб, свяжитесь с... артиллерией—
+[charslot(slot="m", name="avg_4247_oxi_1#1$1")]
+[name="Талула"]  ...Всё ещё хотите сопротивляться?
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0,block=true)]
+[charslot(slot="m", name="avg_4247_oxi_1#6$1")]
+[name="Талула"]  Попробуйте.
+[bgeffect(name="$eb_lensSpeedLines_intense", layer=2)]
+[charslot(slot = "m", action="jump", posto="-50,-50", power=20, times=1,duration= 0.1)]
+[PlaySound(key="$d_avg_Qinggong", volume=1)]
+[delay(time=0.5)]
+[charslot(slot = "m", action="zoom", poszoom = "0.3,0.5", scale=1.4,duration= 0.1)]
+[Dialog]
+[Dialog]
+[StopSound(channel="comm", fadetime=0.3)]
+[Blocker(a=1, r=0, g=0, b=0, style = "verticalslider", inverse = true, fadetime=0.5,block=true)]
+[charslot]
+[Background(image="bg_black", screenadapt="coverall")]
+[bgeffect(name="$eb_scorchedearth", layer=1)]
+[bgeffect(name="$eb_burn",layer=2,y=600,yto=-200,movetime = 2,x=0,xto=0)]
+[bgeffect(name="$eb_burn",layer=3,y=500,yto=-150,movetime = 2,x=0,xto=0)]
+[bgeffect(name="$eb_burn",layer=4,y=20,yto=-300,movetime = 2,x=0,xto=0)]
+[PlaySound(key="$e_skill_ignite_cast", volume=0.7)]
+[PlaySound(key="$d_avg_firemagic", channel="fire", delay=0.2)]
+[PlaySound(key="$d_avg_burnsword", delay=0.4)]
+[effect(name="$e_079cg_talulahslash02",layer=7)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[effect(name="$e_079cg_talulahslash",layer=8)]
+[Image(image="79_i24", screenadapt="coverall",fadetime=1,x=-200,y=-180, xScale=1.5, yScale=1.5)]
+[CameraShake(duration=0.6, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_male_scream")]
+[delay(time=1)]
+После чёткого удара из передатчика донёсся только крик.
+[Dialog]
+Она не остановилась, глубоко вдохнула и прыгнула вперёд. Снежинки не успели лечь на плечи, как превратились в белый пар.
+[Dialog]
+[PlaySound(key="$d_avg_burnsword", channel="cg11")]
+[PlaySound(key="$d_gen_explo_n", volume=0.7, channel="cg12")]
+[CameraShake(duration=0.25, xstrength=15, ystrength=12, vibrato=25, randomness=80, fadeout=true, block=false)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_OriginiumArts_fire_short", channel="cg14")]
+[CameraShake(duration=0.3, xstrength=18, ystrength=14, vibrato=28, randomness=85, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_timeslowdown", volume=1, channel="hissatsu")]
+[Image(image="79_i24", screenadapt="coverall",fadetime=2,x=-100,y=-180, xScale=1.7, yScale=1.7)]
+[delay(time=0.2)]
+[Image(image="79_i24", screenadapt="coverall",fadetime=2,x=0,y=-180, xScale=1.7, yScale=1.7)]
+[delay(time=0.2)]
+[Image(image="79_i24", screenadapt="coverall",fadetime=2,x=100,y=-180, xScale=1.7, yScale=1.7)]
+[delay(time=0.2)]
+[Image(image="79_i24", screenadapt="coverall",fadetime=1,x=200,y=-180, xScale=1.5, yScale=1.5)]
+[delay(time=0.5)]
+Одинокая драконица шла между взрывами, почти не уклоняясь; огонь взрывов вился вокруг неё, словно сотканный для неё плащ.
+[Dialog]
+[PlaySound(key="$d_gen_explo_n", volume=0.8, channel="cg15")]
+[Blocker(a=0, r=1, g=0.8, b=0.5, fadetime=0, block=true)]
+[Blocker(a=0.85, r=1, g=0.8, b=0.5, fadetime=0.05, block=true)]
+[CameraShake(duration=0.45, xstrength=28, ystrength=24, vibrato=35, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Image(image="79_i24", screenadapt="coverall",fadetime=0,x=20,y=-30, xScale=1.1, yScale=1.1)]
+[ImageTween(xScaleTo=1, yScaleTo=1,  xTo=0,  yTo=0, duration=40)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+Едва переступив через тело щитоносца, она тут же перерезала горло отборному авангардисту.
+[Dialog]
+[PlaySound(key="$d_avg_clothmovement", volume=0.45, channel="cg1")]
+[PlaySound(key="$d_avg_swordwhoosh_heavy", volume=0.95, channel="cg2", delay=0.1)]
+[PlaySound(key="$d_avg_chixiaosword", volume=0.9, channel="cg3", delay=0.2)]
+[PlaySound(key="$d_avg_broadswordblood", volume=0.85, channel="cg4", delay=0.28)]
+[PlaySound(key="$bodyfalldown2", volume=0.8, channel="cg5", delay=0.36)]
+[CameraShake(duration=0.35, xstrength=24, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.55)]
+[Dialog]
+Арбалетчик с другой стороны ещё не прицелился, как его запястье вспыхнуло, и он с воплем выронил оружие.
+[Dialog]
+[PlaySound(key="$d_avg_bowstring_tightened", volume=0.65, channel="cg6")]
+[PlaySound(key="$e_skill_ignite_cast", volume=0.8, channel="cg7", delay=0.15)]
+[PlaySound(key="$d_avg_firemagic", volume=0.9, channel="cg8", delay=0.28)]
+[PlaySound(key="$b_char_fireharm", volume=0.85, channel="cg9", delay=0.4)]
+[PlaySound(key="$d_avg_metallicclick", volume=0.85, channel="cg11", delay=0.62)]
+[delay(time=0.75)]
+[Dialog]
+Несколько боевых машин, зашедших с тыла, тоже не ускользнули от её внимания: их боеукладка странно загорелась, и после серии последовательных взрывов они разлетелись на куски.
+[Dialog]
+[PlaySound(key="$d_avg_tankbiggun", volume=0.4, channel="cg13")]
+[PlaySound(key="$e_skill_ignite_cast", volume=0.75, channel="cg14", delay=0.18)]
+[PlaySound(key="$fireburst", volume=0.9, channel="cg15", delay=0.32)]
+[PlaySound(key="$d_gen_explo_n", volume=0.8, channel="cg16", delay=0.42)]
+[PlaySound(key="$d_avg_mechadown", volume=0.75, channel="cg17", delay=0.52)]
+[PlaySound(key="$d_gen_explo_n", volume=0.85, channel="cg18", delay=0.68)]
+[PlaySound(key="$d_avg_explosion_stone", volume=0.8, channel="cg19", delay=0.88)]
+[PlaySound(key="$d_gen_explo_n", volume=0.7, channel="cg20", delay=1.08)]
+[CameraShake(duration=0.95, xstrength=36, ystrength=32, vibrato=35, randomness=90, fadeout=true, block=false)]
+[delay(time=1.25)]
+[Dialog]
+Обломки, пыль, уголь, словно долгожданный ливень под свинцовыми тучами, поднятая пыль и пепел один за другим накрыли позиции.
+[Dialog]
+[PlaySound(key="$d_avg_explosion_stone", volume=0.4, channel="cg21")]
+[PlaySound(key="$d_avg_explosion_stone", volume=0.32, channel="cg22", delay=0.22)]
+[PlaySound(key="$d_avg_explosion_stone", volume=0.26, channel="cg23", delay=0.45)]
+[PlaySound(key="$d_avg_explosion_stone", volume=0.2, channel="cg24", delay=0.68)]
+[SoundVolume(volume=0.12, channel="bgs", fadetime=2)]
+[delay(time=1)]
+[Dialog]
+Всё это в конце концов после оглушительной вспышки погрузилось в долгую тишину.
+[Dialog]
+[StopSound(channel="bgs", fadetime=2.5)]
+[StopSound(channel="fire", fadetime=1.5)]
+[delay(time=1.5)]
+[musicvolume(volume=0.4,  fadetime=1)]
+[Blocker(a=0.2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.5)]
+[name="Офицер Пятой армейской группы"]  Она, она—
+[name="Лаврен"]  ...Смотри внимательно, парень.
+[name="Лаврен"]  Говорят, это тот самый человек, из-за которого в Чернобоге не спала вся империя.
+[dialog]
+[musicvolume(volume=0.6,  fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.5)]
+[charslot]
+И тогда поле боя накрыло огромное пламя, и в тот миг, когда солдаты Урсуса увидели её силуэт, они выбрали отступление.
+Они увидели—
+что кто-то идёт из пепла.
+Дорога, по которой она прошла, всё ещё горела.
+[stopmusic(fadetime=4)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[bgeffect]
+[delay(time=5)]
+[Background(image="34_g10_tent_inside", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[animtext(id="at1", name="group_location_stamp", style="avg_only_heavy", pos="-400,-200", block=false)]  <p=1>Позиции Первой армейской группы</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+Дневной бой только закончился, костёр для ужина уже горел долго.
+Светлана сидела в центральной палатке; карта занимала весь походный стол. Она не пошла праздновать победу и не позвала никого с собой.
+Она просто смотрела на карту.
+Распределение обороны Сент-Стидбурга, оставшиеся позиции Второй армейской группы и отмеченная ею «зона» Реюниона.
+[charslot(slot="m", name="avg_npc_2455_1#1$1")]
+[name="Стражник Первой армейской группы"]  Маршал, прибыл генерал-лейтенант Молчанов, начальник штаба.
+[charslot]
+[Dialog]
+[charslot(slot="m", name="avg_npc_2231_1#1$1", duration=0.5)]
+[Delay(time=1)]
+[name="Светлана"]  Пусть войдёт.
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n")]
+[charslot(slot="m", name="avg_npc_2456_1#1$1", duration=0.5)]
+[Delay(time=1)]
+[name="Начальник штаба Первой армейской группы"]  Маршал.
+[charslot(slot="m", name="avg_npc_2231_1#1$1")]
+[name="Светлана"]  Вы сверили списки Центральной армейской группы, что идёт с Реюнионом?
+[charslot(slot="m", name="avg_npc_2456_1#1$1")]
+[name="Начальник штаба Первой армейской группы"]  Списки сверены. 1-й полк 7-й бригады, 3-й полк 11-й бригады и 3-й артиллерийский батальон на месте.
+[name="Начальник штаба Первой армейской группы"]  По вашему приказу им выделили достаточно оружия и боеприпасов.
+[charslot(slot="m", name="avg_npc_2231_1#1$1")]
+[name="Светлана"]  М.
+[charslot(slot="m", name="avg_npc_2456_1#1$1")]
+[name="Начальник штаба Первой армейской группы"]  Кроме того, господин Вит десять минут назад снова прислал телеграмму с вопросом, продвигаемся ли мы по прежнему плану.
+[name="Начальник штаба Первой армейской группы"]  Его очень интересует, когда можно войти в город и после смены знамён бывшие чиновники—
+[charslot(slot="m", focus="n")]
+Светлана не подняла головы, кончик пера на миг замер над картой.
+[charslot(slot="m", name="avg_npc_2231_1#1$1")]
+[name="Светлана"]  Передайте ему: о плане и знамёнах пусть не беспокоится. Ему достаточно сидеть в своём кресле и ждать моей вести.
+[name="Светлана"]  Если ничего не случится, до восхода солнца мы возьмём городскую стену.
+[charslot(slot="m", name="avg_npc_2456_1#1$1")]
+[name="Начальник штаба Первой армейской группы"]  Понял.
+[name="Начальник штаба Первой армейской группы"]  Тогда, когда будем входить в город... есть ли какие-то указания или советы по размещению Реюниона—
+[charslot(slot="m", name="avg_npc_2231_1#3$1")]
+[name="Светлана"]  ...Ты знаешь ту всегда молчаливую предводительницу Реюниона? Её зовут Милана?
+[charslot(slot="m", name="avg_npc_2456_1#1$1")]
+[name="Начальник штаба Первой армейской группы"]  Видел её один раз в походном лагере, но не разговаривал.
+[charslot(slot="m", name="avg_npc_2231_1#1$1")]
+[name="Светлана"]  Как интересно. Я просто не могу представить, что шахты Дальнего Севера могли воспитать такого выдающегося... политика.
+[name="Светлана"]  Она первой войдёт в город. Она это заслужила.
+[name="Светлана"]  Но как жители Сент-Стидбурга отнесутся к такой «героине-заражённой», нам ещё предстоит увидеть.
+[charslot(slot="m", name="avg_npc_2456_1#1$1")]
+[name="Начальник штаба Первой армейской группы"]  Что до номинальной предводительницы заражённых, Талулы—
+[charslot(slot="m", name="avg_npc_2231_1#1$1")]
+[name="Светлана"]  Дракон, принадлежащая Урсусу... военачальник Реюниона, ей нужно сделать больше.
+[name="Светлана"]  Лучше ей остаться за городом и разобраться с Четвёртой армейской группой. Подсчёт сдавшихся, блокада отступления остатков — каждое дело срочное и каждое подобает её положению.
+[name="Светлана"]  ...Она опытный воин, об этом даже нам не нужно ей напоминать.
+[charslot(slot="m", focus="n")]
+[name="Голос за палаткой"]  Маршал, прибыл полковник Катлев из Второй армейской группы, он хочет с вами поговорить.
+[charslot(slot="m", name="avg_npc_2231_1#1$1")]
+[name="Светлана"]  Они тоже должны были прийти... пусть войдёт.
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n")]
+[charslot(slot="m", name="avg_npc_2450_1#1$1", duration=1)]
+[Delay(time=1.5)]
+[charslot(slot = "m", focus = "n")]
+Когда посланник вошёл, на подошвах его сапог ещё была дорожная грязь. Он опустился на одно колено и обеими руками протянул запечатанное донесение.
+[charslot(slot="m", name="avg_npc_2450_1#1$1")]
+[name="Посланник Второй армейской группы"]  Уважаемая маршал. Наш командующий уже согласился с вашим предложением: с завтрашнего дня вся Вторая армейская группа отходит на север и покидает Сент-Стидбург.
+[name="Посланник Второй армейской группы"]  Командующий сказал, что кровь урсусцев больше не должна проливаться у стен их собственного города.
+[name="Посланник Второй армейской группы"]  Кроме того, командующий надеется, что вы выполните своё обещание.
+[charslot(slot="m", name="avg_npc_2231_1#1$1", focus = "n")]
+Светлана взяла донесение, медленно пробежала его глазами и снова сложила.
+Выражение её лица не изменилось — вернее, изменилось так мало, что это было похоже на рябь, исчезающую на воде за секунду.
+[charslot(slot="m", name="avg_npc_2231_1#1$1")]
+[name="Светлана"]  Получено. Передайте командующему моё почтение, доброго пути.
+[dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[charslot(slot="m", name="avg_npc_2450_1#1$1")]
+[charslot(duration=1)]
+[delay(time=2)]
+[charslot(slot="m", name="avg_npc_2456_1#1$1")]
+[name="Начальник штаба Первой армейской группы"]  ...Как и ожидалось.
+[name="Начальник штаба Первой армейской группы"]  Вторая армейская группа всегда была переменчива, они не могли по-настоящему уважать этих мужиков, охраняющих Дальний Север.
+[charslot(slot="m", name="avg_npc_2231_1#3$1")]
+[name="Светлана"]  Возможно...
+[charslot(slot = "m", focus = "n")]
+На карте обороны города синяя пунктирная рамка отмечала путь, по которому Милана и Найн должны были войти, а красная линия огибала город снаружи — место, оставленное для Талулы.
+[charslot(slot="m", name="avg_npc_2231_1#1$1")]
+[name="Светлана"]  Иди, Молчанов, сообщи Реюниону, что план идёт очень гладко.
+[dialog]
+[charslot(slot="m", name="avg_npc_2456_1#1$1")]
+[delay(time=0.5)]
+[PlaySound(key="$d_gen_walk_n")]
+[charslot(duration=1)]
+[delay(time=1.5)]
+[charslot]
+Начальник штаба поклонился... в палатке снова осталась одна.
+Она закрыла глаза и откинулась в кресле.
+Свет качнулся, тень человека тоже заколебалась и протянулась до края карты, накрыв городские ворота имперской славы.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="bg_ltroom", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m", name="avg_npc_2422_1#1$1", duration=0.5)]
+[Delay(time=1)]
+[name="Валентина"]  Это, должно быть, не наша первая встреча. Садись, дитя.
+[charslot(slot="m", name="avg_npc_2425_1#1$1")]
+[name="Алоиза"]  Нет, это действительно наша первая встреча. Вы почти никогда не бывали на приёмах в доме герцога Горчикова, и прежде я не имела чести поговорить с вами наедине.
+[charslot(slot="m", name="avg_npc_2422_1#4$1")]
+[name="Валентина"]  Какая жалость...
+[charslot(slot="m", name="avg_npc_2422_1#1$1")]
+[name="Валентина"]  Нет, ничего, мы можем надеяться, что возможность ещё будет.
+[name="Валентина"]  Теперь скажи, зачем ты сегодня пришла сюда, рискуя жизнью?
+[charslot(slot="m", name="avg_npc_2425_1#6$1")]
+[name="Алоиза"]  Вы знаете, прямо сейчас наш император ведёт войска в решающую битву со Второй и Четвёртой мятежными армиями. У нас есть шанс победить.
+[name="Алоиза"]  Как главнокомандующая Столичным гарнизонным корпусом, сейчас вы должны сделать только одно.
+[charslot(slot="m", name="avg_npc_2425_1#8$1")]
+[name="Алоиза"]  Откройте ворота, верните истинного императора Урсуса в Сент-Стидбург и изгоните этих жестоких мятежников—
+[charslot(slot="m", name="avg_npc_2422_1#1$1")]
+[name="Валентина"]  Алода... моя дорогая младшая.
+[name="Валентина"]  В твоих глазах я, должно быть, переменчивый негодяй, которого можно уговорить чем угодно.
+[charslot(slot="m", name="avg_npc_2425_1#5$1")]
+[name="Алоиза"]  Нет, это не так!
+[charslot(slot="m", name="avg_npc_2425_1#13$1")]
+[name="Алоиза"]  Я верю, что когда великая княгиня потребовала войти в город, у вас были неизбежные причины. Вы сделали неверный выбор, но в конечном итоге его результат создали не вы одна.
+[charslot(slot="m", name="avg_npc_2425_1#14$1")]
+[name="Алоиза"]  Потому что... очевидно, я и мои товарищи тоже не смогли удержать последнюю линию обороны дворца.
+[charslot(slot="m", name="avg_npc_2422_1#3$1")]
+[name="Валентина"]  ...
+[charslot(slot="m", name="avg_npc_2425_1#6$1")]
+[name="Алоиза"]  Так что сейчас — лучший момент исправить ошибку.
+[name="Алоиза"]  Герцогиня Волкина— нет, адмирал Волкина, я прошу вас—
+[dialog]
+[charslot]
+[charslot(slot="m", name="avg_npc_2232_1#1$1",duration=0.5)]
+[PlaySound(key="$dooropenquite")]
+[delay(time=1)]
+[name="Посыльный"]  Госпожа главнокомандующая, в штаб поступило сообщение: восточный вход непрерывно обстреливают! Прошу указаний!
+[charslot(slot="m", name="avg_npc_2422_1#1$1")]
+[name="Валентина"]  Какая армейская группа?
+[charslot(slot="m", name="avg_npc_2232_1#1$1")]
+[name="Посыльный"]  Нет— это не армейская группа! Они называют себя Реюнион!
+[charslot(slot="m", name="avg_npc_2422_1#3$1")]
+[name="Валентина"]  ...
+[charslot(slot="m", name="avg_npc_2425_1#5$1")]
+[name="Алоиза"]  —!
+[charslot(slot="m", name="avg_npc_2425_1#8$1")]
+[name="Алоиза"]  Где император? Раз Реюнион уже прорвал оборону Четвёртой и стучится в ворота, неужели Первая армейская группа действует медленнее них?
+[charslot(slot="m", name="avg_npc_2232_1#1$1")]
+[name="Посыльный"]  Не знаю, но эти люди действительно заставили императора сказать несколько слов в эфире. Однако заместитель командующего говорит, что мы не можем быть уверены, что это сам император—
+[charslot(slot="m", name="avg_npc_2422_1#2$1")]
+[name="Валентина"]  Передайте приказ—
+[charslot(slot="m", name="avg_npc_2425_1#9$1")]
+[name="Алоиза"]  Госпожа герцогиня!
+[charslot(slot="m", name="avg_npc_2422_1#3$1")]
+[name="Валентина"]  Пусть восточный гарнизон не сопротивляется.
+[name="Валентина"]  Если они смогут войти — пусть входят.
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="79_g13_sjbbattlefield_n", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[stopmusic(fadetime=1)]
+[playMusic(intro="$wallemdtown_intro", key="$wallemdtown_loop", volume=0.6)]
+[charslot(slot="m", name="avg_npc_2432_1#6$2",duration=0.5)]
+[delay(time=1)]
+[name="Тарас"]  Милана! Четвёртая армейская группа отступила! У Талулы получилось!
+[charslot(slot="m", name="avg_npc_2432_1#2$2")]
+[name="Тарас"]  Ты видишь! Стража на стене тоже сняла оборону!
+[name="Тарас"]  Они испугались! Мы победили!
+[dialog]
+[charslot]
+[charslot(slot="m", name="avg_npc_2225_1#3$1", duration=0.5)]
+[Delay(time=1)]
+[name="Милана"]  Правда...
+[name="Милана"]  Я знала, что Талула обязательно добьётся успеха.
+[Dialog]
+[PlaySound(key="$transmission")]
+[interlude(maskid="group_interclude_square_common", char="Nine", switch=true, style=1, offset="350,125", channel=3)]
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="350,-50", pto="350,-50", name="avg_npc_1983_1#1$1", duration=0)]
+[Delay(time=1)]
+[charslot(slot="m", name="avg_npc_2225_1#3$1", focus = "n")]
+[name="Найн"]  Милана, наши разведчики заметили, что только что Вторая армейская группа начала отступать.
+[name="Найн"]  Их главные силы вовсе не понесли серьёзных потерь. Отступление в такой ситуации наверняка имеет иную причину.
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="350,-50", pto="350,-50", name="avg_npc_1983_1#1$1", duration=0)]
+[interlude(channel=3, type=3, slot="m", switch=false)]
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Похоже, у той маршала есть способы добиться цели и вне поля боя.
+[name="Милана"]  Найн, мне нужно, чтобы ты немедленно привела войска в порядок и была готова с Фёдором войти в Сент-Стидбург первыми.
+[name="Милана"]  Я поведу отряд в город первым. Родос Айленд говорил, что в городе ещё много рабочих, продолжающих сопротивление, нам нужно как можно скорее собрать и объединить их силы.
+[name="Милана"]  После входа в город ты должна сразу найти тайное место и спрятаться, не показываться, пока мы полностью не займём улицы и заводы.
+[name="Милана"]  ...Если что-то случится, ты должна немедленно вывести Фёдора и соединиться с нашими товарищами за городом.
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="350,-50", pto="350,-50", name="avg_npc_1983_1#1$1", duration=0)]
+[charslot(slot = "m", focus = "n")]
+[name="Найн"]  Мы не пойдём в город вместе с Талулой?
+[interlude(channel=3, type=3, slot="m", switch=false)]
+[charslot(slot="m", name="avg_npc_2225_1#4$1")]
+[name="Милана"]  ...
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Да, мы должны войти первыми. Сейчас снабжение полностью зависит от того, что даст Светлана, и чем раньше мы займём заводы и склады, тем выгоднее.
+[name="Милана"]  Если она первой захватит ресурсы в городе, то даже с Фёдором в руках мы окажемся в очень невыгодном положении.
+[name="Милана"]  К тому же Четвёртая армейская группа лишь временно отступила и ещё не разбита окончательно. Талула должна оставаться на поле боя за городом.
+[name="Милана"]  Защита Фёдора может лечь только на твой отряд и Центральную армейскую группу.
+[interlude(channel=3, type=3, slot="m", switch=true, pfrom="350,-50", pto="350,-50", name="avg_npc_1983_1#1$1", duration=0)]
+[charslot(slot = "m", focus = "n")]
+[name="Найн"]  ...Понятно.
+[name="Найн"]  А ты? В Сент-Стидбурге могут остаться сопротивляющиеся городские стражники. Нужно ли мне выделить тебе людей в охрану?
+[interlude(channel=3, type=3, slot="m", switch=false)]
+[charslot(slot="m", name="avg_npc_2225_1#1$1")]
+[name="Милана"]  Не нужно, у меня достаточно людей. Если нужна помощь...
+[name="Милана"]  Надеюсь, ты свяжешься с Людмилой, которая очень хорошо умеет действовать тайно, и попросишь её распространить в городе как можно больше вестей. Мы должны сказать всем...
+[charslot(slot="m", name="avg_npc_2225_1#8$1")]
+[name="Милана"]  «Иван Турин» скоро вернётся в Сент-Стидбург.
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[interlude(channel=3, clear=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="bg_ltroom", screenadapt="coverall")]
+[playMusic(intro="$sjoyasorrow_intro", key="$sjoyasorrow_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m", name="avg_npc_2425_1#13$1")]
+[name="Алоиза"]  Я думала, вы...
+[charslot(slot="m", name="avg_npc_2422_1#1$1")]
+[name="Валентина"]  Думала, что я «буду до смерти защищать Сент-Стидбург» или решительно поставлю на сторону, у которой, похоже, больше шансов победить.
+[name="Валентина"]  Боюсь, вы, молодые гвардейцы, думали так же, когда стояли перед дворцом против моих людей.
+[charslot(slot="m", name="avg_npc_2425_1#15$1")]
+[name="Алоиза"]  ...Это была трагедия, которой не должно было быть.
+[charslot(slot="m", name="avg_npc_2422_1#3$1")]
+[name="Валентина"]  Ты не можешь не ненавидеть меня, я знаю. Но я и сама недавно поняла одну вещь.
+[name="Валентина"]  Решение, которое стоящий выше принимает за стоящего ниже, по какой бы причине он это ни делал, во многих случаях — лишь самодовольная гордыня.
+[name="Валентина"]  Потому что с самого начала мы не считали тех, за кого решаем, такими же живыми людьми, как мы.
+[name="Валентина"]  В прошлый раз я тоже думала, что защищаю Сент-Стидбург, защищаю безоружных жителей и больше людей. Поэтому я выбрала открыть ворота великой княгине и её мятежникам.
+[name="Валентина"]  Но это была ошибочная оценка. Ты тоже видела, в каком состоянии сейчас город.
+[charslot(slot="m", name="avg_npc_2425_1#2$1")]
+[name="Алоиза"]  Значит, только что вы снова поступили по обстоятельствам.
+[charslot(slot="m", name="avg_npc_2422_1#1$1")]
+[name="Валентина"]  Ты думаешь, после того как эта смута закончится, кто бы ни оказался победителем, он позволит мне жить в Сент-Стидбурге?
+[name="Валентина"]  Я должна заплатить за свою ошибку. Для меня ещё существует так называемый «выбор стороны»?
+[charslot(slot="m", name="avg_npc_2425_1#13$1")]
+[name="Алоиза"]  ...Тогда почему вы так молчали о чистках аристократов, которые проводило Главное управление?
+[charslot(slot="m", name="avg_npc_2422_1#3$1")]
+[name="Валентина"]  Дочь Василия... ты всё-таки докопалась.
+[charslot(slot="m", name="avg_npc_2425_1#14$1")]
+[name="Алоиза"]  Я не могла не обратить внимания.
+[charslot(slot="m", name="avg_npc_2425_1#15$1")]
+[name="Алоиза"]  Вы всё время предполагали, что я не захочу знать и не должна знать. Простите за дерзость, но иногда ваша манера говорить напоминает мне отца.
+[charslot(slot="m", name="avg_npc_2422_1#3$1")]
+[name="Валентина"]  ...
+[charslot(slot="m", name="avg_npc_2425_1#6$1")]
+[name="Алоиза"]  Герцогиня Волкина... Я знаю, вы были дружны с моим отцом. Прошлое повело вас совершенно разными путями.
+[name="Алоиза"]  Отец любыми средствами пытался сохранить всё, что имел как аристократ, а вы, разочаровавшаяся в так называемом высшем свете Сент-Стидбурга...
+[name="Алоиза"]  Я думала... вы выберете расчистить эти прогнившие препятствия и подготовить страну к передаче её будущему хозяину.
+[name="Алоиза"]  Тоже... любыми средствами.
+[charslot(slot="m", name="avg_npc_2422_1#6$1")]
+Женщина вздохнула и тут же покачала головой.
+Она увидела упрямство молодой.
+[charslot(slot="m", name="avg_npc_2422_1#7$1")]
+[name="Валентина"]  Хорошо, я расскажу.
+[name="Валентина"]  Через десять лет после окончания Великого мятежа в Сент-Стидбурге произошло нечто похожее на нынешнее.
+[charslot(slot="m", name="avg_npc_2425_1#6$1")]
+[name="Алоиза"]  ...Что?
+[charslot(slot="m", name="avg_npc_2422_1#7$1")]
+[name="Валентина"]  Перераспределение интересов, перетасовка положения аристократов. Игрой заправляла группа новых аристократов, тогда ещё не столь знаменитых.
+[name="Валентина"]  С молчаливого согласия Имперского парламента они наконец полностью разделили огромные состояния традиционной военной аристократии, павшей во время Великого мятежа, и одним прыжком стали самыми известными в своём сословии.
+[name="Валентина"]  Самым заметным среди них был твой отец, Василий Горчиков.
+[name="Валентина"]  Поначалу он вошёл в знатную семью Горчиковых через брак как аристократ новых промыслов, но не порвал со старыми друзьями и, наоборот, охотно делился с ними выгодой.
+[name="Валентина"]  Под именем Горчикова он завёл много друзей, и пир в честь победы, конечно, вышел небывалым.
+[name="Валентина"]  Те, кого ты нашла... Троян, Мельников, Коршнов — все были там. Тогда даже император прислал посланника.
+[stopmusic(fadetime=2)]
+[charslot(slot="m", name="avg_npc_2422_1#8$1")]
+[name="Валентина"]  И все они были победителями, которых прославлял тот пир, и участниками абсурдной пьесы, которую я собираюсь рассказать.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect(name="$eb_whitemask",layer=1)]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Background(image="72_g1_sjbstreet_d", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$satellitescty_intro", key="$satellitescty_loop", volume=0.6)]
+[name="Женский голос"]  ...Дитя, что ты здесь делаешь?
+[name="Женский голос"]  Холодно. Ты так легко одета, стоя здесь, простудишься.
+[name="Голос девочки"]  Я ищу герцога Горчикова. Я буду ждать, пока он выйдет.
+[name="Женский голос"]  ...Зачем он тебе?
+[name="Голос девочки"]  Мой отец играл на приёме у герцога, но герцог не заплатил ему положенное.
+[name="Женский голос"]  Сколько?
+[name="Голос девочки"]  Мне не нужны твои деньги. Это долг Горчикова, я не хочу, чтобы за него платил кто-то другой.
+[dialog]
+[charslot(duration=1)]
+[delay(time=1.5)]
+[name="Женский голос"]  Эй, подожди—
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[bgeffect]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0, block=true)]
+[Background(image="bg_ltroom", screenadapt="coverall")]
+[charslot(slot="m", name="avg_npc_2422_1#3$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[delay(time=0.5)]
+[name="Валентина"]  На приёме всё было чинно, гости и хозяева веселились, кроме одного маленького музыканта.
+[charslot(slot="m", name="avg_npc_2422_1#7$1")]
+[name="Валентина"]  Из-за недосмотра дворецкого или по какой-то другой причине он так и не получил свою часть платы.
+[name="Валентина"]  Когда он пришёл требовать один раз и его приняли за мошенника, он потратил все оставшиеся деньги на выпивку и замёрз насмерть на улице.
+[name="Валентина"]  ...По крайней мере, так было написано в оборонном докладе Столичного гарнизонного корпуса.
+[charslot(slot="m", name="avg_npc_2425_1#6$1")]
+[name="Алоиза"]  А эта девочка—
+[charslot(slot="m", name="avg_npc_2422_1#7$1")]
+[name="Валентина"]  Ты узнаешь.
+[charslot(slot="m", name="avg_npc_2425_1#3$1")]
+[name="Алоиза"]  ...
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect(name="$eb_whitemask",layer=1)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Background(image="72_g1_sjbstreet_d", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="Женский голос"]  Дитя, снова ты.
+[name="Женский голос"]  Почему ты такая упрямая? Моё прежнее предложение всё ещё в силе. Возьми эти деньги, купи себе поесть и возвращайся домой.
+[name="Женский голос"]  Твои родные будут волноваться.
+[name="Голос девочки"]  У меня больше нет родных.
+[name="Женский голос"]  ...Что?
+[name="Голос девочки"]  Я сказала, у меня больше нет родных.
+[name="Голос девочки"]  Отец умер, мать пропала. А я так и не вернула отцу то, что ему причиталось.
+[name="Голос девочки"]  Он хорошо играл, но я совсем не научилась.
+[name="Голос девочки"]  Наверное, у меня уже не будет шанса учиться дальше.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0, block=true)]
+[Background(image="bg_ltroom", screenadapt="coverall")]
+[charslot(slot="m", name="avg_npc_2425_1#5$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="Алоиза"]  Катерина—
+[charslot(slot="m", name="avg_npc_2422_1#7$1")]
+[name="Валентина"]  Да, Катерина. Вскоре после этого твой отец взял её к тебе в качестве подруги для игр.
+[name="Валентина"]  Я слышала, позже она всё-таки выучилась играть на фортепиано и играла превосходно. А вы быстро подружились.
+[charslot(slot="m", name="avg_npc_2425_1#13$1")]
+[name="Алоиза"]  Зачем вы всё это говорите...
+[charslot(slot="m", name="avg_npc_2422_1#8$1")]
+[name="Валентина"]  Ты ещё не поняла? Совсем ребёнок.
+[name="Валентина"]  Жалкий, но талантливый музыкант погиб из-за небрежности и презрения знатного аристократа.
+[name="Валентина"]  Хотя это могло стать лишь заметкой в третьесортной газетёнке, для человека в положении Василия полностью стереть это было легче, чем позволить делу развиваться.
+[name="Валентина"]  Отец Катерины умер, и твой отец знал об этом.
+[name="Валентина"]  Но он не хотел запятнать фамилию Горчиковых и потому «между прочим упомянул» об этом тайной полиции, пришедшей к нему в дом—
+[name="Валентина"]  А потом ещё несколько равнодушных поддакиваний, несколько шутливых замечаний — и вот одна ничтожная семья просто «исчезла».
+[name="Валентина"]  Думаю, для Катерины каждый на том приёме, и вся система, всегда давившая на низы, были убийцами её родителей.
+[charslot(slot="m", name="avg_npc_2425_1#15$1")]
+[name="Алоиза"]  ...
+[charslot(slot="m", name="avg_npc_2422_1#8$1")]
+[name="Валентина"]  Вот та правда, которую ты хотела, и причина странных смертей тех аристократов.
+[name="Валентина"]  Долг, который можно было легко вернуть, превратился в охоту, длившуюся больше десяти лет.
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="72_g13_nobleroom", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m", name="avg_npc_2162_1#1$1",duration=1)]
+[delay(time=2)]
+[name="Василий"]  ...
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n")]
+[PlaySound(key="$d_avg_open_door")]
+[delay(time=1.5)]
+В тихом герцогском особняке человек, будто в пустом доме, распахнул дверь кабинета и направился прямо к хозяину величественного поместья.
+Подойдя ближе, она лишь легко положила на стол тонкую папку.
+[charslot(slot="m", name="avg_npc_2162_1#1$1")]
+[name="Василий"]  Ты—
+[dialog]
+[charslot]
+[charslot(slot="m", name="avg_npc_2421_1#1$1", duration=1)]
+[Delay(time=1.5)]
+[name="Катерина"]  Тсс.
+[name="Катерина"]  В отличие от твоей дочери, которая всё копает до дна, мне не нужно, чтобы ты отвечал на слишком много глубоких вопросов.
+[name="Катерина"]  Я спрошу только одно.
+[charslot(slot="m", name="avg_npc_2421_1#6$1")]
+[name="Катерина"]  Ты ещё помнишь того музыканта...
+[name="Катерина"]  и имя его жены?
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot]
